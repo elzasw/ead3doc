@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'MV ČR EAD3 Profil'
-copyright = '2020, LightComp v.o.s.'
+copyright = '2020-2021, LightComp v.o.s.'
 author = 'Petr Pytelka, LightComp v.o.s.'
 
 
