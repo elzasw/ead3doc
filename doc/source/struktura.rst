@@ -23,7 +23,7 @@ V obrazu pomůcky ve formátu EAD je samostatně uložen strukturovaný
 Část control
 ============
 
-Řídící část slouží k popisu exportovaného souboru, informací 
+Řídící část slouží k popisu dat v archivní pomůcce, informací 
 o času vytvoření a aplikaci v níž byl export vytvořen, zachycení
 částí úvodu a tiráže.
 
@@ -32,26 +32,28 @@ o času vytvoření a aplikaci v níž byl export vytvořen, zachycení
 control/recordid
 ---------------------
 
-Jako identifikátor záznamu se uloží interní označení výstupu, 
-při jeho nedostupnosti se použije jméno výstupu.
+Povinný identifikátor datového souboru. Pečující archiv je garantem 
+jedinečnosti identifikátoru datového souboru. Tento identifikátor zpravidla odpovídá
+číslu archivní pomůcky.
+
+.. compound:: 
+   **Implementační poznámka k Elza**: Jako identifikátor se uloží interní označení výstupu, 
+   při jeho nedostupnosti se použije jméno výstupu.
+
 
 .. _ead_control_filedesc:
 
 control/filedesc
 ---------------------
 
-Základní převážně bibliografické informace o archivní pomůcce v souboru
-uložené. Povinně obsahuje podřízený element `titlestmt <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-titlestmt>`_,
+Element `control/filedesc <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-filedesc>`_ obsahuje základní převážně bibliografické informace 
+o archivní pomůcce v souboru uložené. Povinně obsahuje podřízený element `titlestmt <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-titlestmt>`_,
 kde je uvedeno jméno archivního souboru (element :token:`titleproper`) a
 jméno archivní pomůcky (element :token:`subtitle`).
 
 Atribut :token:`encodinganalog` obsahuje číslo archivního souboru.
 
-control/filedesc
------------------------
-
-Část obsahuje popis archivního souboru. Je užita primárně
-pro uložení informací nacházejících se na titulním listu
+Část je dále určena pro uložení informací nacházejících se na titulním listu,
 v úvodu a tiráži archivní pomůcky.
 
 Podrobněji viz :ref:`ead_faintro`.
@@ -106,8 +108,20 @@ Každá jednotka popisu uložená v EADu by měla obsahovat svůj jednoznačný 
 Tento jednoznačný identifikátor slouží pro její přesné určení a identifikaci.
 Identifikátor má podobu URI a ukládá se do atributu
 `base <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-base>`_.
-Identifikátor musí odpovídat standardu LinkedData. Doporučená struktura pro
-archivy v ČR je: :code:`http://archdesc.nacr.cz/dids/<ID>`.
+Identifikátor musí odpovídat standardu LinkedData. Pro archivy v ČR jsou možné dva přístupy 
+ke konstrukci tohoto identifikátoru:
+
+Archiv je garantem online dostupnosti archivního popisu
+   V URI se použije adresa archivu, např: :code:`http://<archiv>/dids/<ID>`. Archiv je v tomto
+   případě garantem trvalé dostupnosti a platnosti identifikátorů.
+
+Varianta s jednotnými URI v rámci ČR
+  Předpokladem je, že každá jednotka popisu je identifikována pomocí UUID. Všechny jednotky 
+  popisu mají jednotnou podobu URI.
+
+  URI má podobu:  :code:`http://archdesc.nacr.cz/dids/<ID>`
+
+Doporučená je varianta s jednotným URI v rámci ČR, tj.: :code:`http://archdesc.nacr.cz/dids/<ID>`.
 
 Příklad:
 
@@ -136,7 +150,7 @@ informací o tom, že tato pomůcka může existovat nebo bude
 v budoucnu vytvořena.
 
 
-Příklad - zachycuje nekompletně popsanou úroveň s3S:
+Příklad - zachycuje nekompletně popsanou úroveň s3:
 
 .. code-block:: xml
 
