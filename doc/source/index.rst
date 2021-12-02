@@ -2,9 +2,12 @@
 EAD3 - profil pro archivní pomůcky
 =====================================
 
-Tato specifikace definuje způsob použití formátu 
+Pro předávání archivních pomůcek a jejich 
+částí se používá formát `EAD3 <http://www.loc.gov/ead/>`_ . 
+
+Tato specifikace definuje profil/způsob použití formátu 
 `EAD3 <http://www.loc.gov/ead/>`_ 
-pro reprezentaci archivní pomůcky. Profil umožňuje jednotným
+pro archivní pomůcky. Profil umožňuje jednotným
 způsobem interpretovat archivní popis a jeho strukturu
 nezávisle na způsobu jeho tvorby.
 
@@ -15,6 +18,7 @@ nezávisle na způsobu jeho tvorby.
    :glob:
    :caption: Obsah
 
+   zmeny.rst
    struktura.rst
    uvod.rst
    dao.rst

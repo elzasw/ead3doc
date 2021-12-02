@@ -5,8 +5,8 @@ Digitalizáty a digitální archiválie
 ========================================
 
 Digitalizáty a digitální objekty se popisují pomocí elementu
-:token:`dao`. Tento element se uvádí u jednotky popisu
-k níž je digitální objekt připojen. Tento objekt se tedy 
+`<dao> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dao>`_.
+Tento element se uvádí u jednotky popisu k níž je digitální objekt připojen. Tento objekt se tedy 
 nemůže vyskytovat v části :ref:`archdesc <ead_archdesc>`.
 
 Pokud k digitálnímu objektu existuje samostatný popis
