@@ -21,7 +21,8 @@ nezávisle na způsobu jeho tvorby.
    zmeny.rst
    struktura.rst
    uvod.rst
+   archdesc.rst
+   prvky-popisu.rst
    dao.rst
    prist-body.rst
-   prvky-popisu.rst
 
