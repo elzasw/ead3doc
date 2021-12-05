@@ -37,7 +37,7 @@ Univerzální prvky popisu
    * - 4.2.10 Ukládací jednotka (číslo)
      - :ref:`ead_item_types_container`
    * - 4.3.1 Dějiny původců jednotky popisu
-     - 
+     - :ref:`ead_ap_originator`
    * - 4.3.2 Dějiny jednotky popisu
      - :ref:`ead_item_types_custodhist`
    * - 4.3.3 Způsob uspořádání jednotky popisu
@@ -109,13 +109,13 @@ Rozšířený popis archiválií
    * - 5.2.12 Druh archiválie
      - 
    * - 5.3.1 Popisované role entit ve vztahu k listině
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.4.1 Popisované role entit ve vztahu k úředním knihám, registraturním pomůckám a kartotékám
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.5.1 Popisované role entit ve vztahu k rukopisům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.6.1 Popisované role entit ve vztahu k hudebninám
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.7.1 Opis, nápis, exerque
      - 
    * - 5.7.2 Popis obrazu v poli typáře či otisku
@@ -127,44 +127,42 @@ Rozšířený popis archiválií
    * - 5.7.5 Pořadí otisku
      - 
    * - 5.7.6 Popisované role entit ve vztahu k typářům a jejich otiskům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.8.1 Popisované role entit ve vztahu ke spisům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.9.1 Popisované role entit ve vztahu k mapám a atlasům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.10.1 Popisované role entit ve vztahu k technickým výkresům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.11.1 Legenda
      - 
    * - 5.11.2 Popisované role entit ve vztahu ke grafickým listům a kresbám
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.12.1 Popisované role entit ve vztahu k fotografickým archiváliím
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.13.1 Délka filmového záznamu
      - 
    * - 5.13.2 Popisované role entit ve vztahu k záznamům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.14.1 Délka zvukového záznamu
      - 
    * - 5.14.2 Popisované role entit ve vztahu ke zvukovým archiváliím
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.15.1 Popisované role entit ve vztahu k tiskům do roku 1800 a po roce 1800
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.16.1 Popisované role entit ve vztahu k pohlednicím
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.17.1 Popisované role entit ve vztahu k plakátům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.18.1 Popisované role entit ve vztahu k cenným papírům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.19.1 Popisované role entit ve vztahu ke štočkům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.20.1 Popisované role entit ve vztahu k digitálním archivním jednotkám
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.21.1 Popisované role entit ve vztahu k numizmatickým předmětům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.22.1 Popisované role entit ve vztahu k faleristickým předmětům
-     - 
+     - :ref:`ead_ap_relation`
    * - 5.23.1 Popisované role entit ve vztahu k evidenční jednotce Jiné
-     - 
-
-
+     - :ref:`ead_ap_relation`

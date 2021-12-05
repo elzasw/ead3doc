@@ -10,4 +10,5 @@ Listopad 2021
  * přidání přehledové tabulky :ref:`ead_item_types_overview`
  * upřesnění způsobu identifikace jednotky popisu, definice podoby URI
  * upřesnění významu :ref:`ead_control_recordid` a `control/filedesc`
+ * nový popis pro :ref:`ead_ap_relation`
  * přidání seznamu změn
