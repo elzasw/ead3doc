@@ -4,6 +4,11 @@
 Změny
 ===================
 
+Leden 2022
+-----------------
+ * zpřesnění popisu uložení digitálních objektů - :ref:`ead_dao`
+ * zpřesnění popisu uložení počtu EJ - :ref:`ead_item_types_archdesc_physdescstruct`
+
 Listopad 2021
 -----------------
  * rozdělení prvků popisu do samostatných podkapitol
