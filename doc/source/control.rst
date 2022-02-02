@@ -14,12 +14,29 @@ control/recordid
 ---------------------
 
 Povinný identifikátor datového souboru. Pečující archiv je garantem 
-jedinečnosti identifikátoru datového souboru. Tento identifikátor zpravidla odpovídá
-číslu archivní pomůcky.
+jedinečnosti identifikátoru datového souboru. Jako identifikátor výstupu
+se uvede pro něj vytvořené UUID.
 
-.. compound:: 
-   **Implementační poznámka k Elza**: Jako identifikátor se uloží interní označení výstupu, 
-   při jeho nedostupnosti se použije jméno výstupu.
+
+.. _ead_control_otherrecordid:
+
+control/otherrecordid
+------------------------
+
+Pokud se EAD používá pro uložení finální pomůcky použije se povinně element 
+`<otherrecordid> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-otherrecordid>`_ pro 
+uložení jejího čísla. V atributu `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+se uvádí ``PEvA`` a jako hodnota se uvede číslo pomůcky.
+
+Příklad - archivní pomůcka číslo 157:
+
+.. code-block:: xml
+
+  <ead:control>
+    <ead:recordid>9dfd1217-2e59-46d8-9a59-0791d32fb31a</ead:recordid>
+    <ead:otherrecordid localtype="PEvA">157</ead:otherrecordid>
+    ...
+  </ead:control>
 
 
 .. _ead_control_filedesc:

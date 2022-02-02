@@ -17,3 +17,4 @@ Způsob uložení prvků popisu je v části :ref:`ead_item_types`.
   archdesc/jp-ident.rst
   archdesc/otherfindaid.rst
   archdesc/pocet-ej.rst
+  archdesc/odd.rst

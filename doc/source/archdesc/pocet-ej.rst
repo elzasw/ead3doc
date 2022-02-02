@@ -1,4 +1,4 @@
-.. _ead_item_types_archdesc_physdescstruct:
+.. _ead_archdesc_physdescstruct:
 
 Počet evidenčních jednotek zpřístupněných archivní pomůckou
 =================================================================

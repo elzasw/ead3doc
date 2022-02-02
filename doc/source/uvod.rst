@@ -179,5 +179,5 @@ pro odlišení od dalších hodnot.
 Další informace z tiráže
 ==============================
 
-V samostatném prvku popisu :ref:`ead_item_types_archdesc_physdescstruct` se 
+V samostatném prvku popisu :ref:`ead_archdesc_physdescstruct` se 
 uvádí počet EJ. Prvek je uveden v kořenové jednotce popisu.
