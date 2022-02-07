@@ -24,3 +24,5 @@ Leden 2022
  * doplnění popisu :ref:`ead_archdesc_hierarchy` a změna uložení složky jako typ ``file``
  * nová podkapitola: :ref:`ead_archdesc_fonds`
  * druh pomůcky: :ref:`ead_control_filedesc`
+ * přidání informace o zdrojovém systému: :ref:`ead_control_maintenancehistory`
+

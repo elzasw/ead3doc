@@ -26,7 +26,7 @@ control/otherrecordid
 Pokud se EAD používá pro uložení finální pomůcky použije se povinně element 
 `<otherrecordid> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-otherrecordid>`_ pro 
 uložení jejího čísla. V atributu `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
-se uvádí ``PEvA`` a jako hodnota se uvede číslo pomůcky.
+se uvádí ``CZ_MVCR_FINDING_AID_ID`` a jako hodnota se uvede číslo pomůcky.
 
 Příklad - archivní pomůcka číslo 426:
 
@@ -34,7 +34,21 @@ Příklad - archivní pomůcka číslo 426:
 
   <ead:control>
     <ead:recordid>9dfd1217-2e59-46d8-9a59-0791d32fb31a</ead:recordid>
-    <ead:otherrecordid localtype="PEvA">426</ead:otherrecordid>
+    <ead:otherrecordid localtype="CZ_MVCR_FINDING_AID_ID">426</ead:otherrecordid>
+    ...
+  </ead:control>
+
+
+Volitelně je možné přidat interní kód archivu umožňující blíže identifikovat výstup.
+Pro uložení interního kódu se uvádí v atributu `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+hodnota ``INTERNAL_REV_ID``.
+
+.. code-block:: xml
+
+  <ead:control>
+    <ead:recordid>9dfd1217-2e59-46d8-9a59-0791d32fb31a</ead:recordid>
+    <ead:otherrecordid localtype="CZ_MVCR_FINDING_AID_ID">426</ead:otherrecordid>
+    <ead:otherrecordid localtype="INTERNAL_REV_ID">REV_XY</ead:otherrecordid>
     ...
   </ead:control>
 
@@ -50,6 +64,13 @@ kde je uvedeno jméno archivního souboru (element `<titleproper> <http://www.lo
 jméno archivní pomůcky (element `<subtitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subtitle>`_).
 
 Atribut :token:`encodinganalog` povinně obsahuje číslo archivního souboru.
+
+Část je dále určena pro uložení informací nacházejících se na titulním listu,
+v úvodu a tiráži archivní pomůcky. Podrobněji viz :ref:`ead_faintro`.
+
+
+control/localcontrol
+----------------------
 
 Druh archivní pomůcky se uvádí v elementu `<localcontrol> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-localcontrol>`_
 s uvedením atributu :token:`localtype="FINDING_AID_TYPE"`, vlastní hodnota se 
@@ -68,8 +89,22 @@ katalog                       ``KATALOG``
 ============================= ==============
 
 
-Část je dále určena pro uložení informací nacházejících se na titulním listu,
-v úvodu a tiráži archivní pomůcky. Podrobněji viz :ref:`ead_faintro`.
+Pomocí shodného elementu se také uvádí informace o použitých pravidlech 
+pro zpracování archivního popisu s uvedením atributu :token:`localtype="RULES"`.
+Vlastní hodnota se zapisuje do elementu `<term> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-term>`_
+doplněným o atribut :token:`identifier=` s konstantou určující konkrétní 
+pravidla.
+
+Pravidla a uváděné hodnoty:
+
+================================ ==============
+Druh pomůcky                     Atribut :token:`identifier`
+================================ ==============
+základní pravidla z roku 1958    ``CZ_ZP1958``
+základní pravidla od roku 2015   ``CZ_ZP2015``
+================================ ==============
+
+
 
 Příklad - jméno, číslo a druh archivní pomůcky:
 
@@ -77,13 +112,16 @@ Příklad - jméno, číslo a druh archivní pomůcky:
 
   <ead:control>
     <ead:recordid>9dfd1217-2e59-46d8-9a59-0791d32fb31a</ead:recordid>
-    <ead:otherrecordid localtype="PEvA">426</ead:otherrecordid>
+    <ead:otherrecordid localtype="CZ_MVCR_FINDING_AID_ID">426</ead:otherrecordid>
     <ead:filedesc encodinganalog="1612">
       <ead:titlestmt>A. Schramm, Praha, závod Poštorná</ead:titlestmt>
       <ead:titleproper>A. Schramm, Praha, závod Poštorná 1833-1945</ead:titleproper>
     </ead:filedesc>
     <ead:localcontrol localtype="FINDING_AID_TYPE">
       <ead:term identifier="PROZ_INV_SEZNAM">prozatimní inventární seznam</ead:term>
+    </ead:localcontrol>
+    <ead:localcontrol localtype="RULES">
+      <ead:term identifier="CZ_ZP2015">Základní pravidla pro zpracování archiválií ver. 3.0</ead:term>
     </ead:localcontrol>
     ...
   </ead:control>
@@ -95,13 +133,47 @@ control/maintenanceagency
 Část umožňuje definovat instituci, která archivní pomůcku vytvořila. Uvádí
 se identifikátor archivu z číselníku PEvA a jméno archivu.
 
+Element `agencycode <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agencycode>`_ obsahuje kód archivu
+a atribut `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+s hodnotou ``CZ_MVCR_INSTITUTION_ID``
+
 Příklad:
 
 .. code-block:: xml
 
   <ead:maintenanceagency>
     <!-- Identifikátor z číselníku archivů -->
-    <ead:agencycode localtype="PEvA">225101010</ead:agencycode>
+    <ead:agencycode localtype="CZ_MVCR_INSTITUTION_ID">225101010</ead:agencycode>
     <!-- Jméno archivu -->
     <ead:agencyname>Státní okresní archiv Hradec Králové</ead:agencyname>
   </ead:maintenanceagency>
+
+
+.. _ead_control_maintenancehistory:
+
+control/maintenancehistory
+-----------------------------
+
+Povinná část je určena pro zaznamenání informací o historii instance 
+dat. Povinně se uvádí elementy:
+
+ * `eventtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-eventtype>`_ s hodnotou atributu value: ``created``
+ * `eventdatetime <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-eventdatetime>`_ s časem vytvoření
+ * `agenttype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agenttype>`_ s hodnotou atributu value: ``machine``
+ * `agent <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agent>`_ obsahuje jméno zdrojového systému a jeho verzi
+
+
+.. code-block:: xml
+
+  <ead:maintenancehistory>
+    <ead:maintenanceevent>
+      <ead:eventtype value="created"></ead:eventtype>
+      <ead:eventdatetime standarddatetime="2022-02-07T01:31:59.835+01:00">2022-02-07T01:31:59.835+01:00</ead:eventdatetime>
+      <!-- Typ vytvoření popisu machine|human -->
+      <ead:agenttype value="machine"></ead:agenttype>
+      <!-- Jméno agenta -->
+      <ead:agent>ELZA 2.3.9</ead:agent>
+      <ead:eventdescription>Finding aid created.</ead:eventdescription>
+    </ead:maintenanceevent>
+  </ead:maintenancehistory>  
+
