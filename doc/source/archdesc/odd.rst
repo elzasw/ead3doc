@@ -11,7 +11,7 @@ způsobem popisu by se element neměl používat.
 
 Element se uvádí jen v kořenovém elementu :ref:`ead_archdesc_fonds`.
 
-Element obsahuje podřízené elementy `<p> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_ 
+Element obsahuje právě jeden podřízený element `<p> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_ 
 obsahující text rozdělený na odstavce.
 
 Příklad:
@@ -20,8 +20,10 @@ Příklad:
 
   <ead:archdesc level="fonds">
     <ead:odd localtype="FINDING_AID_INTRO">
-      <ead:p>První odstavec úvodu ...</ead:p>
-      <ead:p>Druhý odstavec úvodu ...</ead:p>
+      <ead:p>První odstavec úvodu ...
+  Druhý odstavec úvodu ...
+      </ead:p>
     </ead:odd>
     ...
   </ead:archdesc>
+
