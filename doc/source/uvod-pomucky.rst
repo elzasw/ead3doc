@@ -171,7 +171,7 @@ pro odlišení od dalších hodnot.
     <!-- Zpracovatel v tirazi archivni pomucky -->
     <ead:p>
       <ead:name localtype="ARRANGER_BRIEF">
-        <ead:part>... jméno osoby ...</ead:part>
+        <ead:part>... preferované označení ...</ead:part>
       </ead:name>
     </ead:p>
 

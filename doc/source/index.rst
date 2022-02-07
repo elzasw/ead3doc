@@ -22,7 +22,7 @@ nezávisle na způsobu jeho tvorby.
    struktura.rst
    control.rst
    archdesc.rst
-   uvod.rst
+   uvod-pomucky.rst
    prvky-popisu.rst
    dao.rst
    prist-body.rst
