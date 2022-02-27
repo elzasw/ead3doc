@@ -101,7 +101,7 @@ Pravidla a uváděné hodnoty:
 Druh pomůcky                     Atribut :token:`identifier`
 ================================ ==============
 základní pravidla z roku 1958    ``CZ_ZP1958``
-základní pravidla od roku 2015   ``CZ_ZP2015``
+základní pravidla od roku 2013   ``CZ_ZP2013``
 ================================ ==============
 
 
@@ -118,10 +118,10 @@ Příklad - jméno, číslo a druh archivní pomůcky:
       <ead:titleproper>A. Schramm, Praha, závod Poštorná 1833-1945</ead:titleproper>
     </ead:filedesc>
     <ead:localcontrol localtype="FINDING_AID_TYPE">
-      <ead:term identifier="PROZ_INV_SEZNAM">prozatimní inventární seznam</ead:term>
+      <ead:term identifier="INVENTAR">inventář</ead:term>
     </ead:localcontrol>
     <ead:localcontrol localtype="RULES">
-      <ead:term identifier="CZ_ZP2015">Základní pravidla pro zpracování archiválií ver. 3.0</ead:term>
+      <ead:term identifier="CZ_ZP2013">základní pravidla od roku 2013</ead:term>
     </ead:localcontrol>
     ...
   </ead:control>
