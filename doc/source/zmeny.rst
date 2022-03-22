@@ -30,6 +30,7 @@ Březen 2022
 -----------------
  * nová podkapitola: :ref:`ead_jp_char`
  * přidání prvku popisu: :ref:`ead_item_types_druharch`
+ * přidání prvku popisu: :ref:`ead_item_types_pocet`
  * přidání prvku popisu: :ref:`ead_item_types_rozmery`
  * přidání prvku popisu: :ref:`ead_item_types_souradnice`
  * přidání prvku popisu: :ref:`ead_item_types_meritko`

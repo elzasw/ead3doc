@@ -14,5 +14,6 @@ s hodnotou atributů:
 
 Jedná se o prvky popisu:
  - :ref:`ead_item_types_druharch`
+ - :ref:`ead_item_types_pocet`
  - :ref:`ead_item_types_rozmery`
  - :ref:`ead_item_types_technika`

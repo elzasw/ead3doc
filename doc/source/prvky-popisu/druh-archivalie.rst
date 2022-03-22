@@ -4,11 +4,12 @@
 Druh archiválie
 =======================
 
-Další popis viz: ZP5.2.12 Druh archiválie
+Další popis viz: ZP4.2.8 Evidenční jednotka – druh, ZP5.2.12 Druh archiválie
 
 Druh archiválie vychází z evidenčních jednotek definovaných v Základních pravidlech.
-Uvádí se v elementu `<unittype> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_,
-který je součástí :ref:`ead_jp_char`. 
+Uvádí se v elementu `<unittype> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_.
+Element je součástí :ref:`charakteristiky jednotky popisu <ead_jp_char>`. 
+Hodnota se uvádí v kontextu souvisejících hodnot.
 
 V případě, kdy není možné určit druh archiválie, uvádí 
 se speciální hodnota, které odpovídá úrovni popisu uváděné v :ref:`ead_archdesc_hierarchy`.
