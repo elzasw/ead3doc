@@ -30,4 +30,5 @@ Březen 2022
 -----------------
  * nová podkapitola: :ref:`ead_jp_char`
  * přidání prvku popisu: :ref:`ead_item_types_druharch`
+ * přidání prvku popisu: :ref:`ead_item_types_technika`
  * změna způsobu uvádění EJ v pomůcce: :ref:`ead_archdesc_physdescstruct`, nově: ``otherphysdescstructuredtype="UNIT_TYPE"``

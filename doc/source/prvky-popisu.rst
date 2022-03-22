@@ -33,5 +33,6 @@ v části :ref:`ead_item_types_overview`.
   prvky-popisu/bud-prirustky.rst
   prvky-popisu/tem-popis.rst
   prvky-popisu/fyz-stav.rst
-  prvky-popisu/jazyk.rst  
+  prvky-popisu/technika.rst
+  prvky-popisu/jazyk.rst
   
