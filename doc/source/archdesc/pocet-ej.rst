@@ -16,15 +16,18 @@ zkratu (dílčí) evidenční jednotky podle Základních pravidel 2021,
 .. code-block:: xml
 
   <!-- Evidencni jednotky -->
-  <ead:physdescstructured physdescstructuredtype="materialtype">
+  <ead:physdescstructured physdescstructuredtype="otherphysdescstructuredtype" 
+                          otherphysdescstructuredtype="UNIT_TYPE">
     <ead:quantity>59</ead:quantity>
     <ead:unittype>kar</ead:unittype>
   </ead:physdescstructured>
-  <ead:physdescstructured physdescstructuredtype="materialtype">
+  <ead:physdescstructured physdescstructuredtype="otherphysdescstructuredtype" 
+                          otherphysdescstructuredtype="UNIT_TYPE">
     <ead:quantity>1</ead:quantity>
     <ead:unittype>map</ead:unittype>
   </ead:physdescstructured>
-  <ead:physdescstructured physdescstructuredtype="materialtype">
+  <ead:physdescstructured physdescstructuredtype="otherphysdescstructuredtype" 
+                          otherphysdescstructuredtype="UNIT_TYPE">
     <ead:quantity>7</ead:quantity>
     <ead:unittype>ppr</ead:unittype>
   </ead:physdescstructured>
