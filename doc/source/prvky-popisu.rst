@@ -26,6 +26,7 @@ v části :ref:`ead_item_types_overview`.
   prvky-popisu/ref-ozn.rst
   prvky-popisu/datace.rst
   prvky-popisu/obsah.rst
+  prvky-popisu/druh-archivalie.rst
   prvky-popisu/dejiny.rst
   prvky-popisu/zp-usporadani.rst
   prvky-popisu/akvizice.rst

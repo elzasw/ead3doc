@@ -1,0 +1,17 @@
+.. _ead_jp_char:
+
+============================================
+Charakteristika jednotky popisu
+============================================
+
+Charakteristikou jednotky popisu rozumíme uvedení vzájemně propojených 
+významných prvků popisu a v rámci elementu 
+`<physdescstructured> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physdescstructured>`_
+s hodnotou atributů:
+
+ - ``physdescstructuredtype="materialtype"``
+ - ``coverage="whole"``
+
+Jedná se o prvky popisu:
+ - :ref:`ead_item_types_druharch`
+
