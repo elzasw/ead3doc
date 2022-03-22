@@ -34,6 +34,7 @@ v části :ref:`ead_item_types_overview`.
   prvky-popisu/tem-popis.rst
   prvky-popisu/fyz-stav.rst
   prvky-popisu/rozmery.rst
+  prvky-popisu/souradnice.rst
   prvky-popisu/technika.rst
   prvky-popisu/jazyk.rst
   
