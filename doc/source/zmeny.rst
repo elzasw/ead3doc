@@ -37,3 +37,6 @@ Březen 2022
  * přidání prvku popisu: :ref:`ead_item_types_orientace`
  * přidání prvku popisu: :ref:`ead_item_types_technika`
  * změna způsobu uvádění EJ v pomůcce: :ref:`ead_archdesc_physdescstruct`, nově: ``otherphysdescstructuredtype="UNIT_TYPE"``
+ * popis původců a entit pomocí EAC-CPF: :ref:`ead_ap_eac_cpf`
+ * změna způsobu uložení: :ref:`ead_ap_originator`
+ * změna způsobu uložení: :ref:`ead_ap_relation`

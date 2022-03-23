@@ -13,6 +13,7 @@ s hodnotou atributů:
  - ``coverage="whole"``
 
 Jedná se o prvky popisu:
+
  - :ref:`ead_item_types_druharch`
  - :ref:`ead_item_types_pocet`
  - :ref:`ead_item_types_rozmery`

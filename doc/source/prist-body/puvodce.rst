@@ -8,7 +8,13 @@ Další popis viz: ZP4.3.1 Odkaz na původce
 
 Pro uložení odkazu na původce se použije element
 `origination <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-origination>`_.
-V závislosti na třídě původce se použije příslušný podřízený element.
+Element obsahuje povinně atribut `localtype="ORIGINATOR"`. 
+Uvnitř elementu je povinně vloženým elementem 
+`ref <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_ 
+s odkazem na strukturovaný popis původce v elementu 
+`source <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_
+dle definice: :ref:`ead_ap_eac_cpf`.
+
 
 =====================  ==============
 Třída                  Element
@@ -19,21 +25,22 @@ Třída                  Element
  událost               `name <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-name>`_
 =====================  ==============
 
-Element obsahuje atribut `localtype="ORIGINATOR"`. Identifikátor 
-entity je uložen v atributu `identifier <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-identifier>`_.
 
-Atribut :token:`encodinganalog` umožňuje předat informaci (URL) pokud
-je původce definován také v externím systému CAM.
+Příklad
+===========
 
+Odkaz na původce :ref:`Neruda, Jan (1834-1891) <ead_ap_eac_cpf_priklad>` 
+s ID uvnitř XML ``ap154``:
 
 .. code-block:: xml
 
     <!-- Odkaz na původce archivalii -->
     <ead:did>
       <ead:origination>
-        <ead:persname localtype="ORIGINATOR" 
-                      identifier="3e18c0df-6c48-4ef1-ae43-daf53d846077">
-          <ead:part>... jméno osoby ...</ead:part>
+        <ead:persname localtype="ORIGINATOR">
+          <ead:part>
+            <ead:ref target="ap154" />
+          </ead:part>
         </ead:persname>
       </ead:origination>
     </ead:did>

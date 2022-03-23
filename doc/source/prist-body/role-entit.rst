@@ -32,7 +32,6 @@ Pro uložení rolí entit se použije element
 `relation <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_.
 V podřízeném elementu `relationentry <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_
 se uvede preferované označení odkazované entity.
-Identifikátor entity se ukládá do atributu `encodinganalog <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_.
 Role entity se ukládá do atributu `linkrole <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linkrole>`_. 
 Tabulka rolí je uvedena níže v části: :ref:`ead_ap_relation_roles`.
 Uživatelsky čitelné označení role se zapisuje do atributu `linktitle <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linktitle>`_.
@@ -42,6 +41,104 @@ ji umožňuje interpretovat strojově, zajistit překlady.
 V případě dílčí specializace role v předávajícím systému je v atributu 
 `linktitle <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linktitle>`_ možné
 tuto odlišnost zachytit.
+
+
+Entita z třídy CPF
+======================
+
+Pokud je odkazovaná entita z třídy: *osoba/bytost*, *rod/rodina*, *korporace*
+či *událost* je tato zachycena dle definice v části :ref:`ead_ap_eac_cpf`. 
+Současně je povinně uveden atribut ``relationtype="cpfrelation"``.
+Odkaz na takovouto entitu je realizován pomocí elementu
+`<descriptivenote> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-descriptivenote>`_
+obsahující jeden element `<p> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_
+s odkazem `<ref> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_ na entitu.
+
+Preferované označení odkazované entity je vždy zaznamenáno v elementu 
+`<relationentry> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_.
+
+
+Příklad
+------------
+
+.. code-block:: xml
+
+      <ead:relation relationtype="cpfrelation" 
+                    linktitle="autor" 
+                    linkrole="AUTHOR">
+        <ead:relationentry>Neruda, Jan (1834-1891)</ead:relationentry>
+        <ead:descriptivenote>
+          <ead:p>
+            <ead:ref target="ap154" />
+          <ead:p>
+        </ead:descriptivenote>
+      </ead:relation>
+
+
+Geografická entita
+======================
+
+Pokud je odkazovaná entita z třídy: *geografická entita* je tato zachycena
+pomocí elementu `<geogname> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geogname>`_. 
+Současně je povinně uveden atribut ``relationtype="resourcerelation"``.
+
+Preferované označení geografické entity je vždy strukturovaně zaznamenáno v elementech
+`<part> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-part>`_ s uvedením
+typu části označení:
+
+ - Hlavní část jména: :token:`MAIN`
+ - Vedlejší část jména: :token:`MINOR`
+ - Geografický doplněk: :token:`SUP_GEO`
+ - Chronologický doplněk: :token:`SUP_CHRO`
+
+
+Souřadnice geografické entity (pokud jsou známy) jsou uvedeny 
+v elementu `<geographiccoordinates> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geographiccoordinates>`_ 
+a to se shodným kódováním jako je uvedeno v :ref:`ead_item_types_souradnice_kodovani`.
+Souřadnice jsou opakovatelné a mohou vyjadřovat buď bod 
+nebo hranice příslušné entity.
+
+Identifikátor entity se ukládá do atributu `encodinganalog <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_.
+
+Pokud je entita vedena v některé široce sdílené databázi(CAM apod.), 
+je možné v atributu `href <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-href>`_ 
+na ni uvést platný odkaz. Příklad: :code:`cam.nacr.cz/entities/532`. 
+Odkaz musí mít podobu URI, tj. obsahuje kompletní informaci 
+pro určení identifikátoru.
+
+
+Příklad
+---------
+
+
+.. code-block:: xml
+
+   <ead:relations>
+     <ead:relation relationtype = "resourcerelation"
+                    encodinganalog="99ad196f-6640-4855-945e-46902f431837"
+                    href="cam.nacr.cz/entities/4442"
+                    linktitle="místo natáčení" 
+                    linkrole="LOCATION_SHOOTING">
+       <ead:relationentry>Praha (Česko)</ead:relationentry>
+       <ead:geogname>
+          <ead:part localtype="MAIN">Praha</ead:part>
+          <ead:part localtype="SUP_GEO">Česko</ead:part>
+          <ead:geographiccoordinates 
+               coordinatesystem="WGS84">AQEAAABwf4nTpNssQMV3vY/+B0lA</ead:geographiccoordinates>
+       </ead:geogname>
+     </ead:relation>
+   </ead:relations>
+
+
+
+
+Ostatní entity
+=================================
+
+Ostatní entity jsou ze třídy *dílo/výtvor* nebo *obecný pojem*. 
+Tyto entity se uvádí v základní podobě.
+
+Identifikátor entity se ukládá do atributu `encodinganalog <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_.
 
 Pokud je entita vedena v některé široce sdílené databázi(CAM apod.), 
 je možné v atributu `href <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-href>`_ 
@@ -53,11 +150,11 @@ pro určení identifikátoru.
 .. code-block:: xml
 
       <ead:relation relationtype="resourcerelation" 
-                    encodinganalog="31b9d81a-e3dd-4053-a09f-5c4c911841ff"
-                    href="cam.nacr.cz/entities/33608"
-                    linktitle="autor" 
-                    linkrole="AUTHOR">
-        <ead:relationentry>Borovský, Karel Havlíček (1821-1856)</ead:relationentry>
+                    encodinganalog="53edf61b-5256-4a29-a515-744be74b108c"
+                    href="cam.nacr.cz/entities/40575"
+                    linktitle="autorské dílo" 
+                    linkrole="ARTWORK">
+        <ead:relationentry>Babička s dětmi (Otto Gutfreund : Ratibořice, Česká Skalice, Náchod, Česko : sousoší)</ead:relationentry>
       </ead:relation>
 
 
