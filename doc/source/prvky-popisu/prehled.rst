@@ -65,7 +65,7 @@ Univerzální prvky popisu
    * - 4.6.1 Služební poznámka
      - 
    * - 4.6.2 Veřejná poznámka
-     - 
+     - :ref:`ead_item_types_poznamka_verejna`
    * - 4.7.1 Zpracovatel jednotky popisu
      - 
    * - 4.7.2 Pravidla zpracování jednotky popisu
