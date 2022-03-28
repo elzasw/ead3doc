@@ -49,16 +49,16 @@ a `unit <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-unit>`_:
    * - hmotnost
      - :token:`WEIGHT`
      - ``g``
-   * - množství
+   * - množství (byte)
      - :token:`AMOUNT`
      - ``byte``
-   * - množství
+   * - množství (kusy)
      - :token:`AMOUNT`
      - ``pieces``
-   * - množství
+   * - množství (strany)
      - :token:`AMOUNT`
      - ``pages``
-   * - množství
+   * - množství (listy)
      - :token:`AMOUNT`
      - ``sheets``
 
