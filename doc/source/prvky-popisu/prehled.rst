@@ -63,7 +63,7 @@ Univerzální prvky popisu
    * - 4.5.3 Existence kopií jednotky popisu
      - 
    * - 4.6.1 Služební poznámka
-     - 
+     - :ref:`ead_item_types_poznamka_sluzebni`
    * - 4.6.2 Veřejná poznámka
      - :ref:`ead_item_types_poznamka_verejna`
    * - 4.7.1 Zpracovatel jednotky popisu

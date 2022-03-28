@@ -8,8 +8,7 @@ Další popis viz: ZP4.6.2 Veřejná poznámka
 
 Veřejná poznámka se uvádí v elementu 
 `<didnote> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-didnote>`_
-s uvedeným atributem ``localtype="PUBLIC"``. 
-Orientace se zapisuje jako prostý text.
+s uvedeným atributem ``localtype="PUBLIC"``.
 
 
 Příklad
