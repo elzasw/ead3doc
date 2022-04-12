@@ -17,9 +17,9 @@ Univerzální prvky popisu
    * - Prvek popisu dle Základních pravidel
      - Uložení v EAD
    * - 4.2.1  Referenční označení (Pořadové číslo pro manipulační seznam)
-     - :ref:`ead_item_types_unitid`, TODO: pořadové číslo
+     - :ref:`ead_item_types_unitid`
    * - 4.2.2 Jiná označení
-     - 
+     - :ref:`ead_item_types_jinaozn`
    * - 4.2.3 Obsah, regest
      - :ref:`ead_item_types_unittitle`
    * - 4.2.4 Formální název jednotky popisu

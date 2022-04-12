@@ -42,3 +42,9 @@ Březen 2022
  * popis původců a entit pomocí EAC-CPF: :ref:`ead_ap_eac_cpf`
  * změna způsobu uložení: :ref:`ead_ap_originator`
  * změna způsobu uložení: :ref:`ead_ap_relation`
+
+
+Duben 2022
+---------------
+ * přidání prvku popisu: :ref:`ead_item_types_jinaozn`
+ * změna způsobu uložení: :ref:`ead_item_types_unitid`

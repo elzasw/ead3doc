@@ -24,6 +24,7 @@ v části :ref:`ead_item_types_overview`.
   prvky-popisu/prehled.rst
   prvky-popisu/ukl-jednotka.rst
   prvky-popisu/ref-ozn.rst
+  prvky-popisu/jina-ozn.rst
   prvky-popisu/obsah.rst
   prvky-popisu/datace.rst
   prvky-popisu/druh-archivalie.rst
