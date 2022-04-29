@@ -13,9 +13,9 @@ ně odkazovat z jiných prvků popisu, zejména z prvků:
  - :ref:`ead_ap_relation`
 
 
-Rejstříky se ukládají vždy na úrovni elementu 
+Ostatní entity se ukládají vždy na úrovni elementu 
 `<archcdesc> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-archcdesc>`_.
-do elementu `<index> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-index>`_.
+do elementu `<index> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-index>`_. 
 V rámci tohoto elementu jsou definovány samostatně rejstříky 
 pro jednotlivé třídy entit pomocí podřízeného 
 elementu `<index> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-index>`_
@@ -41,8 +41,7 @@ s uvedením atributu `id <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-loca
 pro odkazování uvnitř XML dokumentu. Rejstříkový záznam je 
 takto odkazován z prvků popisu.
 
-Příklad 
--------------
+*Příklad*:
 
 .. code-block:: xml
 
@@ -80,8 +79,7 @@ Identifikátor entity je uložen v elementu `<ref> <http://www.loc.gov/ead/EAD3t
 s uvedením ``linkrole="LOCAL_IDENTIFIER"``. Jedná se o trvalý lokální identifikátor 
 entity v rámci daného archivu. Hodnota identifikátoru se uvede uvnitř elementu.
 
-Příklad 
--------------
+*Příklad*:
 
 .. code-block:: xml
 
@@ -97,8 +95,7 @@ uvádí se tento odkaz v elementu `<ref> <http://www.loc.gov/ead/EAD3taglib/EAD3
 s uvedením ``linkrole="CAM"``. Jako hodnota elementu se uvede 
 identifikátor entity v CAMu.
 
-Příklad 
--------------
+*Příklad*:
 
 .. code-block:: xml
 
@@ -119,6 +116,23 @@ pomocí elementu `<namegrp> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-na
 Preferované označení se uvede jako první.
 
 
+Jazyk označení
+---------------
+
+Jazyk v němž je označení uvedeno se zapisuje do atributu `lang <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-lang>`_
+na úrovni příslušného elementu `<name> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-name>`_,
+resp. `<geogname> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geogname>`_.
+Kód jazyku se uvádí dle definice v :ref:`ead_item_types_langs`.
+
+*Příklad*:
+
+.. code-block:: xml
+
+   <ead:geogname>
+     <ead:part localtype="MAIN" lang="ger">Teplitz</ead:part>
+   </ead:geogname>
+
+
 
 Stručná charakteristika
 ===========================
@@ -129,8 +143,7 @@ U podřízeného elementu se uvede atribut `localtype <https://www.loc.gov/ead/E
 s hodnotou ``BRIEF_DESC``.
 
 
-Příklad 
--------------
+*Příklad*:
 
 .. code-block:: xml
 
@@ -163,8 +176,7 @@ nebo hranice příslušné entity. Souřadnice se uvádí jen u
 preferovaného označení.
 
 
-Příklad
----------
+*Příklad*:
 
 
 .. code-block:: xml
@@ -185,7 +197,7 @@ Příklad
                coordinatesystem="WGS84">AQEAAABwf4nTpNssQMV3vY/+B0lA</ead:geographiccoordinates>
        </ead:geogname>
        <ead:geogname>
-         <ead:part localtype="MAIN">Teplitz</ead:part>
+         <ead:part localtype="MAIN" lang="ger">Teplitz</ead:part>
        </ead:geogname>
      </ead:namegrp>
      <ead:subject>
