@@ -85,7 +85,7 @@ Rozšířený popis archiválií
    * - Prvek popisu dle Základních pravidel
      - Uložení v EAD
    * - 5.2.1 Jiné datace jednotky popisu než datace vzniku jednotky popisu
-     - 
+     - :ref:`ead_item_types_jinadatace`
    * - 5.2.2 Název autorského díla
      - :ref:`ead_item_types_aut_dilo`
    * - 5.2.3 Způsob a forma dochování

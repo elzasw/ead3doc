@@ -13,6 +13,7 @@ Základní prvky popisu jsou uvedeny v :ref:`ead_item_types`.
 .. toctree::
   :includehidden:
 
+  rozsireny-popis/jina-datace.rst
   prvky-popisu/rozmery.rst
   prvky-popisu/meritko.rst
   prvky-popisu/souradnice.rst

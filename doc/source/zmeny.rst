@@ -55,3 +55,4 @@ Duben 2022
  * nová podkapitola: :ref:`ead_jp_omezeni_pristupu`
  * změna reprezentace více dao: :ref:`ead_dao`
  * přidání prvku popisu: :ref:`ead_item_types_unitdatestructured_text`
+ * přidání prvku popisu: :ref:`ead_item_types_jinadatace`
