@@ -17,11 +17,14 @@ Shodně s jiným označením se ukládají prvky popisu:
  - :ref:`ead_item_types_unitid_porc`
  - :ref:`ead_item_types_inv_cislo`
 
+Pro jiné identifikátory se použije konstanta ``JINE`` a v popisu se uvede jeho význam.
+
 Příklad:
 
 .. code-block:: xml
 
-  <ead:unitid localtype="CISLO_JEDNACI">2022/34-2</ead:unitid>
+  <ead:unitid localtype="CISLO_JEDNACI" 
+     label="číslo jednací">2022/34-2</ead:unitid>
 
 
 
@@ -39,61 +42,67 @@ Typy označení
      - ``label=``
    * - :ref:`ead_item_types_unitid`
      - ``REFERENCNI_OZNACENI``
-     - ``ref. ozn.``
+     - ``referenční označení``
    * - :ref:`ead_item_types_unitid_porc`
      - ``PORADOVE_CISLO``
-     - ``poř. č.``
+     - ``pořadové číslo``
    * - :ref:`ead_item_types_inv_cislo`
      - ``INV_CISLO``
-     - ``inv. č.``
+     - ``inventární číslo``
    * - Signatura přidělená původcem
      - ``SIGNATURA_PUVODNI``
-     - ``sign. pův.``
+     - ``signatura přidělená původcem``
    * - Signatura přidělená při zpracování archiválie
      - ``SIGNATURA_ZPRACOVANI``
-     - ``sign.``
-   * - Ukládací znak
+     - ``signatura přidělená při zpracování archiválie``
+   * - Ukládací znak / spisový znak
      - ``UKLADACI_ZNAK``
-     - ``ukl. znak``
+     - ``ukládací znak / spisový znak``
    * - Číslo jednací
      - ``CISLO_JEDNACI``
-     - ``čj.``
+     - ``číslo jednací``
    * - Spisová značka
      - ``SPISOVA_ZNACKA``
-     - ``sp. zn.``
+     - ``spisová značka``
    * - Číslo vložky úřední knihy
      - ``CISLO_VLOZKY``
-     - ``č. vl.``
+     - ``číslo vložky úřední knihy``
    * - Přírůstkové číslo
      - ``CISLO_PRIRUSTKOVE``
-     - ``č. př.``
+     - ``přírůstkové číslo``
    * - Neplatné pořadové číslo manipulačního seznamu
      - ``NEPL_PORADOVE_CISLO``
-     - ``nepl. poř. č.``
+     - ``neplatné pořadové číslo manipulačního seznamu``
    * - Neplatné inventární číslo
      - ``NEPL_INV_CISLO``
-     - ``nepl. inv. č.``
+     - ``neplatné inventární číslo``
    * - Signatura přidělená při předchozím zpracování
      - ``NEPL_SIGNATURA_ZPRACOVANI``
-     - ``nepl. sign.``
+     - ``signatura přidělená při předchozím zpracování``
    * - Neplatné referenční označení
      - ``NEPL_REFERENCNI_OZNACENI``
-     - ``nepl. ref. ozn.``
+     - ``neplatné referenční označení``
+   * - Číslo pohlednice nakladatelství Orbis
+     - ``NAKL_CISLO``
+     - ``číslo pohlednice nakladatelství Orbis``
    * - Číslo negativu
      - ``CISLO_NEGATIVU``
-     - ``č. neg.``
+     - ``číslo negativu``
    * - Číslo produkce CD
      - ``CISLO_PRODUKCE``
-     - ``č. prod.``
+     - ``číslo produkce CD``
    * - Kód ISBN
      - ``KOD_ISBN``
-     - ``ISBN``
+     - ``kód ISBN``
    * - Kód ISSN
      - ``KOD_ISSN``
-     - ``ISSN``
+     - ``kód ISSN``
    * - Kód ISMN
      - ``KOD_ISMN``
-     - ``ISMN``
+     - ``kód ISMN``
    * - Matriční číslo (propůjčeného vyznamenání)
      - ``MATRICNI_CISLO``
-     - ``matr. č.``
+     - ``matriční číslo (propůjčeného vyznamenání)``
+   * - Jiný identifikátor
+     - ``JINE``
+     - ``jiné``
