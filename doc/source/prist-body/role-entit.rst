@@ -74,86 +74,37 @@ Příklad
         </ead:descriptivenote>
       </ead:relation>
 
-
-Geografická entita
-======================
-
-Pokud je odkazovaná entita z třídy: *geografická entita* je tato zachycena
-pomocí elementu `<geogname> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geogname>`_. 
-Současně je povinně uveden atribut ``relationtype="resourcerelation"``.
-
-Preferované označení geografické entity je vždy strukturovaně zaznamenáno v elementech
-`<part> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-part>`_ s uvedením
-typu části označení:
-
- - Hlavní část jména: :token:`MAIN`
- - Geografický doplněk: :token:`SUP_GEO`
- - Chronologický doplněk: :token:`SUP_CHRO`
-
-
-Souřadnice geografické entity (pokud jsou známy) jsou uvedeny 
-v elementu `<geographiccoordinates> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geographiccoordinates>`_ 
-a to se shodným kódováním jako je uvedeno v :ref:`ead_item_types_souradnice_kodovani`.
-Souřadnice jsou opakovatelné a mohou vyjadřovat buď bod 
-nebo hranice příslušné entity.
-
-Identifikátor entity se ukládá do atributu `encodinganalog <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_.
-
-Pokud je entita vedena v některé široce sdílené databázi(CAM apod.), 
-je možné v atributu `href <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-href>`_ 
-na ni uvést platný odkaz. Příklad: :code:`cam.nacr.cz/entities/532`. 
-Odkaz musí mít podobu URI, tj. obsahuje kompletní informaci 
-pro určení identifikátoru.
-
-
-Příklad
----------
-
-
-.. code-block:: xml
-
-   <ead:relations>
-     <ead:relation relationtype = "resourcerelation"
-                    encodinganalog="99ad196f-6640-4855-945e-46902f431837"
-                    href="cam.nacr.cz/entities/4442"
-                    linktitle="místo natáčení" 
-                    linkrole="LOCATION_SHOOTING">
-       <ead:relationentry>Praha (Česko)</ead:relationentry>
-       <ead:geogname>
-          <ead:part localtype="MAIN">Praha</ead:part>
-          <ead:part localtype="SUP_GEO">Česko</ead:part>
-          <ead:geographiccoordinates 
-               coordinatesystem="WGS84">AQEAAABwf4nTpNssQMV3vY/+B0lA</ead:geographiccoordinates>
-       </ead:geogname>
-     </ead:relation>
-   </ead:relations>
-
-
+.. _ead_ap_relation_other:
 
 
 Ostatní entity
 =================================
 
-Ostatní entity jsou ze třídy *dílo/výtvor* nebo *obecný pojem*. 
-Tyto entity se uvádí v základní podobě.
+Ostatní entity jsou ze tříd *geografická entita*, 
+*dílo/výtvor* nebo *obecný pojem*. Tyto entity se uvádí vždy
+v :ref:`rejstříku entit <ead_ap_rejstrik>`.
 
-Identifikátor entity se ukládá do atributu `encodinganalog <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_.
+Současně je povinně uveden atribut ``relationtype="resourcerelation"``.
+Odkaz na takovouto entitu je realizován pomocí elementu
+`<descriptivenote> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-descriptivenote>`_
+obsahující jeden element `<p> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_
+s odkazem `<ref> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_ na entitu.
 
-Pokud je entita vedena v některé široce sdílené databázi(CAM apod.), 
-je možné v atributu `href <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-href>`_ 
-na ni uvést platný odkaz. Příklad: :code:`cam.nacr.cz/entities/532`. 
-Odkaz musí mít podobu URI, tj. obsahuje kompletní informaci 
-pro určení identifikátoru.
+Preferované označení odkazované entity je vždy zaznamenáno v elementu 
+`<relationentry> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_.
 
 
 .. code-block:: xml
 
       <ead:relation relationtype="resourcerelation" 
-                    encodinganalog="53edf61b-5256-4a29-a515-744be74b108c"
-                    href="cam.nacr.cz/entities/40575"
                     linktitle="autorské dílo" 
                     linkrole="ARTWORK">
         <ead:relationentry>Babička s dětmi (Otto Gutfreund : Ratibořice, Česká Skalice, Náchod, Česko : sousoší)</ead:relationentry>
+        <ead:descriptivenote>
+          <ead:p>
+            <ead:ref target="ap157" />
+          <ead:p>
+        </ead:descriptivenote>
       </ead:relation>
 
 
@@ -199,6 +150,9 @@ Definice rolí
    * - autor triků a speciálních efektů
      - ``TRICKS_EFFECTS``
      - 5.13.2, 5.14.2 - kinematografické filmy, zvukové archiválie
+   * - autorské dílo
+     - ``ARTWORK``
+     - :ref:`ead_item_types_aut_dilo`
    * - vydavatel
      - ``PUBLISHER_OWNER``
      - 5.3.1, 5.19.1, 5.21.1, 5.22.1 - listiny (před i po roce 1850), cenné papíry, faleristické předměty, numizmatické předměty

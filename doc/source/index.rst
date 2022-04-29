@@ -24,6 +24,7 @@ nezávisle na způsobu jeho tvorby.
    archdesc.rst
    uvod-pomucky.rst
    prvky-popisu.rst
+   rozsireny-popis.rst
    dao.rst
    prist-body.rst
 

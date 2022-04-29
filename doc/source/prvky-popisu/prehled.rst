@@ -23,7 +23,7 @@ Univerzální prvky popisu
    * - 4.2.3 Obsah, regest
      - :ref:`ead_item_types_unittitle`
    * - 4.2.4 Formální název jednotky popisu
-     - 
+     - :ref:`ead_item_types_formnazev`
    * - 4.2.5 Datace vzniku jednotky popisu
      - :ref:`ead_item_types_unitdatestructured`
    * - 4.2.6 Textový způsob zápisu datace

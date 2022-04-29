@@ -46,5 +46,8 @@ Březen 2022
 
 Duben 2022
 ---------------
+ * nová podkapitola: :ref:`ead_ap_rejstrik`
  * přidání prvku popisu: :ref:`ead_item_types_jinaozn`
  * změna způsobu uložení: :ref:`ead_item_types_unitid`
+ * změna způsobu uložení pro jiné třídy entit: :ref:`ead_ap_relation`
+ * přidání prvku popisu: :ref:`ead_item_types_formnazev` a :ref:`ead_item_types_aut_dilo`

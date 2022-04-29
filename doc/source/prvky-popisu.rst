@@ -26,6 +26,7 @@ v části :ref:`ead_item_types_overview`.
   prvky-popisu/ref-ozn.rst
   prvky-popisu/jina-ozn.rst
   prvky-popisu/obsah.rst
+  prvky-popisu/form-nazev.rst
   prvky-popisu/datace.rst
   prvky-popisu/druh-archivalie.rst
   prvky-popisu/pocet.rst
@@ -37,10 +38,5 @@ v části :ref:`ead_item_types_overview`.
   prvky-popisu/fyz-stav.rst
   prvky-popisu/poznamka-sluzebni.rst
   prvky-popisu/poznamka-verejna.rst
-  prvky-popisu/rozmery.rst
-  prvky-popisu/meritko.rst
-  prvky-popisu/souradnice.rst
-  prvky-popisu/orientace.rst
-  prvky-popisu/technika.rst
-  prvky-popisu/jazyk.rst
+
   

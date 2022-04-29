@@ -14,7 +14,7 @@ Strukturovaně popsaná entita je uložena v elementu
 v části `<control>/<sources>/<source> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_.
 Element `<source> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_ 
 povinně obsahuje atribut ``id="...."`` umožňující
-jeho odkazování v rámci XML souboru.
+jeho odkazování v rámci XML dokumentu.
 
 
 Identifikátor entity
