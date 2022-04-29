@@ -10,6 +10,10 @@ Služební poznámka se uvádí v elementu
 `<didnote> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-didnote>`_
 s uvedeným atributem ``localtype="INTERNAL"``. 
 
+Služební poznámka je vždy považována za nezveřejněnou, 
+povinně se uvádí atribut ``audience="internal"``, viz :ref:`ead_jp_omezeni_pristupu_jp`.
+
+
 Příklad
 ===========
 
@@ -19,5 +23,5 @@ Uvedení veřejné poznámky
 .. code-block:: xml
 
    <ead:did>
-      <ead:didnote localtype="INTERNAL">uloženo společně s druhým dílem</ead:didnote>
+      <ead:didnote localtype="INTERNAL" audience="internal">uloženo společně s druhým dílem</ead:didnote>
    </ead:did>

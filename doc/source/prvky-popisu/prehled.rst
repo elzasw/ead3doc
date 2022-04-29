@@ -27,7 +27,7 @@ Univerzální prvky popisu
    * - 4.2.5 Datace vzniku jednotky popisu
      - :ref:`ead_item_types_unitdatestructured`
    * - 4.2.6 Textový způsob zápisu datace
-     - 
+     - :ref:`ead_item_types_unitdatestructured_text`
    * - 4.2.7 Úroveň popisu
      - :ref:`ead_archdesc_hierarchy`
    * - 4.2.8 Evidenční jednotka – druh

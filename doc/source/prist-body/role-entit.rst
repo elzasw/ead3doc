@@ -333,3 +333,6 @@ Definice rolí
    * - místo předání
      - ``PLACE_HANDING``
      - místo předání
+   * - obrazově a/nebo zvukově zachycená entita
+     - ``CAPTURED_ENTITY``
+     - obrazově a/nebo zvukově zachycená entita

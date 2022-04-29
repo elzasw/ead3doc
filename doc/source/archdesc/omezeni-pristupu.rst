@@ -15,6 +15,8 @@ interpretována a nemá přímý dopad na vlastní
 zveřejnění příslušné jednotky popisu. Viz: :ref:`ead_item_types_accessrestrict`.
 
 
+.. _ead_jp_omezeni_pristupu_jp:
+
 Možnosti zveřejnění jednotky popisu
 =====================================
 
@@ -30,16 +32,16 @@ omezení automaticky i na všechny jí podřízené jednotky popisu.
 Omezení zveřejnění jednotky popisu se zapisuje pomocí atributu 
 `audience <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-audience>`_.
 
-Možné hodnoty atributu a jejich význam:
+Hodnoty atributu a jejich význam:
 
  * ``audience="internal"`` - jednotka popisu nebo prvek popisu, který nelze zveřejnit
- * ``audience="external"`` - prvek popisu, který lze zveřejnit; uvádí se jen jako alternativa, viz dále
+ * ``audience="external"`` - nepoužívá se, bez uvedení `audience <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-audience>`_ je zveřejněno
 
 Pokud má prvek popisu zveřejnitelnou i nezveřejnitelnou podoba 
 (například Obsah regest s osobními údaji a po jejich odstranění) je možné 
 do exportu uložit obě hodnoty. V takovém případě bude u jednoho prvku popisu uvedena hodnota
-``audience="external"`` a u druhého ``audience="internal"``. Všechny ostatní atributy 
-prvků popisu musí být shodné.
+``audience="internal"`` a druhý prvek popisu bude uveden bez dalšího upřesnění. 
+Všechny ostatní atributy prvků popisu musí být shodné.
 
 Informaci o zveřejnitelnosti / nezveřejnitelnosti lze uvádět u těchto prvků popisu:
 
@@ -47,6 +49,7 @@ Informaci o zveřejnitelnosti / nezveřejnitelnosti lze uvádět u těchto prvk�
  * :ref:`ead_item_types_scopecontent`
  * :ref:`ead_ap_relation`
  * :ref:`ead_item_types_accruals`
+ * :ref:`ead_item_types_poznamka_sluzebni` (vždy nezveřejněna)
 
 
 **Příklad neveřejné jednotky popisu**
@@ -66,6 +69,17 @@ Informaci o zveřejnitelnosti / nezveřejnitelnosti lze uvádět u těchto prvk�
    <ead:c level="series" 
         base="http://archdesc.nacr.cz/dids/534a33bd-e79c-4201-a77a-b22a48ee8c92">
      <ead:unittitle audience="internal">Zdravotní dokumentace</ead:unittitle>
+   </ead:c>
+
+
+**Příklad neveřejné a anonymizované varianty obsahu**
+
+.. code-block:: xml
+
+   <ead:c level="series" 
+        base="http://archdesc.nacr.cz/dids/534a33bd-e79c-4201-a77a-b22a48ee8c92">
+     <ead:unittitle>Zdravotní dokumentace</ead:unittitle>
+     <ead:unittitle audience="internal">Zdravotní dokumentace pohlavní choroby - Jan Šalda</ead:unittitle>
    </ead:c>
 
 .. _ead_jp_omezeni_pristupu_dao:
