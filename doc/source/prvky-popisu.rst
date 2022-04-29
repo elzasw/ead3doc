@@ -35,8 +35,8 @@ v části :ref:`ead_item_types_overview`.
   prvky-popisu/tem-popis.rst  
   prvky-popisu/akvizice.rst
   prvky-popisu/bud-prirustky.rst
+  prvky-popisu/podm-pristupu.rst
   prvky-popisu/fyz-stav.rst
   prvky-popisu/poznamka-sluzebni.rst
   prvky-popisu/poznamka-verejna.rst
 
-  

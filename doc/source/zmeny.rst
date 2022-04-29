@@ -51,3 +51,6 @@ Duben 2022
  * změna způsobu uložení: :ref:`ead_item_types_unitid`
  * změna způsobu uložení pro jiné třídy entit: :ref:`ead_ap_relation`
  * přidání prvku popisu: :ref:`ead_item_types_formnazev` a :ref:`ead_item_types_aut_dilo`
+ * přidání prvku popisu: :ref:`ead_item_types_accessrestrict`
+ * nová podkapitola: :ref:`ead_jp_omezeni_pristupu`
+ * změna reprezentace více dao: :ref:`ead_dao`

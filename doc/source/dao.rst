@@ -17,7 +17,12 @@ Přípustné hodnoty jsou:
 
 Pokud k digitálnímu objektu existuje samostatný popis
 odlišný od popisu jednotky popisu, tento se 
-uvede v elementu `<descriptivenote> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-descriptivenote>`_.
+uvede v elementu `<descriptivenote> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-descriptivenote>`_
+s jedním vnořeným elementem `<p> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_.
+
+Případné omezení přístupnosti digitalizátu, resp. informace o jeho 
+nezveřejnění viz :ref:`ead_jp_omezeni_pristupu_dao`.
+
 
 .. _ead_dao_extid:
 
@@ -30,6 +35,7 @@ platný v rámci archivu. Identifikátor slouží pro vazbu
 mezi archivním popisem a uloženým digitálním objektem
 v úložišti.
 
+**Příklad jednoho digitalizátu:**
 
 .. code-block:: xml
 
@@ -41,11 +47,30 @@ v úložišti.
    </ead:did>
 
 
+Více digitálních objektů u jedné jednotky popisu
+===================================================
 
-.. _ead_dao_daoset:
+Pokud je k digitálnímu objektu připojeno více samostatných
+digitalizátů, tyto se uvedou jako samostatné elementy typu 
+`<dao> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dao>`_.
 
-Jednotka popisu s více digitálními objekty
-=============================================
 
-Pokud je k jedné jednotce popisu připojeno více digitálních objektů
-jsou tyto zapouzdřeny v elementu `<daoset> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-daoset>`_.
+**Příklad více digitalizátů s popisem:**
+
+.. code-block:: xml
+
+   <ead:did>
+     <ead:unittitle>Kronika Velké Lhoty</ead:unittitle>
+     <ead:dao daotype="derived" 
+              identifier="edbbb43e-b574-4a8e-9311-5bbc1c5d85fc">
+        <ead:descriptivenote><ead:p>Přední desky<ead:p></ead:descriptivenote>
+     </ead:dao>
+     <ead:dao daotype="derived" 
+              identifier="d52bc6ec-9161-4452-8db9-a4c9879b9e2c">
+        <ead:descriptivenote><ead:p>Strana 1<ead:p></ead:descriptivenote>
+     </ead:dao>
+     <ead:dao daotype="derived" 
+              identifier="7d222613-eab1-4212-af1f-b29e71d0ec3a">
+        <ead:descriptivenote><ead:p>Strana 2<ead:p></ead:descriptivenote>
+     </ead:dao>
+   </ead:did>

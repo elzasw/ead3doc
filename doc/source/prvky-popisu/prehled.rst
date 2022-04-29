@@ -49,11 +49,11 @@ Univerzální prvky popisu
    * - 4.3.6 Budoucí přírůstky
      - :ref:`ead_item_types_accruals`
    * - 4.4.1 Podmínky přístupu, práva k jednotce popisu a její reprodukci
-     - 
+     - :ref:`ead_item_types_accessrestrict`
    * - 4.4.2 Možnost zveřejnění informací o jednotce popisu
-     - 
+     - prostřednictvím :ref:`ead_jp_omezeni_pristupu`
    * - 4.4.3 Možnost zveřejnění reprodukce jednotky popisu
-     - 
+     - prostřednictvím :ref:`ead_jp_omezeni_pristupu`
    * - 4.4.4 Fyzický stav jednotky popisu a technické požadavky
      - :ref:`ead_item_types_physdesc`
    * - 4.5.1 Identifikace předlohy kopie
@@ -87,7 +87,7 @@ Rozšířený popis archiválií
    * - 5.2.1 Jiné datace jednotky popisu než datace vzniku jednotky popisu
      - 
    * - 5.2.2 Název autorského díla
-     - 
+     - :ref:`ead_item_types_aut_dilo`
    * - 5.2.3 Způsob a forma dochování
      - 
    * - 5.2.4 Rozměry, hmotnost, velikost, množství

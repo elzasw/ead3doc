@@ -19,3 +19,4 @@ Způsob uložení prvků popisu je v části :ref:`ead_item_types`.
   archdesc/otherfindaid.rst
   archdesc/pocet-ej.rst
   archdesc/odd.rst  
+  archdesc/omezeni-pristupu.rst
