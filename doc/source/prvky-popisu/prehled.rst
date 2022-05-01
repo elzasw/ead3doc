@@ -61,7 +61,7 @@ Univerzální prvky popisu
    * - 4.5.2 Odkazy na příbuzné dokumenty, archiválie a pomůcky pro vyhledávání
      - 
    * - 4.5.3 Existence kopií jednotky popisu
-     - 
+     - :ref:`ead_item_types_ex_kopii`
    * - 4.6.1 Služební poznámka
      - :ref:`ead_item_types_poznamka_sluzebni`
    * - 4.6.2 Veřejná poznámka
