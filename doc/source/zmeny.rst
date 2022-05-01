@@ -56,3 +56,4 @@ Duben 2022
  * změna reprezentace více dao: :ref:`ead_dao`
  * přidání prvku popisu: :ref:`ead_item_types_unitdatestructured_text`
  * přidání prvku popisu: :ref:`ead_item_types_jinadatace`
+ * řešení prvků popisu :ref:`ead_item_types_rozmery_duration`

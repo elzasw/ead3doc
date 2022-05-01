@@ -141,11 +141,11 @@ Rozšířený popis archiválií
    * - 5.12.1 Role entit ve vztahu k fotografickým archiváliím
      - :ref:`ead_ap_relation`
    * - 5.13.1 Délka filmového záznamu
-     - 
+     - prostřednictvím :ref:`ead_item_types_rozmery_duration`
    * - 5.13.2 Role entit ve vztahu k záznamům
      - :ref:`ead_ap_relation`
    * - 5.14.1 Délka zvukového záznamu
-     - 
+     - prostřednictvím :ref:`ead_item_types_rozmery_duration`
    * - 5.14.2 Role entit ve vztahu ke zvukovým archiváliím
      - :ref:`ead_ap_relation`
    * - 5.15.1 Role entit ve vztahu k tiskům do roku 1800 a po roce 1800

@@ -12,6 +12,9 @@ který je součástí :ref:`ead_jp_char`. Element je nutné uvést v kontextu so
 V elementu se uvádí textová hodnota nebo strukturovaná hodnota pomocí zanořeného elementu 
 `<dimensions> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dimensions>`_.
 
+
+.. _ead_item_types_rozmery_structured:
+
 Strukturovaná podoba
 ======================
 
@@ -61,6 +64,24 @@ a `unit <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-unit>`_:
    * - množství (listy)
      - :token:`AMOUNT`
      - ``sheets``
+   * - trvání
+     - :token:`DURATION`
+     - ``s``
+
+
+.. _ead_item_types_rozmery_duration:
+
+Délka filmového a zvukového záznamu
+======================================
+
+Další popis viz: 
+
+ - 5.13.1 Délka filmového záznamu
+ - 5.14.1 Délka zvukového záznamu
+
+Délka filmového a zvukového záznamu je zapsána formou 
+:ref:`strukturovaného záznamu <ead_item_types_rozmery_structured>`.
+Doba trvání se uvádí v sekundách s uvedením ``localtype="DURATION"``.
 
 
 
