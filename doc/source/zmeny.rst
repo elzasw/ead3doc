@@ -58,3 +58,4 @@ Duben 2022
  * přidání prvku popisu: :ref:`ead_item_types_jinadatace`
  * řešení prvků popisu :ref:`ead_item_types_rozmery_duration`
  * přidání prvku popisu: :ref:`ead_item_types_ex_kopii`
+ * přidání prvku popisu: :ref:`ead_item_types_indent_predl`

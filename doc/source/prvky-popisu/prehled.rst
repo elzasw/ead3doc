@@ -57,7 +57,7 @@ Univerzální prvky popisu
    * - 4.4.4 Fyzický stav jednotky popisu a technické požadavky
      - :ref:`ead_item_types_physdesc`
    * - 4.5.1 Identifikace předlohy kopie
-     - 
+     - :ref:`ead_item_types_indent_predl`
    * - 4.5.2 Odkazy na příbuzné dokumenty, archiválie a pomůcky pro vyhledávání
      - 
    * - 4.5.3 Existence kopií jednotky popisu
