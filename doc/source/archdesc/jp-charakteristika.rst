@@ -18,3 +18,4 @@ Jedná se o prvky popisu:
  - :ref:`ead_item_types_pocet`
  - :ref:`ead_item_types_technika`
  - :ref:`ead_item_types_legend`
+ - :ref:`ead_item_types_popisobr`

@@ -119,7 +119,7 @@ Rozšířený popis archiválií
    * - 5.7.1 Opis, nápis, exerque
      - :ref:`ead_item_types_legend`
    * - 5.7.2 Popis obrazu v poli typáře či otisku
-     - 
+     - :ref:`ead_item_types_popisobr`
    * - 5.7.3 Koroborace dokumentu, k němuž byl popisovaný otisk připojen
      - 
    * - 5.7.4 Počet otisků původní a současný
