@@ -30,6 +30,10 @@ Každý zanořený element musí obsahovat atributy:
 Uvnitř elementu se uvádí příslušná číselná hodnota ve formátu bez mezer a 
 s tečkou pro oddělení desetinných míst.
 
+Část hodnot z prvku množství se popisu ve strukturovaném prvku: :ref:`ead_item_types_rozsah`.
+Zejména se jedná o velikost dat, či počet kusů.
+
+
 Tabulka možný hodnot pro `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 a `unit <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-unit>`_:
 
@@ -49,40 +53,6 @@ a `unit <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-unit>`_:
    * - hloubka
      - :token:`DEPTH`
      - ``mm``
-   * - hmotnost
-     - :token:`WEIGHT`
-     - ``g``
-   * - množství (byte)
-     - :token:`AMOUNT`
-     - ``byte``
-   * - množství (kusy)
-     - :token:`AMOUNT`
-     - ``pieces``
-   * - množství (strany)
-     - :token:`AMOUNT`
-     - ``pages``
-   * - množství (listy)
-     - :token:`AMOUNT`
-     - ``sheets``
-   * - trvání
-     - :token:`DURATION`
-     - ``s``
-
-
-.. _ead_item_types_rozmery_duration:
-
-Délka filmového a zvukového záznamu
-======================================
-
-Další popis viz: 
-
- - 5.13.1 Délka filmového záznamu
- - 5.14.1 Délka zvukového záznamu
-
-Délka filmového a zvukového záznamu je zapsána formou 
-:ref:`strukturovaného záznamu <ead_item_types_rozmery_structured>`.
-Doba trvání se uvádí v sekundách s uvedením ``localtype="DURATION"``.
-
 
 
 Příklady

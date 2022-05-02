@@ -16,7 +16,7 @@ Univerzální prvky popisu
 
    * - Prvek popisu dle Základních pravidel
      - Uložení v EAD
-   * - 4.2.1  Referenční označení (Pořadové číslo pro manipulační seznam)
+   * - 4.2.1 Referenční označení (Pořadové číslo pro manipulační seznam)
      - :ref:`ead_item_types_unitid`
    * - 4.2.2 Jiná označení
      - :ref:`ead_item_types_jinaozn`
@@ -55,7 +55,7 @@ Univerzální prvky popisu
    * - 4.4.3 Možnost zveřejnění reprodukce jednotky popisu
      - prostřednictvím :ref:`ead_jp_omezeni_pristupu`
    * - 4.4.4 Fyzický stav jednotky popisu a technické požadavky
-     - :ref:`ead_item_types_physdesc`
+     - :ref:`ead_item_types_phystech`
    * - 4.5.1 Identifikace předlohy kopie
      - :ref:`ead_item_types_indent_predl`
    * - 4.5.2 Odkazy na příbuzné dokumenty, archiválie a pomůcky pro vyhledávání
@@ -89,9 +89,9 @@ Rozšířený popis archiválií
    * - 5.2.2 Název autorského díla
      - :ref:`ead_item_types_aut_dilo`
    * - 5.2.3 Způsob a forma dochování
-     - 
+     - :ref:`ead_item_types_physdesc`
    * - 5.2.4 Rozměry, hmotnost, velikost, množství
-     - :ref:`ead_item_types_rozmery`
+     - :ref:`ead_item_types_rozmery` a :ref:`ead_item_types_rozsah`
    * - 5.2.5 Měřítko
      - :ref:`ead_item_types_meritko`
    * - 5.2.6 Souřadnice
@@ -117,7 +117,7 @@ Rozšířený popis archiválií
    * - 5.6.1 Role entit ve vztahu k hudebninám
      - :ref:`ead_ap_relation`
    * - 5.7.1 Opis, nápis, exerque
-     - 
+     - :ref:`ead_item_types_legend`
    * - 5.7.2 Popis obrazu v poli typáře či otisku
      - 
    * - 5.7.3 Koroborace dokumentu, k němuž byl popisovaný otisk připojen
@@ -135,17 +135,17 @@ Rozšířený popis archiválií
    * - 5.10.1 Role entit ve vztahu k technickým výkresům
      - :ref:`ead_ap_relation`
    * - 5.11.1 Legenda
-     - 
+     - :ref:`ead_item_types_legend`     - 
    * - 5.11.2 Role entit ve vztahu ke grafickým listům a kresbám
      - :ref:`ead_ap_relation`
    * - 5.12.1 Role entit ve vztahu k fotografickým archiváliím
      - :ref:`ead_ap_relation`
    * - 5.13.1 Délka filmového záznamu
-     - prostřednictvím :ref:`ead_item_types_rozmery_duration`
+     - :ref:`ead_item_types_rozsah_duration`
    * - 5.13.2 Role entit ve vztahu k záznamům
      - :ref:`ead_ap_relation`
    * - 5.14.1 Délka zvukového záznamu
-     - prostřednictvím :ref:`ead_item_types_rozmery_duration`
+     - :ref:`ead_item_types_rozsah_duration`
    * - 5.14.2 Role entit ve vztahu ke zvukovým archiváliím
      - :ref:`ead_ap_relation`
    * - 5.15.1 Role entit ve vztahu k tiskům do roku 1800 a po roce 1800
