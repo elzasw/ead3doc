@@ -121,11 +121,11 @@ Rozšířený popis archiválií
    * - 5.7.2 Popis obrazu v poli typáře či otisku
      - :ref:`ead_item_types_popisobr`
    * - 5.7.3 Koroborace dokumentu, k němuž byl popisovaný otisk připojen
-     - 
+     - :ref:`ead_item_types_corroboratio`
    * - 5.7.4 Počet otisků původní a současný
-     - 
+     - :ref:`ead_item_types_pocet_otisku`
    * - 5.7.5 Pořadí otisku
-     - 
+     - :ref:`ead_item_types_poradi_otisku`
    * - 5.7.6 Role entit ve vztahu k typářům a jejich otiskům
      - :ref:`ead_ap_relation`
    * - 5.8.1 Role entit ve vztahu ke spisům

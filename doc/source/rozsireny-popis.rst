@@ -16,6 +16,9 @@ Základní prvky popisu jsou uvedeny v :ref:`ead_item_types`.
   rozsireny-popis/jina-datace.rst
   rozsireny-popis/forma-dochovani.rst
   rozsireny-popis/popis-obrazu.rst
+  rozsireny-popis/koroborace.rst
+  rozsireny-popis/pocet-otisku.rst
+  rozsireny-popis/poradi-otisku.rst
   rozsireny-popis/rozmery.rst
   rozsireny-popis/rozsah.rst
   rozsireny-popis/meritko.rst

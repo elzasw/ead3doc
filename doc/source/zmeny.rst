@@ -62,4 +62,7 @@ Duben 2022
  * přidání prvku popisu: :ref:`ead_item_types_legend`
  * přidání prvku popisu: :ref:`ead_item_types_physdesc`
  * přidání prvku popisu: :ref:`ead_item_types_popisobr`
-
+ * přidání prvku popisu: :ref:`ead_item_types_corroboratio`
+ * přidání prvku popisu: :ref:`ead_item_types_pocet_otisku`
+ * přidání prvku popisu: :ref:`ead_item_types_poradi_otisku`
+  

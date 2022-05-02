@@ -1,13 +1,13 @@
-.. _ead_item_types_popisobr:
+.. _ead_item_types_pocet_otisku:
 
-===================================================
-Popis obrazu v poli typáře či otisku
-===================================================
+=============================================================
+Počet otisků původní a současný
+=============================================================
 
-Další popis viz: ZP5.7.2 Popis obrazu v poli typáře či otisku
+Další popis viz: ZP5.7.4 Počet otisků původní a současný
 
 Uvádí se v elementu `<physfacet> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
-s uvedením hodnoty ``localtype="IMPRINT_IMAGE"``. 
+s uvedením hodnoty ``localtype="IMPRINT_COUNT"``. 
 Element je součástí :ref:`charakteristiky jednotky popisu <ead_jp_char>`. 
 
 V elementu se uvádí textová hodnota.
@@ -20,6 +20,7 @@ Příklad
    <ead:physdescstructured physdescstructuredtype="materialtype" 
                            coverage="whole">
      <ead:quantity>1</ead:quantity>
-     <ead:unittype>otd</ead:unittype>
-     <ead:physfacet localtype="IMPRINT_IMAGE">sv. Ignác s metlou</ead:physfacet>
+     <ead:unittype>lio</ead:unittype>
+     <ead:physfacet localtype="IMPRINT_COUNT">5?/1</ead:physfacet>
    </ead:physdescstructured>
+

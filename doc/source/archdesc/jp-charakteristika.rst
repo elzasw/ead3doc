@@ -19,3 +19,6 @@ Jedná se o prvky popisu:
  - :ref:`ead_item_types_technika`
  - :ref:`ead_item_types_legend`
  - :ref:`ead_item_types_popisobr`
+ - :ref:`ead_item_types_corroboratio`
+ - :ref:`ead_item_types_pocet_otisku`
+ - :ref:`ead_item_types_poradi_otisku`
