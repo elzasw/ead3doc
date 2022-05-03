@@ -38,7 +38,10 @@ v části :ref:`ead_item_types_overview`.
   prvky-popisu/podm-pristupu.rst
   prvky-popisu/fyz-stav.rst
   prvky-popisu/ident-predlohy.rst
+  prvky-popisu/odkazy.rst
   prvky-popisu/ex-kopii-jp.rst
   prvky-popisu/poznamka-sluzebni.rst
   prvky-popisu/poznamka-verejna.rst
-
+  prvky-popisu/zpracovatel.rst
+  prvky-popisu/prav-zprac.rst
+  prvky-popisu/datum-zprac.rst

@@ -59,7 +59,7 @@ Univerzální prvky popisu
    * - 4.5.1 Identifikace předlohy kopie
      - :ref:`ead_item_types_indent_predl`
    * - 4.5.2 Odkazy na příbuzné dokumenty, archiválie a pomůcky pro vyhledávání
-     - 
+     - :ref:`ead_item_types_odkazy`
    * - 4.5.3 Existence kopií jednotky popisu
      - :ref:`ead_item_types_ex_kopii`
    * - 4.6.1 Služební poznámka
@@ -67,11 +67,11 @@ Univerzální prvky popisu
    * - 4.6.2 Veřejná poznámka
      - :ref:`ead_item_types_poznamka_verejna`
    * - 4.7.1 Zpracovatel jednotky popisu
-     - 
+     - :ref:`ead_item_types_zpracovatel`
    * - 4.7.2 Pravidla zpracování jednotky popisu
-     - 
+     - :ref:`ead_item_types_prav_zprac`
    * - 4.7.3 Datum (data) popisu
-     - 
+     - :ref:`ead_item_types_datum_zprac`
 
 
 
@@ -101,11 +101,11 @@ Rozšířený popis archiválií
    * - 5.2.8 Technika, adjustace, nosič a látka záznamu
      - :ref:`ead_item_types_technika`
    * - 5.2.9 Díl, část, pořadí vydání jednotky popisu
-     - 
+     - :ref:`ead_item_types_dil`
    * - 5.2.10 Jazyk, písmo
      - :ref:`ead_item_types_langs`
    * - 5.2.11 Edice a literatura
-     - 
+     - :ref:`ead_item_types_bibref`
    * - 5.2.12 Druh archiválie
      - :ref:`ead_item_types_druharch`
    * - 5.3.1 Role entit ve vztahu k listině

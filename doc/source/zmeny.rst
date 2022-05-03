@@ -65,4 +65,8 @@ Duben 2022
  * přidání prvku popisu: :ref:`ead_item_types_corroboratio`
  * přidání prvku popisu: :ref:`ead_item_types_pocet_otisku`
  * přidání prvku popisu: :ref:`ead_item_types_poradi_otisku`
-  
+ * přidání prvku popisu: :ref:`ead_item_types_dil`
+ * přidání prvku popisu: :ref:`ead_item_types_odkazy`
+ * přidání prvku popisu: :ref:`ead_item_types_bibref`
+ead_item_types_prav_zprac
+ead_item_types_datum_zprac

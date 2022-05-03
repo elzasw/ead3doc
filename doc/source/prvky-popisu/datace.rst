@@ -4,7 +4,10 @@
 Datace vzniku jednotky popisu
 ==============================
 
-Další popis viz: ZP4.2.5 Datace vzniku jednotky popisu - strojově čitelný
+Další popis viz: 
+ - ZP 4.2.5 Datace vzniku jednotky popisu - strojově čitelný
+ - ISAD 3.1.3 Datace
+
 
 Datace vzniku jednotky popisu se zapisuje pomocí elementu 
 `<unitdatestructured> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdatestructured>`_,

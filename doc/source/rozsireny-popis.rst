@@ -25,5 +25,7 @@ Základní prvky popisu jsou uvedeny v :ref:`ead_item_types`.
   rozsireny-popis/souradnice.rst
   rozsireny-popis/orientace.rst
   rozsireny-popis/technika.rst
+  rozsireny-popis/dil.rst
   rozsireny-popis/jazyk.rst
+  rozsireny-popis/literatura.rst
   rozsireny-popis/legenda.rst

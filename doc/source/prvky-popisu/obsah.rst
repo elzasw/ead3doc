@@ -4,7 +4,11 @@
 Obsah, regest
 =================
 
-Další popis viz: ZP4.2.3 Obsah, regest
+Další popis viz: 
+
+ - ZP 4.2.3 Obsah, regest
+ - ISAD 3.1.2 Název (obsah)
+
 
 Obsah, regest se uvádí v elementu `<unittitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittitle>`_
 Zapisuje jako prostý text.

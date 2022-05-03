@@ -13,6 +13,7 @@ s hodnotou atributů:
  - ``physdescstructuredtype="spaceoccupied"``
  - ``coverage="whole"``
 
+
 Povinně se uvádějí podřízené elementy:
 
  - `<quantity> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-quantity>`_ - obsahuje množství
