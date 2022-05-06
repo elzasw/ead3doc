@@ -13,6 +13,8 @@ Další popis viz:
 Obsah, regest se uvádí v elementu `<unittitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittitle>`_
 Zapisuje jako prostý text.
 
+Prvek umožňuje :ref:`ead_archdesc_multilang`.
+
 
 Příklad:
 ===========

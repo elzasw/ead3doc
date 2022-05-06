@@ -14,6 +14,7 @@ se uvádí v elementu `<scopecontent> <https://loc.gov/ead/EAD3taglib/EAD3-TL-en
 s vnořeným jedním elementem 
 `<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
 
+Prvek umožňuje :ref:`ead_archdesc_multilang`.
 
 
 Příklad

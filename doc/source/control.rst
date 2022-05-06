@@ -68,6 +68,7 @@ Atribut :token:`encodinganalog` povinně obsahuje číslo archivního souboru.
 Část je dále určena pro uložení informací nacházejících se na titulním listu,
 v úvodu a tiráži archivní pomůcky. Podrobněji viz :ref:`ead_faintro`.
 
+.. _ead_control_localcontrol:
 
 control/localcontrol
 ----------------------
@@ -130,8 +131,10 @@ Příklad - jméno, číslo a druh archivní pomůcky:
 control/maintenanceagency
 -----------------------------
 
-Část umožňuje definovat instituci, která archivní pomůcku vytvořila. Uvádí
-se identifikátor archivu z číselníku PEvA a jméno archivu.
+Část umožňuje definovat instituci, která archivní pomůcku vytvořila. 
+Uvádí se identifikátor archivu z registru institucí (archivů) národního portálu 
+(hodnota externího identifikátoru číslo archivu ze systému CAM) číselníku PEvA 
+a jméno archivu.
 
 Element `agencycode <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agencycode>`_ obsahuje kód archivu
 a atribut `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_

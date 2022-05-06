@@ -18,8 +18,7 @@ nezávisle na způsobu jeho tvorby.
    :glob:
    :caption: Obsah
 
-   zmeny.rst
-   struktura.rst
+   uvod.rst
    control.rst
    archdesc.rst
    uvod-pomucky.rst

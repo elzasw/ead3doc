@@ -68,5 +68,7 @@ Duben 2022
  * přidání prvku popisu: :ref:`ead_item_types_dil`
  * přidání prvku popisu: :ref:`ead_item_types_odkazy`
  * přidání prvku popisu: :ref:`ead_item_types_bibref`
-ead_item_types_prav_zprac
-ead_item_types_datum_zprac
+ * přidání prvku popisu: :ref:`ead_item_types_zpracovatel`
+ * přidání prvku popisu: :ref:`ead_item_types_prav_zprac`
+ * přidání prvku popisu: :ref:`ead_item_types_datum_zprac`
+ * nová podkapitola: :ref:`ead_archdesc_multilang`
