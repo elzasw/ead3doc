@@ -17,4 +17,6 @@ na dané úrovni nelze určit je element ponechán prázdný.
 Element je součástí :ref:`charakteristiky jednotky popisu <ead_jp_char>`. 
 Hodnota se uvádí v kontextu souvisejících hodnot.
 
+Celkové počty evidenčních jednotek se uvádějí dle :ref:`ead_archdesc_physdescstruct`.
+
 Příklady viz: :ref:`ead_item_types_druharch_sample`.
