@@ -12,14 +12,15 @@ Referenční označení se uloží do elementu `<unitid> <http://www.loc.gov/ead
 Způsob uložení je shodný se způsobem uložení prvku :ref:`ead_item_types_jinaozn`.
 Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 
 s hodnotou ``REFERENCNI_OZNACENI`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_ 
-s hodnotou ``ref. ozn.``.
+s hodnotou ``referenční označení``.
 
 
 Příklad:
 
 .. code-block:: xml
 
-  <ead:unitid localtype="REFERENCNI_OZNACENI" label="ref. ozn.">1/4//1</ead:unitid>
+  <ead:unitid localtype="REFERENCNI_OZNACENI" 
+              label="referenční označení">1/4//1</ead:unitid>
 
 
 .. _ead_item_types_unitid_porc:
@@ -31,13 +32,14 @@ Pořadové číslo lze uvádět pro všechny typy pomůcek. Uvádí se shodným
 způsobem jako prvek popisu :ref:`ead_item_types_jinaozn`.
 Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 
 s hodnotou ``PORADOVE_CISLO`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_ 
-s hodnotou ``poř. č.``.
+s hodnotou ``pořadové číslo``.
 
 Příklad:
 
 .. code-block:: xml
 
-  <ead:unitid localtype="PORADOVE_CISLO" label="poř. č.">63</ead:unitid>
+  <ead:unitid localtype="PORADOVE_CISLO" 
+              label="pořadové číslo">63</ead:unitid>
 
 
 .. _ead_item_types_inv_cislo:

@@ -61,8 +61,11 @@ control/filedesc
 
 Element `control/filedesc <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-filedesc>`_ obsahuje základní převážně bibliografické informace 
 o archivní pomůcce v souboru uložené. Povinně obsahuje podřízený element `titlestmt <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-titlestmt>`_,
-kde je uvedeno jméno archivního souboru (element `<titleproper> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-titleproper>`_) a
-jméno archivní pomůcky (element `<subtitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subtitle>`_).
+kde je uvedeno jméno archivního souboru (element `<titleproper> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-titleproper>`_).
+Pokud se jedná o předání dokončené archivní pomůcky uvede se její název povinně pomocí 
+elementu `<subtitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subtitle>`_. 
+V ostatních případech se element `<subtitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subtitle>`_
+uvádí volitelně a obsahuje uživatelské pojmenování zapsaného archivního popisu.
 
 Atribut `encodinganalog <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_
 povinně obsahuje číslo archivního souboru ze základní evidence Národního archivního dědictví.
@@ -70,6 +73,45 @@ povinně obsahuje číslo archivního souboru ze základní evidence Národního
 
 Část je dále určena pro uložení informací nacházejících se na titulním listu,
 v úvodu a tiráži archivní pomůcky. Podrobněji viz :ref:`ead_faintro`.
+
+
+.. _ead_control_maintenancestatus:
+
+control/maintenancestatus
+-----------------------------
+
+Povinný element `<maintenancestatus> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenancestatus>`_ 
+obsahuje informaci o stavu publikace archivní pomůcky. Pro archivní popis
+vzniklý exportem z pořádacích aplikací se uvede atribut ``value="DERIVED"``.
+
+
+.. _ead_control_maintenanceagency:
+
+control/maintenanceagency
+-----------------------------
+
+Element `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
+je určen k zápisu instituce, která archivní pomůcku vytvořila. 
+Uvádí se identifikátor archivu z registru institucí (archivů) národního portálu 
+(hodnota externího identifikátoru číslo archivu ze systému CAM) 
+a jméno archivu. Na úrovni elementu `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
+se uvádí povinně atribut ``countrycode="CZ"``.
+
+Element `agencycode <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agencycode>`_ obsahuje kód archivu
+a atribut `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+s hodnotou ``CZ_MVCR_INSTITUTION_ID``.
+
+Příklad:
+
+.. code-block:: xml
+
+  <ead:maintenanceagency countrycode="CZ">
+    <!-- Identifikátor z číselníku archivů -->
+    <ead:agencycode localtype="CZ_MVCR_INSTITUTION_ID">225101010</ead:agencycode>
+    <!-- Jméno archivu -->
+    <ead:agencyname>Státní okresní archiv Hradec Králové</ead:agencyname>
+  </ead:maintenanceagency>
+
 
 .. _ead_control_localcontrol:
 
@@ -144,33 +186,6 @@ Příklad - jméno, číslo a druh archivní pomůcky:
   </ead:control>
 
 
-.. _ead_control_maintenanceagency:
-
-control/maintenanceagency
------------------------------
-
-Element `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
-je určen k zápisu instituce, která archivní pomůcku vytvořila. 
-Uvádí se identifikátor archivu z registru institucí (archivů) národního portálu 
-(hodnota externího identifikátoru číslo archivu ze systému CAM) 
-a jméno archivu. Na úrovni elementu `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
-se uvádí povinně atribut ``countrycode="CZ"``.
-
-Element `agencycode <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agencycode>`_ obsahuje kód archivu
-a atribut `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
-s hodnotou ``CZ_MVCR_INSTITUTION_ID``.
-
-Příklad:
-
-.. code-block:: xml
-
-  <ead:maintenanceagency countrycode="CZ">
-    <!-- Identifikátor z číselníku archivů -->
-    <ead:agencycode localtype="CZ_MVCR_INSTITUTION_ID">225101010</ead:agencycode>
-    <!-- Jméno archivu -->
-    <ead:agencyname>Státní okresní archiv Hradec Králové</ead:agencyname>
-  </ead:maintenanceagency>
-
 
 .. _ead_control_maintenancehistory:
 
@@ -196,7 +211,6 @@ dat. Povinně se uvádí elementy:
       <ead:agenttype value="machine"></ead:agenttype>
       <!-- Jméno agenta -->
       <ead:agent>ELZA 2.3.9</ead:agent>
-      <ead:eventdescription>Finding aid created.</ead:eventdescription>
     </ead:maintenanceevent>
   </ead:maintenancehistory>  
 
