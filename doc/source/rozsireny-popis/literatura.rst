@@ -24,7 +24,7 @@ Příklad
 
 .. code-block:: xml
 
-  <ead:relatedmaterial>
+  <ead:bibliography>
     <ead:p>Bellegarde, Dantes. Dessalines a parle. Port-au-Prince, 1948.Chap. IV: pp. 47-54.</ead:p>
-  </ead:relatedmaterial>
+  </ead:bibliography>
 

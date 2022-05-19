@@ -78,6 +78,8 @@ s uvedením atributu :token:`localtype="FINDING_AID_TYPE"`, vlastní hodnota se
 zapisuje do elementu `<term> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-term>`_
 doplněným o atribut :token:`identifier=` s konstantou určující typ pomůcky.
 
+Pokud se nejedná o uložení dat pomůcky, element se neuvede.
+
 Druhy pomůcek a uváděné hodnoty:
 
 ============================= ==============
@@ -99,12 +101,16 @@ pravidla.
 Pravidla a uváděné hodnoty:
 
 ================================ ==============
-Druh pomůcky                     Atribut :token:`identifier`
+Pravidla                         Atribut :token:`identifier`
 ================================ ==============
 základní pravidla z roku 1958    ``CZ_ZP1958``
 základní pravidla od roku 2013   ``CZ_ZP2013``
 ================================ ==============
 
+Druh pomůcky musí odpovídat uvedeným pravidlům dle nichž byl 
+popis vytvořen a která jsou deklarována. Například 
+prozatimní inventární seznam se vytvářel dle pravidel 
+z roku 1958.
 
 
 Příklad - jméno, číslo a druh archivní pomůcky:
@@ -128,23 +134,27 @@ Příklad - jméno, číslo a druh archivní pomůcky:
   </ead:control>
 
 
+.. _ead_control_maintenanceagency:
+
 control/maintenanceagency
 -----------------------------
 
-Část umožňuje definovat instituci, která archivní pomůcku vytvořila. 
+Element `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
+je určen k zápisu instituce, která archivní pomůcku vytvořila. 
 Uvádí se identifikátor archivu z registru institucí (archivů) národního portálu 
-(hodnota externího identifikátoru číslo archivu ze systému CAM) číselníku PEvA 
-a jméno archivu.
+(hodnota externího identifikátoru číslo archivu ze systému CAM) 
+a jméno archivu. Na úrovni elementu `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
+se uvádí povinně atribut ``countrycode="CZ"``.
 
 Element `agencycode <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agencycode>`_ obsahuje kód archivu
 a atribut `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
-s hodnotou ``CZ_MVCR_INSTITUTION_ID``
+s hodnotou ``CZ_MVCR_INSTITUTION_ID``.
 
 Příklad:
 
 .. code-block:: xml
 
-  <ead:maintenanceagency>
+  <ead:maintenanceagency countrycode="CZ">
     <!-- Identifikátor z číselníku archivů -->
     <ead:agencycode localtype="CZ_MVCR_INSTITUTION_ID">225101010</ead:agencycode>
     <!-- Jméno archivu -->

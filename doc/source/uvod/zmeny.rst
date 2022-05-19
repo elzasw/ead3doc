@@ -72,3 +72,10 @@ Duben 2022
  * přidání prvku popisu: :ref:`ead_item_types_prav_zprac`
  * přidání prvku popisu: :ref:`ead_item_types_datum_zprac`
  * nová podkapitola: :ref:`ead_archdesc_multilang`
+
+Květen 2022
+---------------
+ * oprava příkladu: :ref:`ead_item_types_bibref`
+ * přidání atributu: ``countrycode="CZ"`` do :ref:`ead_control_maintenanceagency`
+ * doplnění vztahu pravidel a typů pomůcek, :ref:`ead_control_localcontrol`
+  
