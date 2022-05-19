@@ -6,7 +6,7 @@ Tematický popis jednotky popisu
 Další popis viz: 
 
  - ZP 4.3.4 Tematický popis jednotky popisu
- - ISAD 3.3.1 Rozsah a obsah
+ - ISAD(G) 3.3.1 Rozsah a obsah
 
 
 Informace o bezprostředním zdroji příjmu archiválií, jejich výběru

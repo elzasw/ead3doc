@@ -7,7 +7,7 @@ Datum (data) popisu
 Další popis viz:
 
  - ZP 4.7.3 Datum (data) popisu
- - ISAD 3.7.3 Datum (data) popisů
+ - ISAD(G) 3.7.3 Datum (data) popisů
 
 
 Datum (data) vytvoření nebo revize popisu se uvádí v elementu 

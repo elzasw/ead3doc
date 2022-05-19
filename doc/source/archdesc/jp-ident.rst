@@ -4,7 +4,7 @@
 Identifikace jednotky popisu
 --------------------------------
 
-Každá jednotka popisu uložená v EADu by měla obsahovat svůj jednoznačný identifikátor.
+Každá jednotka popisu uložená v EADu musí obsahovat svůj jednoznačný identifikátor.
 Tento jednoznačný identifikátor slouží pro její přesné určení a identifikaci.
 Identifikátor má podobu URI a ukládá se do atributu
 `base <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-base>`_.

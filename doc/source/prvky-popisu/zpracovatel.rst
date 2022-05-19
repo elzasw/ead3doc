@@ -7,7 +7,7 @@ Zpracovatel jednotky popisu
 Další popis viz:
 
  - ZP 4.7.1 Zpracovatel jednotky popisu
- - ISAD 3.7.1 Poznámka zpracovatele
+ - ISAD(G) 3.7.1 Poznámka zpracovatele
 
 
 Informace o zpracovatelích jednotky popisu nebo autorovi popisu

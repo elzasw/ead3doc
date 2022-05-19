@@ -15,9 +15,9 @@ informací o tom, že tato pomůcka může existovat nebo bude
 v budoucnu vytvořena.
 
 
-Příklad - zachycuje nekompletně popsanou úroveň s3,
+Příklad - zachycuje nekompletně popsanou úroveň *s3*,
 informace o možných dalších pomůckách je na úrovni kořene 
-i úrovně s3k:
+i úrovně *s3*:
 
 .. code-block:: xml
 

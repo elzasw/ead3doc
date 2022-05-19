@@ -7,7 +7,7 @@ Přímý zdroj akvizice
 Další popis viz: 
 
  - ZP 4.3.5 Přímý zdroj akvizice
- - ISAD 3.2.4 Přímý zdroj akvizice
+ - ISAD(G) 3.2.4 Přímý zdroj akvizice
 
 
 Informace o bezprostředním zdroji příjmu archiválií, jejich výběru

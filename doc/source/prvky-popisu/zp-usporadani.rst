@@ -6,7 +6,7 @@ Způsob uspořádání jednotky popisu
 Další popis viz: 
 
  - ZP 4.3.3 Způsob uspořádání jednotky popisu
- - ISAD 3.3.4
+ - ISAD(G) 3.3.4
 
 
 Informace o vnitřní struktuře, uspořádání, vnitřní skartaci nebo způsobu roztřídění jednotky 

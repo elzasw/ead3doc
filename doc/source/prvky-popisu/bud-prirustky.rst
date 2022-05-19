@@ -7,7 +7,7 @@ Budoucí přírůstky
 Další popis viz: 
 
  - ZP 4.3.6 Budoucí přírůstky
- - ISAD 3.3.3 Přírůstky
+ - ISAD(G) 3.3.3 Přírůstky
 
 
 Informace o bezprostředním zdroji příjmu archiválií, jejich výběru

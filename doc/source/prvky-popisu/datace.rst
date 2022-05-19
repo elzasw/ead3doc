@@ -6,7 +6,7 @@ Datace vzniku jednotky popisu
 
 Další popis viz: 
  - ZP 4.2.5 Datace vzniku jednotky popisu - strojově čitelný
- - ISAD 3.1.3 Datace
+ - ISAD(G) 3.1.3 Datace
 
 
 Datace vzniku jednotky popisu se zapisuje pomocí elementu 

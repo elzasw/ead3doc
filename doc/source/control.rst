@@ -25,7 +25,8 @@ control/otherrecordid
 
 Pokud se EAD používá pro uložení finální pomůcky použije se povinně element 
 `<otherrecordid> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-otherrecordid>`_ pro 
-uložení jejího čísla. V atributu `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+uložení jejího čísla ze základní evidence Národního archivního dědictví. 
+V atributu `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 se uvádí ``CZ_MVCR_FINDING_AID_ID`` a jako hodnota se uvede číslo pomůcky.
 
 Příklad - archivní pomůcka číslo 426:
@@ -39,7 +40,7 @@ Příklad - archivní pomůcka číslo 426:
   </ead:control>
 
 
-Volitelně je možné přidat interní kód archivu umožňující blíže identifikovat výstup.
+Volitelně je možné přidat interní kód výstupu (např. kód revize pomůcky) umožňující blíže identifikovat výstup.
 Pro uložení interního kódu se uvádí v atributu `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 hodnota ``INTERNAL_REV_ID``.
 
@@ -63,7 +64,9 @@ o archivní pomůcce v souboru uložené. Povinně obsahuje podřízený element
 kde je uvedeno jméno archivního souboru (element `<titleproper> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-titleproper>`_) a
 jméno archivní pomůcky (element `<subtitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subtitle>`_).
 
-Atribut :token:`encodinganalog` povinně obsahuje číslo archivního souboru.
+Atribut `encodinganalog <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_
+povinně obsahuje číslo archivního souboru ze základní evidence Národního archivního dědictví.
+
 
 Část je dále určena pro uložení informací nacházejících se na titulním listu,
 v úvodu a tiráži archivní pomůcky. Podrobněji viz :ref:`ead_faintro`.
@@ -98,7 +101,12 @@ Vlastní hodnota se zapisuje do elementu `<term> <http://www.loc.gov/ead/EAD3tag
 doplněným o atribut :token:`identifier=` s konstantou určující konkrétní 
 pravidla.
 
-Pravidla a uváděné hodnoty:
+.. _ead_control_localcontrol_rules:
+
+Pravidla tvorby archivního popisu
+=====================================
+
+Tabulka povolených hodnot pro uvedení pravidel archivního popisu:
 
 ================================ ==============
 Pravidla                         Atribut :token:`identifier`
@@ -121,8 +129,10 @@ Příklad - jméno, číslo a druh archivní pomůcky:
     <ead:recordid>9dfd1217-2e59-46d8-9a59-0791d32fb31a</ead:recordid>
     <ead:otherrecordid localtype="CZ_MVCR_FINDING_AID_ID">426</ead:otherrecordid>
     <ead:filedesc encodinganalog="1612">
-      <ead:titlestmt>A. Schramm, Praha, závod Poštorná</ead:titlestmt>
-      <ead:titleproper>A. Schramm, Praha, závod Poštorná 1833-1945</ead:titleproper>
+      <ead:titlestmt>
+        <ead:titleproper>A. Schramm, Praha, závod Poštorná</ead:titleproper>
+        <ead:subtitle>A. Schramm, Praha, závod Poštorná 1833-1945</ead:subtitle>
+      </ead:titlestmt>
     </ead:filedesc>
     <ead:localcontrol localtype="FINDING_AID_TYPE">
       <ead:term identifier="INVENTAR">inventář</ead:term>

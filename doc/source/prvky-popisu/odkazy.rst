@@ -7,7 +7,7 @@ Odkazy na příbuzné dokumenty, archiválie a pomůcky pro vyhledávání
 Další popis viz:
 
  - ZP 4.5.2 Odkazy na příbuzné dokumenty, archiválie a pomůcky pro vyhledávání
- - ISAD 3.5.3 Příbuzné jednotky popisu
+ - ISAD(G) 3.5.3 Příbuzné jednotky popisu
 
 
 Důležité odkazy na jiné dokumenty, archiválie nebo evidence, které s jednotkou popisu obsahově, 

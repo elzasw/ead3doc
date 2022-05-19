@@ -4,9 +4,11 @@
 Hierarchie jednotek popisu
 ===============================
 
-Jednotky popisu jsou uloženy v kořenovém elementu
+Archivní popis je tvořen hierarchicky
+uspořádanou strukturou jednotek popisu.
+Jednotky popisu jsou uloženy pomocí elementu
 `<archdesc> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-archdesc>`_
-and sadě podřízených elementů `<c> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-c>`_.
+a sady podřízených elementů `<c> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-c>`_.
 Každý z těchto elementů musí mít vždy pevně uveden druh úrovně 
 v atributu `level= <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-level>`_.
 
@@ -29,7 +31,7 @@ jednotlivost                        ``<ead:c level="item">``
 Úroveň soubor
 ==================
 
-Úroveň archivního souboru je v kořenovém elementu
+Úroveň archivního souboru je uložena přímo v elementu
 `<archdesc> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-archdesc>`_.
 Součástí popisu archivního souboru jsou i některé prvky popisu obsahující
 informace z úvodu archivní pomůcky. Konkrétně se jedná o:

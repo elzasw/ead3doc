@@ -7,7 +7,7 @@ Edice a literatura
 Další popis viz:
 
  - ZP 5.2.11 Edice a literatura
- - ISAD 3.5.4
+ - ISAD(G) 3.5.4
 
 
 Citace zásadních zdrojů informací odborně pojednávajících o jednotce popisu (nikoli zdroj 

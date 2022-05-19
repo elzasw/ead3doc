@@ -4,7 +4,9 @@
 Počet archiválií (EJ)
 ===================================================
 
-Další popis viz: 4.2.9 Evidenční jednotka – počet
+Další popis viz: 
+
+ - ZP 4.2.9 Evidenční jednotka – počet
 
 V elementu `<quantity> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-quantity>`_
 se uvádí počet popisovaných jednotek. Obvykle odpovídá 

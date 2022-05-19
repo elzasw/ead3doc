@@ -20,13 +20,13 @@ zveřejnění příslušné jednotky popisu. Viz: :ref:`ead_item_types_accessres
 Možnosti zveřejnění jednotky popisu
 =====================================
 
-Další popis viz: 4.4.2 Možnost zveřejnění informací o jednotce popisu
+Další popis viz: ZP 4.4.2 Možnost zveřejnění informací o jednotce popisu
 
-Informace o možnosti zveřejnění, resp. omezení se volitelně přidává na úroveň 
+Informace o možnosti zveřejnění, resp. omezení, se volitelně přidává na úroveň 
 celé :ref:`jednotky popisu <ead_archdesc_hierarchy>` nebo 
 případně na úroveň jednotlivých :ref:`prvků popisu <ead_item_types>`.
-Pokud není informace uvedena je daná úroveň popisu nebo prvek popisu 
-zveřejnitelný. Pokud není celá jednotka popisu zveřejněna uplatní se toto 
+Pokud není tato informace uvedena, je daná úroveň popisu nebo prvek popisu 
+zveřejnitelný. Pokud není celá jednotka popisu zveřejněna, uplatní se toto 
 omezení automaticky i na všechny jí podřízené jednotky popisu.
 
 Omezení zveřejnění jednotky popisu se zapisuje pomocí atributu 
@@ -87,11 +87,11 @@ Informaci o zveřejnitelnosti / nezveřejnitelnosti lze uvádět u těchto prvk�
 Možnosti zveřejnění reprodukce jednotky popisu
 =================================================
 
-Další popis viz: 4.4.3 Možnost zveřejnění reprodukce jednotky popisu
+Další popis viz: ZP 4.4.3 Možnost zveřejnění reprodukce jednotky popisu
 
 Pro :ref:`digitalizáty a digitální archiválie <ead_dao>` připojené k jednotce
 popisu je možné určit, že nejsou zveřejněny. Standardně jsou napojené digitální 
-objekty považovány za zveřejněno. Na úrovni
+objekty považovány za zveřejnitelné. Na úrovni
 příslušného elementu `<dao> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dao>`_
 se uvede informace o nepřístupnosti/nezveřejnění pomocí atributu ``audience="internal"``.
 

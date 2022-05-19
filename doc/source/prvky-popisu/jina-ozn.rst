@@ -3,7 +3,10 @@
 Jiná označení
 =======================
 
-Další popis viz: 4.2.2 Jiná označení
+Další popis viz:
+
+ - ZP 4.2.2 Jiná označení
+
 
 Jiná označení se uloží do elementu `<unitid> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitid>`_.
 Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 

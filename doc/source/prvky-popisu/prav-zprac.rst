@@ -7,7 +7,7 @@ Pravidla zpracování jednotky popisu
 Další popis viz:
 
  - ZP 4.7.2 Pravidla zpracování jednotky popisu
- - ISAD 3.7.2 Pravidla nebo zásady
+ - ISAD(G) 3.7.2 Pravidla nebo zásady
 
 
 Mezinárodní, národní nebo místní pravidla a zásady, kterými se popis řídí

@@ -3,7 +3,10 @@
 Referenční označení
 =======================
 
-Další popis viz: 4.2.1 Referenční označení (Pořadové číslo pro manipulační seznam)
+Další popis viz: 
+
+ - ZP 4.2.1 Referenční označení (Pořadové číslo pro manipulační seznam)
+
 
 Referenční označení se uloží do elementu `<unitid> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitid>`_.
 Způsob uložení je shodný se způsobem uložení prvku :ref:`ead_item_types_jinaozn`.
