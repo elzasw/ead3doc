@@ -7,7 +7,7 @@
 Tento návod se předkládá za účelem vytvoření archivní pomůcky 
 nebo jakékoliv ucelené částí popisu archivního souboru 
 v digitální podobě, která umožňuje zaznamenat archivní popis podle 
-Základních pravidel pro zpracování archiválií, jednotné a přehledně 
+Základních pravidel pro zpracování archiválií, jednotně a přehledně 
 jej strukturovat a využívat pro archivní i badatelské účely 
 v softwarově nezávislém formátu jako výměnný formát mezi archivy, 
 který se používá v mezinárodním archivním prostředí.
