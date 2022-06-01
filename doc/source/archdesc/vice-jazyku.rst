@@ -9,7 +9,7 @@ způsobem je možné vytvářet paralelní archivní popis.
 Více jazykových verzí se vytváří pomocí atributu 
 `lang <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-lang>`_
 připojenému k příslušnému hlavnímu elementu daného prvku popisu.
-Hodnota atributu (druh jazyku) u více jazyčného popisu se uvádí 
+Hodnota atributu (druh jazyku) u vícejazyčného popisu se uvádí 
 shodným způsobem jako u prvku :ref:`ead_item_types_langs`.
 
 Pokud není jazyk uveden, jedná se o archivní popis v českém jazyce.
