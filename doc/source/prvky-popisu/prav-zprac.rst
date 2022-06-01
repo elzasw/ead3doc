@@ -10,7 +10,7 @@ Další popis viz:
  - ISAD(G) 3.7.2 Pravidla nebo zásady
 
 
-Mezinárodní, národní nebo místní pravidla a zásady, kterými se popis řídí
+Mezinárodní, národní nebo místní pravidla a zásady, kterými se popis řídí,
 se uvádějí v elementu `<processinfo> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-processinfo>`_
 s vnořeným jedním elementem 
 `<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_. Na úrovni 
