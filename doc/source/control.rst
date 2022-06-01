@@ -6,7 +6,7 @@
 
 Řídící část, element `<control> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-control>`_ 
 slouží k popisu metadat o archivní pomůcce, informací o času vytvoření a 
-aplikaci v níž byl export vytvořen, zachycení částí úvodu a tiráže.
+aplikaci, v níž byl export vytvořen, zachycení částí úvodu a tiráže.
 
 .. _ead_control_recordid:
 
