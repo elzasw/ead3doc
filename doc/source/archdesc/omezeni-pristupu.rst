@@ -38,7 +38,7 @@ Hodnoty atributu a jejich význam:
  * ``audience="external"`` - nepoužívá se, bez uvedení `audience <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-audience>`_ je zveřejněno
 
 Pokud má prvek popisu zveřejnitelnou i nezveřejnitelnou podoba 
-(například Obsah regest s osobními údaji a po jejich odstranění) je možné 
+(například Obsah regest s osobními údaji a po jejich odstranění), je možné 
 do exportu uložit obě hodnoty. V takovém případě bude u jednoho prvku popisu uvedena hodnota
 ``audience="internal"`` a druhý prvek popisu bude uveden bez dalšího upřesnění. 
 Všechny ostatní atributy prvků popisu musí být shodné.
