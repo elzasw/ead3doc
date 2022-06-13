@@ -30,6 +30,13 @@ Příklad:
      label="číslo jednací">2022/34-2</ead:unitid>
 
 
+Příklad pro zápis identifikátoru ze spisové služby:
+
+.. code-block:: xml
+
+  <ead:unitid localtype="JINE" 
+     label="ESS: Gordic.Ginis.MP12.X">MP12P00BTZ3Z</ead:unitid>
+
 
 .. _ead_item_types_jinaozn_tab:
 
