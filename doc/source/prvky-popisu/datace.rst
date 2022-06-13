@@ -19,8 +19,8 @@ Datace se zapisuje vždy jako interval pomocí dílčích elementů
 a `<todate> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-todate>`_.
 V atributu `standarddate <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-standarddate>`_
 se uvede strojově zpracovatelná podoba datace.
-Pokud se jedná o odhad jsou hodnoty v atributech 
-`notbefore <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-notbefore>`_
+Pokud se jedná o odhad, jsou hodnoty v atributech 
+`notbefore <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-notbefore>`_,
 resp. 
 `notafter <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-notafter>`_
 a atribut 

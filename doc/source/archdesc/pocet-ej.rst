@@ -3,7 +3,7 @@
 Počet evidenčních jednotek zpřístupněných archivní pomůckou
 =================================================================
 
-Počet evidenčních jednotek zpřístupněných archivní pomůckou. U tištěné pomůcky se uvádí se v tiráži.
+Počet evidenčních jednotek zpřístupněných archivní pomůckou. U tištěné pomůcky se uvádí v tiráži.
 
 V elektronickém exportu pomůcky se uvádí pouze v nejvyšším elementu archivního popisu, 
 tj. v `<archdesc> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-archdesc>`_.

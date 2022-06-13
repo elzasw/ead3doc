@@ -7,7 +7,7 @@ Pomůcky k části archivního souboru
 Archivní pomůcka může popisovat celý archivní soubor nebo
 jen jeho část. Pokud je popisována jen část archivního souboru 
 (jeho vybrané části), tak na nadřazených úrovních se musí 
-tato skutečnost vyznačit. Nekompletně popsané popsané 
+tato skutečnost vyznačit. Nekompletně popsané 
 úrovně popisu jsou označeny pomocí elementu 
 `<otherfindaid> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-otherfindaid>`_.
 Element neobsahuje odkaz na konkrétní jinou pomůcku, ale je 
