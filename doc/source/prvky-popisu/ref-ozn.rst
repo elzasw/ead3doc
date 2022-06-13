@@ -1,18 +1,22 @@
 .. _ead_item_types_unitid:
 
-Referenční označení
-=======================
+Označení jednotky popisu
+==========================
 
 Další popis viz: 
 
  - ZP 4.2.1 Referenční označení (Pořadové číslo pro manipulační seznam)
 
 
+Referenční označení
+--------------------
+
 Referenční označení se uloží do elementu `<unitid> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitid>`_.
 Způsob uložení je shodný se způsobem uložení prvku :ref:`ead_item_types_jinaozn`.
 Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 
 s hodnotou ``REFERENCNI_OZNACENI`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_ 
-s hodnotou ``referenční označení``.
+s hodnotou ``referenční označení``. 
+Uvádí se úplné referenční označení včetně prefixu CZ, identifikace archivu a čísla archivního souboru.
 
 
 Příklad:
@@ -20,7 +24,7 @@ Příklad:
 .. code-block:: xml
 
   <ead:unitid localtype="REFERENCNI_OZNACENI" 
-              label="referenční označení">1/4//1</ead:unitid>
+              label="referenční označení">CZ620100//153//1/4//1</ead:unitid>
 
 
 .. _ead_item_types_unitid_porc:
