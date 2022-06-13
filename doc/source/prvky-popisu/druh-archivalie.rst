@@ -148,13 +148,13 @@ Pět předmětů faleristické povahy
    </ead:physdescstructured>
 
 
-Tři neevidované jednotlivosti
+Jedna neevidovaná jednotlivost
 
 .. code-block:: xml
 
    <ead:physdescstructured physdescstructuredtype="materialtype" 
                            coverage="whole">
-     <ead:quantity>3</ead:quantity>
+     <ead:quantity>1</ead:quantity>
      <ead:unittype>item</ead:unittype>
    </ead:physdescstructured>
 
