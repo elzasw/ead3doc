@@ -56,7 +56,7 @@ Příklad - vznik mapy 2001 s datací obsahu k 31.12.1980:
 .. code-block:: xml
 
     <ead:unitdatestructured>
-    <ead:dataset>
+    <ead:dateset>
       <ead:daterange>
         <ead:fromdate standarddate="2001-10-01T00:00:00">1. října 2001</ead:fromdate>
         <ead:todate standarddate="2001-10-01T23:59:59">1. října 2001</ead:todate>
@@ -65,7 +65,7 @@ Příklad - vznik mapy 2001 s datací obsahu k 31.12.1980:
         <ead:fromdate standarddate="1980-12-31T00:00:00">31. prosince 1980</ead:fromdate>
         <ead:todate standarddate="1980-12-31T23:59:59">31. prosince 1980</ead:todate>
       </ead:daterange>
-    <ead:dataset>
+    <ead:dateset>
     </ead:unitdatestructured>
 
 
