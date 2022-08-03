@@ -70,7 +70,7 @@ Příklad
         <ead:descriptivenote>
           <ead:p>
             <ead:ref target="ap154" />
-          <ead:p>
+          </ead:p>
         </ead:descriptivenote>
       </ead:relation>
 
@@ -103,7 +103,7 @@ Preferované označení odkazované entity je vždy zaznamenáno v elementu
         <ead:descriptivenote>
           <ead:p>
             <ead:ref target="ap157" />
-          <ead:p>
+          </ead:p>
         </ead:descriptivenote>
       </ead:relation>
 
