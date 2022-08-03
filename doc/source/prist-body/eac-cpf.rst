@@ -54,9 +54,9 @@ Příklad
             <eac:preferredForm>ZP2022_SERIALIZED</eac:preferredForm>
           </eac:nameEntry>
           <eac:nameEntry>
-            <part localType="MAIN">Neruda</part>
-            <part localType="MINOR">Jan</part>
-            <part localType="DATES">1834-1891</part>
+            <eac:part localType="MAIN">Neruda</eac:part>
+            <eac:part localType="MINOR">Jan</eac:part>
+            <eac:part localType="DATES">1834-1891</eac:part>
           </eac:nameEntry>
           </eac:nameEntryParallel>
         </eac:identity>
