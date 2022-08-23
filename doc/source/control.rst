@@ -175,7 +175,7 @@ Příklad - jméno, číslo a druh archivní pomůcky:
       <ead:titlestmt>
         <!-- jméno archivního souboru -->
         <ead:titleproper>A. Schramm, Praha, závod Poštorná</ead:titleproper>
-        <!-- Název archivní pomůcky -->
+        <!-- název archivní pomůcky -->
         <ead:subtitle>A. Schramm, Praha, závod Poštorná 1833-1945</ead:subtitle>
       </ead:titlestmt>
     </ead:filedesc>
