@@ -27,6 +27,9 @@ Příklad:
 
 .. code-block:: xml
 
-   <ead:c level="series"  base="http://archdesc.nacr.cz/dids/b0f4a6e4-7b3b-4ce1-85e0-c746904ce126" >
-   ...
-   </ead:c>
+   <ead:archdesc level="fonds"  base="https://archdesc.nacr.cz/dids/c7f5a32b-6b27-4fb6-b960-4d8eb94a16c1" >
+      ....
+      <ead:c level="series"  base="http://archdesc.nacr.cz/dids/b0f4a6e4-7b3b-4ce1-85e0-c746904ce126" >
+      ...
+      </ead:c>
+   </ead:archdesc>
