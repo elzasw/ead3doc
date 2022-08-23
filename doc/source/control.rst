@@ -76,10 +76,9 @@ Příklad - archivní pomůcka k listu NAD číslo 1523:
 
   <ead:filedesc encodinganalog="1523">
     <ead:titlestmt>
-      <titleproper>Jméno archivního souboru</titleproper>
-      <subtitle>Název archivní pomůcky, 1885-1936</subtitle>
+      <ead:titleproper>Jméno archivního souboru</ead:titleproper>
+      <ead:subtitle>Název archivní pomůcky, 1885-1936</ead:subtitle>
     </ead:titlestmt>
-    ...
   </ead:filedesc>
 
 
