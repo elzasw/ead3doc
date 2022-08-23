@@ -70,6 +70,18 @@ uvádí volitelně a obsahuje uživatelské pojmenování zapsaného archivního
 Atribut `encodinganalog <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_
 povinně obsahuje číslo archivního souboru ze základní evidence Národního archivního dědictví.
 
+Příklad - archivní pomůcka k listu NAD číslo 1523:
+
+.. code-block:: xml
+
+  <ead:filedesc encodinganalog="1523">
+    <ead:titlestmt>
+      <titleproper>Jméno archivního souboru</titleproper>
+      <subtitle>Název archivní pomůcky, 1885-1936</subtitle>
+    </ead:titlestmt>
+    ...
+  </ead:filedesc>
+
 
 Část je dále určena pro uložení informací nacházejících se na titulním listu,
 v úvodu a tiráži archivní pomůcky. Podrobněji viz :ref:`ead_faintro`.
