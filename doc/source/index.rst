@@ -1,5 +1,5 @@
 ﻿=====================================
-EAD3 - profil pro archivní pomůcky
+EAD3 - český profil pro archivní pomůcky
 =====================================
 
 Pro předávání archivních pomůcek a jejich 
