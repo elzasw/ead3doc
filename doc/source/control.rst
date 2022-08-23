@@ -173,14 +173,14 @@ Příklad - jméno, číslo a druh archivní pomůcky:
     <!-- 1612 - číslo listu NAD -->
     <ead:filedesc encodinganalog="1612">
       <ead:titlestmt>
-        <!-- jméno archivního souboru -->
+        <!-- Jméno archivního souboru -->
         <ead:titleproper>A. Schramm, Praha, závod Poštorná</ead:titleproper>
-        <!-- název archivní pomůcky -->
+        <!-- Název archivní pomůcky -->
         <ead:subtitle>A. Schramm, Praha, závod Poštorná 1833-1945</ead:subtitle>
       </ead:titlestmt>
     </ead:filedesc>
     ...
-    <!-- druh pomůcky -->
+    <!-- Druh pomůcky -->
     <ead:localcontrol localtype="FINDING_AID_TYPE">
       <ead:term identifier="INVENTAR">inventář</ead:term>
     </ead:localcontrol>
