@@ -168,13 +168,19 @@ Příklad - jméno, číslo a druh archivní pomůcky:
 
   <ead:control>
     <ead:recordid>9dfd1217-2e59-46d8-9a59-0791d32fb31a</ead:recordid>
+    <!-- 426 - číslo archivní pomůcky -->
     <ead:otherrecordid localtype="CZ_MVCR_FINDING_AID_ID">426</ead:otherrecordid>
+    <!-- 1612 - číslo listu NAD -->
     <ead:filedesc encodinganalog="1612">
       <ead:titlestmt>
+        <!-- jméno archivního souboru -->
         <ead:titleproper>A. Schramm, Praha, závod Poštorná</ead:titleproper>
+        <!-- Název archivní pomůcky -->
         <ead:subtitle>A. Schramm, Praha, závod Poštorná 1833-1945</ead:subtitle>
       </ead:titlestmt>
     </ead:filedesc>
+    ...
+    <!-- druh pomůcky -->
     <ead:localcontrol localtype="FINDING_AID_TYPE">
       <ead:term identifier="INVENTAR">inventář</ead:term>
     </ead:localcontrol>
