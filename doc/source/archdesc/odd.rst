@@ -6,7 +6,7 @@
 
 Schéma umožňuje uložení nestrukturovaného úvodu starší archivní pomůcky 
 (:ref:`ead_control_localcontrol_rules`, hodnota: ``CZ_ZP1958``).
-Pro toto je určen element `<odd> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-odd>`_.
+Pro toto uložení je určen element `<odd> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-odd>`_.
 Pomocí atributu `localtype="FINDING_AID_INTRO" <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 se určí, že se jedná o nestrukturovaný úvod. Pro nové pomůcky 
 (:ref:`ead_control_localcontrol_rules`, hodnota: ``CZ_ZP2013``) se strukturovaným
