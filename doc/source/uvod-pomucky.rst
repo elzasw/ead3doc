@@ -6,7 +6,7 @@ Uložení úvodu a prvků popisu tiráže
 
 Úvod, úvodní list a tiráž archivní pomůcky jsou tvořeny
 prvky popisu. Jejich hodnoty jsou primárně zachyceny v části
-:ref:`ead_control`.
+:ref:`ead_control`. Povinně se uvádí, pokud je v souvoru uložena archivní pomůcka.
 
 Informace o publikaci pomůcky
 ===============================
@@ -36,7 +36,7 @@ pro odlišení od dalších hodnot.
 .. code-block:: xml
 
  <ead:publicationstmt>
-     <!-- Schválil archivni pomůcku -->
+     <!-- Schválil archivni pomucku -->
      <ead:p>
         <ead:name localtype="FINDING_AID_APPROVED_BY">
           <ead:part>... jméno osoby ...</ead:part>
@@ -50,7 +50,7 @@ pro odlišení od dalších hodnot.
 Datum a místo vydání
 ------------------------
 
-Datum a místo vydání jsou uloženy v samostatném bloku ``<ead:date>``.
+Datum a místo vydání archivní pomůcky jsou uloženy v samostatném bloku ``<ead:date>``.
 Atribut ``localtype="RELEASE_DATE_PLACE"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
 
@@ -102,7 +102,7 @@ pro odlišení od dalších hodnot.
 
 .. code-block:: xml
 
-    <!-- Sestavil/editor archivni pomucky --> 
+    <!-- Sestavovatel/editor archivni pomucky --> 
     <ead:p><ead:name localtype="FINDING_AID_EDITOR">
       <ead:part>Jan Novák</ead:part>
     </ead:name></ead:p>
@@ -124,7 +124,7 @@ Celý blok ``<ead:p>`` je opakovatelný a uvede se samostatně pro každého pů
 
 .. code-block:: xml
 
-    <!-- Původce v uvodu archivni pomucky -->
+    <!-- Puvodce v uvodu archivni pomucky -->
     <ead:p>
       <ead:persname localtype="ORIGINATOR" 
                     identifier="3e18c0df-6c48-4ef1-ae43-daf53d846077">
