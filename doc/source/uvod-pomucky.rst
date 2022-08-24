@@ -35,13 +35,14 @@ pro odlišení od dalších hodnot.
 
 .. code-block:: xml
 
-    <!-- Schválil archivni pomucku -->
-    <ead:p>
-      <ead:name localtype="FINDING_AID_APPROVED_BY">
-        <ead:part>... jméno osoby ...</ead:part>
-      </ead:name>
-    </ead:p>
-
+ <ead:publicationstmt>
+     <!-- Schválil archivni pomůcku -->
+     <ead:p>
+        <ead:name localtype="FINDING_AID_APPROVED_BY">
+          <ead:part>... jméno osoby ...</ead:part>
+        </ead:name>
+     </ead:p>
+ </ead:publicationstmt>
 
 .. _ead_faintro_releasedateplace:
 
