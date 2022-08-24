@@ -42,6 +42,7 @@ pro odlišení od dalších hodnot.
           <ead:part>... jméno osoby ...</ead:part>
         </ead:name>
      </ead:p>
+     ...
  </ead:publicationstmt>
 
 .. _ead_faintro_releasedateplace:
