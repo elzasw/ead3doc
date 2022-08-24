@@ -4,7 +4,7 @@
 Podmínky přístupu, práva k jednotce popisu a její reprodukci
 ==================================================================
 
-Další popis viz: ZP4.4.1 Podmínky přístupu, práva k jednotce popisu a její reprodukci
+Další popis viz: ZP 4.4.1 Podmínky přístupu, práva k jednotce popisu a její reprodukci
 
 Prvek popisu obsahuje textovou informaci a ukládá se do elementu 
 elementu `<accessrestrict> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-accessrestrict>`_.
