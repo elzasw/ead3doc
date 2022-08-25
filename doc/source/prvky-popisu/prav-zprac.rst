@@ -25,5 +25,5 @@ Příklad
 .. code-block:: xml
 
   <ead:processinfo localtype="RULES">
-    <ead:p>Dle Základní pravidla pro zpracování archiválií, vydání 2022.</ead:p>
+    <ead:p>Základní pravidla pro zpracování archiválií, vydání 2022.</ead:p>
   </ead:processinfo>
