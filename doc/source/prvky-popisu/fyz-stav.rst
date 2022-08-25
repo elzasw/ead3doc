@@ -6,7 +6,7 @@ Fyzický stav jednotky popisu a technické požadavky
 
 Další popis viz:
 
- - ZP4.4.4 Fyzický stav jednotky popisu a technické požadavky
+ - ZP 4.4.4 Fyzický stav jednotky popisu a technické požadavky
  - ISAD(G) 3.4.4
 
 Fyzický stav jednotky popisu a technické požadavky se uvádí v elementu 
