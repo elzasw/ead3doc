@@ -102,7 +102,7 @@ Textový způsob zápisu datace
 Další popis viz: ZP 4.2.5 Datace vzniku jednotky popisu - strojově čitelný
 
 Textový způsob zápisu datace se použije v případě, kdy u starší 
-pomůcky (:token:`identifier=CZ_ZP1958`) není k dispozici odpovídající strojová podoba, 
+pomůcky není k dispozici odpovídající strojová podoba, 
 případně pro reprezentaci jiné formy datace, než-li je strojová podoba 
 (jiný kalendář apod.).
 
