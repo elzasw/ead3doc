@@ -4,7 +4,7 @@
 Veřejná poznámka
 ===================================================
 
-Další popis viz: ZP4.6.2 Veřejná poznámka
+Další popis viz: ZP 4.6.2 Veřejná poznámka
 
 Veřejná poznámka se uvádí v elementu 
 `<didnote> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-didnote>`_
