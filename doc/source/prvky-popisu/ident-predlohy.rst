@@ -4,7 +4,7 @@
 Identifikace předlohy kopie
 ================================================
 
-Další popis viz: 4.5.1 Identifikace předlohy kopie
+Další popis viz: ZP 4.5.1 Identifikace předlohy kopie
 
 Identifikace předlohy kopie se zachycuje pomocí 
 elementu `<originalsloc> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-originalsloc>`_
