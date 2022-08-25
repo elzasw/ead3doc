@@ -4,7 +4,7 @@
 Formální název jednotky popisu
 ===============================
 
-Další popis viz: ZP4.2.4 Formální název jednotky popisu
+Další popis viz: ZP 4.2.4 Formální název jednotky popisu
 
 Formální název jednotky popisu se uvádí v elementu `<title> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-title>`_
 přímo umístěném v elementu `<unittitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittitle>`_
