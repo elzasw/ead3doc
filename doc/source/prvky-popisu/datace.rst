@@ -49,6 +49,17 @@ Příklad - interval 1734/1735-1776 (dolní hranice intervalu odhadem):
     </ead:daterange>
     </ead:unitdatestructured>
 
+Příklad - rok 1958 (datováno konkrétním rokem):
+
+.. code-block:: xml
+
+    <ead:unitdatestructured>
+    <ead:daterange>
+       <ead:fromdate standarddate="1958-01-01T00:00:00">1958</ead:fromdate>
+       <ead:todate standarddate="1958-12-31T23:59:59">1958</ead:todate>
+    </ead:daterange>
+    </ead:unitdatestructured>
+
 
 .. _ead_item_types_unitdatestructured_multi:
 
