@@ -3,7 +3,7 @@
 Dějiny jednotky popisu
 =========================
 
-Další popis viz: Z P4.3.2 Dějiny jednotky popisu
+Další popis viz: ZP 4.3.2 Dějiny jednotky popisu
 
 .. code-block:: xml
 
