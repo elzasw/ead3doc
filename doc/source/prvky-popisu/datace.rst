@@ -38,6 +38,17 @@ Příklad - interval 1734-1776:
     </ead:daterange>
     </ead:unitdatestructured>
 
+Příklad - interval 1734/1735-1776 (dolní hranice intervalu odhadem):
+
+.. code-block:: xml
+
+    <ead:unitdatestructured>
+    <ead:daterange>
+        <ead:fromdate notbefore="1734-01-01T00:00:00" notafter="1735-12-31T23:59:59">1734/1735</ead:fromdate>
+        <ead:todate standarddate="1776-12-31T23:59:59">1776</ead:todate>
+    </ead:daterange>
+    </ead:unitdatestructured>
+
 
 .. _ead_item_types_unitdatestructured_multi:
 
@@ -77,7 +88,7 @@ Příklad - vznik mapy 2001 s datací obsahu k 31.12.1980:
 Textový způsob zápisu datace
 ==============================
 
-Další popis viz: ZP4.2.5 Datace vzniku jednotky popisu - strojově čitelný
+Další popis viz: ZP 4.2.5 Datace vzniku jednotky popisu - strojově čitelný
 
 Textový způsob zápisu datace se použije v případě, kdy u starší 
 pomůcky není k dispozici odpovídající strojová podoba, 
