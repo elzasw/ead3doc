@@ -4,7 +4,7 @@
 Role entit
 ===================
 
-Další popis viz: 
+Další popis viz ZP: 
  - 5.3.1 Popisované role entit ve vztahu k listině
  - 5.4.1 Popisované role entit ve vztahu k úředním knihám, registraturním pomůckám a kartotékám
  - 5.5.1 Popisované role entit ve vztahu k rukopisům
