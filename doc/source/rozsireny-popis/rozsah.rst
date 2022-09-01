@@ -4,7 +4,7 @@
 Rozsah a doba trvání
 ========================
 
-Další popis viz: 5.2.4 Rozměry, hmotnost, velikost, množství
+Další popis viz: ZP 5.2.4 Rozměry, hmotnost, velikost, množství
 
 Rozsah (datový, počet kusů a další) se popisuje pomocí elementu
 `<physdescstructured> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physdescstructured>`_
@@ -66,8 +66,8 @@ Délka filmového a zvukového záznamu
 
 Další popis viz: 
 
- - 5.13.1 Délka filmového záznamu
- - 5.14.1 Délka zvukového záznamu
+ - ZP 5.13.1 Délka filmového záznamu
+ - ZP 5.14.1 Délka zvukového záznamu
 
 Délka filmového a zvukového záznamu je zapsána dle 
 definice zápisu :ref:`ead_item_types_rozsah`.
