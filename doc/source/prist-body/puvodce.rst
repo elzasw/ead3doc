@@ -4,11 +4,11 @@
 Odkaz na původce
 ===================
 
-Další popis viz: ZP4.3.1 Odkaz na původce
+Další popis viz: ZP 4.3.1 Odkaz na původce
 
 Pro uložení odkazu na původce se použije element
-`origination <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-origination>`_.
-Element obsahuje povinně atribut `localtype="ORIGINATOR"`. 
+`origination <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-origination>`_ a podřízený element (elementy) podle následující tabulky. 
+Tento podřízený elment obsahuje povinně atribut `localtype="ORIGINATOR"`. 
 Uvnitř elementu je povinně vloženým elementem 
 `ref <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_ 
 s odkazem na strukturovaný popis původce v elementu 
