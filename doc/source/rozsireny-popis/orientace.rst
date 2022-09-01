@@ -4,7 +4,7 @@
 Orientace z hlediska světových stran
 ===================================================
 
-Další popis viz: ZP5.2.7 Orientace z hlediska světových stran
+Další popis viz: ZP 5.2.7 Orientace z hlediska světových stran
 
 Orientace z hlediska světových stran se uvádí v elementu 
 `<materialspec> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-materialspec>`_
