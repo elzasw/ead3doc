@@ -9,7 +9,7 @@ pravidel, případně viz dokumentace CAM: https://cam.nacr.cz/doc/ontology/item
 Kód se uvádí vždy malými písmeny.
 
 
-Další popis viz: ZP5.2.10 Jazyk
+Další popis viz: ZP 5.2.10 Jazyk
 
 .. code-block:: xml
 
