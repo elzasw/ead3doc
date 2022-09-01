@@ -6,7 +6,7 @@ Způsob a forma dochování
 
 Další popis viz:
 
- - ZP5.2.3 Způsob a forma dochování
+ - ZP 5.2.3 Způsob a forma dochování
  - ISAD(G) 3.1.5
 
 Způsob a forma dochování se uvádí v elementu 
