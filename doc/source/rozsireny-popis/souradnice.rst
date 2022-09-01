@@ -4,7 +4,7 @@
 Souřadnice
 ===================================================
 
-Další popis viz: ZP5.2.6 Souřadnice
+Další popis viz: ZP 5.2.6 Souřadnice
 
 Souřadnice se uvádí pomocí elementu `<relation> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_
 s atributy ``relationtype = "otherrelationtype"`` a ``otherrelationtype="COORDINATES"``.
