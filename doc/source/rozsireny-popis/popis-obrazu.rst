@@ -4,7 +4,7 @@
 Popis obrazu v poli typáře či otisku
 ===================================================
 
-Další popis viz: ZP5.7.2 Popis obrazu v poli typáře či otisku
+Další popis viz: ZP 5.7.2 Popis obrazu v poli typáře či otisku
 
 Uvádí se v elementu `<physfacet> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
 s uvedením hodnoty ``localtype="IMPRINT_IMAGE"``. 
