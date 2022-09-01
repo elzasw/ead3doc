@@ -6,8 +6,8 @@ Legenda, opis, nápis, exerque
 
 Další popis viz:
 
- - ZP5.7.1 Opis, nápis, exerque
- - ZP5.11.1 Legenda
+ - ZP 5.7.1 Opis, nápis, exerque
+ - ZP 5.11.1 Legenda
 
 Uvádí se v elementu `<physfacet> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
 s uvedením hodnoty ``localtype="LEGEND"``. 
