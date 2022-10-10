@@ -38,16 +38,6 @@ Příklad - interval 1734-1776:
     </ead:daterange>
     </ead:unitdatestructured>
 
-Příklad - interval 1734/1735-1776 (dolní hranice intervalu odhadem):
-
-.. code-block:: xml
-
-    <ead:unitdatestructured>
-    <ead:daterange>
-        <ead:fromdate notbefore="1734-01-01T00:00:00" notafter="1735-12-31T23:59:59">1734/1735</ead:fromdate>
-        <ead:todate standarddate="1776-12-31T23:59:59">1776</ead:todate>
-    </ead:daterange>
-    </ead:unitdatestructured>
 
 Příklad - rok 1958 (datováno konkrétním rokem):
 
