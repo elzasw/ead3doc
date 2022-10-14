@@ -18,11 +18,8 @@ elementu `<processinfo> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-pr
 se povinně uvádí atribut ``localtype="DESCRIPTION_DATE"``.
 
 
-Příklad
-=============
-
-
 .. code-block:: xml
+  :caption: Příklad uvedení datumu vzniku popisu
 
   <ead:processinfo localtype="DESCRIPTION_DATE">
     <ead:p>1998, revize 2004</ead:p>

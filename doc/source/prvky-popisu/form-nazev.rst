@@ -11,10 +11,8 @@ přímo umístěném v elementu `<unittitle> <http://www.loc.gov/ead/EAD3taglib/
 s uvedeným atributem ``localtype="FORMAL_TITLE"``. Zapisuje se jako prostý text.
 
 
-Příklad:
-===========
-
 .. code-block:: xml
+  :caption: Příklad - Formální název jednotky popisu jako prostý text
 
   <ead:unittitle localtype="FORMAL_TITLE">
     <ead:title>Bílá nemoc</ead:title>
@@ -34,6 +32,7 @@ viz: :ref:`ead_ap_relation_other`.
 
 
 .. code-block:: xml
+  :caption: Příklad - Formální název jednotky popisu jako odkaz do rejstříku
 
       <ead:relation relationtype="resourcerelation" 
                     linktitle="autorské dílo" 

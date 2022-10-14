@@ -109,7 +109,7 @@ Preferované označení entity se povinně uvádí v elementu `<title> <http://w
 a podřízeném elementu `<part> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-part>`_.
 Strukturovaná podoba preferovaného označení a i variantních označení se uvádí v dílčích 
 elementech `<name> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-name>`_,
-resp. `<geogname> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geogname>`_
+resp. `<geogname>`_
 pro geografické entity. 
 Pokud má entita více označení uvedou se všechna známá označení seskupená
 pomocí elementu `<namegrp> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-namegrp>`_.
@@ -204,3 +204,6 @@ preferovaného označení.
        <ead:part localtype="BRIEF_DESC">statutární město ve stejnojmenném okrese</ead:part>
      </ead:subject>
    </ead:indexentry>
+
+
+.. _<geogname>: http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geogname

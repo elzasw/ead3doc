@@ -4,7 +4,8 @@
 Datace vzniku jednotky popisu
 ==============================
 
-Další popis viz: 
+Další popis viz:
+
  - ZP 4.2.5 Datace vzniku jednotky popisu - strojově čitelný
  - ISAD(G) 3.1.3 Datace
 
@@ -27,12 +28,27 @@ a atribut
 `standarddate <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-standarddate>`_ se nepoužije. Uvnitř 
 elementů se uvádí textová reprezentace datace v čitelné podobě.
 
-Příklad - interval 1734-1776:
+Na úrovni elementu `<daterange> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-daterange>`_ 
+se uvede povinně atribut `altrender <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-altrender>`_ 
+obsahující formát datace. Možnosti hodnot formátu:
+
+	- století: C
+	- rok: Y
+	- rok/měsíc: YM
+	- datum (rok/měsíc/den): D
+	- datum a čas: DT
+
+Formát datace může být zadán:
+
+	- jako jedna hodnota (např. Y)
+	- jako interval (např. Y-Y)
+
 
 .. code-block:: xml
+  :caption: Příklad - interval 1734-1776
 
     <ead:unitdatestructured>
-    <ead:daterange>
+    <ead:daterange altrender="Y-Y">
         <ead:fromdate standarddate="1734-01-01T00:00:00">1734</ead:fromdate>
         <ead:todate standarddate="1776-12-31T23:59:59">1776</ead:todate>
     </ead:daterange>
@@ -51,9 +67,8 @@ jsou tyto zabaleny v elementu:
 `<dateset> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dateset>`_.
 
 
-Příklad - vznik mapy 2001 s datací obsahu k 31.12.1980:
-
 .. code-block:: xml
+  :caption: Příklad - vznik mapy 2001 s datací obsahu k 31.12.1980
 
     <ead:unitdatestructured>
     <ead:dataset>
@@ -73,7 +88,6 @@ Příklad - vznik mapy 2001 s datací obsahu k 31.12.1980:
 
 .. _ead_item_types_unitdatestructured_text:
 
-==============================
 Textový způsob zápisu datace
 ==============================
 
@@ -87,8 +101,7 @@ případně pro reprezentaci jiné formy datace, než-li je strojová podoba
 Textová datace se zapisuje do elementu 
 `<unitdate> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdate>`_.
 
-Příklad:
-
 .. code-block:: xml
+  :caption: Příklad textového způsobu zápisu
 
     <ead:unitdate>1730-1830, s.d.</ead:unitdate>

@@ -18,11 +18,8 @@ elementu `<processinfo> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-pr
 se povinně uvádí atribut ``localtype="RULES"``.
 
 
-Příklad
-=============
-
-
 .. code-block:: xml
+  :caption: Příklad zápisu pravidel zpracování jednotky popisu
 
   <ead:processinfo localtype="RULES">
     <ead:p>Dle Základní pravidla pro zpracování archiválií, vydání 2022.</ead:p>

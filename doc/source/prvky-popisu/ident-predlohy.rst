@@ -12,11 +12,8 @@ s vnořeným jedním elementem
 `<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
 
 
-Příklad
-=============
-
-
 .. code-block:: xml
+  :caption: Příklad identifikace předlohy kopie
 
   <ead:originalsloc>
     <ead:p>Originál kroniky byl zničen v květnu roku 1945.</ead:p>

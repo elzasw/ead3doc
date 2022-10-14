@@ -78,5 +78,12 @@ Květen 2022
  * oprava příkladu: :ref:`ead_item_types_bibref`
  * přidání atributu: ``countrycode="CZ"`` do :ref:`ead_control_maintenanceagency`
  * doplnění vztahu pravidel a typů pomůcek, :ref:`ead_control_localcontrol`
- * doplněn příklad: :ref:`ead_otherfindaid
-`
+ * doplněn příklad: :ref:`ead_otherfindaid`
+
+Říjen 2022
+---------------
+ * přidání localType k: :ref:`ead_item_types_technika` - odlišení od dalších prvků popisu
+ * oprava label u :ref:`ead_item_types_inv_cislo`
+ * přidání formátu datace: :ref:`ead_item_types_unitdatestructured`
+ * upřesnění popisu: :ref:`ead_item_types_custodhist`
+ * upřesnění popisu: :ref:`ead_item_types_accessrestrict`

@@ -16,12 +16,8 @@ s vnořeným jedním elementem
 `<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
 
 
-
-
-Příklad
-=============
-
 .. code-block:: xml
+  :caption: Příklad zápisu budoucích přírůstků
 
   <ead:accruals>
     <ead:p>Část materiálu zůstává u původce a předpokládá se jeho budoucí převzetí.</ead:p>

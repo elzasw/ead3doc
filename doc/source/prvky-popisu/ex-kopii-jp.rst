@@ -12,11 +12,9 @@ s vnořeným jedním elementem
 `<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
 
 
-Příklad
-=============
-
 
 .. code-block:: xml
+  :caption: Příklad zápisu kopií jednotky popisu
 
   <ead:altformavail>
     <ead:p>Mikrofilm č. 452</ead:p>

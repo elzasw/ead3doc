@@ -14,10 +14,8 @@ Způsob a forma dochování se uvádí v elementu
 Fyzický stav se zapisuje jako prostý text.
 
 
-Příklad
-===========
-
 .. code-block:: xml
+   :caption: Příklad zápisu způsobu a formy dochování
 
    <ead:physdesc>originální vyhotovení</ead:physdesc>
 

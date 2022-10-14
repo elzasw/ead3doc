@@ -18,11 +18,8 @@ elementu `<processinfo> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-pr
 se povinně uvádí atribut ``localtype="ARCHIVIST_NOTE"``.
 
 
-Příklad
-=============
-
-
 .. code-block:: xml
+  :caption: Příklad zápisu zpracovatele jednotky popisu
 
   <ead:processinfo localtype="ARCHIVIST_NOTE">
     <ead:p>vypracoval v roce 1977 Pavel Brožka</ead:p>

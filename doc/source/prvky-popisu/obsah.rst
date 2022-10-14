@@ -15,10 +15,8 @@ Zapisuje jako prostý text.
 
 Prvek umožňuje :ref:`ead_archdesc_multilang`.
 
-
-Příklad:
-===========
-
 .. code-block:: xml
+  :caption: Příklad prvku Obsah, regest
 
   <ead:unittitle>Evidence zemědělských pozemků</ead:unittitle>
+

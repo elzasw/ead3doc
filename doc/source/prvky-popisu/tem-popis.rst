@@ -17,10 +17,8 @@ s vnořeným jedním elementem
 Prvek umožňuje :ref:`ead_archdesc_multilang`.
 
 
-Příklad
-=============
-
 .. code-block:: xml
+  :caption: Příklad zápisu tematického popisu
 
   <ead:scopecontent>
     <ead:p>... tematický popis...</ead:p>

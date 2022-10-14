@@ -56,11 +56,11 @@ Uvádí se shodným
 způsobem jako prvek popisu :ref:`ead_item_types_jinaozn`.
 Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 
 s hodnotou ``INV_CISLO`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_ 
-s hodnotou ``inv. č.``.
+s hodnotou ``inventární číslo``.
 
 Příklad:
 
 .. code-block:: xml
 
-  <ead:unitid localtype="INV_CISLO" label="inv. č.">25</ead:unitid>
+  <ead:unitid localtype="INV_CISLO" label="inventární číslo">25</ead:unitid>
 

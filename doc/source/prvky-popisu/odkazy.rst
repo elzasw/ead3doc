@@ -16,11 +16,8 @@ s vnořeným jedním elementem
 `<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
 
 
-Příklad
-=============
-
-
 .. code-block:: xml
+  :caption: Příklad zápisu odkazů na příbuzné dokumenty
 
   <ead:relatedmaterial>
     <ead:p>Eva ČAKRTOVÁ, Soupis matrik, 1584–1900. Soupis dokumentů, 1979, ev. č. 2.</ead:p>
