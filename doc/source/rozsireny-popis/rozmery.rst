@@ -4,7 +4,7 @@
 Rozměry, hmotnost, velikost, množství
 ===================================================
 
-Další popis viz: 5.2.4 Rozměry, hmotnost, velikost, množství
+Další popis viz: ZP 5.2.4 Rozměry, hmotnost, velikost, množství
 
 Uvádí se v elementu `<dimensions> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dimensions>`_,
 který je součástí :ref:`ead_jp_char`. Element je nutné uvést v kontextu souvisejících hodnot.

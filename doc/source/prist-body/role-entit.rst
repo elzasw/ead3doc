@@ -4,7 +4,7 @@
 Role entit
 ===================
 
-Další popis viz: 
+Další popis viz ZP: 
  - 5.3.1 Popisované role entit ve vztahu k listině
  - 5.4.1 Popisované role entit ve vztahu k úředním knihám, registraturním pomůckám a kartotékám
  - 5.5.1 Popisované role entit ve vztahu k rukopisům
@@ -70,7 +70,7 @@ Příklad
         <ead:descriptivenote>
           <ead:p>
             <ead:ref target="ap154" />
-          <ead:p>
+          </ead:p>
         </ead:descriptivenote>
       </ead:relation>
 
@@ -103,7 +103,7 @@ Preferované označení odkazované entity je vždy zaznamenáno v elementu
         <ead:descriptivenote>
           <ead:p>
             <ead:ref target="ap157" />
-          <ead:p>
+          </ead:p>
         </ead:descriptivenote>
       </ead:relation>
 

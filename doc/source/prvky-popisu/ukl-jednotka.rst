@@ -7,7 +7,7 @@ Ukládací jednotka a její číslo se uloží v serializované podobě (jako je
 do elementu :token:`<container>`. Hodnota není dále strukturována, tj. jedná se o jednu 
 textovou hodnotu.
 
-Další popis viz: ZP4.2.10 Ukládací jednotka a číslo
+Další popis viz: ZP 4.2.10 Ukládací jednotka a číslo
 
 Příklad:
 

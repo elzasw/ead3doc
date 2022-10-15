@@ -4,7 +4,7 @@
 Existence kopií jednotky popisu
 ===========================================
 
-Další popis viz: 4.5.3 Existence kopií jednotky popisu
+Další popis viz: ZP 4.5.3 Existence kopií jednotky popisu
 
 Informace o existenci kopií jednotek popisu se zachycuje pomocí 
 elementu `<altformavail> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-altformavail>`_

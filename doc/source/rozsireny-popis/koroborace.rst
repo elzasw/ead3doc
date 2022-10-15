@@ -4,7 +4,7 @@
 Koroborace dokumentu, k němuž byl popisovaný otisk připojen
 =============================================================
 
-Další popis viz: ZP5.7.3 Koroborace dokumentu, k němuž byl popisovaný otisk připojen
+Další popis viz: ZP 5.7.3 Koroborace dokumentu, k němuž byl popisovaný otisk připojen
 
 Uvádí se v elementu `<physfacet> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
 s uvedením hodnoty ``localtype="CORROBORATIO"``. 

@@ -4,7 +4,7 @@
 Jiné datace jednotky popisu než datace vzniku jednotky popisu
 ====================================================================
 
-Další popis viz: 5.2.1 Jiné datace jednotky popisu než datace vzniku jednotky popisu
+Další popis viz: ZP 5.2.1 Jiné datace jednotky popisu než datace vzniku jednotky popisu
 
 Jiná datace jednotky popisu se zapisuje pomocí elementu 
 `<unitdatestructured> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdatestructured>`_,

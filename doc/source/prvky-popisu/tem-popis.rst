@@ -1,5 +1,6 @@
 .. _ead_item_types_scopecontent:
 
+==================================
 Tematický popis jednotky popisu
 ==================================
 

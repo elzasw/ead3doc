@@ -51,7 +51,7 @@ takto odkazován z prvků popisu.
       <ead:index localtype="GEO">
         <ead:indexentry id="ap157">
           ...definice archivní entity...
-        <ead:indexentry>
+        </ead:indexentry>
       </ead:index>
     </ead:index>
     ...

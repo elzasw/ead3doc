@@ -5,7 +5,7 @@ Dějiny jednotky popisu
 
 Další popis viz: 
 
- - ZP4.3.2 Dějiny jednotky popisu
+ - ZP 4.3.2 Dějiny jednotky popisu
  - ISAD(G) 3.2.3
 
 

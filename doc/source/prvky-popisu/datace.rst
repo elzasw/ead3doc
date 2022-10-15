@@ -55,6 +55,18 @@ Formát datace může být zadán:
     </ead:unitdatestructured>
 
 
+Příklad - rok 1958 (datováno konkrétním rokem):
+
+.. code-block:: xml
+
+    <ead:unitdatestructured>
+    <ead:daterange>
+       <ead:fromdate standarddate="1958-01-01T00:00:00">1958</ead:fromdate>
+       <ead:todate standarddate="1958-12-31T23:59:59">1958</ead:todate>
+    </ead:daterange>
+    </ead:unitdatestructured>
+
+
 .. _ead_item_types_unitdatestructured_multi:
 
 Uvádění více datací
@@ -71,7 +83,7 @@ jsou tyto zabaleny v elementu:
   :caption: Příklad - vznik mapy 2001 s datací obsahu k 31.12.1980
 
     <ead:unitdatestructured>
-    <ead:dataset>
+    <ead:dateset>
       <ead:daterange>
         <ead:fromdate standarddate="2001-10-01T00:00:00">1. října 2001</ead:fromdate>
         <ead:todate standarddate="2001-10-01T23:59:59">1. října 2001</ead:todate>
@@ -80,7 +92,7 @@ jsou tyto zabaleny v elementu:
         <ead:fromdate standarddate="1980-12-31T00:00:00">31. prosince 1980</ead:fromdate>
         <ead:todate standarddate="1980-12-31T23:59:59">31. prosince 1980</ead:todate>
       </ead:daterange>
-    <ead:dataset>
+    <ead:dateset>
     </ead:unitdatestructured>
 
 
@@ -91,7 +103,7 @@ jsou tyto zabaleny v elementu:
 Textový způsob zápisu datace
 ==============================
 
-Další popis viz: ZP4.2.5 Datace vzniku jednotky popisu - strojově čitelný
+Další popis viz: ZP 4.2.5 Datace vzniku jednotky popisu - strojově čitelný
 
 Textový způsob zápisu datace se použije v případě, kdy u starší 
 pomůcky není k dispozici odpovídající strojová podoba, 

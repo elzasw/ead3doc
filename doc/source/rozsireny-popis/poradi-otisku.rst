@@ -4,7 +4,7 @@
 Pořadí otisku
 =============================================================
 
-Další popis viz: ZP5.7.5 Pořadí otisku
+Další popis viz: ZP 5.7.5 Pořadí otisku
 
 Uvádí se v elementu `<physfacet> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
 s uvedením hodnoty ``localtype="IMPRINT_ORDER"``. 

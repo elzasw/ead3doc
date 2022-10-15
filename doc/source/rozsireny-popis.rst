@@ -5,8 +5,8 @@ Rozšířený popis archiválií
 ============================
 
 Tato kapitola obsahuje výčet povinných i nepovinných prvků popisu specifických pro některé druhy archiválií 
-a evidenčních jednotek, archivní pomůcku katalog a pro popis vztahu korporací, fyzických osob, 
-geografických jednotek a dalších entit k jednotkám popisu. 
+a evidenčních jednotek, archivní pomůcku katalog a pro popis vztahů korporací, fyzických osob, 
+geografických objektů a dalších entit k jednotkám popisu. 
 Základní prvky popisu jsou uvedeny v :ref:`ead_item_types`.
 
 
