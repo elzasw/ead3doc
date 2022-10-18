@@ -22,3 +22,5 @@ Jedná se o prvky popisu:
  - :ref:`ead_item_types_corroboratio`
  - :ref:`ead_item_types_pocet_otisku`
  - :ref:`ead_item_types_poradi_otisku`
+ - :ref:`ead_item_types_rozmery`
+

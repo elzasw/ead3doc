@@ -10,13 +10,8 @@ Hodnota se uvádí v elementu `<materialspec> <http://www.loc.gov/ead/EAD3taglib
 s uvedeným atributem ``localtype="VOLUME"``. Zapisuje se jako prostý text.
 
 
-Příklad
-===========
-
-Informace o vydání v rámci: Ročník XII., číslo 12.
-
-
 .. code-block:: xml
+  :caption: Příklad informace o vydání v rámci: Ročník XII., číslo 12.
 
    <ead:did>
      <ead:materialspec localtype="VOLUME">Ročník XII., číslo 12.</ead:materialspec>

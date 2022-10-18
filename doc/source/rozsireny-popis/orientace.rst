@@ -12,13 +12,8 @@ s uvedeným atributem ``localtype="ORIENTATION"``.
 Orientace se zapisuje jako prostý text.
 
 
-Příklad
-===========
-
-Uvedení orientace z hlediska světových stran
-
-
 .. code-block:: xml
+   :caption: Příklad uvedení orientace z hlediska světových stran
 
    <ead:did>
       <ead:materialspec localtype="ORIENTATION">na sever</ead:materialspec>

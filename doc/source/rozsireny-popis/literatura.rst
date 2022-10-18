@@ -18,11 +18,8 @@ s vnořeným jedním elementem
 `<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
 
 
-Příklad
-=============
-
-
 .. code-block:: xml
+  :caption: Příklad uvedení literatury
 
   <ead:bibliography>
     <ead:p>Bellegarde, Dantes. Dessalines a parle. Port-au-Prince, 1948.Chap. IV: pp. 47-54.</ead:p>

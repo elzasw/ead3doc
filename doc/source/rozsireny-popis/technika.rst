@@ -13,13 +13,9 @@ Hodnota se uvádí v kontextu souvisejících hodnot.
 
 V elementu se uvádí jen textová hodnota.
 
-Příklad
-===========
-
-Neuvedený druh jednotlivosti napsaný na stroji (strojopis):
-
 
 .. code-block:: xml
+  :caption: Příklad: neuvedený druh jednotlivosti napsaný na stroji (strojopis)
 
    <ead:physdescstructured physdescstructuredtype="materialtype" 
                            coverage="whole">

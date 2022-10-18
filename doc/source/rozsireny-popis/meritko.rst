@@ -10,13 +10,9 @@ Měřítko se uvádí v elementu `<materialspec> <http://www.loc.gov/ead/EAD3tag
 s uvedeným atributem ``localtype="SCALE"``. Měřítko se zapisuje jako prostý text.
 
 
-Příklad
-===========
-
-Uvedení měřítka mapy 1:200
-
 
 .. code-block:: xml
+  :caption: Příklad uvedení měřítka mapy 1:200
 
    <ead:did>
      <ead:materialspec localtype="SCALE">1:200</ead:materialspec>
