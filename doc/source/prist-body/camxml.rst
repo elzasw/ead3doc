@@ -22,6 +22,8 @@ Identifikátor entity
 ========================
 
 Primárním identifikátorem entity je její UUID uložené v elementu ``<cam:ent>`` v atributu ``euid="..."``.
+Identifikátor uložený v atributu ``eid="..."`` je určen pro vnitřní užití exportujícího systému a neplní 
+funkci párovacího znaku.
 
 
 Identifikátor entity v CAMu
@@ -30,61 +32,84 @@ Identifikátor entity v CAMu
 Pokud je entita uložena v systému CAM je její identifikátor předán v části jiné identifikátory 
 se specifikací: ``CAM_REAL_ID``. Současně UUID entity musí být shodné s UUID ze systému CAM.
 
+
+Zajištění čitelnosti entity
+=============================
+
+Každá část exportované entity musí také obsahovat lidsky čitelnou podobě. 
+Účelem je zajištění dlouhodobé ochrany takto uložených dat a jistá míra 
+jejich samonosnosti. Pro uložení této hodnoty se využívá samostatný rozšiřující prvek 
+popisu s typem `<cam:si t="DISPLAY_NAME">`. Hodnotou prvku je čitelná podoba
+metodicky odpovídající podobě entity v systému CAM.
+
+Výjimkou je část s uložením hodnot identifikátorů, kde je uvádění čitelné 
+podoby volitelné.
+
+
 .. code-block:: xml
+   :caption: Příklad exportu entity včetně identifikátoru CAM
 
-    <cam:ent eid="90273" ens="ERS_APPROVED" ent="ARTWORK_ARTWORK" euid="a1ae089d-581b-48b4-97e7-5debb2c42794">
-      <cam:revi>
-        <cam:rid>37bdedf7-699a-4f56-a090-ceb70874429d</cam:rid>
-        <cam:usr>system</cam:usr>
-        <cam:modt>2022-07-17T06:46:33.461473</cam:modt>
-      </cam:revi>
-      <cam:prts>
-        <cam:p pid="0daaa843-532c-477e-b899-117d7888a618" t="PT_NAME">
-          <cam:itms>
-            <cam:si t="NM_MAIN" uuid="35120288-db0b-4b1a-bce7-eed8b8544748">Ohnivé léto</cam:si>
-            <cam:si t="NM_SUP_GEN" uuid="05df8716-5a48-40a3-90e5-d23584ee5d1d">film</cam:si>
-            <cam:si t="NM_SUP_CHRO" uuid="dc26546c-2f5e-493c-a76a-adf88c315e05">1939</cam:si>
-            <cam:si t="NM_AUTH" uuid="01cd66c8-9623-459b-af56-d1450ad92711">František Čáp a Václav Krška</cam:si>
-            <cam:ei s="LNG_cze" t="NM_LANG" uuid="292f04c8-088f-4b11-9875-db29aeb16fc5"/>
-          </cam:itms>
-        </cam:p>
-        <cam:p pid="ed126b0f-59a8-4488-9a2f-4fd4fce18e9e" t="PT_BODY">
-          <cam:itms>
-            <cam:si t="BRIEF_DESC" uuid="8f0798fc-55f3-4117-b37c-4bffed3ed204">celovečerní film</cam:si>
-          </cam:itms>
-        </cam:p>
-        <cam:p pid="288f5fcf-bdfe-4f43-81f9-69b0ebbfb3d6" t="PT_CRE">
-          <cam:itms>
-            <cam:ei s="CRC_RISE" t="CRE_CLASS" uuid="6008990e-8fa8-462b-b16a-87b9277019cf"/>
-            <cam:di f="1939-01-01T00:00:00" fe="false" fmt="Y" t="CRE_DATE" to="1939-12-31T23:59:59" toe="false" uuid="a0616b03-971d-4b77-9da3-11bea2bef5ca"/>
-          </cam:itms>
-        </cam:p>
-        <cam:p pid="0abb859b-c9c8-4ae2-8b59-2aeb1972b219" t="PT_NAME">
-          <cam:itms>
-            <cam:si t="NM_MAIN" uuid="09504ac3-3bf6-4e26-9a73-9d31975436b5">Fiery Summer</cam:si>
-            <cam:ei s="LNG_eng" t="NM_LANG" uuid="c044c201-07b3-4b0a-b7e9-58f89caf11d9"/>
-          </cam:itms>
-        </cam:p>
-        <cam:p pid="29875548-ad31-4cf7-90a5-e322c24627c5" t="PT_NAME">
-          <cam:itms>
-            <cam:si t="NM_MAIN" uuid="6b9e09da-505a-4f91-add3-df84114b3f62">Lodernder Sommer</cam:si>
-            <cam:ei s="LNG_ger" t="NM_LANG" uuid="5c56ad95-b088-4859-8a0a-2ad946b26fb9"/>
-          </cam:itms>
-        </cam:p>
-        <cam:p pid="9f421793-e134-4541-8722-32e2adbe2baf" t="PT_IDENT">
-          <cam:itms>
-            <cam:ei s="CAM_REAL_ID" t="IDN_TYPE" uuid="de18f907-a0a8-4eca-b332-af3c48ae7383"/>
-            <cam:si t="IDN_VALUE" uuid="fa5463c3-737b-4ed0-946c-57ce9a409b1f">83404</cam:si>
-          </cam:itms>
-        </cam:p>
-      </cam:prts>
-    </cam:ent>
-
-
-
-
-
-
-
-
+   <cam:ent eid="90273" ens="ERS_APPROVED" ent="ARTWORK_ARTWORK" euid="a1ae089d-581b-48b4-97e7-5debb2c42794">
+     <cam:revi>
+       <cam:rid>fd742012-83db-4b60-afef-670ba9406352</cam:rid>
+       <cam:usr>system</cam:usr>
+       <cam:modt>2022-07-17T06:46:33.461473</cam:modt>
+     </cam:revi>
+     <cam:prts>
+       <cam:p pid="8e6b73ce-dfca-47a1-86a9-0e1ac6e239d9" t="PT_NAME">
+         <cam:itms>
+           <cam:si t="NM_MAIN" uuid="22bfc088-33df-4d3f-8d92-79b17acfd720">Ohnivé léto</cam:si>
+           <cam:si t="NM_SUP_GEN" uuid="939c6753-12c9-4fc3-9390-d2e03cd956dd">film</cam:si>
+           <cam:si t="NM_SUP_CHRO" uuid="36498a91-8993-422a-b7e0-881ae0437e64">1939</cam:si>
+           <cam:si t="NM_AUTH" uuid="5bcd6a75-e01d-4feb-bcbe-5f002a22ad4b">František Čáp a Václav Krška</cam:si>
+           <cam:ei s="LNG_cze" t="NM_LANG" uuid="bad32995-9927-433c-8c69-744078aeb79e"/>
+         </cam:itms>
+         <cam:eits>
+           <cam:si t="DISPLAY_NAME">Ohnivé léto (František Čáp a Václav Krška : film : 1939)</cam:si>
+         </cam:eits>
+       </cam:p>
+       <cam:p pid="3c7b8571-157e-40f3-a6ec-947889df6db9" t="PT_BODY">
+         <cam:itms>
+           <cam:si t="BRIEF_DESC" uuid="0121a0e0-264b-4dd2-b549-ae319ca85501">celovečerní film</cam:si>
+         </cam:itms>
+         <cam:eits>
+           <cam:si t="DISPLAY_NAME">celovečerní film</cam:si>
+         </cam:eits>
+       </cam:p>
+       <cam:p pid="6629b495-6e1e-4fed-969a-7d2b3e7979fd" t="PT_CRE">
+         <cam:itms>
+           <cam:ei s="CRC_RISE" t="CRE_CLASS" uuid="f8cdfb30-4122-460b-ae4e-7ecd4f1d1614"/>
+           <cam:di f="1939-01-01T00:00:00" fe="false" fmt="Y" t="CRE_DATE" to="1939-12-31T23:59:59" toe="false" uuid="9cd9012f-41d6-4697-af3c-8307422617b9"/>
+         </cam:itms>
+         <cam:eits>
+           <cam:si t="DISPLAY_NAME">vznik, 1939 (autor/tvůrce: Krška, Václav (1900-1969), autor/tvůrce: Čáp, František (1913-1972))</cam:si>
+         </cam:eits>
+       </cam:p>
+       <cam:p pid="d2989cd6-d914-4f22-804c-7f5728e1c1a4" t="PT_NAME">
+         <cam:itms>
+           <cam:si t="NM_MAIN" uuid="100e9f74-723d-449d-ac2e-72d57b3e0508">Fiery Summer</cam:si>
+           <cam:ei s="LNG_eng" t="NM_LANG" uuid="88c229e8-4a08-423d-ab28-ee773179b762"/>
+         </cam:itms>
+         <cam:eits>
+           <cam:si t="DISPLAY_NAME">Fiery Summer</cam:si>
+         </cam:eits>
+       </cam:p>
+       <cam:p pid="849d3585-281b-4278-9bf8-62ef318a8e6a" t="PT_NAME">
+         <cam:itms>
+           <cam:si t="NM_MAIN" uuid="d59f3a3e-aafd-46b7-a8ac-201ad628aff4">Lodernder Sommer</cam:si>
+           <cam:ei s="LNG_ger" t="NM_LANG" uuid="33095e32-1589-474d-9c53-e795873e3bc9"/>
+         </cam:itms>
+         <cam:eits>
+           <cam:si t="DISPLAY_NAME">Lodernder Sommer</cam:si>
+         </cam:eits>
+       </cam:p>
+       <cam:p pid="73d6caae-bc1f-40a8-9195-d2fc1044f99f" t="PT_IDENT">
+         <cam:itms>
+           <cam:ei s="CAM_REAL_ID" t="IDN_TYPE" uuid="49880ce8-bc76-42cd-9239-6e8c69ea3217"/>
+           <cam:si t="IDN_VALUE" uuid="de710610-209a-47de-b07b-425489d0d0ff">83404</cam:si>
+         </cam:itms>
+       </cam:p>
+     </cam:prts>
+   </cam:ent>
+  
 

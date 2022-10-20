@@ -27,6 +27,4 @@ pro systém `CAM <https://cam.nacr.cz/doc>`_.
   prist-body/puvodce.rst
   prist-body/role-entit.rst 
   prist-body/camxml.rst
-  prist-body/eac-cpf.rst
-  prist-body/rejstrik.rst
 

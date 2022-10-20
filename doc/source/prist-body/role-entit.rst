@@ -47,7 +47,7 @@ Entita z třídy CPF
 ======================
 
 Pokud je odkazovaná entita z třídy: *osoba/bytost*, *rod/rodina*, *korporace*
-či *událost* je tato zachycena dle definice v části :ref:`ead_ap_eac_cpf`. 
+či *událost* je tato zachycena dle definice v části :ref:`ead_ap_cam`. 
 Současně je povinně uveden atribut ``relationtype="cpfrelation"``.
 Odkaz na takovouto entitu je realizován pomocí elementu
 `<descriptivenote> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-descriptivenote>`_
@@ -82,7 +82,7 @@ Ostatní entity
 
 Ostatní entity jsou ze tříd *geografická entita*, 
 *dílo/výtvor* nebo *obecný pojem*. Tyto entity se uvádí vždy
-v :ref:`rejstříku entit <ead_ap_rejstrik>`.
+v :ref:`rejstříku entit <ead_ap_cam>`.
 
 Současně je povinně uveden atribut ``relationtype="resourcerelation"``.
 Odkaz na takovouto entitu je realizován pomocí elementu
