@@ -13,7 +13,7 @@ Uvnitř elementu je povinně vloženým elementem
 `ref <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_ 
 s odkazem na strukturovaný popis původce v elementu 
 `source <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_
-dle definice: :ref:`ead_ap_eac_cpf`.
+dle definice: :ref:`ead_ap_eac_cpf`. Uvnitř elementu je uveden název původce v textové podobě.
 
 
 =====================  ==============
@@ -39,7 +39,7 @@ s ID uvnitř XML ``ap154``:
       <ead:origination>
         <ead:persname localtype="ORIGINATOR">
           <ead:part>
-            <ead:ref target="ap154" />
+            <ead:ref target="ap154">Neruda, Jan (1834-1891)</ead:ref>
           </ead:part>
         </ead:persname>
       </ead:origination>

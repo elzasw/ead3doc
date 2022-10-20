@@ -87,3 +87,5 @@ Květen 2022
  * přidání formátu datace: :ref:`ead_item_types_unitdatestructured`
  * upřesnění popisu: :ref:`ead_item_types_custodhist`
  * upřesnění popisu: :ref:`ead_item_types_accessrestrict`
+ * nový způsob uložení entit, :ref:`ead_ap_cam`
+ * přidán čitelný název původce, :ref:`ead_ap_originator`

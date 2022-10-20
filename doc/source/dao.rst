@@ -63,14 +63,14 @@ digitalizátů, tyto se uvedou jako samostatné elementy typu
      <ead:unittitle>Kronika Velké Lhoty</ead:unittitle>
      <ead:dao daotype="derived" 
               identifier="edbbb43e-b574-4a8e-9311-5bbc1c5d85fc">
-        <ead:descriptivenote><ead:p>Přední desky<ead:p></ead:descriptivenote>
+        <ead:descriptivenote><ead:p>Přední desky</ead:p></ead:descriptivenote>
      </ead:dao>
      <ead:dao daotype="derived" 
               identifier="d52bc6ec-9161-4452-8db9-a4c9879b9e2c">
-        <ead:descriptivenote><ead:p>Strana 1<ead:p></ead:descriptivenote>
+        <ead:descriptivenote><ead:p>Strana 1</ead:p></ead:descriptivenote>
      </ead:dao>
      <ead:dao daotype="derived" 
               identifier="7d222613-eab1-4212-af1f-b29e71d0ec3a">
-        <ead:descriptivenote><ead:p>Strana 2<ead:p></ead:descriptivenote>
+        <ead:descriptivenote><ead:p>Strana 2</ead:p></ead:descriptivenote>
      </ead:dao>
    </ead:did>

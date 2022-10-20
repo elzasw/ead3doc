@@ -17,18 +17,16 @@ Přístupové body a původci se popisují pomocí elementů:
 Součástí přístupového bodu je vždy jeho preferované
 označení a identifikátor původce platný v rámci archivu.
 
-Přístupové body třídy osoba/bytost, rod/rodina, korporace a událost 
-jsou strukturovaně popsány pomocí standardu `EAC CPF <https://eac.staatsbibliothek-berlin.de/>`_, 
-resp. dle definice užití: :ref:`ead_ap_eac_cpf`. Přístupové 
-body tříd geografická entita, dílo/výtvor a obecný pojem 
-jsou uloženy formou :ref:`rejstříku <ead_ap_rejstrik>`.
+Přístupové body jsou strukturovaně popsány pomocí standardu 
+pro systém `CAM <https://cam.nacr.cz/doc>`_.
 
 
 .. toctree::
   :includehidden:
   
   prist-body/puvodce.rst
-  prist-body/role-entit.rst  
+  prist-body/role-entit.rst 
+  prist-body/camxml.rst
   prist-body/eac-cpf.rst
   prist-body/rejstrik.rst
 

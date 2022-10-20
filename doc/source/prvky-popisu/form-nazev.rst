@@ -41,7 +41,7 @@ viz: :ref:`ead_ap_relation_other`.
         <ead:descriptivenote>
           <ead:p>
             <ead:ref target="ap157" />
-          <ead:p>
+          </ead:p>
         </ead:descriptivenote>
       </ead:relation>
 

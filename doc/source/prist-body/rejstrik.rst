@@ -1,8 +1,8 @@
 .. _ead_ap_rejstrik:
 
-===================
-Ostatní entity
-===================
+==============================
+Zastaralé - Ostatní entity
+==============================
 
 Entity tříd *geografická entita*, 
 *dílo/výtvor* nebo *obecný pojem* se ukládají formou

@@ -1,8 +1,8 @@
 .. _ead_ap_eac_cpf:
 
-===================
-Profil EAC-CPF
-===================
+===============================
+Zastaralé - Profil EAC-CPF
+===============================
 
 Standard `EAC CPF <https://eac.staatsbibliothek-berlin.de/>`_
 je určen pro popis archivních entit tříd *osoba/bytost*, *rod/rodina*

@@ -52,7 +52,7 @@ Současně je povinně uveden atribut ``relationtype="cpfrelation"``.
 Odkaz na takovouto entitu je realizován pomocí elementu
 `<descriptivenote> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-descriptivenote>`_
 obsahující jeden element `<p> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_
-s odkazem `<ref> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_ na entitu.
+s odkazem `<ptr> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ptr>`_ na entitu.
 
 Preferované označení odkazované entity je vždy zaznamenáno v elementu 
 `<relationentry> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_.
@@ -69,7 +69,7 @@ Příklad
         <ead:relationentry>Neruda, Jan (1834-1891)</ead:relationentry>
         <ead:descriptivenote>
           <ead:p>
-            <ead:ref target="ap154" />
+            <ead:ptr target="ap154" />
           </ead:p>
         </ead:descriptivenote>
       </ead:relation>
@@ -88,7 +88,7 @@ Současně je povinně uveden atribut ``relationtype="resourcerelation"``.
 Odkaz na takovouto entitu je realizován pomocí elementu
 `<descriptivenote> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-descriptivenote>`_
 obsahující jeden element `<p> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_
-s odkazem `<ref> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_ na entitu.
+s odkazem `<ptr> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ptr>`_ na entitu.
 
 Preferované označení odkazované entity je vždy zaznamenáno v elementu 
 `<relationentry> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_.
