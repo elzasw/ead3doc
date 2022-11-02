@@ -45,6 +45,7 @@ pro odlišení od dalších hodnot.
      ...
  </ead:publicationstmt>
 
+
 .. _ead_faintro_releasedateplace:
 
 Datum a místo vydání
@@ -56,8 +57,12 @@ pro odlišení od dalších hodnot.
 
 .. code-block:: xml
 
+ <ead:publicationstmt>
+    ...
     <!-- Datum a misto vydani  --> 
     <ead:date localtype="RELEASE_DATE_PLACE">V Praze 25.8.2020</ead:date>
+    ...
+ </ead:publicationstmt>
 
 
 .. _ead_faintro_descdate:
@@ -71,8 +76,12 @@ pro odlišení od dalších hodnot.
 
 .. code-block:: xml
 
+ <ead:publicationstmt>
+    ...
     <!-- Datum (data) popisu --> 
     <ead:date localtype="DESCRIPTION_DATE">leden - květen 2020</ead:date>
+    ...
+ </ead:publicationstmt>
 
 
 .. _ead_faintro_fadate:
@@ -86,8 +95,12 @@ pro odlišení od dalších hodnot.
 
 .. code-block:: xml
 
+ <ead:publicationstmt>
+    ...
     <!-- Datum zachyceneho stavu --> 
     <ead:date localtype="FINDING_AID_DATE">1.4.2020</ead:date>
+    ...
+ </ead:publicationstmt>
 
 
 .. _ead_faintro_faeditor:
@@ -102,10 +115,14 @@ pro odlišení od dalších hodnot.
 
 .. code-block:: xml
 
+ <ead:publicationstmt>
+    ...
     <!-- Sestavovatel/editor archivni pomucky --> 
     <ead:p><ead:name localtype="FINDING_AID_EDITOR">
       <ead:part>Jan Novák</ead:part>
     </ead:name></ead:p>
+    ...
+ </ead:publicationstmt>
 
 
 .. _ead_faintro_originator:
@@ -124,13 +141,16 @@ Celý blok ``<ead:p>`` je opakovatelný a uvede se samostatně pro každého pů
 
 .. code-block:: xml
 
+ <ead:publicationstmt>
+    ...
     <!-- Puvodce v uvodu archivni pomucky -->
     <ead:p>
-      <ead:persname localtype="ORIGINATOR" 
-                    identifier="3e18c0df-6c48-4ef1-ae43-daf53d846077">
-        <ead:part>... jméno osoby ...</ead:part>
+      <ead:persname localtype="ORIGINATOR">
+        <ead:part><ead:ref target="ap7523">Neruda, Jan (1834-1891)</ead:ref></ead:part>
       </ead:persname>
     </ead:p>
+    ...
+ </ead:publicationstmt>
 
 
 .. _ead_faintro_arranger:
@@ -152,13 +172,18 @@ Celý blok ``<ead:p>`` je opakovatelný a uvede se samostatně pro každého zpr
 
 .. code-block:: xml
 
+ <ead:publicationstmt>
+    ...
     <!-- Zpracovatel v uvodu archivni pomucky --> 
     <ead:p>
-      <ead:persname localtype="ARRANGER" 
-                    identifier="76e724c0-2492-426b-b83b-2da2108b1850">
-        <ead:part>... jméno osoby ...</ead:part>
+      <ead:persname localtype="ARRANGER">
+        <ead:part>
+          <ead:ref target="ap84921">Berger, Adolf (1813-1886)</ead:ref>
+        </ead:part>
       </ead:persname>
     </ead:p>
+    ...
+ </ead:publicationstmt>
 
 
 Stručná textová informace o zpracovateli se zpravidla uvádí v tiráži
@@ -170,12 +195,16 @@ pro odlišení od dalších hodnot.
 
 .. code-block:: xml
 
+ <ead:publicationstmt>
+    ...
     <!-- Zpracovatel v tirazi archivni pomucky -->
     <ead:p>
       <ead:name localtype="ARRANGER_BRIEF">
         <ead:part>... preferované označení ...</ead:part>
       </ead:name>
     </ead:p>
+    ...
+ </ead:publicationstmt>
 
 
 Další informace z tiráže
