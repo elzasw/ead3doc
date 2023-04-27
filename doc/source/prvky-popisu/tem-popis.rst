@@ -10,7 +10,7 @@ Další popis viz:
  - ISAD(G) 3.3.1 Rozsah a obsah
 
 
-Informace o bezprostředním zdroji příjmu archiválií, jejich výběru
+Informace o obsahu, časovém a geografickém rozsahu archiválií
 se uvádí v elementu `<scopecontent> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-scopecontent>`_
 s vnořeným jedním elementem 
 `<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.

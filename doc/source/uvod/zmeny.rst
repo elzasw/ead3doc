@@ -89,3 +89,7 @@ Květen 2022
  * upřesnění popisu: :ref:`ead_item_types_accessrestrict`
  * nový způsob uložení entit, :ref:`ead_ap_cam`
  * přidán čitelný název původce, :ref:`ead_ap_originator`
+
+Duben 2023
+---------------
+* oprava popisu u: :ref:`ead_item_types_scopecontent`
