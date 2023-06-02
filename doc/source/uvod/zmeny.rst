@@ -100,3 +100,4 @@ Duben 2023
 * upřesnění uvádění pečujícího archivu a jeho názvu: :ref:`ead_control_maintenanceagency`
 * uvádění rozsahu archiválií popsaných pomůckou: :ref:`ead_faintro_rozsah_arch` a :ref:`ead_item_types_rozsah`
 * uvádění počtu zpřístupněných jednotek popisu: :ref:`ead_faintro_pocet_jp`
+* prvek popisy pro písmo: :ref:`ead_item_types_writting`

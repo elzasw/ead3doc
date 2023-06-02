@@ -103,7 +103,7 @@ Rozšířený popis archiválií
    * - 5.2.9 Díl, část, pořadí vydání jednotky popisu
      - :ref:`ead_item_types_dil`
    * - 5.2.10 Jazyk, písmo
-     - :ref:`ead_item_types_langs`
+     - :ref:`ead_item_types_langs` a :ref:`ead_item_types_writting`
    * - 5.2.11 Edice a literatura
      - :ref:`ead_item_types_bibref`
    * - 5.2.12 Druh archiválie

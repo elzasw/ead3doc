@@ -9,7 +9,12 @@ pravidel, případně viz dokumentace CAM: https://cam.nacr.cz/doc/ontology/item
 Kód se uvádí vždy malými písmeny.
 
 
-Další popis viz: ZP 5.2.10 Jazyk
+Další popis viz: ZP 5.2.10 Jazyk, písmo
+
+Prvek popisu `Jazyk, písmo` se rozepisuje do dvou elementů:
+ * Jazyk se uvádí v tomto elementu
+ * Písmo v elementu :ref:`ead_item_types_writting`
+
 
 .. code-block:: xml
 
