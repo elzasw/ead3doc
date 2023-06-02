@@ -90,10 +90,13 @@ control/maintenanceagency
 -----------------------------
 
 Element `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
-je určen k zápisu instituce, která archivní pomůcku vytvořila. 
+je určen k zápisu instituce, která pečuje o archiválie popsané pomůckou.
 Uvádí se identifikátor archivu z registru institucí (archivů) národního portálu 
 (hodnota externího identifikátoru číslo archivu ze systému CAM) 
-a jméno archivu. Na úrovni elementu `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
+a jméno archivu. Jméno archivu se uvádí primárně v podobě shodné s označením 
+v registru archivů v nezkrácené podobě.
+
+Na úrovni elementu `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
 se uvádí povinně atribut ``countrycode="CZ"``.
 
 Element `agencycode <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agencycode>`_ obsahuje kód archivu
