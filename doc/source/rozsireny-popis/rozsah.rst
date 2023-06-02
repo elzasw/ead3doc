@@ -43,6 +43,13 @@ Níže je uvedena tabulka přípustných hodnot.
      - ``sheets``
    * - trvání
      - ``s``
+   * - běžné metry (bm)
+     - ``bm``
+
+
+Rozsah *běžné metry* se uvádí pouze na kořeni archivního popisu 
+pro zápis množství archiválií popsaných archivních pomůckou, 
+viz :ref:`ead_faintro_other`.
 
 
 Příklad velikosti v byte

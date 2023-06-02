@@ -98,4 +98,5 @@ Duben 2023
 ---------------
 * požadavky na XML: :ref:`ead_xml`
 * upřesnění uvádění pečujícího archivu a jeho názvu: :ref:`ead_control_maintenanceagency`
-* 
+* uvádění rozsahu archiválií popsaných pomůckou: :ref:`ead_faintro_other` a :ref:`ead_item_types_rozsah`
+
