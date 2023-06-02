@@ -5,7 +5,7 @@ Jednotky popisu
 =======================
 
 Jednotky popisu tvoří hierarchickou strukturu a jsou uloženy 
-v elementu `<archdesc> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-archdesc>`_
+v elementu `<archdesc> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-archdesc>`_
 a jemu podřízených. Tato část je tvořena jednotkami popisu archivní pomůcky 
 a začíná vždy na úrovni archivní soubor. V každé úrovni jsou zachyceny příslušné prvky popisu. 
 Způsob uložení prvků popisu je v části :ref:`ead_item_types`.

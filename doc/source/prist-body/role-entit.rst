@@ -29,17 +29,17 @@ Další popis viz ZP:
 
 
 Pro uložení rolí entit se použije element
-`relation <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_.
-V podřízeném elementu `relationentry <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_
+`relation <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_.
+V podřízeném elementu `relationentry <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_
 se uvede preferované označení odkazované entity.
-Role entity se ukládá do atributu `linkrole <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linkrole>`_. 
+Role entity se ukládá do atributu `linkrole <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linkrole>`_. 
 Tabulka rolí je uvedena níže v části: :ref:`ead_ap_relation_roles`.
-Uživatelsky čitelné označení role se zapisuje do atributu `linktitle <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linktitle>`_.
+Uživatelsky čitelné označení role se zapisuje do atributu `linktitle <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linktitle>`_.
 Čitelné označení umožňuje uživatelům a publikačním systémům roli 
-přímo interpretovat zatímco atribut `linkrole <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linkrole>`_
+přímo interpretovat zatímco atribut `linkrole <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linkrole>`_
 ji umožňuje interpretovat strojově, zajistit překlady.
 V případě dílčí specializace role v předávajícím systému je v atributu 
-`linktitle <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linktitle>`_ možné
+`linktitle <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linktitle>`_ možné
 tuto odlišnost zachytit.
 
 

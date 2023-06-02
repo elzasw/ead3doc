@@ -6,8 +6,8 @@ Formální název jednotky popisu
 
 Další popis viz: ZP 4.2.4 Formální název jednotky popisu
 
-Formální název jednotky popisu se uvádí v elementu `<title> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-title>`_
-přímo umístěném v elementu `<unittitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittitle>`_
+Formální název jednotky popisu se uvádí v elementu `<title> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-title>`_
+přímo umístěném v elementu `<unittitle> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittitle>`_
 s uvedeným atributem ``localtype="FORMAL_TITLE"``. Zapisuje se jako prostý text.
 
 
@@ -26,7 +26,7 @@ Autorské dílo
 
 Pokud je autorské dílo v archivním popisu zachyceno odkazem na archivní entitu, 
 formální název jednotky popisu se neuvádí, ale použije se element 
-`<relation> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_, 
+`<relation> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_, 
 resp. autorské dílo je speciální rolí entity 
 viz: :ref:`ead_ap_relation_other`.
 

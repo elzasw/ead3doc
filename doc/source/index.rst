@@ -3,10 +3,10 @@ EAD3 - český profil pro archivní pomůcky
 ==========================================
 
 Pro předávání archivních pomůcek a jejich 
-částí se používá formát `EAD3 <http://www.loc.gov/ead/>`_ . 
+částí se používá formát `EAD3 <https://www.loc.gov/ead/>`_ . 
 
 Tato specifikace definuje profil/způsob použití formátu 
-`EAD3 <http://www.loc.gov/ead/>`_ 
+`EAD3 <https://www.loc.gov/ead/>`_ 
 pro archivní pomůcky. Profil umožňuje jednotným
 způsobem interpretovat archivní popis a jeho strukturu
 nezávisle na způsobu jeho tvorby.

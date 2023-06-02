@@ -4,7 +4,7 @@
 Řídící část
 ==============
 
-Řídící část, element `<control> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-control>`_ 
+Řídící část, element `<control> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-control>`_ 
 slouží k popisu metadat o archivní pomůcce, informací o času vytvoření a 
 aplikaci, v níž byl export vytvořen, zachycení částí úvodu a tiráže.
 
@@ -24,9 +24,9 @@ control/otherrecordid
 ------------------------
 
 Pokud se EAD používá pro uložení finální pomůcky použije se povinně element 
-`<otherrecordid> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-otherrecordid>`_ pro 
+`<otherrecordid> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-otherrecordid>`_ pro 
 uložení jejího čísla ze základní evidence Národního archivního dědictví. 
-V atributu `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+V atributu `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 se uvádí ``CZ_MVCR_FINDING_AID_ID`` a jako hodnota se uvede číslo pomůcky.
 
 Příklad - archivní pomůcka číslo 426:
@@ -41,7 +41,7 @@ Příklad - archivní pomůcka číslo 426:
 
 
 Volitelně je možné přidat interní kód výstupu (např. kód revize pomůcky) umožňující blíže identifikovat výstup.
-Pro uložení interního kódu se uvádí v atributu `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+Pro uložení interního kódu se uvádí v atributu `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 hodnota ``INTERNAL_REV_ID``.
 
 .. code-block:: xml
@@ -59,15 +59,15 @@ hodnota ``INTERNAL_REV_ID``.
 control/filedesc
 ---------------------
 
-Element `control/filedesc <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-filedesc>`_ obsahuje základní převážně bibliografické informace 
-o archivní pomůcce v souboru uložené. Povinně obsahuje podřízený element `titlestmt <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-titlestmt>`_,
-kde je uvedeno jméno archivního souboru (element `<titleproper> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-titleproper>`_).
+Element `control/filedesc <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-filedesc>`_ obsahuje základní převážně bibliografické informace 
+o archivní pomůcce v souboru uložené. Povinně obsahuje podřízený element `titlestmt <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-titlestmt>`_,
+kde je uvedeno jméno archivního souboru (element `<titleproper> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-titleproper>`_).
 Pokud se jedná o předání dokončené archivní pomůcky uvede se její název povinně pomocí 
-elementu `<subtitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subtitle>`_. 
-V ostatních případech se element `<subtitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subtitle>`_
+elementu `<subtitle> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subtitle>`_. 
+V ostatních případech se element `<subtitle> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subtitle>`_
 uvádí volitelně a obsahuje uživatelské pojmenování zapsaného archivního popisu.
 
-Atribut `encodinganalog <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_
+Atribut `encodinganalog <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_
 povinně obsahuje číslo archivního souboru ze základní evidence Národního archivního dědictví.
 
 Část je dále určena pro uložení informací nacházejících se na titulním listu,
@@ -79,7 +79,7 @@ v úvodu a tiráži archivní pomůcky. Podrobněji viz :ref:`ead_faintro`.
 control/maintenancestatus
 -----------------------------
 
-Povinný element `<maintenancestatus> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenancestatus>`_ 
+Povinný element `<maintenancestatus> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenancestatus>`_ 
 obsahuje informaci o stavu publikace archivní pomůcky. Pro archivní popis
 vzniklý exportem z pořádacích aplikací se uvede atribut ``value="DERIVED"``.
 
@@ -89,18 +89,18 @@ vzniklý exportem z pořádacích aplikací se uvede atribut ``value="DERIVED"``
 control/maintenanceagency
 -----------------------------
 
-Element `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
+Element `<maintenanceagency> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
 je určen k zápisu instituce, která pečuje o archiválie popsané pomůckou.
 Uvádí se identifikátor archivu z registru institucí (archivů) národního portálu 
 (hodnota externího identifikátoru číslo archivu ze systému CAM) 
 a jméno archivu. Jméno archivu se uvádí primárně v podobě shodné s označením 
 v registru archivů v nezkrácené podobě.
 
-Na úrovni elementu `<maintenanceagency> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
+Na úrovni elementu `<maintenanceagency> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-maintenanceagency>`_  
 se uvádí povinně atribut ``countrycode="CZ"``.
 
-Element `agencycode <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agencycode>`_ obsahuje kód archivu
-a atribut `localtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+Element `agencycode <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agencycode>`_ obsahuje kód archivu
+a atribut `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 s hodnotou ``CZ_MVCR_INSTITUTION_ID``.
 
 Příklad:
@@ -120,9 +120,9 @@ Příklad:
 control/localcontrol
 ----------------------
 
-Druh archivní pomůcky se uvádí v elementu `<localcontrol> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-localcontrol>`_
+Druh archivní pomůcky se uvádí v elementu `<localcontrol> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-localcontrol>`_
 s uvedením atributu :token:`localtype="FINDING_AID_TYPE"`, vlastní hodnota se 
-zapisuje do elementu `<term> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-term>`_
+zapisuje do elementu `<term> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-term>`_
 doplněným o atribut :token:`identifier=` s konstantou určující typ pomůcky.
 
 Pokud se nejedná o uložení dat pomůcky, element se neuvede.
@@ -141,7 +141,7 @@ katalog                       ``KATALOG``
 
 Pomocí shodného elementu se také uvádí informace o použitých pravidlech 
 pro zpracování archivního popisu s uvedením atributu :token:`localtype="RULES"`.
-Vlastní hodnota se zapisuje do elementu `<term> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-term>`_
+Vlastní hodnota se zapisuje do elementu `<term> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-term>`_
 doplněným o atribut :token:`identifier=` s konstantou určující konkrétní 
 pravidla.
 
@@ -203,10 +203,10 @@ control/maintenancehistory
 Povinná část je určena pro zaznamenání informací o historii instance 
 dat. Povinně se uvádí elementy:
 
- * `eventtype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-eventtype>`_ s hodnotou atributu value: ``created``
- * `eventdatetime <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-eventdatetime>`_ s časem vytvoření
- * `agenttype <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agenttype>`_ s hodnotou atributu value: ``machine``
- * `agent <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agent>`_ obsahuje jméno zdrojového systému a jeho verzi
+ * `eventtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-eventtype>`_ s hodnotou atributu value: ``created``
+ * `eventdatetime <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-eventdatetime>`_ s časem vytvoření
+ * `agenttype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agenttype>`_ s hodnotou atributu value: ``machine``
+ * `agent <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-agent>`_ obsahuje jméno zdrojového systému a jeho verzi
 
 
 .. code-block:: xml

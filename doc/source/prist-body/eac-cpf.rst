@@ -10,9 +10,9 @@ a *korporace*. V českém prostředí se navíc přidává *událost* jako
 dočasná korporace.
 
 Strukturovaně popsaná entita je uložena v elementu 
-`<objectxmlwrap> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-objectxmlwrap>`_
-v části `<control>/<sources>/<source> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_.
-Element `<source> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_ 
+`<objectxmlwrap> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-objectxmlwrap>`_
+v části `<control>/<sources>/<source> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_.
+Element `<source> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_ 
 povinně obsahuje atribut ``id="...."`` umožňující
 jeho odkazování v rámci XML dokumentu.
 

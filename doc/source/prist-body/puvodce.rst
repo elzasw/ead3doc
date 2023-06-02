@@ -7,22 +7,22 @@ Odkaz na původce
 Další popis viz: ZP 4.3.1 Odkaz na původce
 
 Pro uložení odkazu na původce se použije element
-`origination <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-origination>`_ a podřízený element (elementy) podle následující tabulky. 
+`origination <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-origination>`_ a podřízený element (elementy) podle následující tabulky. 
 Tento podřízený elment obsahuje povinně atribut `localtype="ORIGINATOR"`. 
 Uvnitř elementu je povinně vloženým elementem 
-`ref <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_ 
+`ref <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_ 
 s odkazem na strukturovaný popis původce v elementu 
-`source <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_
+`source <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_
 dle definice: :ref:`ead_ap_eac_cpf`. Uvnitř elementu je uveden název původce v textové podobě.
 
 
 =====================  ==============
 Třída                  Element
 =====================  ==============
- osoba / bytost        `persname <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-persname>`_
- rod / rodina          `famname <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-famname>`_
- korporace             `corpname <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-corpname>`_
- událost               `name <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-name>`_
+ osoba / bytost        `persname <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-persname>`_
+ rod / rodina          `famname <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-famname>`_
+ korporace             `corpname <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-corpname>`_
+ událost               `name <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-name>`_
 =====================  ==============
 
 

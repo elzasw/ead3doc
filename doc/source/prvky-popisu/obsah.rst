@@ -10,7 +10,7 @@ Další popis viz:
  - ISAD(G) 3.1.2 Název (obsah)
 
 
-Obsah, regest se uvádí v elementu `<unittitle> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittitle>`_
+Obsah, regest se uvádí v elementu `<unittitle> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittitle>`_
 Zapisuje jako prostý text.
 
 Prvek umožňuje :ref:`ead_archdesc_multilang`.

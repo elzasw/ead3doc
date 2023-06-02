@@ -16,8 +16,8 @@ s hodnotou atributů:
 
 Povinně se uvádějí podřízené elementy:
 
- - `<quantity> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-quantity>`_ - obsahuje množství
- - `<unittype> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_ - veličina
+ - `<quantity> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-quantity>`_ - obsahuje množství
+ - `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_ - veličina
 
 
 Rozměry se struktrurovaně popisují v prvku: :ref:`ead_item_types_rozmery_structured`.
@@ -30,7 +30,7 @@ Níže je uvedena tabulka přípustných hodnot.
    :header-rows: 1
 
    * - Druh informace
-     - `<unittype> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_
+     - `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_
    * - hmotnost (gramy)
      - ``g``
    * - množství (byte)

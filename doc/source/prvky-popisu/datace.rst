@@ -11,13 +11,13 @@ Další popis viz:
 
 
 Datace vzniku jednotky popisu se zapisuje pomocí elementu 
-`<unitdatestructured> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdatestructured>`_,
+`<unitdatestructured> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdatestructured>`_,
 resp. vnořeného elementu:
-`<daterange> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-daterange>`_.
+`<daterange> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-daterange>`_.
 
 Datace se zapisuje vždy jako interval pomocí dílčích elementů
-`<fromdate> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-fromdate>`_
-a `<todate> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-todate>`_.
+`<fromdate> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-fromdate>`_
+a `<todate> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-todate>`_.
 V atributu `standarddate <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-standarddate>`_
 se uvede strojově zpracovatelná podoba datace.
 Pokud se jedná o odhad, jsou hodnoty v atributech 
@@ -28,7 +28,7 @@ a atribut
 `standarddate <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-standarddate>`_ se nepoužije. Uvnitř 
 elementů se uvádí textová reprezentace datace v čitelné podobě.
 
-Na úrovni elementu `<daterange> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-daterange>`_ 
+Na úrovni elementu `<daterange> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-daterange>`_ 
 se uvede povinně atribut `altrender <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-altrender>`_ 
 obsahující formát datace. Možnosti hodnot formátu:
 
@@ -76,7 +76,7 @@ Jednotka popisu může být datována svým vznikem, ale také
 pomocí jiných datací viz: :ref:`ead_item_types_jinadatace`.
 Pokud je na jedné úrovni uvedeno více druhů datací (časových intervalů),
 jsou tyto zabaleny v elementu:
-`<dateset> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dateset>`_.
+`<dateset> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dateset>`_.
 
 
 .. code-block:: xml
@@ -111,7 +111,7 @@ případně pro reprezentaci jiné formy datace, než-li je strojová podoba
 (jiný kalendář apod.).
 
 Textová datace se zapisuje do elementu 
-`<unitdate> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdate>`_.
+`<unitdate> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdate>`_.
 
 .. code-block:: xml
   :caption: Příklad textového způsobu zápisu

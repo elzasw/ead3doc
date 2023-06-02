@@ -10,7 +10,7 @@ Další popis viz:
  - ISAD(G) 3.4.4
 
 Fyzický stav jednotky popisu a technické požadavky se uvádí v elementu 
-`<phystech> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-phystech>`_
+`<phystech> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-phystech>`_
 s vnořeným jedním elementem 
 `<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
 Fyzický stav se zapisuje jako prostý text.

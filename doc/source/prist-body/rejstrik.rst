@@ -14,11 +14,11 @@ ně odkazovat z jiných prvků popisu, zejména z prvků:
 
 
 Ostatní entity se ukládají vždy na úrovni elementu 
-`<archcdesc> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-archcdesc>`_.
-do elementu `<index> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-index>`_. 
+`<archcdesc> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-archcdesc>`_.
+do elementu `<index> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-index>`_. 
 V rámci tohoto elementu jsou definovány samostatně rejstříky 
 pro jednotlivé třídy entit pomocí podřízeného 
-elementu `<index> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-index>`_
+elementu `<index> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-index>`_
 s povinně uvedeným typem pomocí atributu `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_.
 
 .. list-table:: Druhy rejstříků
@@ -36,7 +36,7 @@ s povinně uvedeným typem pomocí atributu `localtype <https://www.loc.gov/ead/
 
 
 Jednotlivé záznamy v rejstříku se ukládají pomocí 
-elementu `<indexentry> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-indexentry>`_
+elementu `<indexentry> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-indexentry>`_
 s uvedením atributu `id <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 pro odkazování uvnitř XML dokumentu. Rejstříkový záznam je 
 takto odkazován z prvků popisu.
@@ -65,9 +65,9 @@ Identifikátory
 U každé entity se uvádí alespoň jeden nebo více identifikátorů.
 Povinně se uvádí identifikátor entity ve vnitřním systému a pokud je 
 k dispozici tak i identifikátor CAM. Pokud se uvádí jen jeden 
-identifikátor použije se přímo element `<ref> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_.
+identifikátor použije se přímo element `<ref> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_.
 V případě více identifikátorů u entity jsou tyto uvedeny 
-samostatně ve společném elementu `<ptrgrp> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ptrgrp>`_.
+samostatně ve společném elementu `<ptrgrp> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ptrgrp>`_.
 
 Druh identifikátoru je povinně uveden v atributu `linkrole <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linkrole>`_.
 
@@ -75,7 +75,7 @@ Druh identifikátoru je povinně uveden v atributu `linkrole <https://www.loc.go
 Identifikátor entity
 ===============================
 
-Identifikátor entity je uložen v elementu `<ref> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_
+Identifikátor entity je uložen v elementu `<ref> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_
 s uvedením ``linkrole="LOCAL_IDENTIFIER"``. Jedná se o trvalý lokální identifikátor 
 entity v rámci daného archivu. Hodnota identifikátoru se uvede uvnitř elementu.
 
@@ -91,7 +91,7 @@ Odkaz do CAM
 ==============
 
 Pokud je entita vedena v některé široce sdílené databázi(CAM apod.)
-uvádí se tento odkaz v elementu `<ref> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_.
+uvádí se tento odkaz v elementu `<ref> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_.
 s uvedením ``linkrole="CAM"``. Jako hodnota elementu se uvede 
 identifikátor entity v CAMu.
 
@@ -105,14 +105,14 @@ identifikátor entity v CAMu.
 Označení entity
 ===================
 
-Preferované označení entity se povinně uvádí v elementu `<title> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-title>`_
-a podřízeném elementu `<part> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-part>`_.
+Preferované označení entity se povinně uvádí v elementu `<title> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-title>`_
+a podřízeném elementu `<part> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-part>`_.
 Strukturovaná podoba preferovaného označení a i variantních označení se uvádí v dílčích 
-elementech `<name> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-name>`_,
+elementech `<name> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-name>`_,
 resp. `<geogname>`_
 pro geografické entity. 
 Pokud má entita více označení uvedou se všechna známá označení seskupená
-pomocí elementu `<namegrp> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-namegrp>`_.
+pomocí elementu `<namegrp> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-namegrp>`_.
 Preferované označení se uvede jako první.
 
 
@@ -120,8 +120,8 @@ Jazyk označení
 ---------------
 
 Jazyk v němž je označení uvedeno se zapisuje do atributu `lang <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-lang>`_
-na úrovni příslušného elementu `<name> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-name>`_,
-resp. `<geogname> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geogname>`_.
+na úrovni příslušného elementu `<name> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-name>`_,
+resp. `<geogname> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geogname>`_.
 Kód jazyku se uvádí dle definice v :ref:`ead_item_types_langs`.
 
 *Příklad*:
@@ -137,8 +137,8 @@ Kód jazyku se uvádí dle definice v :ref:`ead_item_types_langs`.
 Stručná charakteristika
 ===========================
 
-Stručná charakteristika entity se uvede v elementu `<subject> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subject>`_
-a podřízeném elementu `<part> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-part>`_.
+Stručná charakteristika entity se uvede v elementu `<subject> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-subject>`_
+a podřízeném elementu `<part> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-part>`_.
 U podřízeného elementu se uvede atribut `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 s hodnotou ``BRIEF_DESC``.
 
@@ -169,7 +169,7 @@ typu části označení:
 
 
 Souřadnice geografické entity (pokud jsou známy) jsou uvedeny 
-v elementu `<geographiccoordinates> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geographiccoordinates>`_ 
+v elementu `<geographiccoordinates> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geographiccoordinates>`_ 
 a to se shodným kódováním jako je uvedeno v :ref:`ead_item_types_souradnice_kodovani`.
 Souřadnice jsou opakovatelné a mohou vyjadřovat buď bod 
 nebo hranice příslušné entity. Souřadnice se uvádí jen u 
@@ -206,4 +206,4 @@ preferovaného označení.
    </ead:indexentry>
 
 
-.. _<geogname>: http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geogname
+.. _<geogname>: https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geogname

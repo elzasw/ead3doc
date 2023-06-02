@@ -11,8 +11,8 @@ odkazované z jednotek popisu.
 
 Přístupové body a původci se popisují pomocí elementů:
 
- - :ref:`odkaz na původce <ead_ap_originator>`: `origination <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-origination>`_
- - :ref:`role entit <ead_ap_relation>`: `relation <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_
+ - :ref:`odkaz na původce <ead_ap_originator>`: `origination <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-origination>`_
+ - :ref:`role entit <ead_ap_relation>`: `relation <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_
 
 Součástí přístupového bodu je vždy jeho preferované
 označení a identifikátor původce platný v rámci archivu.

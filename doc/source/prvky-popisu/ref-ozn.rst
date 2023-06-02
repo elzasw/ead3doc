@@ -11,7 +11,7 @@ Další popis viz:
 Referenční označení
 --------------------
 
-Referenční označení se uloží do elementu `<unitid> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitid>`_.
+Referenční označení se uloží do elementu `<unitid> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitid>`_.
 Způsob uložení je shodný se způsobem uložení prvku :ref:`ead_item_types_jinaozn`.
 Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 
 s hodnotou ``REFERENCNI_OZNACENI`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_ 

@@ -7,7 +7,7 @@ Druh archiválie
 Další popis viz: ZP 4.2.8 Evidenční jednotka – druh, ZP 5.2.12 Druh archiválie
 
 Druh archiválie vychází z evidenčních jednotek definovaných v Základních pravidlech.
-Uvádí se v elementu `<unittype> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_.
+Uvádí se v elementu `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_.
 Element je součástí :ref:`charakteristiky jednotky popisu <ead_jp_char>`. 
 Hodnota se uvádí v kontextu souvisejících hodnot.
 

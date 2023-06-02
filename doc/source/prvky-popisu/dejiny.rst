@@ -10,8 +10,8 @@ Další popis viz:
 
 
 Dějiny jednotky popisu se zapisují pomocí elementu 
-`<custodhist> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-custodhist>`_,
-resp. vnořeného elementu: `<p> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_.
+`<custodhist> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-custodhist>`_,
+resp. vnořeného elementu: `<p> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_.
 
 
 .. code-block:: xml

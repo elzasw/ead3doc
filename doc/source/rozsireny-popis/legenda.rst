@@ -9,7 +9,7 @@ Další popis viz:
  - ZP 5.7.1 Opis, nápis, exerque
  - ZP 5.11.1 Legenda
 
-Uvádí se v elementu `<physfacet> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
+Uvádí se v elementu `<physfacet> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
 s uvedením hodnoty ``localtype="LEGEND"``. 
 Element je součástí :ref:`charakteristiky jednotky popisu <ead_jp_char>`. 
 Hodnota se uvádí v kontextu souvisejících hodnot.
