@@ -7,7 +7,7 @@ Rozsah a doba trvání
 Další popis viz: ZP 5.2.4 Rozměry, hmotnost, velikost, množství
 
 Rozsah (datový, počet kusů a další) se popisuje pomocí elementu
-`<physdescstructured> <http://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physdescstructured>`_
+`<physdescstructured> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physdescstructured>`_
 s hodnotou atributů:
 
  - ``physdescstructuredtype="spaceoccupied"``
@@ -45,11 +45,13 @@ Níže je uvedena tabulka přípustných hodnot.
      - ``s``
    * - běžné metry (bm)
      - ``bm``
+   * - jednotky popisu
+     - ``desc_units``
 
 
-Rozsah *běžné metry* se uvádí pouze na kořeni archivního popisu 
-pro zápis množství archiválií popsaných archivních pomůckou, 
-viz :ref:`ead_faintro_other`.
+Rozsahy *běžné metry* a *jednotky popisu* se uvádí pouze na kořeni archivního popisu 
+pro zápis množství archiválií popsaných archivních pomůckou (viz :ref:`ead_faintro_rozsah_arch`),
+resp. pro počet zpřístupněných jednotek popisu (viz :ref:`ead_faintro_pocet_jp`).
 
 
 Příklad velikosti v byte

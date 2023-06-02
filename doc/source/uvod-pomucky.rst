@@ -206,16 +206,30 @@ pro odlišení od dalších hodnot.
     ...
  </ead:publicationstmt>
 
-.. _ead_faintro_other:
-
-Další informace z tiráže
+Počet evidenčních jednotek
 ==============================
 
 V samostatném prvku popisu :ref:`ead_archdesc_physdescstruct` se 
 uvádí počet EJ. Prvek je uveden v kořenové jednotce popisu.
+
+
+.. _ead_faintro_rozsah_arch:
+
+Rozsah zpřístupněných archiválií
+==================================
 
 Rozsah zpřístupněných archiválií pomůckou se zapisuje ve strukturované
 podobě pomocí prvku popisu :ref:`ead_item_types_rozsah`. Prvek je
 uveden v kořenové jednotce popisu. Pro vykazování rozsahu analogových 
 archiválií se jako jednotka uvádí běžné metry (``bm``), u digitálních
 archiválií se jako jednotka uvádí ``byte``.
+
+
+.. _ead_faintro_pocet_jp:
+
+Počet jednotek popisu
+=========================
+
+Počet jednotek popisu, které lze na základě archivní pomůcky zpřístupnit
+se uvádí pomocí prvku popisu :ref:`ead_item_types_rozsah`.
+Prvek je uveden v kořenové jednotce popisu.
