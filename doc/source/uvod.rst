@@ -25,12 +25,11 @@ podle Základních pravidel z roku 1958 (např. část :ref:`ead_control_localco
 
 
 
-
-
 .. toctree::
   :includehidden:
   
   uvod/vychodiska.rst
   uvod/zmeny.rst
-  uvod/struktura.rst  
+  uvod/struktura.rst
+  uvod/xml.rst
 

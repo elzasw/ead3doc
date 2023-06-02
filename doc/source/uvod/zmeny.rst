@@ -93,3 +93,7 @@ Květen 2022
 Duben 2023
 ---------------
 * oprava popisu u: :ref:`ead_item_types_scopecontent`
+
+Červen 2023
+---------------
+* požadavky na XML: :ref:`ead_xml`
