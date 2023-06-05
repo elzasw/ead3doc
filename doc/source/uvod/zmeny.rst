@@ -101,3 +101,4 @@ Duben 2023
 * uvádění rozsahu archiválií popsaných pomůckou: :ref:`ead_faintro_rozsah_arch` a :ref:`ead_item_types_rozsah`
 * uvádění počtu zpřístupněných jednotek popisu: :ref:`ead_faintro_pocet_jp`
 * prvek popisy pro písmo: :ref:`ead_item_types_writting`
+* přidání části: :ref:`ead_control_localcontrol_ead3ver`

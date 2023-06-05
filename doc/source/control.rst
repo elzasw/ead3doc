@@ -139,16 +139,16 @@ katalog                       ``KATALOG``
 ============================= ==============
 
 
+.. _ead_control_localcontrol_rules:
+
+Pravidla tvorby archivního popisu
+=====================================
+
 Pomocí shodného elementu se také uvádí informace o použitých pravidlech 
 pro zpracování archivního popisu s uvedením atributu :token:`localtype="RULES"`.
 Vlastní hodnota se zapisuje do elementu `<term> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-term>`_
 doplněným o atribut :token:`identifier=` s konstantou určující konkrétní 
 pravidla.
-
-.. _ead_control_localcontrol_rules:
-
-Pravidla tvorby archivního popisu
-=====================================
 
 Tabulka povolených hodnot pro uvedení pravidel archivního popisu:
 
@@ -190,8 +190,37 @@ Příklad - jméno, číslo a druh archivní pomůcky:
     <ead:localcontrol localtype="RULES">
       <ead:term identifier="CZ_ZP2013">základní pravidla od roku 2013</ead:term>
     </ead:localcontrol>
+    <ead:localcontrol localtype="CZ_FINDING_AID_EAD_PROFILE">
+      <ead:term identifier="CZ_EAD3_PROFILE_20230601">profil platný od června 2023</ead:term>
+    </ead:localcontrol>
     ...
   </ead:control>
+
+
+
+.. _ead_control_localcontrol_ead3ver:
+
+Verze profilu EAD
+=============================
+
+Export do formátu EAD musí odpovídat konkrétní revizi těchto pravidel.
+Uplatněná revize se zapisuje pomocí  elementu `<localcontrol> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-localcontrol>`_
+s uvedením atributu :token:`localtype="CZ_FINDING_AID_EAD_PROFILE"`.
+Každý export dle tohoto profilu musí mít uvedenu verzi profilu.
+
+Vlastní hodnota se zapisuje do elementu `<term> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-term>`_
+doplněným o atribut :token:`identifier=` s konstantou určující konkrétní 
+verzi profilu.
+
+Tabulka povolených hodnot pro verzi profilu
+
+================================ ==============
+Pravidla                         Atribut :token:`identifier`
+================================ ==============
+profil platný od června 2023     ``CZ_EAD3_PROFILE_20230601``
+================================ ==============
+
+
 
 
 
