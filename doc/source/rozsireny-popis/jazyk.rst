@@ -17,12 +17,16 @@ Prvek popisu `Jazyk, písmo` se rozepisuje do dvou elementů:
  * Jazyk se uvádí v tomto elementu
  * Písmo v elementu :ref:`ead_item_types_writting`
 
+Na úrovni každého jednotlivého uvedeného jazyka je možné uvést, zda se jedná o zděděnou 
+nebo přímo nastavenou hodnotu pomocí atributu ``altrender="inherited"`` na úrovni elementu
+`language <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-language>`_.
+
 
 .. code-block:: xml
 
   <!-- Jazyky JP -->
   <ead:langmaterial>
-      <ead:language langcode="cze">čeština</ead:language>
+      <ead:language langcode="cze" altrender="inherited">čeština</ead:language>
       <ead:language langcode="lat">latina</ead:language>
       <ead:language langcode="ger">němčina</ead:language>
   </ead:langmaterial>

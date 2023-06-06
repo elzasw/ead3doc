@@ -96,10 +96,12 @@ Duben 2023
 
 Červen 2023
 ---------------
-* požadavky na XML: :ref:`ead_xml`
+* přidání části: :ref:`ead_xml`
 * upřesnění uvádění pečujícího archivu a jeho názvu: :ref:`ead_control_maintenanceagency`
-* uvádění rozsahu archiválií popsaných pomůckou: :ref:`ead_faintro_rozsah_arch` a :ref:`ead_item_types_rozsah`
-* uvádění počtu zpřístupněných jednotek popisu: :ref:`ead_faintro_pocet_jp`
-* prvek popisy pro písmo: :ref:`ead_item_types_writting`
+* přidání prvku popisu: :ref:`ead_faintro_rozsah_arch` a upřesnění :ref:`ead_item_types_rozsah`
+* přidání prvku popisu: :ref:`ead_faintro_pocet_jp`
+* přidání prvku popisu: :ref:`ead_item_types_writting`
 * přidání části: :ref:`ead_control_localcontrol_ead3ver`
 * přidání části: :ref:`ead_item_types_langs_majority`
+* přidání části: :ref:`ead_item_types_inheritance`
+

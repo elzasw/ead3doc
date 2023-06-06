@@ -22,6 +22,7 @@ v části :ref:`ead_item_types_overview`.
   :includehidden:
   
   prvky-popisu/prehled.rst
+  prvky-popisu/dedicnost.rst
   prvky-popisu/ukl-jednotka.rst
   prvky-popisu/ref-ozn.rst
   prvky-popisu/jina-ozn.rst

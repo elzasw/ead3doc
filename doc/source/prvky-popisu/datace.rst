@@ -44,6 +44,10 @@ Formát datace může být zadán:
 	- jako interval (např. Y-Y)
 
 
+Uplatnění :ref:`dědičnosti <ead_item_types_inheritance>` je zaznamenáno pomocí 
+atributu `altrender="inherited"` na úrovni elementu `unitdatestructured <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdatestructured>`_.
+
+
 .. code-block:: xml
   :caption: Příklad - interval 1734-1776
 
@@ -55,11 +59,11 @@ Formát datace může být zadán:
     </ead:unitdatestructured>
 
 
-Příklad - rok 1958 (datováno konkrétním rokem):
+Příklad - rok 1958 (datováno konkrétním rokem), zděděno z vyšší úrovně:
 
 .. code-block:: xml
 
-    <ead:unitdatestructured>
+    <ead:unitdatestructured altrender="inherited">
     <ead:daterange altrender="Y">
        <ead:fromdate standarddate="1958-01-01T00:00:00">1958</ead:fromdate>
        <ead:todate standarddate="1958-12-31T23:59:59">1958</ead:todate>

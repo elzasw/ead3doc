@@ -43,6 +43,12 @@ V případě dílčí specializace role v předávajícím systému je v atribut
 tuto odlišnost zachytit.
 
 
+Uplatnění :ref:`dědičnosti <ead_item_types_inheritance>` je zaznamenáno pomocí 
+atributu `altrender="inherited"` na úrovni elementu 
+`relation <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_.
+
+
+
 Entita z třídy CPF
 ======================
 
@@ -65,7 +71,8 @@ Příklad
 
       <ead:relation relationtype="cpfrelation" 
                     linktitle="autor" 
-                    linkrole="AUTHOR">
+                    linkrole="AUTHOR"
+                    altrender="inherited">
         <ead:relationentry>Neruda, Jan (1834-1891)</ead:relationentry>
         <ead:descriptivenote>
           <ead:p>

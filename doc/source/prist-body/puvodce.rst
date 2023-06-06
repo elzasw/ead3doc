@@ -26,6 +26,10 @@ Třída                  Element
 =====================  ==============
 
 
+Uplatnění :ref:`dědičnosti <ead_item_types_inheritance>` je zaznamenáno pomocí 
+atributu `altrender="inherited"` na úrovni elementu `origination <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-origination>`_.
+
+
 Příklad
 ===========
 
@@ -36,7 +40,7 @@ s ID uvnitř XML ``ap154``:
 
     <!-- Odkaz na původce archivalii -->
     <ead:did>
-      <ead:origination>
+      <ead:origination altrender="inherited">
         <ead:persname localtype="ORIGINATOR">
           <ead:part>
             <ead:ref target="ap154">Neruda, Jan (1834-1891)</ead:ref>
