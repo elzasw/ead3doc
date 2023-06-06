@@ -26,8 +26,9 @@ Informace o možnosti zveřejnění, resp. omezení, se volitelně přidává na
 celé :ref:`jednotky popisu <ead_archdesc_hierarchy>` nebo 
 případně na úroveň jednotlivých :ref:`prvků popisu <ead_item_types>`.
 Pokud není tato informace uvedena, je daná úroveň popisu nebo prvek popisu 
-zveřejnitelný. Pokud není celá jednotka popisu zveřejněna, uplatní se toto 
-omezení automaticky i na všechny jí podřízené jednotky popisu.
+zveřejnitelný. Pokud není celá jednotka popisu zveřejněna, uplatní se toto omezení
+automaticky i na všechny jí podřízené jednotky popisu. Nižší jednotku popisu 
+je možné přesto uvést jako zveřejněnou pomocí hodnoty atributu ``audience="external"``.
 
 Omezení zveřejnění jednotky popisu se zapisuje pomocí atributu 
 `audience <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-audience>`_.
@@ -35,7 +36,9 @@ Omezení zveřejnění jednotky popisu se zapisuje pomocí atributu
 Hodnoty atributu a jejich význam:
 
  * ``audience="internal"`` - jednotka popisu nebo prvek popisu, který nelze zveřejnit
- * ``audience="external"`` - nepoužívá se, bez uvedení `audience <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-audience>`_ je zveřejněno
+ * ``audience="external"`` - obvykle se nepoužívá, uvede se jen v případě nutnosti 
+   přetížení omezené přístupnosti uvedené na vyšší úrovni, tj. pro zveřejnění dané 
+   jednotky popisu; nelze využít pro jednotlivé prvky popisu
 
 Pokud má prvek popisu zveřejnitelnou i nezveřejnitelnou podoba 
 (například Obsah regest s osobními údaji a po jejich odstranění), je možné 

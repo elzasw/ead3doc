@@ -104,4 +104,4 @@ Duben 2023
 * přidání části: :ref:`ead_control_localcontrol_ead3ver`
 * přidání části: :ref:`ead_item_types_langs_majority`
 * přidání části: :ref:`ead_item_types_inheritance`
-
+* možnost přetěžování v případě omezení přístupnosti: :ref:`ead_jp_omezeni_pristupu_jp`
