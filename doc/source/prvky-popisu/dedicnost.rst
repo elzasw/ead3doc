@@ -27,14 +27,13 @@ Prvky popisu uvedené v této části jsou vždy uváděny na všech úrovních,
 kde se mají uplatnit, tj. jedná se o explicitní uplatnění dědičnosti. 
 Explicitní uplatnění dědičnosti znamená, že hodnota je uvedena také 
 na nižší úrovni, přestože je shodným způsobem uvedena na úrovni vyšší. 
-Uplatnění dědičnosti se zaznamená uvedením atributu ``altrender=”inherited”``.
+Uplatnění dědičnosti se zaznamená uvedením atributu ``altrender="inherited"``.
 
 Prvky popisu s explicitním uplatněním dědičnosti:
 
  * :ref:`ead_item_types_unitdatestructured`
  * :ref:`ead_ap_originator`
  * :ref:`ead_item_types_langs`
- * :ref:`ead_item_types_container`
  * :ref:`ead_item_types_container`
  * :ref:`ead_item_types_ex_kopii`
  * :ref:`ead_ap_relation`
