@@ -92,16 +92,20 @@ Květen 2022
 
 Duben 2023
 ---------------
-* oprava popisu u: :ref:`ead_item_types_scopecontent`
+ * oprava popisu u: :ref:`ead_item_types_scopecontent`
 
 Červen 2023
 ---------------
-* přidání části: :ref:`ead_xml`
-* upřesnění uvádění pečujícího archivu a jeho názvu: :ref:`ead_control_maintenanceagency`
-* přidání prvku popisu: :ref:`ead_faintro_rozsah_arch` a upřesnění :ref:`ead_item_types_rozsah`
-* přidání prvku popisu: :ref:`ead_faintro_pocet_jp`
-* přidání prvku popisu: :ref:`ead_item_types_writting`
-* přidání části: :ref:`ead_control_localcontrol_ead3ver`
-* přidání části: :ref:`ead_item_types_langs_majority`
-* přidání části: :ref:`ead_item_types_inheritance`
-* možnost přetěžování v případě omezení přístupnosti: :ref:`ead_jp_omezeni_pristupu_jp`
+ * přidání části: :ref:`ead_xml`
+ * upřesnění uvádění pečujícího archivu a jeho názvu: :ref:`ead_control_maintenanceagency`
+ * přidání prvku popisu: :ref:`ead_faintro_rozsah_arch` a upřesnění :ref:`ead_item_types_rozsah`
+ * přidání prvku popisu: :ref:`ead_faintro_pocet_jp`
+ * přidání prvku popisu: :ref:`ead_item_types_writting`
+ * přidání části: :ref:`ead_control_localcontrol_ead3ver`
+ * přidání části: :ref:`ead_item_types_langs_majority`
+ * přidání části: :ref:`ead_item_types_inheritance`
+ * možnost přetěžování v případě omezení přístupnosti: :ref:`ead_jp_omezeni_pristupu_jp`
+
+Listopad 2023
+---------------
+ * přidání strukturované varianty prvku popisu :ref:`ead_item_types_technika` (:ref:`ead_item_types_technika_structured`)
