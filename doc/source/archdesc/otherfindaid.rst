@@ -21,23 +21,25 @@ i úrovně *s3*:
 
 .. code-block:: xml
 
-  <ead:archdesc level="fonds">  
+  <ead:archdesc level="fonds">
     <ead:otherfindaid localtype="MightExist">
       <ead:p>Pro úroveň popisu existují nebo vzniknou další archivní pomůcky.</ead:p>
     </ead:otherfindaid>
-    <ead:c level="series">
-      <ead:did>
-        <ead:unittitle>s3</ead:unittitle>
-      </ead:did>
-      <ead:otherfindaid localtype="MightExist">
-        <ead:p>Pro úroveň popisu existují nebo vzniknou další archivní pomůcky.</ead:p>
-      </ead:otherfindaid>
+    <ead:dsc>
       <ead:c level="series">
         <ead:did>
-          <ead:unittitle>s3.1</ead:unittitle>
-          ...
+          <ead:unittitle>s3</ead:unittitle>
         </ead:did>
+        <ead:otherfindaid localtype="MightExist">
+          <ead:p>Pro úroveň popisu existují nebo vzniknou další archivní pomůcky.</ead:p>
+        </ead:otherfindaid>
+        <ead:c level="series">
+          <ead:did>
+            <ead:unittitle>s3.1</ead:unittitle>
+            ...
+          </ead:did>
+        </ead:c>
       </ead:c>
-    </ead:c>
+    </ead:dsc>
   </ead:archdesc>
 
