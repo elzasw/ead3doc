@@ -109,3 +109,12 @@ Duben 2023
 Listopad 2023
 ---------------
  * přidání strukturované varianty prvku popisu :ref:`ead_item_types_technika` (:ref:`ead_item_types_technika_structured`)
+
+
+Leden 2024
+------------
+ * změna způsobu zápisu strukturovaných hodnot prvků popisu :ref:`ead_item_types_rozmery` a :ref:`ead_item_types_rozsah`, 
+   hodnoty pro rozměry, množství a velikosti jsou nově popsány strukturovaně formou: 
+   :ref:`ead_item_types_rozmery_structured_weight` a :ref:`ead_item_types_rozmery_structured_quantity`,
+   hodnoty pro délku trvání záznamu jsou nově popsány strukturovanou formou dle doporučení EAD:
+   :ref:`ead_item_types_rozsah_duration`.
