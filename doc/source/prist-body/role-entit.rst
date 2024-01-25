@@ -88,8 +88,8 @@ Ostatní entity
 =================================
 
 Ostatní entity jsou ze tříd *geografická entita*, 
-*dílo/výtvor* nebo *obecný pojem*. Tyto entity se uvádí vždy
-v :ref:`rejstříku entit <ead_ap_cam>`.
+*dílo/výtvor* nebo *obecný pojem*. Tyto entity jsou také  
+zachyceny v části :ref:`ead_ap_cam`.
 
 Současně je povinně uveden atribut ``relationtype="resourcerelation"``.
 Odkaz na takovouto entitu je realizován pomocí elementu
