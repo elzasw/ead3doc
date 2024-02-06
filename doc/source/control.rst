@@ -214,11 +214,12 @@ verzi profilu.
 
 Tabulka povolených hodnot pro verzi profilu
 
-================================ ==============
-Pravidla                         Atribut :token:`identifier`
-================================ ==============
-profil platný od června 2023     ``CZ_EAD3_PROFILE_20230601``
-================================ ==============
+============================================ ==============
+Pravidla                                     Atribut :token:`identifier`
+============================================ ==============
+profil platný od června 2023 do února 2024   ``CZ_EAD3_PROFILE_20230601``
+profil platný od března 2024                 ``CZ_EAD3_PROFILE_20240301``
+============================================ ==============
 
 
 
