@@ -1,14 +1,65 @@
-.. _ead_jp_uri:
+.. _ead_jp_ident:
 
---------------------------------
+=================================
 Identifikace jednotky popisu
---------------------------------
+=================================
+
+.. role:: xpath(code)
+   :language: xquery
+
+.. role:: xml(code)
+   :language: xml
+
 
 Každá jednotka popisu uložená v EADu musí obsahovat svůj jednoznačný identifikátor.
-Tento jednoznačný identifikátor slouží pro její přesné určení a identifikaci.
+Tento jednoznačný identifikátor slouží pro její přesné určení a identifikaci. 
+V závislosti na účelu výměnného formátu jsou k dispozici dva způsoby připojování identifikátorů:
+
+ - :ref:`bezvýznamové identifikátory ve formě UUID <ead_jp_ident_uuid>`
+ - :ref:`identifikátory ve formě URI <ead_jp_ident_uri>`
+
+
+.. _ead_jp_ident_uuid:
+
+Bezvýznamový identifikátory ve formě UUID
+===========================================
+
+.. tags::
+    aip-inherent, aip-kontext, popis, pomucka
+
+Bezvýznamové identifikátory se zapisují pomocí atributu ``id`` na úrovni 
+hlavního elementu jednotky popisu, tj. :xml:`<c>`, resp. :xml:`<archdesc>`.
+Tyto identifikátory se používají vždy pro archivní popis uložený v AIPu 
+v digitálním archivu. Lze je použít i v rámci vyměnného formátu, či na úrovni 
+archivní pomůcky.
+
+Identifikátor se skládá ze dvou částí:
+
+ - prefix: ``uuid``
+ - vlastní UUID jednotky popisu dle :rfc:`4122`, verze 4.
+
+
+.. code-block:: xml
+
+   <c level="otherlevel" otherlevel="vecnaskp" id="uuid-ac73f202-a2a0-4309-9ce7-6c1e426be654">
+      <did>...</did>
+   </c>
+
+
+.. _ead_jp_ident_uri:
+
+Identifikátory ve formě URI
+==============================
+
+.. tags::
+    pomucka
+
+
 Identifikátor má podobu URI a ukládá se do atributu
-`base <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-base>`_.
-Identifikátor musí odpovídat standardu LinkedData. Pro archivy v ČR jsou možné dva přístupy 
+`base <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-base>`_. Tento identifikátor 
+je vhodné používat v případech, kdy je vázán na zpracované archiválie, má trvalou podobu 
+a slouží ke zpřístupnění archiválií ve vztahu k badatelům. Identifikátor musí odpovídat 
+standardu LinkedData. Pro archivy v ČR jsou možné dva přístupy 
 ke konstrukci tohoto identifikátoru:
 
 Archiv je garantem online dostupnosti archivního popisu

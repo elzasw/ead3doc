@@ -12,8 +12,11 @@
 #
 # import os
 # import sys
+from docutils import nodes
+from docutils.parsers.rst import Directive
+from docutils.statemachine import ViewList
 # sys.path.insert(0, os.path.abspath('.'))
-
+from sphinx.errors import ConfigError
 
 # -- Project information -----------------------------------------------------
 
@@ -58,3 +61,41 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+class TagsDirective(Directive):
+    has_content = True
+
+    def run(self):
+        #content = ViewList()
+        paragraph_node = nodes.paragraph()
+        #print(type(paragraph_node))
+        for line in self.content:
+            paragraph_node += nodes.Text('Použití: ')  # Add space between bold parts
+            count = 0
+            if(line.strip()=="vzdy"):
+                line = "aip-inherent, aip-kontext, popis, pomucka"
+            for part in line.split(','):
+                text = "";
+                match part.strip():
+                    case "aip-inherent": 
+                        text = "AIP - inheretní popis";
+                    case "aip-kontext": 
+                        text = "AIP - kontextuální popis";
+                    case "popis": 
+                        text = "výměnný formát";
+                    case "pomucka": 
+                        text = "archivní pomůcka";
+                    case _:
+                        raise ValueError("Nerozpoznaná hodnota v tags: "+part);
+                #bold_node = nodes.literal(text=part.strip())
+                bold_node = nodes.inline(rawtext=text, classes=["guilabel"])
+                bold_node += nodes.Text(text)
+                if(count>0):
+                    paragraph_node += nodes.Text(', ')  # Add space between parts
+                paragraph_node += bold_node
+                count+=1                
+        return [paragraph_node]
+
+def setup(app):
+    app.add_directive("tags", TagsDirective)
