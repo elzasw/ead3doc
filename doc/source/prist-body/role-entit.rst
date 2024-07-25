@@ -48,6 +48,7 @@ atributu `altrender="inherited"` na úrovni elementu
 `relation <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_.
 
 
+.. _ead_ap_relation_cpf:
 
 Entita z třídy CPF
 ======================
@@ -64,10 +65,9 @@ Preferované označení odkazované entity je vždy zaznamenáno v elementu
 `<relationentry> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_.
 
 
-Příklad
-------------
 
 .. code-block:: xml
+   :caption: Příklad entity z třídy CPF
 
       <ead:relation relationtype="cpfrelation" 
                     linktitle="autor" 
@@ -81,8 +81,9 @@ Příklad
         </ead:descriptivenote>
       </ead:relation>
 
-.. _ead_ap_relation_other:
 
+
+.. _ead_ap_relation_other:
 
 Ostatní entity
 =================================
@@ -102,6 +103,7 @@ Preferované označení odkazované entity je vždy zaznamenáno v elementu
 
 
 .. code-block:: xml
+   :caption: Příklad entity z třídy dílo/výtvor
 
       <ead:relation relationtype="resourcerelation" 
                     linktitle="autorské dílo" 
@@ -112,6 +114,56 @@ Preferované označení odkazované entity je vždy zaznamenáno v elementu
             <ead:ref target="ap157" />
           </ead:p>
         </ead:descriptivenote>
+      </ead:relation>
+
+
+
+
+Slabé entity
+======================
+
+.. tags::
+   aip-inherent
+
+Pokud není entita plně identifikována zapisuje se jako tzv. slabá entita. 
+V případě slabé entity se neuvádí odkaz na definici entity, ale je k dispozici 
+jen její označení. Označení v sobě může obsahovat další doplňující údaje umožňující 
+v budoucnu entitu zpracovat a blíže identifikovat. Forma označení 
+slabých entit není pevně určena a záleží na zdrojovém systému.
+
+Slabé entity třídy CPF
+-----------------------
+
+Pokud je možné určit, že se jedná o entitu z třídy CPF zapíše se 
+jako :ref:`ead_ap_relation_cpf`, avšak bez odkazu na na definici entity.
+
+
+.. code-block:: xml
+   :caption: Příklad slabé entity z třídy CPF
+
+      <ead:relation relationtype="cpfrelation" 
+                    linktitle="autor" 
+                    linkrole="AUTHOR"
+                    >
+        <ead:relationentry>Jan Novák (prokurista v BACx s.r.o.)</ead:relationentry>
+      </ead:relation>
+
+
+Ostatní slabé entity
+---------------------------
+
+Pokud není entita třídy CPF, či třídu není možné určit, zapisuje 
+se jako :ref:`ead_ap_relation_other`. Pokud má entita charakter
+klíčového slova použije se jako typ vztahu **související entita**.
+
+
+.. code-block:: xml
+   :caption: Příklad slabé entity bez uvedení třídy
+
+      <ead:relation relationtype="resourcerelation" 
+                    linktitle="související entita" 
+                    linkrole="ENTITY">
+        <ead:relationentry>poštovní schránka</ead:relationentry>
       </ead:relation>
 
 

@@ -83,32 +83,11 @@ Typy jiné datace jednotek popisu
      - ``LEGALLY_EFFECTIVE_TO``
    * - datace pozbytí právní platnosti
      - ``VALID_TO``
-
-Návrh typů jiných datací jednotek popisu
-========================================
-
-Bude projednáno 16. 8. 2024
-
-Elektronické systémy spisových služeb pracují s různými typy datací,
-které není možné namapovat na specifikace prvku existující v Elza dle Základních pravidel.
-
-Kromě využití některých datací pro vytváření Datace vzniku je vhodné interpretovat vybrané specifikace
-také v inherentním popisu, a to v původním významu.
-
-Viz Národní standard pro elektronické systémy spisové služby, 2023 (Příloha č. 8).
-Srov. `5.6. NSESSS, příloha 2 — Dokumentace pro NAČR Portál a NDA IS 0.0 <https://frnk.lightcomp.cz/download/nacr/ndais/doc/specifikace/nsesss.html#datace>`_
-
-.. list-table:: Tabulka typů jiné datace (doplnění)
-   :widths: 20 10
-   :header-rows: 1
-
-   * - Typ označení
-     - ``localtype=``
    * - datace odeslání
      - ``DISPATCH``
    * - datace doručení
      - ``DELIVERY``
    * - datace vyřízení
-     - ``SETTLEMENT / PROCESSING``
+     - ``PROCESSING``
    * - datace uzavření
      - ``CLOSING``

@@ -35,7 +35,7 @@ Příklad pro zápis identifikátoru ze spisové služby:
 .. code-block:: xml
 
   <ead:unitid localtype="JINE" 
-     label="ESS: Gordic.Ginis.MP12.X">MP12P00BTZ3Z</ead:unitid>
+     label="ESSS">Gordic.Ginis.MP12.X:MP12P00BTZ3Z</ead:unitid>
 
 
 .. _ead_item_types_jinaozn_tab:
@@ -113,6 +113,9 @@ Typy označení
    * - Matriční číslo (propůjčeného vyznamenání)
      - ``MATRICNI_CISLO``
      - ``matriční číslo (propůjčeného vyznamenání)``
+   * - Identifikátor ve zdrojovém systému
+     - ``ZDROJ_ID``
+     - ``identifikátor ve zdrojovém systému``
    * - Jiný identifikátor
      - ``JINE``
      - ``jiné``
