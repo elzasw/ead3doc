@@ -125,7 +125,7 @@ Slabé entity
 .. tags::
    aip-inherent
 
-Pokud není entita plně identifikována zapisuje se jako tzv. slabá entita. 
+Pokud není entita plně identifikována, zapisuje se jako tzv. **slabá entita**. 
 V případě slabé entity se neuvádí odkaz na definici entity, ale je k dispozici 
 jen její označení. Označení v sobě může obsahovat další doplňující údaje umožňující 
 v budoucnu entitu zpracovat a blíže identifikovat. Forma označení 
@@ -134,8 +134,8 @@ slabých entit není pevně určena a záleží na zdrojovém systému.
 Slabé entity třídy CPF
 -----------------------
 
-Pokud je možné určit, že se jedná o entitu z třídy CPF zapíše se 
-jako :ref:`ead_ap_relation_cpf`, avšak bez odkazu na na definici entity.
+Pokud je možné určit, že se jedná o entitu z třídy CPF, zapíše se 
+jako :ref:`ead_ap_relation_cpf`, avšak bez odkazu na definici entity.
 
 
 .. code-block:: xml
@@ -154,7 +154,7 @@ Ostatní slabé entity
 
 Pokud není entita třídy CPF, či třídu není možné určit, zapisuje 
 se jako :ref:`ead_ap_relation_other`. Pokud má entita charakter
-klíčového slova použije se jako typ vztahu **související entita**.
+klíčového slova, použije se typ vztahu **související entita**.
 
 
 .. code-block:: xml
