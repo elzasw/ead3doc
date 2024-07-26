@@ -116,9 +116,9 @@ Typy označení
    * - Identifikátor ve zdrojovém systému
      - ``ZDROJ_ID``
      - ``identifikátor ve zdrojovém systému``
-   * - Původní pořadové číslo (dle období)
+   * - Pořadové číslo přidělené původcem
      - ``PORADOVE_CISLO_PUVODNI``
-     - ``původní pořadové číslo (dle období)``
+     - ``původní pořadové číslo``
    * - Jiný identifikátor
      - ``JINE``
      - ``jiné``
