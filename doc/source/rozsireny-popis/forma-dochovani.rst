@@ -49,3 +49,39 @@ Obsahem elementu je typ části a může nabývat hodnot:
      <ead:physfacet localType="EXTRA_PART">ANALOG</ead:physfacet>
    </ead:physdescstructured>
 
+
+
+.. _ead_item_types_physdesc_dform:
+
+Forma digitální části
+----------------------------------------
+
+.. tags::
+   aip-inherent
+
+U digitálních archiválií a jejich částí je možné uvést bližší charakteristiku 
+umožňující odlišit originál, digitalizát, apod. 
+Hodnota se uvede v rámci prvků :ref:`ead_jp_char`
+v elementu `<physfacet> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
+s atributem ``localtype="DIGITAL_FORM"``.
+
+Obvyklé hodnoty vycházející z elektronických systémů spisových služeb jsou:
+
+ - koncept
+ - originál
+ - originál ve výstupním datovém formátu
+ - digitalizát
+
+Je možné uvést i další hodnoty nad rámec uvedených. Hodnoty by měly pocházet 
+z řízeného slovníku.
+
+
+.. code-block:: xml
+   :caption: Příklad formy digitální části
+
+   <ead:physdescstructured physdescstructuredtype="materialtype" 
+                           coverage="whole">
+     <ead:quantity>1</ead:quantity>
+     <ead:unittype>item</ead:unittype>
+     <ead:physfacet localType="DIGITAL_FORM">originál</ead:physfacet>
+   </ead:physdescstructured>
