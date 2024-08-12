@@ -54,6 +54,11 @@ Identifikátory ve formě URI
 .. tags::
     pomucka
 
+.. note::
+
+   U nových pomůcek je vhodné namísto formy URI používat 
+   :ref:`bezvýznamové identifikátory ve formě UUID <ead_jp_ident_uuid>`.
+
 
 Identifikátor má podobu URI a ukládá se do atributu
 `base <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-base>`_. Tento identifikátor 
