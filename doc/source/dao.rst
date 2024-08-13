@@ -35,9 +35,9 @@ platný v rámci archivu. Identifikátor slouží pro vazbu
 mezi archivním popisem a uloženým digitálním objektem
 v úložišti.
 
-**Příklad jednoho digitalizátu:**
 
 .. code-block:: xml
+   :caption: Příklad jednoho digitalizátu
 
    <ead:did>
      <ead:unittitle>Kronika Velké Lhoty</ead:unittitle>
@@ -45,6 +45,57 @@ v úložišti.
               identifier="edbbb43e-b574-4a8e-9311-5bbc1c5d85fc">
      </ead:dao>
    </ead:did>
+
+
+.. _ead_dao_extid_aip:
+
+Identifikátory v digitálním archivu
+-------------------------------------
+
+.. tags::
+   aip-inherent, aip-kontext
+
+Identifikátory digitálních balíčků se obvykle neuvádějí v archivním popisu 
+uloženém uvnitř těchto balíčků. Obvykle je uložen uvnitř balíčku jen odkaz 
+na :ref:`popisovanou část <ead_dao_part>`, tj. :token:`identifier` se neuvádí.
+
+V případě odkazu na celý balíček z archivního popisu uloženého uvnitř 
+samotného balíčku se uvede :token:`identifier` se speciální hodnotou 
+odkazující na samotný balíček a to v souladu s pravidly příslušného digitálního 
+archivu.
+
+
+.. _ead_dao_part:
+
+Odkaz na část digitálního objektu
+===================================
+
+V rámci archivního popisu je monžné odkazovat na celý digitální objekt nebo jen jeho 
+vybranou část. Odkazování na část se obvykle používá u archiválií a jejich kopií 
+uložených formou balíčků v digitálním archivu. Je možné odkázat například 
+na konkrétní komponentu uloženou v balíčku. Při odkazování na část 
+uvnitř balíčku se vždy uvádí dva atributy: ``entityref`` a ``coverage``
+
+V atributu ``entityref`` se uvede identifikátor odkazované entity, která 
+je součástí daného digitálního objektu / archivního balíčku.
+
+V atributu ``coverage`` se uvede, zda archivní popis pokrývá celou odkazovanou 
+část nebo jen uvedenou vybranou část. V případě pokrytí celé části se tím 
+obvykle rozumí i pokrytí komponent na nižší úrovní, případných budoucích 
+formátových migrací apod.
+
+
+.. code-block:: xml
+   :caption: Příklad odkazu na spis v AIPu
+
+   <ead:did>
+     <ead:unittitle>Spis XY</ead:unittitle>
+     <ead:dao daotype="borndigital" 
+              entityref="uuid-bc660752-fbac-40f4-b683-51bab6d31826"
+              coverage="whole">
+     </ead:dao>
+   </ead:did>
+
 
 
 Více digitálních objektů u jedné jednotky popisu
@@ -55,9 +106,8 @@ digitalizátů, tyto se uvedou jako samostatné elementy typu
 `<dao> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dao>`_.
 
 
-**Příklad více digitalizátů s popisem:**
-
 .. code-block:: xml
+   :caption: Příklad více digitalizátů s popisem
 
    <ead:did>
      <ead:unittitle>Kronika Velké Lhoty</ead:unittitle>
