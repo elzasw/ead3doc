@@ -26,8 +26,8 @@ s vnořeným jedním elementem
 
 .. _ead_item_types_odkazy_url:
 
-Odkazy na vlastní související JP
-===================================
+Související vlastní JP
+===========================
 
 Pokud má souvislost charakter odkazu na jinou jednotku popisu, která je 
 také součástí daného EAD souboru, tak se odkaz na ni zapisuje vložením 
