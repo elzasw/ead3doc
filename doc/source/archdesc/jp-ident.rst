@@ -21,7 +21,7 @@ V závislosti na účelu výměnného formátu jsou k dispozici dva způsoby př
 
 .. _ead_jp_ident_uuid:
 
-Bezvýznamový identifikátory ve formě UUID
+Bezvýznamové identifikátory ve formě UUID
 ===========================================
 
 .. tags::
