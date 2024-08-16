@@ -4,6 +4,8 @@
 Odkazy na příbuzné dokumenty, archiválie a pomůcky pro vyhledávání
 ===================================================================
 
+.. include:: ../common.rst
+
 Další popis viz:
 
  - ZP 4.5.2 Odkazy na příbuzné dokumenty, archiválie a pomůcky pro vyhledávání
