@@ -21,7 +21,7 @@ from sphinx.errors import ConfigError
 # -- Project information -----------------------------------------------------
 
 project = 'MV ČR EAD3 Profil'
-copyright = '2020-2023, LightComp v.o.s.'
+copyright = '2020-2024, LightComp v.o.s.'
 author = 'Petr Pytelka, LightComp v.o.s.'
 
 

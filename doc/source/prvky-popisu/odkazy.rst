@@ -34,11 +34,15 @@ také součástí daného EAD souboru, tak se odkaz na ni zapisuje vložením
 elementů :xml:`<archref>` a podřízeného elementu :xml:`<ref>`. 
 Do atributu ``target`` se zapíše identifikátor odkazované úrovně.
 Identifikátor odkazované JP musí mít charakter :ref:`ead_jp_ident_uuid`.
+Pojmenování odkazované JP se uvede formou prostého textu 
+uvnitř elementu :xml:`<ref>`.
 
 
 .. code-block:: xml
   :caption: Příklad odkazu na související JP
 
   <ead:relatedmaterial>
-    <ead:ref target="uuid-ac73f202-a2a0-4309-9ce7-6c1e426be654"/>
+    <ead:ref target="uuid-ac73f202-a2a0-4309-9ce7-6c1e426be654">
+       Související spis Sig. 15-23/958
+    </ead:ref>
   </ead:relatedmaterial>
