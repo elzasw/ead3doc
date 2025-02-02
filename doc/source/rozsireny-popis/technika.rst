@@ -11,7 +11,9 @@ s uvedením hodnoty ``localtype="TECHNIQUE"``.
 Element je součástí :ref:`charakteristiky jednotky popisu <ead_jp_char>`. 
 Hodnota se uvádí v kontextu souvisejících hodnot.
 
-V elementu se uvádí jen textová hodnota.
+V elementu se uvádí textová hodnota, která může být víceřádková. Alternativou 
+je uvedení hodnoty v :ref:`strukturované podobě <ead_item_types_technika_structured>`.
+Obě podoby není možné použít současně.
 
 
 .. code-block:: xml
@@ -30,9 +32,13 @@ V elementu se uvádí jen textová hodnota.
 Strukturovaná podoba
 ======================
 
-Strukturovaná podoba prvku popisu se zapisuje jako čtyři samostatné elementy 
-`<physfacet> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
-s různými hodnotami atributu ``localtype``.
+Strukturovaná podoba prvku popisu je alternativou k textové podobě. 
+Používá se v případě, kdy jsou jednotlivé informace o technice, adjustaci, nosiči, 
+látce záznamu či barevnosti strukturované a je možné je rozdělit do samostatných
+elementů. Každý element obsahuje přímo řetězec s hodnotou bez odřádkování. 
+Strukturovanou podobu není možné kombinovat s textovou podobou.
+Strukturovaná form se zapisuje pomocí samostatných elementů 
+:ead-el:`physfacet` s různými hodnotami atributu ``localtype``.
 
 .. list-table:: Tabulka hodnot pro localtype a význam
    :widths: 40 40
@@ -48,6 +54,8 @@ s různými hodnotami atributu ``localtype``.
      - :token:`MEDIUM`
    * - Látka záznamu
      - :token:`MATERIAL`
+   * - Barevnost
+     - :token:`COLOUR`
 
 
 .. code-block:: xml
@@ -61,5 +69,6 @@ s různými hodnotami atributu ``localtype``.
      <ead:physfacet localType="MEDIUM_ADJUSTMENT">opatřeno paspartou</ead:physfacet>
      <ead:physfacet localType="MEDIUM">papír</ead:physfacet>
      <ead:physfacet localType="MATERIAL">inkoust</ead:physfacet>
+     <ead:physfacet localType="COLOUR">modrý</ead:physfacet>
    </ead:physdescstructured>
 
