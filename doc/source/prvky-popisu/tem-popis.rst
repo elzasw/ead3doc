@@ -11,9 +11,8 @@ Další popis viz:
 
 
 Informace o obsahu, časovém a geografickém rozsahu archiválií
-se uvádí v elementu `<scopecontent> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-scopecontent>`_
-s vnořeným jedním elementem 
-`<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
+se uvádí v elementu :ead-el:`scopecontent`
+s vnořeným jedním elementem :ead-el:`p`.
 
 Prvek umožňuje :ref:`ead_archdesc_multilang`.
 

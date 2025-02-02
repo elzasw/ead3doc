@@ -6,7 +6,7 @@
 
 Schéma umožňuje uložení nestrukturovaného úvodu starší archivní pomůcky 
 (:ref:`ead_control_localcontrol_rules`, hodnota: ``CZ_ZP1958``).
-Pro toto uložení je určen element `<odd> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-odd>`_.
+Pro toto uložení je určen element :ead-el:`odd`.
 Pomocí atributu `localtype="FINDING_AID_INTRO" <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 se určí, že se jedná o nestrukturovaný úvod. Pro nové pomůcky 
 (:ref:`ead_control_localcontrol_rules`, hodnota: ``CZ_ZP2013``) se strukturovaným
@@ -14,7 +14,7 @@ způsobem popisu se element nesmí používat.
 
 Element se uvádí jen v kořenovém elementu :ref:`ead_archdesc_fonds`.
 
-Element obsahuje právě jeden podřízený element `<p> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_ 
+Element obsahuje právě jeden podřízený element :ead-el:`p` 
 obsahující text rozdělený na odstavce.
 
 

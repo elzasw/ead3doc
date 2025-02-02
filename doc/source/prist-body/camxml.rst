@@ -11,9 +11,9 @@ uložení detailního popisu entity využívané v rámci archivního
 popisu je možné využít právě `výměnný formát CAM <https://cam.nacr.cz/doc>`_.
 
 Strukturovaně popsaná entita je uložena v elementu 
-`<objectxmlwrap> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-objectxmlwrap>`_
-v části `<control>/<sources>/<source> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_.
-Element `<source> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_ 
+:ead-el:`objectxmlwrap`
+v části ``<control>/<sources>/<source>``.
+Element :ead-el:`source` 
 povinně obsahuje atribut ``id="...."`` umožňující
 jeho odkazování v rámci XML dokumentu.
 

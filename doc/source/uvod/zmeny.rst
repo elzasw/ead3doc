@@ -129,12 +129,15 @@ Listopad 2023
   * definice způsobu uložení v E-ARK balíčku, viz :ref:`ead_xml_eark`
   * uložení :ref:`jiných typů úrovní <ead_archdesc_hierarchy_other>` a :ref:`spisového plánu <ead_archdesc_hierarchy_fileplan>`
   * :ref:`bezvýznamové identifikátory jednotek popisu <ead_jp_ident_uuid>`
-  * identifikace archiválií v digitálním archivu a jejich částí, viz: :ref:`ead_dao_extid_aip`, :ref:`ead_dao_part`
+  * identifikace archiválií v digitálním archivu a jejich částí, viz :ref:`ead_dao_extid_aip`, :ref:`ead_dao_part`
   * možnost ukládání :ref:`slabě identifikovaných entit <ead_ap_relation_weakents>`
   * rozšíření :ref:`jiných označení <ead_item_types_jinaozn_tab>` o: identifikátor ve zdrojovém systému, pořadové číslo přidělené původcem, původní název počítačového souboru(komponenty)
-  * odkaz na jednotku popisu viz: :ref:`ead_item_types_odkazy_url`
+  * odkaz na jednotku popisu viz :ref:`ead_item_types_odkazy_url`
   * informace o :ref:`existenci analogové či digitální části <ead_item_types_physdesc_expart>`
   * rozšíření typů jiných datací: datace odeslání, datace doručení, datace vyřízení, datace uzavření
 
- * Uvádění měřítka v číselné podobě, viz: :ref:`ead_item_types_meritko_cislo`
-
+ * Uvádění měřítka v číselné podobě, viz :ref:`ead_item_types_meritko_cislo`
+ * Upřesnění :ref:`charakteristiky jednotky popisu <ead_jp_char>` o povinné uvádění druhu a počtu archiválií
+ * Upřesnění užití :ref:`ead_item_types_technika`, přidání barevnosti
+ * Úprava odkazů na elementy EAD dle aktuální podoby standardu
+ * nová verze profilu s označením ``CZ_EAD3_PROFILE_20250301``, :ref:`ead_control_localcontrol_ead3ver`,

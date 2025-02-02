@@ -95,7 +95,7 @@ Další popis viz: ZP 4.4.3 Možnost zveřejnění reprodukce jednotky popisu
 Pro :ref:`digitalizáty a digitální archiválie <ead_dao>` připojené k jednotce
 popisu je možné určit, že nejsou zveřejněny. Standardně jsou napojené digitální 
 objekty považovány za zveřejnitelné. Na úrovni
-příslušného elementu `<dao> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dao>`_
+příslušného elementu :ead-el:`dao`
 se uvede informace o nepřístupnosti/nezveřejnění pomocí atributu ``audience="internal"``.
 
 

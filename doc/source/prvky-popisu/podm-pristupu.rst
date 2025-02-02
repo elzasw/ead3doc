@@ -7,9 +7,7 @@ Podmínky přístupu, práva k jednotce popisu a její reprodukci
 Další popis viz: ZP 4.4.1 Podmínky přístupu, práva k jednotce popisu a její reprodukci
 
 Prvek popisu obsahuje textovou informaci a ukládá se do elementu 
-elementu `<accessrestrict> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-accessrestrict>`_
-s vnořeným jedním elementem 
-`<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
+elementu :ead-el:`accessrestrict` s vnořeným jedním elementem :ead-el:`p`.
 
 Obsah elementu není určen pro strojové zpracování. Pro strojově interpretovaná 
 omezení je nutné postupovat dle :ref:`ead_jp_omezeni_pristupu`.

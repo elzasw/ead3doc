@@ -8,7 +8,7 @@ Kód jazyku odpovídá rozšířené podobě tří písmenného ISO kódu dle Z�
 pravidel, případně viz dokumentace CAM: https://cam.nacr.cz/doc/ontology/itemtypes/name/nm_lang.html
 Kód se uvádí vždy malými písmeny. Na úrovni jednotky popisu 
 lze uvést jeden nebo více jazyků a to vždy v rámci  
-nadřazeného elementu `<langmaterial> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-langmaterial>`_.
+nadřazeného elementu :ead-el:`langmaterial`.
 
 
 Další popis viz: ZP 5.2.10 Jazyk, písmo
@@ -19,7 +19,7 @@ Prvek popisu `Jazyk, písmo` se rozepisuje do dvou elementů:
 
 Na úrovni každého jednotlivého uvedeného jazyka je možné uvést, zda se jedná o zděděnou 
 nebo přímo nastavenou hodnotu pomocí atributu ``altrender="inherited"`` na úrovni elementu
-`language <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-language>`_.
+:ead-el:`language`.
 
 
 .. code-block:: xml
@@ -43,8 +43,7 @@ z evidenčních důvodů na úrovni kořene archivního souboru, resp. v rámci
 
 Převažující jazyk archiválií se uvádí obdobným způsobem 
 jako prvek popisu jazyk, je však doplněn o atribut 
-`altrender="majority"` na úrovni elementu 
-`<langmaterial> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-langmaterial>`_. 
+`altrender="majority"` na úrovni elementu :ead-el:`langmaterial`. 
 Takto zapsaný jazyk přímo necharakterizuje
 každou jednotlivou archiválii na nižších úrovních. Pro určení
 konkrétního jazyku archiválií se využijte samotný 

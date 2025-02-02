@@ -6,8 +6,7 @@ Charakteristika jednotky popisu
 
 Charakteristikou jednotky popisu rozumíme uvedení vzájemně propojených 
 významných prvků popisu a v rámci elementu 
-`<physdescstructured> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physdescstructured>`_
-s hodnotou atributů:
+:ead-el:`physdescstructured` s hodnotou atributů:
 
  - ``physdescstructuredtype="materialtype"``
  - ``coverage="whole"``

@@ -7,13 +7,11 @@ Existence kopií jednotky popisu
 Další popis viz: ZP 4.5.3 Existence kopií jednotky popisu
 
 Informace o existenci kopií jednotek popisu se zachycuje pomocí 
-elementu `<altformavail> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-altformavail>`_
-s vnořeným jedním elementem 
-`<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
+elementu :ead-el:`altformavail` s vnořeným jedním elementem :ead-el:`p`.
 
 
 Uplatnění :ref:`dědičnosti <ead_item_types_inheritance>` je zaznamenáno pomocí 
-atributu `altrender="inherited"` na úrovni elementu `altformavail <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-altformavail>`_.
+atributu `altrender="inherited"` na úrovni elementu :ead-el:`altformavail`.
 
 
 .. code-block:: xml

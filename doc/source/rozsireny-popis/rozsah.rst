@@ -20,7 +20,7 @@ Rozsahy *běžné metry* se uvádí pouze na kořeni archivního popisu
 pro zápis množství archiválií popsaných archivních pomůckou (viz :ref:`ead_faintro_rozsah_arch`).
 
 Popisuje se pomocí elementu
-`<physdescstructured> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physdescstructured>`_
+:ead-el:`physdescstructured`
 s hodnotou atributů:
 
  - ``physdescstructuredtype="spaceoccupied"``
@@ -29,8 +29,8 @@ s hodnotou atributů:
 
 Povinně se uvádějí podřízené elementy:
 
- - `<quantity> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-quantity>`_ - obsahuje množství
- - `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_ - veličina
+ - :ead-el:`quantity` - obsahuje množství
+ - :ead-el:`unittype` - veličina
 
 
 Níže je uvedena tabulka přípustných hodnot.
@@ -40,7 +40,7 @@ Níže je uvedena tabulka přípustných hodnot.
    :header-rows: 1
 
    * - Druh informace
-     - `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_
+     - :ead-el:`unittype`
    * - běžné metry (bm)
      - ``bm``
 
@@ -71,14 +71,14 @@ Další popis viz:
 Doba trvání se uvádí v sekundách.
 
 Strukturovaná hodnota doby trvání se popisuje pomocí elementu
-`<physdescstructured> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physdescstructured>`_
+:ead-el:`physdescstructured`
 s uvedením typu `otherphysdescstructuredtype="duration" <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-otherphysdescstructuredtype>`_.
 Povinně musí být uveden atribut ``coverage="whole"``.
 
 Povinně se uvádějí podřízené elementy:
 
- - `<quantity> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-quantity>`_ - obsahuje dobu trvání
- - `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_ - veličina
+ - :ead-el:`quantity` - obsahuje dobu trvání
+ - :ead-el:`unittype` - veličina
 
 
 Níže je uvedena tabulka přípustných hodnot.
@@ -88,7 +88,7 @@ Níže je uvedena tabulka přípustných hodnot.
    :header-rows: 1
 
    * - Druh informace
-     - `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_
+     - :ead-el:`unittype`
    * - trvání (sekundy)
      - ``s``
 

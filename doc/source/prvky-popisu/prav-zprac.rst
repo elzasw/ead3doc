@@ -11,11 +11,9 @@ Další popis viz:
 
 
 Mezinárodní, národní nebo místní pravidla a zásady, kterými se popis řídí,
-se uvádějí v elementu `<processinfo> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-processinfo>`_
-s vnořeným jedním elementem 
-`<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_. Na úrovni 
-elementu `<processinfo> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-processinfo>`_
-se povinně uvádí atribut ``localtype="RULES"``.
+se uvádějí v elementu :ead-el:`processinfo`
+s vnořeným jedním elementem :ead-el:`p`. Na úrovni 
+elementu :ead-el:`processinfo` se povinně uvádí atribut ``localtype="RULES"``.
 
 
 .. code-block:: xml

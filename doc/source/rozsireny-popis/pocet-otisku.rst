@@ -6,7 +6,7 @@ Počet otisků původní a současný
 
 Další popis viz: ZP 5.7.4 Počet otisků původní a současný
 
-Uvádí se v elementu `<physfacet> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
+Uvádí se v elementu :ead-el:`physfacet`
 s uvedením hodnoty ``localtype="IMPRINT_COUNT"``. 
 Element je součástí :ref:`charakteristiky jednotky popisu <ead_jp_char>`. 
 

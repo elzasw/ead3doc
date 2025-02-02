@@ -10,24 +10,22 @@ a *korporace*. V českém prostředí se navíc přidává *událost* jako
 dočasná korporace.
 
 Strukturovaně popsaná entita je uložena v elementu 
-`<objectxmlwrap> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-objectxmlwrap>`_
-v části `<control>/<sources>/<source> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_.
-Element `<source> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_ 
-povinně obsahuje atribut ``id="...."`` umožňující
+:ead-el:`objectxmlwrap` v části ``<control>/<sources>/<source>``.
+Element :ead-el:`source` povinně obsahuje atribut ``id="...."`` umožňující
 jeho odkazování v rámci XML dokumentu.
 
 
 Identifikátor entity
 ========================
 
-Identifikátor entity je uložen v elementu `<recordId> <https://eac.staatsbibliothek-berlin.de/schema/taglibrary/cpfTagLibrary2019_EN.html#elem-recordId>`_.
+Identifikátor entity je uložen v elementu :ead-el:`recordId`.
 Jedná se o trvalý lokální identifikátor entity v rámci daného archivu.
 
 Identifikátor entity v CAMu
 ============================
 
 Pokud je entita uložena v systému CAM je její identifikátor 
-předán v elementu `<otherRecordId> <https://eac.staatsbibliothek-berlin.de/schema/taglibrary/cpfTagLibrary2019_EN.html#elem-otherRecordId>`_
+předán v elementu :ead-el:`otherRecordId`
 s povinně uvedenou hodnotou atributu ``localType="CAM"``.
 
 

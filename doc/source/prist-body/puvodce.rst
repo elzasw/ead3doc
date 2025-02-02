@@ -7,27 +7,27 @@ Odkaz na původce
 Další popis viz: ZP 4.3.1 Odkaz na původce
 
 Pro uložení odkazu na původce se použije element
-`origination <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-origination>`_ a podřízený element (elementy) podle následující tabulky. 
+:ead-el:`origination` a podřízený element (elementy) podle následující tabulky. 
 Tento podřízený elment obsahuje povinně atribut `localtype="ORIGINATOR"`. 
 Uvnitř elementu je povinně vloženým elementem 
-`ref <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ref>`_ 
+:ead-el:`ref` 
 s odkazem na strukturovaný popis původce v elementu 
-`source <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-source>`_
+:ead-el:`source`
 dle definice: :ref:`ead_ap_eac_cpf`. Uvnitř elementu je uveden název původce v textové podobě.
 
 
 =====================  ==============
 Třída                  Element
 =====================  ==============
- osoba / bytost        `persname <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-persname>`_
- rod / rodina          `famname <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-famname>`_
- korporace             `corpname <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-corpname>`_
- událost               `name <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-name>`_
+ osoba / bytost        :ead-el:`persname`
+ rod / rodina          :ead-el:`famname`
+ korporace             :ead-el:`corpname`
+ událost               :ead-el:`name`
 =====================  ==============
 
 
 Uplatnění :ref:`dědičnosti <ead_item_types_inheritance>` je zaznamenáno pomocí 
-atributu `altrender="inherited"` na úrovni elementu `origination <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-origination>`_.
+atributu `altrender="inherited"` na úrovni elementu :ead-el:`origination`.
 
 
 Příklad

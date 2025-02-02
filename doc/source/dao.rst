@@ -5,7 +5,7 @@ Digitalizáty a digitální archiválie
 ========================================
 
 Digitalizáty a digitální objekty se popisují pomocí elementu
-`<dao> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dao>`_.
+:ead-el:`dao`.
 Tento element se uvádí u jednotky popisu k níž je digitální objekt připojen. Tento objekt se tedy 
 nemůže vyskytovat v části :ref:`archdesc <ead_archdesc>`.
 
@@ -17,8 +17,8 @@ Přípustné hodnoty jsou:
 
 Pokud k digitálnímu objektu existuje samostatný popis
 odlišný od popisu jednotky popisu, tento se 
-uvede v elementu `<descriptivenote> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-descriptivenote>`_
-s jedním vnořeným elementem `<p> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_.
+uvede v elementu :ead-el:`descriptivenote`
+s jedním vnořeným elementem :ead-el:`p`.
 
 Případné omezení přístupnosti digitalizátu, resp. informace o jeho 
 nezveřejnění viz :ref:`ead_jp_omezeni_pristupu_dao`.
@@ -103,7 +103,7 @@ Více digitálních objektů u jedné jednotky popisu
 
 Pokud je k digitálnímu objektu připojeno více samostatných
 digitalizátů, tyto se uvedou jako samostatné elementy typu 
-`<dao> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dao>`_.
+:ead-el:`dao`.
 
 
 .. code-block:: xml

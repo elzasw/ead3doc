@@ -11,9 +11,8 @@ Další popis viz:
 
 
 Informace o bezprostředním zdroji příjmu archiválií, jejich výběru
-se uvádí v elementu `<accruals> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-accruals>`_
-s vnořeným jedním elementem 
-`<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
+se uvádí v elementu :ead-el:`accruals`
+s vnořeným jedním elementem :ead-el:`p`.
 
 
 .. code-block:: xml

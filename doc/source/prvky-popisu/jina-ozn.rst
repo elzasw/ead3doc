@@ -8,7 +8,7 @@ Další popis viz:
  - ZP 4.2.2 Jiná označení
 
 
-Jiná označení se uloží do elementu `<unitid> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitid>`_.
+Jiná označení se uloží do elementu :ead-el:`unitid`.
 Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 
 s konstantou uvádějící typ označení a atribut `label <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_ 
 s uvedením uživatelsky čitelného popisu. Přípustné 

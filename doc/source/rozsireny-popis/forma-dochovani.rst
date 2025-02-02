@@ -10,7 +10,7 @@ Další popis viz:
  - ISAD(G) 3.1.5
 
 Způsob a forma dochování se uvádí v elementu 
-`<physdesc> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physdesc>`_. 
+:ead-el:`physdesc`. 
 Fyzický stav se zapisuje jako prostý text.
 
 
@@ -29,7 +29,7 @@ Existence analogové či digitální části
    aip-inherent
 
 Pokud existují další součásti archiválie, uvede se toto v rámci prvků :ref:`ead_jp_char`
-v elementu `<physfacet> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
+v elementu :ead-el:`physfacet`
 s atributem ``localtype="EXTRA_PART"``.
 Typickým případem je u digitální archiválie existence její analogové (fyzické) části.
 Obsahem elementu je typ části a může nabývat hodnot:

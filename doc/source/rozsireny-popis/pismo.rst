@@ -4,7 +4,7 @@
 Písmo
 ===================================================
 
-Písmo se uvádí v elementu `<physfacet> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physfacet>`_
+Písmo se uvádí v elementu :ead-el:`physfacet`
 s uvedením hodnoty ``localtype="WRITTING"``. 
 Element je součástí :ref:`charakteristiky jednotky popisu <ead_jp_char>`. 
 Hodnota se uvádí v kontextu souvisejících hodnot. Jedná se o textovou hodnotu. 

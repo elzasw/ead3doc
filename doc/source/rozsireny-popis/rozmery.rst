@@ -10,7 +10,7 @@ Textová podoba rozměrů, hmotnosti, velikosti a množství
 ============================================================
 
 Textová podoba rozměrů, hmotnosti, velikosti a množství se 
-uvádí se v elementu `<dimensions> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dimensions>`_,
+uvádí se v elementu :ead-el:`dimensions`,
 který je součástí :ref:`ead_jp_char`. Element je nutné uvést v kontextu souvisejících hodnot.
 
 Pokud jsou k dispozici strukturované hodnoty uvedených veličin uvádí se ve strukturované podobě
@@ -42,7 +42,7 @@ Strukturovaná podoba rozměrů
 ================================
 
 Strukturovaná hodnota rozměrů se popisuje pomocí jednoho nebo více zanořených elementů
-`<dimensions> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dimensions>`_.
+:ead-el:`dimensions`.
 
 Každý zanořený element musí obsahovat atributy:
 
@@ -98,14 +98,14 @@ Strukturovaná podoba hmotnosti
 ========================================================
 
 Strukturovaná hodnota hmotnosti se popisuje pomocí elementu
-`<physdescstructured> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physdescstructured>`_
+:ead-el:`physdescstructured`
 s uvedením typu `otherphysdescstructuredtype="weight" <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-otherphysdescstructuredtype>`_.
 Povinně musí být uveden atribut ``coverage="whole"``.
 
 Povinně se uvádějí podřízené elementy:
 
- - `<quantity> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-quantity>`_ - obsahuje hmotnost
- - `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_ - veličina
+ - :ead-el:`quantity` - obsahuje hmotnost
+ - :ead-el:`unittype` - veličina
 
 
 Níže je uvedena tabulka přípustných hodnot.
@@ -115,7 +115,7 @@ Níže je uvedena tabulka přípustných hodnot.
    :header-rows: 1
 
    * - Druh informace
-     - `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_
+     - :ead-el:`unittype`
    * - hmotnost (gramy)
      - ``g``
 
@@ -142,14 +142,14 @@ Strukturovaná podoba množství a velikosti
 ========================================================
 
 Strukturovaná hodnota množství a velikosti se popisuje pomocí elementu
-`<physdescstructured> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-physdescstructured>`_
+:ead-el:`physdescstructured`
 s uvedením typu `otherphysdescstructuredtype="quantity" <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-otherphysdescstructuredtype>`_.
 Povinně musí být uveden atribut ``coverage="whole"``.
 
 Povinně se uvádějí podřízené elementy:
 
- - `<quantity> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-quantity>`_ - obsahuje množství
- - `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_ - veličina
+ - :ead-el:`quantity` - obsahuje množství
+ - :ead-el:`unittype` - veličina
 
 
 Níže je uvedena tabulka přípustných hodnot.
@@ -159,7 +159,7 @@ Níže je uvedena tabulka přípustných hodnot.
    :header-rows: 1
 
    * - Druh informace
-     - `<unittype> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unittype>`_
+     - :ead-el:`unittype`
    * - množství (byte)
      - ``byte``
    * - množství (kusy)

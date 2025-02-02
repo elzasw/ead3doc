@@ -11,13 +11,10 @@ Další popis viz:
 
 
 Datace vzniku jednotky popisu se zapisuje pomocí elementu 
-`<unitdatestructured> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdatestructured>`_,
-resp. vnořeného elementu:
-`<daterange> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-daterange>`_.
+:ead-el:`unitdatestructured`, resp. vnořeného elementu: :ead-el:`daterange`.
 
 Datace se zapisuje vždy jako interval pomocí dílčích elementů
-`<fromdate> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-fromdate>`_
-a `<todate> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-todate>`_.
+:ead-el:`fromdate` a :ead-el:`todate`.
 V atributu `standarddate <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-standarddate>`_
 se uvede strojově zpracovatelná podoba datace.
 Pokud se jedná o odhad, jsou hodnoty v atributech 
@@ -28,8 +25,8 @@ a atribut
 `standarddate <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-standarddate>`_ se nepoužije. Uvnitř 
 elementů se uvádí textová reprezentace datace v čitelné podobě.
 
-Na úrovni elementu `<daterange> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-daterange>`_ 
-se uvede povinně atribut `altrender <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-altrender>`_ 
+Na úrovni elementu :ead-el:`daterange` se uvede povinně atribut 
+`altrender <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-altrender>`_ 
 obsahující formát datace. Možnosti hodnot formátu:
 
 	- století: C
@@ -45,7 +42,7 @@ Formát datace může být zadán:
 
 
 Uplatnění :ref:`dědičnosti <ead_item_types_inheritance>` je zaznamenáno pomocí 
-atributu `altrender="inherited"` na úrovni elementu `unitdatestructured <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdatestructured>`_.
+atributu `altrender="inherited"` na úrovni elementu :ead-el:`unitdatestructured`.
 
 
 .. code-block:: xml
@@ -79,8 +76,7 @@ Uvádění více datací
 Jednotka popisu může být datována svým vznikem, ale také 
 pomocí jiných datací viz: :ref:`ead_item_types_jinadatace`.
 Pokud je na jedné úrovni uvedeno více druhů datací (časových intervalů),
-jsou tyto zabaleny v elementu:
-`<dateset> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-dateset>`_.
+jsou tyto zabaleny v elementu: :ead-el:`dateset`.
 
 
 .. code-block:: xml
@@ -114,8 +110,7 @@ pomůcky není k dispozici odpovídající strojová podoba,
 případně pro reprezentaci jiné formy datace, než-li je strojová podoba 
 (jiný kalendář apod.).
 
-Textová datace se zapisuje do elementu 
-`<unitdate> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdate>`_.
+Textová datace se zapisuje do elementu :ead-el:`unitdate`.
 
 .. code-block:: xml
   :caption: Příklad textového způsobu zápisu

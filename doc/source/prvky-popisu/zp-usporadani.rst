@@ -10,8 +10,8 @@ Další popis viz:
 
 
 Informace o vnitřní struktuře, uspořádání, vnitřní skartaci nebo způsobu roztřídění jednotky 
-popisu se uvádějí v elementu `<arrangement> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-arrangement>`_
-s vnořeným jedním elementem `<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
+popisu se uvádějí v elementu :ead-el:`arrangement`
+s vnořeným jedním elementem :ead-el:`p`.
 
 
 .. code-block:: xml

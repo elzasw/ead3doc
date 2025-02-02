@@ -12,7 +12,7 @@ Informace o publikaci pomůcky
 ===============================
 
 Informace vztahující se k publikaci pomůcky jsou hlavně
-zachyceny v elementu `publicationstmt <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-publicationstmt>`_.
+zachyceny v elementu :ead-el:`publicationstmt`.
 
 Element obsahuje podřízené prvky popisu zachycující:
  - :ref:`kdo archivní pomůcku schválil <ead_faintro_approvedby>`

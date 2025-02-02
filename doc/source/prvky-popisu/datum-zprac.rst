@@ -11,10 +11,8 @@ Další popis viz:
 
 
 Datum (data) vytvoření nebo revize popisu se uvádí v elementu 
-`<processinfo> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-processinfo>`_
-s vnořeným jedním elementem 
-`<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_. Na úrovni 
-elementu `<processinfo> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-processinfo>`_
+:ead-el:`processinfo` s vnořeným jedním elementem 
+:ead-el:`p`. Na úrovni elementu :ead-el:`processinfo`
 se povinně uvádí atribut ``localtype="DESCRIPTION_DATE"``.
 
 

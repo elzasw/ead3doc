@@ -7,15 +7,13 @@ Jiné datace jednotky popisu než datace vzniku jednotky popisu
 Další popis viz: ZP 5.2.1 Jiné datace jednotky popisu než datace vzniku jednotky popisu
 
 Jiná datace jednotky popisu se zapisuje pomocí elementu 
-`<unitdatestructured> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-unitdatestructured>`_,
-resp. vnořeného elementu:
-`<daterange> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-daterange>`_.
+:ead-el:`unitdatestructured`,
+resp. vnořeného elementu: :ead-el:`daterange`.
 Jiná datace má shodnou podobu jako zápis prvku popisu :ref:`ead_item_types_unitdatestructured`.
 V případě výskytu více druhů datací (včetně :ref:`ead_item_types_unitdatestructured`)
 se zapíší dle: :ref:`ead_item_types_unitdatestructured_multi`.
 
-Každá jiná datace jednotky popisu musí mít na úrovni elementu 
-`<daterange> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-daterange>`_
+Každá jiná datace jednotky popisu musí mít na úrovni elementu :ead-el:`daterange`
 povinně uveden atribut `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_
 s konstantou uvádějící typ datace dle tabulky :ref:`ead_item_types_jinadatace_typy`.
 

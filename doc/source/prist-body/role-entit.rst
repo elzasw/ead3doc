@@ -29,10 +29,10 @@ Další popis viz ZP:
 
 
 Pro uložení rolí entit se použije element
-`relation <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_.
-V podřízeném elementu `relationentry <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_
+:ead-el:`relation`.
+V podřízeném elementu :ead-el:`relationentry`
 se uvede preferované označení odkazované entity.
-Role entity se ukládá do atributu `linkrole <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linkrole>`_. 
+Role entity se ukládá do atributu :ead-el:`linkrole`. 
 Tabulka rolí je uvedena níže v části: :ref:`ead_ap_relation_roles`.
 Uživatelsky čitelné označení role se zapisuje do atributu `linktitle <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linktitle>`_.
 Čitelné označení umožňuje uživatelům a publikačním systémům roli 
@@ -45,7 +45,7 @@ tuto odlišnost zachytit.
 
 Uplatnění :ref:`dědičnosti <ead_item_types_inheritance>` je zaznamenáno pomocí 
 atributu `altrender="inherited"` na úrovni elementu 
-`relation <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_.
+:ead-el:`relation`.
 
 
 .. _ead_ap_relation_cpf:
@@ -57,12 +57,11 @@ Pokud je odkazovaná entita z třídy: *osoba/bytost*, *rod/rodina*, *korporace*
 či *událost* je tato zachycena dle definice v části :ref:`ead_ap_cam`. 
 Současně je povinně uveden atribut ``relationtype="cpfrelation"``.
 Odkaz na takovouto entitu je realizován pomocí elementu
-`<descriptivenote> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-descriptivenote>`_
-obsahující jeden element `<p> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_
-s odkazem `<ptr> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ptr>`_ na entitu.
+:ead-el:`descriptivenote` obsahující jeden element :ead-el:`p`
+s odkazem :ead-el:`ptr` na entitu.
 
 Preferované označení odkazované entity je vždy zaznamenáno v elementu 
-`<relationentry> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_.
+:ead-el:`relationentry`.
 
 
 
@@ -94,12 +93,11 @@ zachyceny v části :ref:`ead_ap_cam`.
 
 Současně je povinně uveden atribut ``relationtype="resourcerelation"``.
 Odkaz na takovouto entitu je realizován pomocí elementu
-`<descriptivenote> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-descriptivenote>`_
-obsahující jeden element `<p> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-p>`_
-s odkazem `<ptr> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-ptr>`_ na entitu.
+:ead-el:`descriptivenote` obsahující jeden element :ead-el:`p`
+s odkazem :ead-el:`ptr` na entitu.
 
 Preferované označení odkazované entity je vždy zaznamenáno v elementu 
-`<relationentry> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relationentry>`_.
+:ead-el:`relationentry`.
 
 
 .. code-block:: xml

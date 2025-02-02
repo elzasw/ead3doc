@@ -13,9 +13,8 @@ Další popis viz:
 Citace zásadních zdrojů informací odborně pojednávajících o jednotce popisu (nikoli zdroj 
 informace jednotku popisu citující) a případná charakteristika typu zdroje (literatura, edice, tiskem publikovaný 
 inventář, atlas, katalog dokumentů, katalog výstavy, CD ROM, webová stránka apod.)
-se uvádějí v elementu `<bibliography> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-bibliography>`_
-s vnořeným jedním elementem 
-`<p> <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#elem-p>`_.
+se uvádějí v elementu :ead-el:`bibliography`
+s vnořeným jedním elementem :ead-el:`p`.
 
 
 .. code-block:: xml

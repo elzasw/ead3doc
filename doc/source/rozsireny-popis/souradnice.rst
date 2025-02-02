@@ -6,13 +6,13 @@ Souřadnice
 
 Další popis viz: ZP 5.2.6 Souřadnice
 
-Souřadnice se uvádí pomocí elementu `<relation> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-relation>`_
+Souřadnice se uvádí pomocí elementu :ead-el:`relation`
 s atributy ``relationtype = "otherrelationtype"`` a ``otherrelationtype="COORDINATES"``.
 
 Níže jsou uvedeny podřízené elementy:
 
- - `<part> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-part>`_ s hodnotou :token:`5.2.6 Souřadnice`
- - `<geographiccoordinates> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geographiccoordinates>`_ 
+ - :ead-el:`part` s hodnotou :token:`5.2.6 Souřadnice`
+ - :ead-el:`geographiccoordinates`
    obsahující vlastní souřadnice dle definice :ref:`ead_item_types_souradnice_kodovani`
 
 
@@ -20,7 +20,7 @@ Níže jsou uvedeny podřízené elementy:
 
 Kódování souřadnic
 =====================
-Souřadnice se uvádí v elementu `<geographiccoordinates> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-geographiccoordinates>`_
+Souřadnice se uvádí v elementu :ead-el:`geographiccoordinates`
 ve formátu WKB (ISO/IEC 13249-3:2016) převedeném do BASE64, varianta little-endian. 
 Souřadný systém pro souřadnice je WGS84 — SRID 4326, uvádí se 
 v atributu ``coordinatesystem="WGS84"``.

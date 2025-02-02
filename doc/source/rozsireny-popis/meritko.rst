@@ -6,7 +6,7 @@ Měřítko
 
 Další popis viz: ZP 5.2.5 Měřítko
 
-Měřítko se uvádí v elementu `<materialspec> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-materialspec>`_
+Měřítko se uvádí v elementu :ead-el:`materialspec`
 s uvedeným atributem ``localtype="SCALE"``. Měřítko se zapisuje jako prostý text. 
 Preferovanou poodobou je vyjádření měřítka pomocí číselné hodnoty v prvku popisu 
 :ref:`ead_item_types_meritko_cislo`.
@@ -27,7 +27,7 @@ Preferovanou poodobou je vyjádření měřítka pomocí číselné hodnoty v pr
 ===========================
 
 Číselné vyjádření měřítka ve tvaru 1:N, [1:N] (odhad), případně M:N, resp. [M:N] 
-se zapisuje v samostatném elementu `<materialspec> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-materialspec>`_
+se zapisuje v samostatném elementu :ead-el:`materialspec`
 s uvedením atributem ``localtype="SCALE_RATIO"``. Jedná se opakovatelný prvek popisu. 
 Uvedený poměr musí být bezrozměrný a musí umožnit správný výpočet skutečného rozměru, 
 tj. nelze uvádět hodnoty 1cm=6km jako 1:6, ale je nutné uvést 1:600000. Číselná hodnota 

@@ -9,7 +9,7 @@ jen jeho část. Pokud je popisována jen část archivního souboru
 (jeho vybrané části), tak na nadřazených úrovních se musí 
 tato skutečnost vyznačit. Nekompletně popsané 
 úrovně popisu jsou označeny pomocí elementu 
-`<otherfindaid> <https://www.loc.gov/ead/EAD3taglib/EAD3.html#elem-otherfindaid>`_.
+:ead-el:`otherfindaid`.
 Element neobsahuje odkaz na konkrétní jinou pomůcku, ale je 
 informací o tom, že tato pomůcka může existovat nebo bude 
 v budoucnu vytvořena.
