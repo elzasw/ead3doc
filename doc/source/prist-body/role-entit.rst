@@ -118,6 +118,7 @@ Preferované označení odkazované entity je vždy zaznamenáno v elementu
 
 
 
+.. _ead_ap_relation_weakents:
 
 Slabé entity
 ======================

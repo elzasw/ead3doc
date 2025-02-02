@@ -43,6 +43,8 @@ CAM      ``cam``   ``http://cam.tacr.cz/2019``
     </ead:ead>
 
 
+.. _ead_xml_eark:
+
 Inherentní a kontextuální popis v AIPu
 ========================================
 
