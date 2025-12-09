@@ -36,7 +36,7 @@ se specifikací: ``CAM_REAL_ID``. Současně UUID entity musí být shodné s UU
 Zajištění čitelnosti entity
 =============================
 
-Každá část exportované entity musí také obsahovat lidsky čitelnou podobě. 
+Každá část exportované entity musí také obsahovat lidsky čitelnou podobu. 
 Účelem je zajištění dlouhodobé ochrany takto uložených dat a jistá míra 
 jejich samonosnosti. Pro uložení této hodnoty se využívá samostatný rozšiřující prvek 
 popisu s typem `<cam:si t="DISPLAY_NAME">`. Hodnotou prvku je čitelná podoba
