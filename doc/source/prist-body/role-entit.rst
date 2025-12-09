@@ -54,7 +54,7 @@ Entita z třídy CPF
 ======================
 
 Pokud je odkazovaná entita z třídy: *osoba/bytost*, *rod/rodina*, *korporace*
-či *událost* je tato zachycena dle definice v části :ref:`ead_ap_cam`. 
+či *událost*, je tato zachycena dle definice v části :ref:`ead_ap_cam`. 
 Současně je povinně uveden atribut ``relationtype="cpfrelation"``.
 Odkaz na takovouto entitu je realizován pomocí elementu
 :ead-el:`descriptivenote` obsahující jeden element :ead-el:`p`
