@@ -132,7 +132,7 @@ Druhy pomůcek a uváděné hodnoty:
 ============================= ==============
 Druh pomůcky                  Atribut :token:`identifier`
 ============================= ==============
-prozatimní inventární seznam  ``PROZ_INV_SEZNAM``
+prozatímní inventární seznam  ``PROZ_INV_SEZNAM``
 manipulační seznam            ``MANIP_SEZNAM``
 inventář                      ``INVENTAR``
 katalog                       ``KATALOG``
@@ -161,7 +161,7 @@ základní pravidla od roku 2013   ``CZ_ZP2013``
 
 Druh pomůcky musí odpovídat uvedeným pravidlům dle nichž byl 
 popis vytvořen a která jsou deklarována. Například 
-prozatimní inventární seznam se vytvářel dle pravidel 
+prozatímní inventární seznam se vytvářel dle pravidel 
 z roku 1958.
 
 
