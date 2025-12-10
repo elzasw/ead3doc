@@ -5,7 +5,7 @@ Jazyk
 
 Jazyk popisovaného materiálu. Uvádí se název jazyku a kód jazyku. 
 Kód jazyku odpovídá rozšířené podobě tří písmenného ISO kódu dle Základních
-pravidel, případně viz dokumentace CAM: https://cam.nacr.cz/doc/ontology/itemtypes/name/nm_lang.html
+pravidel, případně viz dokumentace CAM: https://cam.nacr.cz/doc/ontology/itemtypes/name/nm_lang.html.
 Kód se uvádí vždy malými písmeny. Na úrovni jednotky popisu 
 lze uvést jeden nebo více jazyků a to vždy v rámci  
 nadřazeného elementu :ead-el:`langmaterial`.
@@ -18,7 +18,7 @@ Prvek popisu `Jazyk, písmo` se rozepisuje do dvou elementů:
  * Písmo v elementu :ref:`ead_item_types_writting`
 
 Na úrovni každého jednotlivého uvedeného jazyka je možné uvést, zda se jedná o zděděnou 
-nebo přímo nastavenou hodnotu pomocí atributu ``altrender="inherited"`` na úrovni elementu
+nebo přímo nastavenou hodnotu, pomocí atributu ``altrender="inherited"`` na úrovni elementu
 :ead-el:`language`.
 
 
