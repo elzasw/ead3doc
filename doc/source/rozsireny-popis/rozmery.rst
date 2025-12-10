@@ -123,7 +123,7 @@ Níže je uvedena tabulka přípustných hodnot.
 Příklad uvedení hmotnosti
 ---------------------------------
 
-Příklad archiválie vážící 30g.
+Příklad archiválie vážící 30 g.
 
 .. code-block:: xml
 
