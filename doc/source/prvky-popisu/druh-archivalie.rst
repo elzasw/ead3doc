@@ -12,7 +12,7 @@ Element je součástí :ref:`charakteristiky jednotky popisu <ead_jp_char>`.
 Hodnota se uvádí v kontextu souvisejících hodnot.
 
 V případě, kdy není možné určit druh archiválie, uvádí 
-se speciální hodnota, které odpovídá úrovni popisu uváděné v :ref:`ead_archdesc_hierarchy`.
+se speciální hodnota, která odpovídá úrovni popisu uváděné v :ref:`ead_archdesc_hierarchy`.
 
 .. _ead_item_types_druharch_list:
 
