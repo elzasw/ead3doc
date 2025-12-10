@@ -10,7 +10,7 @@ Další popis viz:
  - ISAD(G) 3.1.2 Název (obsah)
 
 
-Obsah, regest se uvádí v elementu :ead-el:`unittitle`
+Obsah, regest se uvádí v elementu :ead-el:`unittitle`.
 Zapisuje jako prostý text.
 
 Prvek umožňuje :ref:`ead_archdesc_multilang`.
