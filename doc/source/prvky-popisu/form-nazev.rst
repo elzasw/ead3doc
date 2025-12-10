@@ -6,16 +6,21 @@ Formální název jednotky popisu
 
 Další popis viz: ZP 4.2.4 Formální název jednotky popisu
 
-Formální název jednotky popisu se uvádí v elementu :ead-el:`title`
-přímo umístěném v elementu :ead-el:`unittitle`
+Formální název jednotky popisu se uvádí buď přímo v elementu :ead-el:`unittitle`
+s uvedeným atributem ``localtype="FORMAL_TITLE"``.
+Nebo se uvádí v elementu :ead-el:`part` umístěném v elementu :ead-el:`title` v elementu :ead-el:`unittitle`
 s uvedeným atributem ``localtype="FORMAL_TITLE"``. Zapisuje se jako prostý text.
 
 
 .. code-block:: xml
   :caption: Příklad - Formální název jednotky popisu jako prostý text
 
+  <ead:unittitle localtype="FORMAL_TITLE">Bílá nemoc</ead:unittitle>
+  nebo
   <ead:unittitle localtype="FORMAL_TITLE">
-    <ead:title>Bílá nemoc</ead:title>
+    <ead:title>
+     <ead:part>Bílá nemoc</ead:part>
+    </ead:title>
   </ead:unittitle>
 
 
