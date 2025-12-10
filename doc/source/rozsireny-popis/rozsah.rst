@@ -37,7 +37,7 @@ Níže je uvedena tabulka přípustných hodnot.
 
 .. list-table:: Tabulka jednotek pro rozsah
    :widths: 20 10
-   :header-rows: 2
+   :header-rows: 1
 
    * - Druh informace
      - :ead-el:`unittype`
