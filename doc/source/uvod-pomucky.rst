@@ -162,7 +162,7 @@ Informace o zpracovateli se obvykle uvádí ve dvou formách.
 Strukturovaně v rámci úvodu a sumárně v tiráži.
 
 Strukturovaný popis zpracovatele je uložen v samostatném bloku ``<ead:p>``
-a vnořeném elementu ``<ead:name localtype="ARRANGER">``.
+a vnořeném elementu ``<ead:persname localtype="ARRANGER">``.
 Podrobněji viz :ref:`ead_ap`.
 
 Atribut ``localtype="ARRANGER"`` se uvádí povinně a slouží 
