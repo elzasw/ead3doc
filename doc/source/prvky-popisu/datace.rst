@@ -107,7 +107,7 @@ Další popis viz: ZP 4.2.5 Datace vzniku jednotky popisu - strojově čitelný
 
 Textový způsob zápisu datace se použije v případě, kdy u starší 
 pomůcky není k dispozici odpovídající strojová podoba, 
-případně pro reprezentaci jiné formy datace, než-li je strojová podoba 
+případně pro reprezentaci jiné formy datace, nežli je strojová podoba 
 (jiný kalendář apod.).
 
 Textová datace se zapisuje do elementu :ead-el:`unitdate`.
