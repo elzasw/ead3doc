@@ -96,7 +96,7 @@ Níže je uvedena tabulka přípustných hodnot.
 Příklad doby trvání
 ------------------------------
 
-Záznam v délce 100s.
+Záznam v délce 100 s.
 
 .. code-block:: xml
 
