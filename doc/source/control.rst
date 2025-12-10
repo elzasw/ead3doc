@@ -81,7 +81,7 @@ control/maintenancestatus
 
 Povinný element :ead-el:`maintenancestatus` 
 obsahuje informaci o stavu publikace archivní pomůcky. Pro archivní popis
-vzniklý exportem z pořádacích aplikací se uvede atribut ``value="DERIVED"``.
+vzniklý exportem z pořádacích aplikací se uvede atribut ``value="derived"``.
 
 
 .. _ead_control_maintenanceagency:
