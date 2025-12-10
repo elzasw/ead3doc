@@ -84,11 +84,11 @@ jsou tyto zabaleny v elementu: :ead-el:`dateset`.
 
     <ead:unitdatestructured>
     <ead:dateset>
-      <ead:daterange>
+      <ead:daterange altrender="D">
         <ead:fromdate standarddate="2001-10-01T00:00:00">1. října 2001</ead:fromdate>
         <ead:todate standarddate="2001-10-01T23:59:59">1. října 2001</ead:todate>
       </ead:daterange>
-      <ead:daterange localtype="CONTENT">
+      <ead:daterange altrender="D" localtype="CONTENT">
         <ead:fromdate standarddate="1980-12-31T00:00:00">31. prosince 1980</ead:fromdate>
         <ead:todate standarddate="1980-12-31T23:59:59">31. prosince 1980</ead:todate>
       </ead:daterange>
