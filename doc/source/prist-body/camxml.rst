@@ -29,7 +29,7 @@ funkci párovacího znaku.
 Identifikátor entity v CAMu
 ============================
 
-Pokud je entita uložena v systému CAM je její identifikátor předán v části jiné identifikátory 
+Pokud je entita uložena v systému CAM, je její identifikátor předán v části jiné identifikátory 
 se specifikací: ``CAM_REAL_ID``. Současně UUID entity musí být shodné s UUID ze systému CAM.
 
 
