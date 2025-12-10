@@ -37,12 +37,14 @@ Níže je uvedena tabulka přípustných hodnot.
 
 .. list-table:: Tabulka jednotek pro rozsah
    :widths: 20 10
-   :header-rows: 1
+   :header-rows: 2
 
    * - Druh informace
      - :ead-el:`unittype`
    * - běžné metry (bm)
      - ``bm``
+   * - byte
+     - ``byte``
 
 
 Příklad rozsahu (bm)
