@@ -135,7 +135,7 @@ Rozšířený popis archiválií
    * - 5.10.1 Role entit ve vztahu k technickým výkresům
      - :ref:`ead_ap_relation`
    * - 5.11.1 Legenda
-     - :ref:`ead_item_types_legend`     - 
+     - :ref:`ead_item_types_legend`      
    * - 5.11.2 Role entit ve vztahu ke grafickým listům a kresbám
      - :ref:`ead_ap_relation`
    * - 5.12.1 Role entit ve vztahu k fotografickým archiváliím
