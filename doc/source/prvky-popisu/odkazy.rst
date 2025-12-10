@@ -13,7 +13,7 @@ Další popis viz:
 
 
 Důležité odkazy na jiné dokumenty, archiválie nebo evidence, které s jednotkou popisu obsahově, 
-formálně nebo fyzicky souvisejí se uvádějí v elementu :ead-el:`relatedmaterial`
+formálně nebo fyzicky souvisejí, se uvádějí v elementu :ead-el:`relatedmaterial`
 s vnořeným jedním elementem :ead-el:`p`.
 
 
