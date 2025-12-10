@@ -108,7 +108,7 @@ pro odlišení od dalších hodnot.
 Archivní pomůcku sestavil
 ---------------------------
 
-Kdo archivní pomůcku sestavil je uložen v samostatném bloku ``<ead:p>``
+Kdo archivní pomůcku sestavil, je uložen v samostatném bloku ``<ead:p>``
 a vnořeném elementu `<ead:name localtype="FINDING_AID_EDITOR">`.
 Atribut ``localtype="FINDING_AID_EDITOR"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
