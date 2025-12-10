@@ -47,7 +47,7 @@ jako prvek popisu jazyk, je však doplněn o atribut
 Takto zapsaný jazyk přímo necharakterizuje
 každou jednotlivou archiválii na nižších úrovních. Pro určení
 konkrétního jazyku archiválií se využijte samotný 
-prvek popisu jazyk viz výše.
+prvek popisu jazyk, viz výše.
 
 
 .. code-block:: xml
