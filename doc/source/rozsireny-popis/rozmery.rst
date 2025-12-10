@@ -13,7 +13,7 @@ Textová podoba rozměrů, hmotnosti, velikosti a množství se
 uvádí se v elementu :ead-el:`dimensions`,
 který je součástí :ref:`ead_jp_char`. Element je nutné uvést v kontextu souvisejících hodnot.
 
-Pokud jsou k dispozici strukturované hodnoty uvedených veličin uvádí se ve strukturované podobě
+Pokud jsou k dispozici strukturované hodnoty uvedených veličin, uvádí se ve strukturované podobě
 v samostatných elementech, viz:
 
  * :ref:`ead_item_types_rozmery_structured`
