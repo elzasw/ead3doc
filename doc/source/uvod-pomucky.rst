@@ -89,7 +89,7 @@ pro odlišení od dalších hodnot.
 Stav archivní pomůckou zpřístupněných archiválií ke dni
 ------------------------------------------------------------
 
-Datum k němuž jsou archiválie popsány je v samostatném bloku ``<ead:date>``.
+Datum, k němuž jsou archiválie popsány, je v samostatném bloku ``<ead:date>``.
 Atribut ``localtype="FINDING_AID_DATE"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
 
