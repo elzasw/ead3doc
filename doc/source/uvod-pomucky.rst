@@ -6,7 +6,7 @@ Uložení úvodu a prvků popisu tiráže
 
 Úvod, úvodní list a tiráž archivní pomůcky jsou tvořeny
 prvky popisu. Jejich hodnoty jsou primárně zachyceny v části
-:ref:`ead_control`. Primárně se uvádí v případě, že je v souvoru uložena archivní pomůcka.
+:ref:`ead_control`. Primárně se uvádí v případě, že je v souboru uložena archivní pomůcka.
 
 Informace o publikaci pomůcky
 ===============================
