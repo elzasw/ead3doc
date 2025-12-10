@@ -43,7 +43,7 @@ Prvky popisu s explicitním uplatněním dědičnosti:
 Prvek s jinou formou dědičnosti
 ====================================
 
-Jedná se o prvek popisu u něhož dědičnost není přímo zachycena ve výstupním formátu.
+Jedná se o prvek popisu, u něhož dědičnost není přímo zachycena ve výstupním formátu.
 
 Obsah, regest
 ---------------
