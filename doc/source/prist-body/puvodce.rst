@@ -38,7 +38,7 @@ s ID uvnitř XML ``ap154``:
 
 .. code-block:: xml
 
-    <!-- Odkaz na původce archivalii -->
+    <!-- Odkaz na původce archivalií -->
     <ead:did>
       <ead:origination altrender="inherited">
         <ead:persname localtype="ORIGINATOR">
