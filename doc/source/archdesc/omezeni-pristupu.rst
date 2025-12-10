@@ -5,7 +5,7 @@ Omezení přístupu a podmínky zveřejnění
 =========================================
 
 Základní pravidla pro zpracování archiválií definují prvky 
-popisu určující přístupnost archiválíi, archivního popisu,
+popisu určující přístupnost archiválií, archivního popisu,
 kopií a replik (digitalizátů a digitálních archiválií).
 
 V rámci předávaných dat je možné pomocí textového prvku 
