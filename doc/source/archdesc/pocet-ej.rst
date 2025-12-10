@@ -8,7 +8,7 @@ Počet evidenčních jednotek zpřístupněných archivní pomůckou. U tištěn
 V elektronickém exportu pomůcky se uvádí pouze v nejvyšším elementu archivního popisu, 
 tj. v :ead-el:`archdesc`.
 Každý druh zpřístupněné evidenční jednotky je zapsán v samostatném elementu 
-:ead-el:`physdescstructured`,
+:ead-el:`physdescstructured`
 s uvedením povinných atributů:
 
  - ``coverage="part"``
