@@ -20,4 +20,4 @@ Základní východiska pro vytváření archivního popisu dle tohoto návodu:
     možnosti značkování archivní pomůcky v digitální podobě podle schématu XML za účelem 
     jednotného značkování pomůcek. Dokument XML musí respektovat předkládané obsahové 
     usměrnění.
- 5. Za základní znakovou sadu dokumentu XML se považuje Unicode/UCS4 v kódování UTF 8.
+ 5. Za základní znakovou sadu dokumentu XML se považuje Unicode/UCS4 v kódování UTF-8.
