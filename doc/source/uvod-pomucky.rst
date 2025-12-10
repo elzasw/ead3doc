@@ -230,6 +230,6 @@ archiválií se jako jednotka uvádí ``byte``.
 Počet jednotek popisu
 =========================
 
-Počet jednotek popisu, které lze na základě archivní pomůcky zpřístupnit
+Počet jednotek popisu, které lze na základě archivní pomůcky zpřístupnit,
 se uvádí pomocí prvku popisu :ref:`ead_item_types_rozsah`.
 Prvek je uveden v kořenové jednotce popisu.
