@@ -36,7 +36,7 @@ pro odlišení od dalších hodnot.
 .. code-block:: xml
 
  <ead:publicationstmt>
-     <!-- Schválil archivni pomucku -->
+     <!-- Schválil archivní pomůcku -->
      <ead:p>
         <ead:name localtype="FINDING_AID_APPROVED_BY">
           <ead:part>... jméno osoby ...</ead:part>
@@ -59,7 +59,7 @@ pro odlišení od dalších hodnot.
 
  <ead:publicationstmt>
     ...
-    <!-- Datum a misto vydani  --> 
+    <!-- Datum a místo vydaní  --> 
     <ead:date localtype="RELEASE_DATE_PLACE">V Praze 25.8.2020</ead:date>
     ...
  </ead:publicationstmt>
@@ -97,7 +97,7 @@ pro odlišení od dalších hodnot.
 
  <ead:publicationstmt>
     ...
-    <!-- Datum zachyceneho stavu --> 
+    <!-- Datum zachyceného stavu --> 
     <ead:date localtype="FINDING_AID_DATE">1.4.2020</ead:date>
     ...
  </ead:publicationstmt>
@@ -117,7 +117,7 @@ pro odlišení od dalších hodnot.
 
  <ead:publicationstmt>
     ...
-    <!-- Sestavovatel/editor archivni pomucky --> 
+    <!-- Sestavovatel/editor archivní pomůcky --> 
     <ead:p><ead:name localtype="FINDING_AID_EDITOR">
       <ead:part>Jan Novák</ead:part>
     </ead:name></ead:p>
@@ -143,7 +143,7 @@ Celý blok ``<ead:p>`` je opakovatelný a uvede se samostatně pro každého pů
 
  <ead:publicationstmt>
     ...
-    <!-- Puvodce v uvodu archivni pomucky -->
+    <!-- Původce v úvodu archivní pomůcky -->
     <ead:p>
       <ead:persname localtype="ORIGINATOR">
         <ead:part><ead:ref target="ap7523">Neruda, Jan (1834-1891)</ead:ref></ead:part>
@@ -174,7 +174,7 @@ Celý blok ``<ead:p>`` je opakovatelný a uvede se samostatně pro každého zpr
 
  <ead:publicationstmt>
     ...
-    <!-- Zpracovatel v uvodu archivni pomucky --> 
+    <!-- Zpracovatel v úvodu archivní pomůcky --> 
     <ead:p>
       <ead:persname localtype="ARRANGER">
         <ead:part>
@@ -197,7 +197,7 @@ pro odlišení od dalších hodnot.
 
  <ead:publicationstmt>
     ...
-    <!-- Zpracovatel v tirazi archivni pomucky -->
+    <!-- Zpracovatel v tiráži archivní pomůcky -->
     <ead:p>
       <ead:name localtype="ARRANGER_BRIEF">
         <ead:part>... preferované označení ...</ead:part>
