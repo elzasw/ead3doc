@@ -8,7 +8,7 @@ Další popis viz: ZP 4.3.1 Odkaz na původce
 
 Pro uložení odkazu na původce se použije element
 :ead-el:`origination` a podřízený element (elementy) podle následující tabulky. 
-Tento podřízený elment obsahuje povinně atribut `localtype="ORIGINATOR"`. 
+Tento podřízený element obsahuje povinně atribut `localtype="ORIGINATOR"`. 
 Uvnitř elementu je povinně vloženým elementem 
 :ead-el:`ref` 
 s odkazem na strukturovaný popis původce v elementu 
