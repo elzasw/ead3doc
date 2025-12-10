@@ -82,7 +82,7 @@ Květen 2022
 
 Říjen 2022
 ---------------
- * přidání localType k: :ref:`ead_item_types_technika` - odlišení od dalších prvků popisu
+ * přidání localtype k: :ref:`ead_item_types_technika` - odlišení od dalších prvků popisu
  * oprava label u :ref:`ead_item_types_inv_cislo`
  * přidání formátu datace: :ref:`ead_item_types_unitdatestructured`
  * upřesnění popisu: :ref:`ead_item_types_custodhist`
