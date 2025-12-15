@@ -134,6 +134,8 @@ Původce je uložen v samostatném bloku ``<ead:p>``
 a vnořeném elementu ``<ead:name localtype="ORIGINATOR">``.
 Podrobněji viz :ref:`ead_ap`.
 
+Lze užít podřízené elementy ead:persname, ead:famname, ead:corpname a ead:name.
+
 Atribut ``localtype="ORIGINATOR"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
 
