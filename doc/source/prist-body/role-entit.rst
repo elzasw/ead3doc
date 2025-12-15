@@ -34,12 +34,12 @@ V podřízeném elementu :ead-el:`relationentry`
 se uvede preferované označení odkazované entity.
 Role entity se ukládá do atributu :ead-el:`linkrole`. 
 Tabulka rolí je uvedena níže v části: :ref:`ead_ap_relation_roles`.
-Uživatelsky čitelné označení role se zapisuje do atributu `linktitle <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linktitle>`_.
+Uživatelsky čitelné označení role se zapisuje do atributu `linktitle <https://www.loc.gov/ead/EAD3taglib/#attr-linktitle>`_.
 Čitelné označení umožňuje uživatelům a publikačním systémům roli 
-přímo interpretovat, zatímco atribut `linkrole <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linkrole>`_
+přímo interpretovat, zatímco atribut `linkrole <https://www.loc.gov/ead/EAD3taglib/#attr-linkrole>`_
 ji umožňuje interpretovat strojově, zajistit překlady.
 V případě dílčí specializace role v předávajícím systému je v atributu 
-`linktitle <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linktitle>`_ možné
+`linktitle <https://www.loc.gov/ead/EAD3taglib/#attr-linktitle>`_ možné
 tuto odlišnost zachytit.
 
 
