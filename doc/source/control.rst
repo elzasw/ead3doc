@@ -41,7 +41,7 @@ Příklad - archivní pomůcka číslo 426:
 
 
 Volitelně je možné přidat interní kód výstupu (např. kód revize pomůcky) umožňující blíže identifikovat výstup.
-Pro uložení interního kódu se uvádí v atributu `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+Pro uložení interního kódu se uvádí v atributu `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
 hodnota ``INTERNAL_REV_ID``.
 Element <ead:otherrecordid localtype="INTERNAL_REV_ID"> není opakovatelný.
 
@@ -68,7 +68,7 @@ elementu :ead-el:`subtitle`.
 V ostatních případech se element :ead-el:`subtitle`
 uvádí volitelně a obsahuje uživatelské pojmenování zapsaného archivního popisu.
 
-Atribut `encodinganalog <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-encodinganalog>`_
+Atribut `encodinganalog <https://www.loc.gov/ead/EAD3taglib/#attr-encodinganalog>`_
 povinně obsahuje číslo archivního souboru ze základní evidence Národního archivního dědictví.
 
 Část je dále určena pro uložení informací nacházejících se na titulním listu,
@@ -101,7 +101,7 @@ Na úrovni elementu :ead-el:`maintenanceagency`
 se uvádí povinně atribut ``countrycode="CZ"``.
 
 Element :ead-el:`agencycode` obsahuje kód archivu
-a atribut `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+a atribut `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
 s hodnotou ``CZ_MVCR_INSTITUTION_ID``.
 
 Příklad:
