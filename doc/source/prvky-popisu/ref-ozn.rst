@@ -13,8 +13,8 @@ Referenční označení
 
 Referenční označení se uloží do elementu :ead-el:`unitid`.
 Způsob uložení je shodný se způsobem uložení prvku :ref:`ead_item_types_jinaozn`.
-Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 
-s hodnotou ``REFERENCNI_OZNACENI`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_ 
+Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_ 
+s hodnotou ``REFERENCNI_OZNACENI`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/#attr-label>`_ 
 s hodnotou ``referenční označení``. 
 Uvádí se úplné referenční označení včetně prefixu CZ, identifikace archivu a čísla archivního souboru.
 
@@ -34,8 +34,8 @@ Pořadové číslo
 
 Pořadové číslo lze uvádět pro všechny typy pomůcek. Uvádí se shodným
 způsobem jako prvek popisu :ref:`ead_item_types_jinaozn`.
-Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 
-s hodnotou ``PORADOVE_CISLO`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_ 
+Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_ 
+s hodnotou ``PORADOVE_CISLO`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/#attr-label>`_ 
 s hodnotou ``pořadové číslo``.
 
 Příklad:
@@ -54,8 +54,8 @@ Inventární číslo
 Pro starší typy pomůcek se uvádí inventární číslo.
 Uvádí se shodným
 způsobem jako prvek popisu :ref:`ead_item_types_jinaozn`.
-Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 
-s hodnotou ``INV_CISLO`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_ 
+Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_ 
+s hodnotou ``INV_CISLO`` a atribut `label <https://www.loc.gov/ead/EAD3taglib/#attr-label>`_ 
 s hodnotou ``inventární číslo``.
 
 Příklad:
