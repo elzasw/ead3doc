@@ -33,6 +33,8 @@ a vnořeném elementu `<ead:name localtype="FINDING_AID_APPROVED_BY">`.
 Atribut ``localtype="FINDING_AID_APPROVED_BY"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
 
+Elementy ead:p, ead:name a ead:part nejsou opakovatelné.
+
 .. code-block:: xml
 
  <ead:publicationstmt>
