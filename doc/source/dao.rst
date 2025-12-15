@@ -9,7 +9,7 @@ Digitalizáty a digitální objekty se popisují pomocí elementu
 Tento element se uvádí u jednotky popisu, k níž je digitální objekt připojen. Tento objekt se tedy 
 nemůže vyskytovat v části :ref:`archdesc <ead_archdesc>`.
 
-Druh digitálního objektu se uvede v atributu `daotype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-daotype>`_.
+Druh digitálního objektu se uvede v atributu `daotype <https://www.loc.gov/ead/EAD3taglib/#attr-daotype>`_.
 Přípustné hodnoty jsou:
 
   - :token:`derived` - digitalizát
