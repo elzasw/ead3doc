@@ -17,12 +17,12 @@ Jednotky popisu jsou uloženy pomocí elementu
 :ead-el:`archdesc`
 a sady podřízených elementů :ead-el:`c`.
 Každý z těchto elementů musí mít vždy pevně uveden druh úrovně 
-v atributu `level= <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-level>`_.
+v atributu `level= <https://www.loc.gov/ead/EAD3taglib/#attr-level>`_.
 
 Způsob uložení jednotlivých úrovní jednotek popisu je v následující tabulce:
 
 =================================== =============
-Úroveň popisu                       `Atribut level <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-level>`_
+Úroveň popisu                       `Atribut level <https://www.loc.gov/ead/EAD3taglib/#attr-level>`_
 =================================== =============
 :ref:`soubor <ead_archdesc_fonds>`  :xml:`<ead:archdesc level="fonds">`
 dílčí list                          :xml:`<ead:c level="subfonds">`
