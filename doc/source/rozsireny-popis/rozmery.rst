@@ -46,15 +46,15 @@ Strukturovaná hodnota rozměrů se popisuje pomocí jednoho nebo více zanořen
 
 Každý zanořený element musí obsahovat atributy:
 
- - druh informace - rozměr: `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
- - jednotka: `unit <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-unit>`_
+ - druh informace - rozměr: `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
+ - jednotka: `unit <https://www.loc.gov/ead/EAD3taglib/#attr-unit>`_
  
 
 Uvnitř elementu se uvádí příslušná číselná hodnota ve formátu bez mezer a 
 s tečkou pro oddělení desetinných míst.
 
-Tabulka možný hodnot pro `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
-a `unit <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-unit>`_:
+Tabulka možný hodnot pro `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
+a `unit <https://www.loc.gov/ead/EAD3taglib/#attr-unit>`_:
 
 .. list-table:: Tabulka hodnot pro localtype a unit
    :widths: 20 10 10
@@ -99,7 +99,7 @@ Strukturovaná podoba hmotnosti
 
 Strukturovaná hodnota hmotnosti se popisuje pomocí elementu
 :ead-el:`physdescstructured`
-s uvedením typu `otherphysdescstructuredtype="weight" <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-otherphysdescstructuredtype>`_.
+s uvedením typu `otherphysdescstructuredtype="weight" <https://www.loc.gov/ead/EAD3taglib/#attr-otherphysdescstructuredtype>`_.
 Povinně musí být uveden atribut ``coverage="whole"``.
 
 Povinně se uvádějí podřízené elementy:
@@ -143,7 +143,7 @@ Strukturovaná podoba množství a velikosti
 
 Strukturovaná hodnota množství a velikosti se popisuje pomocí elementu
 :ead-el:`physdescstructured`
-s uvedením typu `otherphysdescstructuredtype="quantity" <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-otherphysdescstructuredtype>`_.
+s uvedením typu `otherphysdescstructuredtype="quantity" <https://www.loc.gov/ead/EAD3taglib/#attr-otherphysdescstructuredtype>`_.
 Povinně musí být uveden atribut ``coverage="whole"``.
 
 Povinně se uvádějí podřízené elementy:
