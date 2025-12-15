@@ -43,6 +43,7 @@ Příklad - archivní pomůcka číslo 426:
 Volitelně je možné přidat interní kód výstupu (např. kód revize pomůcky) umožňující blíže identifikovat výstup.
 Pro uložení interního kódu se uvádí v atributu `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
 hodnota ``INTERNAL_REV_ID``.
+Element <ead:otherrecordid localtype="INTERNAL_REV_ID"> není opakovatelný.
 
 .. code-block:: xml
 
