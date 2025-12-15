@@ -26,7 +26,7 @@ control/otherrecordid
 Pokud se EAD používá pro uložení finální pomůcky použije se povinně element 
 :ead-el:`otherrecordid` pro 
 uložení jejího čísla ze základní evidence Národního archivního dědictví. 
-V atributu `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+V atributu `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
 se uvádí ``CZ_MVCR_FINDING_AID_ID`` a jako hodnota se uvede číslo pomůcky.
 
 Příklad - archivní pomůcka číslo 426:
