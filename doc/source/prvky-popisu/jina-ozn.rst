@@ -9,8 +9,8 @@ Další popis viz:
 
 
 Jiná označení se uloží do elementu :ead-el:`unitid`.
-Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_ 
-s konstantou uvádějící typ označení a atribut `label <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_ 
+Povinně se uvádí atributy `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_ 
+s konstantou uvádějící typ označení a atribut `label <https://www.loc.gov/ead/EAD3taglib/#attr-label>`_ 
 s uvedením uživatelsky čitelného popisu. Přípustné 
 hodnoty jsou uvedeny v tabulce :ref:`ead_item_types_jinaozn_tab`.
 
