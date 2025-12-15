@@ -61,7 +61,7 @@ Identifikátory ve formě URI
 
 
 Identifikátor má podobu URI a ukládá se do atributu
-`base <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-base>`_. Tento identifikátor 
+`base <https://www.loc.gov/ead/EAD3taglib/#attr-base>`_. Tento identifikátor 
 je vhodné používat v případech, kdy je vázán na zpracované archiválie, má trvalou podobu 
 a slouží ke zpřístupnění archiválií ve vztahu k badatelům. Identifikátor musí odpovídat 
 standardu LinkedData. Pro archivy v ČR jsou možné dva přístupy 
