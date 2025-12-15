@@ -74,7 +74,7 @@ Doba trvání se uvádí v sekundách.
 
 Strukturovaná hodnota doby trvání se popisuje pomocí elementu
 :ead-el:`physdescstructured`
-s uvedením typu `otherphysdescstructuredtype="duration" <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-otherphysdescstructuredtype>`_.
+s uvedením typu `otherphysdescstructuredtype="duration" <https://www.loc.gov/ead/EAD3taglib/#attr-otherphysdescstructuredtype>`_.
 Povinně musí být uveden atribut ``coverage="whole"``.
 
 Povinně se uvádějí podřízené elementy:
