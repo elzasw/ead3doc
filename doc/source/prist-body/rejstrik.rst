@@ -19,7 +19,7 @@ do elementu :ead-el:`index`.
 V rámci tohoto elementu jsou definovány samostatně rejstříky 
 pro jednotlivé třídy entit pomocí podřízeného 
 elementu :ead-el:`index`
-s povinně uvedeným typem pomocí atributu `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_.
+s povinně uvedeným typem pomocí atributu `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_.
 
 .. list-table:: Druhy rejstříků
    :widths: 20 10
@@ -37,7 +37,7 @@ s povinně uvedeným typem pomocí atributu `localtype <https://www.loc.gov/ead/
 
 Jednotlivé záznamy v rejstříku se ukládají pomocí 
 elementu :ead-el:`indexentry`
-s uvedením atributu `id <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+s uvedením atributu `id <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
 pro odkazování uvnitř XML dokumentu. Rejstříkový záznam je 
 takto odkazován z prvků popisu.
 
@@ -69,7 +69,7 @@ identifikátor použije se přímo element :ead-el:`ref`.
 V případě více identifikátorů u entity jsou tyto uvedeny 
 samostatně ve společném elementu :ead-el:`ptrgrp=`.
 
-Druh identifikátoru je povinně uveden v atributu `linkrole <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-linkrole>`_.
+Druh identifikátoru je povinně uveden v atributu `linkrole <https://www.loc.gov/ead/EAD3taglib/#attr-linkrole>`_.
 
 
 Identifikátor entity
@@ -137,7 +137,7 @@ Stručná charakteristika
 
 Stručná charakteristika entity se uvede v elementu :ead-el:`subject`
 a podřízeném elementu :ead-el:`part`.
-U podřízeného elementu se uvede atribut `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-localtype>`_
+U podřízeného elementu se uvede atribut `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
 s hodnotou ``BRIEF_DESC``.
 
 
