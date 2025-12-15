@@ -14,7 +14,7 @@ V případě výskytu více druhů datací (včetně :ref:`ead_item_types_unitda
 se zapíší dle: :ref:`ead_item_types_unitdatestructured_multi`.
 
 Každá jiná datace jednotky popisu musí mít na úrovni elementu :ead-el:`daterange`
-povinně uveden atribut `localtype <https://www.loc.gov/ead/EAD3taglib/EAD3.html#attr-label>`_
+povinně uveden atribut `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-label>`_
 s konstantou uvádějící typ datace dle tabulky :ref:`ead_item_types_jinadatace_typy`.
 
 
