@@ -246,10 +246,11 @@ dat. Povinně se uvádí elementy:
     <ead:maintenanceevent>
       <ead:eventtype value="created"></ead:eventtype>
       <ead:eventdatetime standarddatetime="2022-02-07T01:31:59.835+01:00">2022-02-07T01:31:59.835+01:00</ead:eventdatetime>
-      <!-- Typ vytvoření popisu machine|human -->
+      <!-- Typ vytvoření popisu machine -->
       <ead:agenttype value="machine"></ead:agenttype>
       <!-- Jméno agenta -->
       <ead:agent>ELZA 2.3.9</ead:agent>
     </ead:maintenanceevent>
   </ead:maintenancehistory>  
 
+Element ead:maintenanceevent není opakovatelný.
