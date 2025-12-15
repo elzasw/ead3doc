@@ -113,6 +113,8 @@ a vnořeném elementu `<ead:name localtype="FINDING_AID_EDITOR">`.
 Atribut ``localtype="FINDING_AID_EDITOR"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
 
+Povinné pro archivní pomůcku. Element ead:name není opakovatelný. V případě, kdy pomůcku sestavilo více osob, uvádí se každé jméno osoby v samostatném elementu ead:part.
+
 .. code-block:: xml
 
  <ead:publicationstmt>
