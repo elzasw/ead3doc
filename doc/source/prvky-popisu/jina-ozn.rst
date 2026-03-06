@@ -27,14 +27,14 @@ Příklad:
 .. code-block:: xml
 
   <ead:unitid localtype="CISLO_JEDNACI" 
-     label="číslo jednací">2022/34-2</ead:unitid>
+     label="číslo jednací">MV-2022/34-2</ead:unitid>
 
 
 Příklad pro zápis identifikátoru ze spisové služby:
 
 .. code-block:: xml
 
-  <ead:unitid localtype="JINE" 
+  <ead:unitid localtype="ZDROJ_ID" 
      label="ESSS">Gordic.Ginis.MP12.X:MP12P00BTZ3Z</ead:unitid>
 
 
