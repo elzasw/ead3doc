@@ -29,7 +29,7 @@ s hodnotou atributů:
 
 Povinně se uvádějí podřízené elementy:
 
- - :ead-el:`quantity` - obsahuje množství
+ - :ead-el:`quantity` - obsahuje množství, musí být uvedeno číslo, jako oddělovač desetinných míst se používá tečka
  - :ead-el:`unittype` - veličina
 
 
@@ -45,6 +45,8 @@ Níže je uvedena tabulka přípustných hodnot.
      - ``bm``
    * - byte
      - ``byte``
+
+Množství *byte* se uvádí jen jako celé číslo. *Běžné metry* se uvádí jako celé nebo desetinné číslo.
 
 
 Příklad rozsahu (bm)
