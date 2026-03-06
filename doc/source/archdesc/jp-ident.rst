@@ -28,14 +28,14 @@ Bezvýznamové identifikátory ve formě UUID
     aip-inherent, aip-kontext, popis, pomucka
 
 Bezvýznamové identifikátory se zapisují pomocí atributu ``id`` na úrovni 
-hlavního elementu jednotky popisu, tj. :xml:`<c>`, resp. :xml:`<archdesc>`.
-Tyto identifikátory se používají vždy pro archivní popis uložený v AIPu 
+hlavního elementu jednotky popisu :xml:`<c>`, resp. :xml:`<archdesc>`.
+Bezvýznamové identifikátory se používají vždy pro archivní popis uložený v AIPu 
 v digitálním archivu. Lze je použít i v rámci vyměnného formátu, či na úrovni 
 archivní pomůcky.
 
 Identifikátor se skládá ze dvou částí:
 
- - prefix: ``uuid``
+ - prefix: ``uuid-``
  - vlastní UUID jednotky popisu dle :rfc:`4122`, verze 4.
 
 
