@@ -61,7 +61,7 @@ pro odlišení od dalších hodnot.
 
  <ead:publicationstmt>
     ...
-    <!-- Datum a místo vydaní  --> 
+    <!-- Datum a místo vydání  -->
     <ead:date localtype="RELEASE_DATE_PLACE">V Praze 25.8.2020</ead:date>
     ...
  </ead:publicationstmt>

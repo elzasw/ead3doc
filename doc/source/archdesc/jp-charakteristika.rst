@@ -13,7 +13,7 @@ významných prvků popisu a v rámci elementu
 
 Element :ead-el:`physdescstructured` je povinný pro jednotky popisu, 
 které odpovídají evidenčním jednotkám nebo jsou jednotkami popisu, 
-které jsou podřízeny jednokám popisu, které odpovídají evidenčním jednotkám. 
+které jsou podřízeny jednotkám popisu, které odpovídají evidenčním jednotkám.
 Povinný je tedy pro složky odpovídající množstevním evidenčním jednotkám,
 složky s typem evidenční jednotky (složky obsahující jednotlivosti stejného typu), 
 jednotlivosti a části jednotlivosti. Povinné jsou vždy prvky popisu :ref:`druh archiválie <ead_item_types_druharch>`

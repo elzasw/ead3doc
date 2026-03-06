@@ -11,7 +11,7 @@ Další popis viz:
 
 
 Obsah, regest se uvádí v elementu :ead-el:`unittitle`.
-Zapisuje jako prostý text.
+Zapisuje se jako prostý text.
 
 Prvek umožňuje :ref:`ead_archdesc_multilang`.
 

@@ -46,7 +46,7 @@ jako prvek popisu jazyk, je však doplněn o atribut
 `altrender="majority"` na úrovni elementu :ead-el:`langmaterial`. 
 Takto zapsaný jazyk přímo necharakterizuje
 každou jednotlivou archiválii na nižších úrovních. Pro určení
-konkrétního jazyku archiválií se využijte samotný 
+konkrétního jazyku archiválií se využije samotný
 prvek popisu jazyk, viz výše.
 
 

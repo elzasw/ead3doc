@@ -10,7 +10,7 @@ Další popis viz:
  - ISAD(G) 3.3.3 Přírůstky
 
 
-Informace o bezprostředním zdroji příjmu archiválií, jejich výběru
+Informace o předpokládaných budoucích přírůstcích
 se uvádí v elementu :ead-el:`accruals`
 s vnořeným jedním elementem :ead-el:`p`.
 

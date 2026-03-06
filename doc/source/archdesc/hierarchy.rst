@@ -59,7 +59,7 @@ V případě nezpracovaných archiválií mohou být vytvářeny úrovně jinéh
 typu. Příkladem jsou věcné skupiny, či úroveň spisu ze systémů
 dle Národního standardu pro elektronické spisové služby.
 Význam těchto jiných úrovní záleží na zdrojovém systému a konkrétní
-specifikaci typů úrovní. Tyto typy ůrovní je možné zachytit v 
+specifikaci typů úrovní. Tyto typy úrovní je možné zachytit v
 elementu :xml:`<ead:c level="otherlevel" otherlevel="...typ úrovně...">`
 uvedením typu úrovně v atributu ``otherlevel``. Vždy se jedná 
 o hodnotu z řízeného číselníku pro daný typ nezpracovaných archiválií.
@@ -89,7 +89,7 @@ U spisového plánu je možné zachytit:
 
 Identifikátor spisového plánu ze zdrojového systému se uvádí v atributu ``encodinganalog``.
 Informace o platnosti spisového plánu se zaznamenávají do elementu :xml:`<chronlist>` 
-s jednou podřízenou položkou :xml:`<chronitem>` a vní uložený časový rozsah pomocí 
+s jednou podřízenou položkou :xml:`<chronitem>` a v ní uložený časový rozsah pomocí
 :xml:`<daterange>`. Časový rozsah může být omezený jen zhora, jen zdola nebo být plně určený. 
 Součástí elementu :xml:`<chronitem>` je také informace o události v podobě: 
 :xml:`<ead:event>Platnost spisového plánu</ead:event>`.

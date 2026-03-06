@@ -124,7 +124,7 @@ control/localcontrol
 Druh archivní pomůcky se uvádí v elementu :ead-el:`localcontrol`
 s uvedením atributu :token:`localtype="FINDING_AID_TYPE"`, vlastní hodnota se 
 zapisuje do elementu :ead-el:`term`
-doplněným o atribut :token:`identifier=` s konstantou určující typ pomůcky.
+doplněného o atribut :token:`identifier=` s konstantou určující typ pomůcky.
 
 Pokud se nejedná o uložení dat pomůcky, element se neuvede.
 
@@ -148,7 +148,7 @@ Pravidla tvorby archivního popisu
 Pomocí shodného elementu se také uvádí informace o použitých pravidlech 
 pro zpracování archivního popisu s uvedením atributu :token:`localtype="RULES"`.
 Vlastní hodnota se zapisuje do elementu :ead-el:`term`
-doplněným o atribut :token:`identifier=` s konstantou určující konkrétní 
+doplněného o atribut :token:`identifier=` s konstantou určující konkrétní 
 pravidla.
 
 Tabulka povolených hodnot pro uvedení pravidel archivního popisu:
@@ -210,7 +210,7 @@ s uvedením atributu :token:`localtype="CZ_FINDING_AID_EAD_PROFILE"`.
 Každý export dle tohoto profilu musí mít uvedenu verzi profilu.
 
 Vlastní hodnota se zapisuje do elementu :ead-el:`term`
-doplněným o atribut :token:`identifier=` s konstantou určující konkrétní 
+doplněného o atribut :token:`identifier=` s konstantou určující konkrétní 
 verzi profilu.
 
 Tabulka povolených hodnot pro verzi profilu

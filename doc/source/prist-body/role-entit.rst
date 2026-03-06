@@ -264,7 +264,7 @@ Definice rolí
      - 5.9.1, 5.12.1, 5.15.1, 5.16.1, 5.17.1, 5.18.1 - mapy (mapová díla, atlasy), fotografické archiválie, tisky, pohlednice, plakáty, štočky
    * - redaktor
      - ``REDACTOR``
-     - 5.9.1, 5.15.1 - mapy (mapová díla, atlasy), tisky<
+     - 5.9.1, 5.15.1 - mapy (mapová díla, atlasy), tisky
    * - kartograf
      - ``CARTOGRAPHER``
      - 5.9.1, 5.15.1, 5.18.1 - mapy (mapová díla, atlasy), tisky, štočky
@@ -282,7 +282,7 @@ Definice rolí
      - 5.11.2 - grafické listy
    * - tvůrce výtvarné stránky
      - ``CREATOR_ARTWORK``
-     - 5.4.1, 5.5.1, 5.6.1, 5.7.6, 5.9.1, 5.11.2, 5.13.2, , 5.14.2, 5.15.1, 5.16.1, 5.18.1, 5.19.1, 5.21.1, 5.22.1 - úřední knihy (registraturní pomůcky, kartotéky), rukopisy, hudebniny, typáře (otisky, kopie otisků), mapy (mapová díla, atlasy), grafické listy, kinematografické filmy, zvukové archiválie, tisky, pohlednice, štočky, cenné papíry, faleristické předměty, numizmatické předměty
+     - 5.4.1, 5.5.1, 5.6.1, 5.7.6, 5.9.1, 5.11.2, 5.13.2, 5.14.2, 5.15.1, 5.16.1, 5.18.1, 5.19.1, 5.21.1, 5.22.1 - úřední knihy (registraturní pomůcky, kartotéky), rukopisy, hudebniny, typáře (otisky, kopie otisků), mapy (mapová díla, atlasy), grafické listy, kinematografické filmy, zvukové archiválie, tisky, pohlednice, štočky, cenné papíry, faleristické předměty, numizmatické předměty
    * - dramaturg
      - ``DRAMATURG``
      - 5.13.2, 5.14.2 - kinematografické filmy, zvukové archiválie
@@ -318,7 +318,7 @@ Definice rolí
      - 5.12.1, 5.13.2, 5.9.1, 5.14.2, 5.15.1 - fotografické archiválie, kinematografické filmy, mapy (mapová díla, atlasy), zvukové archiválie, tisky
    * - tiskárna/tiskař
      - ``PRINTER``
-     - 5.6.1, 5.9.1, 5.11.2, 5.15.1, 5.16.1, 5.17.1, , 5.19.1 - hudebniny, mapy (mapová díla, atlasy), grafické listy, tisky, pohlednice, plakáty, , cenné papíry
+     - 5.6.1, 5.9.1, 5.11.2, 5.15.1, 5.16.1, 5.17.1, 5.19.1 - hudebniny, mapy (mapová díla, atlasy), grafické listy, tisky, pohlednice, plakáty, cenné papíry
    * - výrobce
      - ``MANUFACTURER``
      - 5.4.1, 5.7.6, 5.10.1, 5.21.1, 5.22.1 - úřední knihy (registraturní pomůcky, kartotéky), typáře (otisky, kopie otisků), technické výkresy, faleristické předměty, numizmatické předměty
@@ -372,7 +372,7 @@ Definice rolí
      - místo výkonu funkce
    * - matriční místo
      - ``PLACE_REGISTER``
-     - matriční místo, platné pro podtyp matiky
+     - matriční místo, platné pro podtyp matriky
    * - sekundární klasifikace
      - ``CLASSIFICATION``
      - sekundární klasifikace pro dotazy na web

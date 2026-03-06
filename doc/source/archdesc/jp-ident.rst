@@ -30,7 +30,7 @@ Bezvýznamové identifikátory ve formě UUID
 Bezvýznamové identifikátory se zapisují pomocí atributu ``id`` na úrovni 
 hlavního elementu jednotky popisu :xml:`<c>`, resp. :xml:`<archdesc>`.
 Bezvýznamové identifikátory se používají vždy pro archivní popis uložený v AIPu 
-v digitálním archivu. Lze je použít i v rámci vyměnného formátu, či na úrovni 
+v digitálním archivu. Lze je použít i v rámci výměnného formátu, či na úrovni
 archivní pomůcky.
 
 Identifikátor se skládá ze dvou částí:

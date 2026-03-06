@@ -70,7 +70,7 @@ archivu.
 Odkaz na část digitálního objektu
 ===================================
 
-V rámci archivního popisu je monžné odkazovat na celý digitální objekt nebo jen jeho 
+V rámci archivního popisu je možné odkazovat na celý digitální objekt nebo jen jeho
 vybranou část. Odkazování na část se obvykle používá u archiválií a jejich kopií 
 uložených formou balíčků v digitálním archivu. Je možné odkázat například 
 na konkrétní komponentu uloženou v balíčku. Při odkazování na část 
@@ -81,7 +81,7 @@ je součástí daného digitálního objektu / archivního balíčku.
 
 V atributu ``coverage`` se uvede, zda archivní popis pokrývá celou odkazovanou 
 část nebo jen uvedenou vybranou část. V případě pokrytí celé části se tím 
-obvykle rozumí i pokrytí komponent na nižší úrovní, případných budoucích 
+obvykle rozumí i pokrytí komponent na nižší úrovni, případných budoucích
 formátových migrací apod.
 
 

@@ -119,7 +119,7 @@ Typy označení
    * - Pořadové číslo přidělené původcem
      - ``PORADOVE_CISLO_PUVODNI``
      - ``původní pořadové číslo``
-   * - Původní název počítačového souboru(komponenty)
+   * - Původní název počítačového souboru (komponenty)
      - ``PUVODNI_NAZEV``
      - ``původní název``
    * - Jiný identifikátor

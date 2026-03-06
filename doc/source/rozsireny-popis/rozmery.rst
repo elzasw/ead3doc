@@ -53,7 +53,7 @@ Každý zanořený element musí obsahovat atributy:
 Uvnitř elementu se uvádí příslušná číselná hodnota ve formátu bez mezer a 
 s tečkou pro oddělení desetinných míst.
 
-Tabulka možný hodnot pro `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
+Tabulka možných hodnot pro `localtype <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
 a `unit <https://www.loc.gov/ead/EAD3taglib/#attr-unit>`_:
 
 .. list-table:: Tabulka hodnot pro localtype a unit

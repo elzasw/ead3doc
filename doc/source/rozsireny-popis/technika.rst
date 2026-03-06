@@ -37,7 +37,7 @@ Používá se v případě, kdy jsou jednotlivé informace o technice, adjustaci
 látce záznamu či barevnosti strukturované a je možné je rozdělit do samostatných
 elementů. Každý element obsahuje přímo řetězec s hodnotou bez odřádkování. 
 Strukturovanou podobu není možné kombinovat s textovou podobou.
-Strukturovaná form se zapisuje pomocí samostatných elementů 
+Strukturovaná forma se zapisuje pomocí samostatných elementů
 :ead-el:`physfacet` s různými hodnotami atributu ``localtype``.
 
 .. list-table:: Tabulka hodnot pro localtype a význam

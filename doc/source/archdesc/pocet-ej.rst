@@ -17,7 +17,7 @@ s uvedením povinných atributů:
 
 
 Podřízený element :ead-el:`unittype` obsahuje 
-zkratu (dílčí) evidenční jednotky podle Základních pravidel 2021,  
+zkratku (dílčí) evidenční jednotky podle Základních pravidel 2021,
 část 2.9 (tabulka “Seznam zkratek používaných pro evidenční jednotky”).
 
 

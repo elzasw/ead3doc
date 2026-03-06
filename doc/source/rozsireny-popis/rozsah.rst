@@ -17,7 +17,7 @@ Rozsah archiválií
 Rozsah slouží k zachycení rozsahu archiválií v běžných metrech.
 
 Rozsahy *běžné metry* se uvádí pouze na kořeni archivního popisu 
-pro zápis množství archiválií popsaných archivních pomůckou (viz :ref:`ead_faintro_rozsah_arch`).
+pro zápis množství archiválií popsaných archivní pomůckou (viz :ref:`ead_faintro_rozsah_arch`).
 
 Popisuje se pomocí elementu
 :ead-el:`physdescstructured`

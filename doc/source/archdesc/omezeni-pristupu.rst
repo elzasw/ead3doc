@@ -40,7 +40,7 @@ Hodnoty atributu a jejich význam:
    přetížení omezené přístupnosti uvedené na vyšší úrovni, tj. pro zveřejnění dané 
    jednotky popisu; nelze využít pro jednotlivé prvky popisu
 
-Pokud má prvek popisu zveřejnitelnou i nezveřejnitelnou podoba 
+Pokud má prvek popisu zveřejnitelnou i nezveřejnitelnou podobu
 (například Obsah regest s osobními údaji a po jejich odstranění), je možné 
 do exportu uložit obě hodnoty. V takovém případě bude u jednoho prvku popisu uvedena hodnota
 ``audience="internal"`` a druhý prvek popisu bude uveden bez dalšího upřesnění. 

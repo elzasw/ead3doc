@@ -13,8 +13,8 @@ ně odkazovat z jiných prvků popisu, zejména z prvků:
  - :ref:`ead_ap_relation`
 
 
-Ostatní entity se ukládají vždy na úrovni elementu 
-:ead-el:`archcdesc`.
+Ostatní entity se ukládají vždy na úrovni elementu
+:ead-el:`archdesc`.
 do elementu :ead-el:`index`. 
 V rámci tohoto elementu jsou definovány samostatně rejstříky 
 pro jednotlivé třídy entit pomocí podřízeného 
@@ -67,7 +67,7 @@ Povinně se uvádí identifikátor entity ve vnitřním systému a pokud je
 k dispozici tak i identifikátor CAM. Pokud se uvádí jen jeden 
 identifikátor použije se přímo element :ead-el:`ref`.
 V případě více identifikátorů u entity jsou tyto uvedeny 
-samostatně ve společném elementu :ead-el:`ptrgrp=`.
+samostatně ve společném elementu :ead-el:`ptrgrp`.
 
 Druh identifikátoru je povinně uveden v atributu `linkrole <https://www.loc.gov/ead/EAD3taglib/#attr-linkrole>`_.
 
