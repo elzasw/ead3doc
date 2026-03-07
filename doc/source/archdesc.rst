@@ -20,5 +20,6 @@ Způsob uložení prvků popisu je v části :ref:`ead_item_types`.
   archdesc/pocet-ej.rst
   archdesc/omezeni-pristupu.rst
   archdesc/vice-jazyku.rst
-  archdesc/odd.rst  
+  archdesc/odd.rst
+  archdesc/jp-bez-prvku.rst
   

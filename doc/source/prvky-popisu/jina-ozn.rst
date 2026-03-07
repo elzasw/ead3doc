@@ -19,6 +19,7 @@ Shodně s jiným označením se ukládají prvky popisu:
  - :ref:`ead_item_types_unitid`
  - :ref:`ead_item_types_unitid_porc`
  - :ref:`ead_item_types_inv_cislo`
+ - :ref:`ead_archdesc_jp_bez_prvku_prvek`
 
 Pro jiné identifikátory se použije konstanta ``JINE`` a v popisu se uvede jeho význam.
 
@@ -125,3 +126,6 @@ Typy označení
    * - Jiný identifikátor
      - ``JINE``
      - ``jiné``
+   * - :ref:`Identifikátor jednotky popisu <ead_archdesc_jp_bez_prvku_prvek>`
+     - ``ID``
+     - ``identifikátor jednotky popisu``
