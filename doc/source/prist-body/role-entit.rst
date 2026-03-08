@@ -394,3 +394,6 @@ Definice rolí
    * - obrazově a/nebo zvukově zachycená entita
      - ``CAPTURED_ENTITY``
      - obrazově a/nebo zvukově zachycená entita
+   * - zpracovatel
+     - ``PROCESSOR``
+     - zpracovatel, používá se jen v **inherentním popisu** pro zachycení zpracovatele

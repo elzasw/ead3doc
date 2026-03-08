@@ -141,3 +141,8 @@ Listopad 2023
  * Upřesnění užití :ref:`ead_item_types_technika`, přidání barevnosti
  * Úprava odkazů na elementy EAD dle aktuální podoby standardu
  * nová verze profilu s označením ``CZ_EAD3_PROFILE_20250301``, :ref:`ead_control_localcontrol_ead3ver`,
+
+Březen 2026
+---------------
+
+ * Přidána role zpracovatel, :ref:`ead_ap_relation_roles`
