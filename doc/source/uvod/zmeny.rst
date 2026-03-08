@@ -146,3 +146,6 @@ Březen 2026
 ---------------
 
  * Přidána role zpracovatel, :ref:`ead_ap_relation_roles`
+ * Přidání zápisu pro barevnost, :ref:`ead_item_types_technika_structured`
+ * Drobnější upřesnění textu a příkladů
+ * Opravy překlepů a tvarosloví

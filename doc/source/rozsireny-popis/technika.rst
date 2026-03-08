@@ -55,7 +55,7 @@ Strukturovaná forma se zapisuje pomocí samostatných elementů
    * - Látka záznamu
      - :token:`MATERIAL`
    * - Barevnost
-     - :token:`COLOUR`
+     - :token:`COLOR`
 
 
 .. code-block:: xml
@@ -69,6 +69,6 @@ Strukturovaná forma se zapisuje pomocí samostatných elementů
      <ead:physfacet localType="MEDIUM_ADJUSTMENT">opatřeno paspartou</ead:physfacet>
      <ead:physfacet localType="MEDIUM">papír</ead:physfacet>
      <ead:physfacet localType="MATERIAL">inkoust</ead:physfacet>
-     <ead:physfacet localType="COLOUR">modrý</ead:physfacet>
+     <ead:physfacet localType="COLOR">modrý</ead:physfacet>
    </ead:physdescstructured>
 
