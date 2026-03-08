@@ -15,6 +15,7 @@ Informace vztahující se k publikaci pomůcky jsou hlavně
 zachyceny v elementu :ead-el:`publicationstmt`.
 
 Element obsahuje podřízené prvky popisu zachycující:
+
  - :ref:`kdo archivní pomůcku schválil <ead_faintro_approvedby>`
  - :ref:`datum a místo vydání <ead_faintro_releasedateplace>`
  - :ref:`datum vyhotovení archivního popisu <ead_faintro_descdate>`
@@ -22,6 +23,7 @@ Element obsahuje podřízené prvky popisu zachycující:
  - :ref:`kdo archivní pomůcku sestavil/editor <ead_faintro_faeditor>`
  - :ref:`původce archiválií <ead_faintro_originator>`
  - :ref:`zpracovatele <ead_faintro_arranger>`
+
 
 .. _ead_faintro_approvedby:
 
@@ -115,7 +117,9 @@ a vnořeném elementu `<ead:name localtype="FINDING_AID_EDITOR">`.
 Atribut ``localtype="FINDING_AID_EDITOR"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
 
-Povinné pro archivní pomůcku. Element ead:name není opakovatelný. V případě, kdy pomůcku sestavilo více osob, uvádí se každé jméno osoby v samostatném elementu ead:part.
+Povinné pro archivní pomůcku. Element ``<ead:name>`` není opakovatelný. 
+V případě, kdy pomůcku sestavilo více osob, uvádí se každé jméno osoby v samostatném 
+elementu ``ead:part``.
 
 .. code-block:: xml
 
@@ -136,9 +140,8 @@ Původce archiválií
 
 Původce je uložen v samostatném bloku ``<ead:p>``
 a vnořeném elementu ``<ead:name localtype="ORIGINATOR">``.
-Podrobněji viz :ref:`ead_ap`.
-
-Lze užít podřízené elementy ead:persname, ead:famname, ead:corpname a ead:name.
+Podrobněji viz :ref:`ead_ap`. Lze užít podřízené elementy 
+``ead:persname``, ``ead:famname``, ``ead:corpname`` a ``ead:name``.
 
 Atribut ``localtype="ORIGINATOR"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
