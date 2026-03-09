@@ -10,57 +10,6 @@ Další popis viz: ZP 5.2.4 Rozměry, hmotnost, velikost, množství
 Další související viz :ref:`ead_item_types_rozmery_structured`.
 
 
-.. _ead_item_types_rozsah_bm:
-
-Rozsah archiválií
-====================
-Rozsah slouží k zachycení rozsahu archiválií v běžných metrech.
-
-Rozsahy *běžné metry* se uvádí pouze na kořeni archivního popisu 
-pro zápis množství archiválií popsaných archivní pomůckou (viz :ref:`ead_faintro_rozsah_arch`).
-
-Popisuje se pomocí elementu
-:ead-el:`physdescstructured`
-s hodnotou atributů:
-
- - ``physdescstructuredtype="spaceoccupied"``
- - ``coverage="whole"``
-
-
-Povinně se uvádějí podřízené elementy:
-
- - :ead-el:`quantity` - obsahuje množství, musí být uvedeno číslo, jako oddělovač desetinných míst se používá tečka
- - :ead-el:`unittype` - veličina
-
-
-Níže je uvedena tabulka přípustných hodnot.
-
-.. list-table:: Tabulka jednotek pro rozsah
-   :widths: 20 10
-   :header-rows: 1
-
-   * - Druh informace
-     - :ead-el:`unittype`
-   * - běžné metry (bm)
-     - ``bm``
-   * - byte
-     - ``byte``
-
-Množství *byte* se uvádí jen jako celé číslo. *Běžné metry* se uvádí jako celé nebo desetinné číslo.
-
-
-Příklad rozsahu (bm)
-------------------------------
-
-.. code-block:: xml
-
-   <ead:physdescstructured physdescstructuredtype="spaceoccupied" 
-                           coverage="whole">
-     <ead:quantity>15</ead:quantity>
-     <ead:unittype>bm</ead:unittype>
-   </ead:physdescstructured>
-
-
 
 .. _ead_item_types_rozsah_duration:
 

@@ -227,11 +227,49 @@ uvádí počet EJ. Prvek je uveden v kořenové jednotce popisu.
 Rozsah zpřístupněných archiválií
 ==================================
 
-Rozsah zpřístupněných archiválií pomůckou se zapisuje ve strukturované
-podobě pomocí prvku popisu :ref:`ead_item_types_rozsah`. Prvek je
-uveden v kořenové jednotce popisu. Pro vykazování rozsahu analogových 
-archiválií se jako jednotka uvádí běžné metry (``bm``), u digitálních
-archiválií se jako jednotka uvádí ``byte``.
+Rozsah slouží k zachycení rozsahu archiválií v běžných metrech a bytech.
+
+Celkový rozsah se uvádí pouze na kořeni archivního popisu pro zápis množství 
+archiválií popsaných archivních pomůckou.
+
+Popisuje se pomocí elementu :ead-el:`physdescstructured` s hodnotou atributů:
+
+ - ``physdescstructuredtype="spaceoccupied"``
+ - ``coverage="whole"``
+
+
+Povinně se uvádějí podřízené elementy:
+
+ - :ead-el:`quantity` - obsahuje množství, musí být uvedeno číslo, jako oddělovač desetinných míst se používá tečka
+ - :ead-el:`unittype` - veličina
+
+
+Níže je uvedena tabulka přípustných hodnot.
+
+.. list-table:: Tabulka jednotek pro rozsah
+   :widths: 20 10
+   :header-rows: 1
+
+   * - Druh informace
+     - :ead-el:`unittype`
+   * - běžné metry (bm)
+     - ``bm``
+   * - byte
+     - ``byte``
+
+Množství *byte* se uvádí jen jako celé číslo. *Běžné metry* se uvádí jako celé nebo desetinné číslo.
+
+
+Příklad rozsahu (bm)
+------------------------------
+
+.. code-block:: xml
+
+   <ead:physdescstructured physdescstructuredtype="spaceoccupied" 
+                           coverage="whole">
+     <ead:quantity>15.3</ead:quantity>
+     <ead:unittype>bm</ead:unittype>
+   </ead:physdescstructured>
 
 
 .. _ead_faintro_pocet_jp:
