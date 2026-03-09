@@ -15,31 +15,23 @@ Datace vzniku jednotky popisu se zapisuje pomocí elementu
 
 Datace se zapisuje vždy jako interval pomocí dílčích elementů
 :ead-el:`fromdate` a :ead-el:`todate`.
-V atributu `standarddate <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-standarddate>`_
+V atributu :ead-attr:`standarddate`
 se uvede strojově zpracovatelná podoba datace.
 Pokud se jedná o odhad, jsou hodnoty v atributech 
-`notbefore <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-notbefore>`_,
-resp. 
-`notafter <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-notafter>`_
-a atribut 
-`standarddate <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-standarddate>`_ se nepoužije. Uvnitř 
+:ead-attr:`notbefore`, resp. :ead-attr:`notafter`
+a atribut :ead-attr:`standarddate` se nepoužije. Uvnitř 
 elementů se uvádí textová reprezentace datace v čitelné podobě.
 
-Na úrovni elementu :ead-el:`daterange` se uvede povinně atribut 
-`altrender <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-altrender>`_ 
-obsahující formát datace. Možnosti hodnot formátu:
+Na úrovni elementů :ead-el:`fromdate` a :ead-el:`todate` se uvádí povinně 
+atribut :ead-attr:`altrender` s konstantou uvádějící formát datace. 
+
+Možné hodnoty formátu:
 
 	- století: C
 	- rok: Y
 	- rok/měsíc: YM
 	- datum (rok/měsíc/den): D
 	- datum a čas: DT
-
-Formát datace může být zadán:
-
-	- jako jedna hodnota (např. Y)
-	- jako interval (např. Y-Y)
-
 
 Uplatnění :ref:`dědičnosti <ead_item_types_inheritance>` je zaznamenáno pomocí 
 atributu `altrender="inherited"` na úrovni elementu :ead-el:`daterange`.
@@ -49,9 +41,9 @@ atributu `altrender="inherited"` na úrovni elementu :ead-el:`daterange`.
   :caption: Příklad - interval 1734-1776
 
     <ead:unitdatestructured>
-    <ead:daterange altrender="Y-Y">
-        <ead:fromdate standarddate="1734-01-01T00:00:00">1734</ead:fromdate>
-        <ead:todate standarddate="1776-12-31T23:59:59">1776</ead:todate>
+    <ead:daterange>
+        <ead:fromdate altrender="Y" standarddate="1734-01-01T00:00:00">1734</ead:fromdate>
+        <ead:todate altrender="Y" standarddate="1776-12-31T23:59:59">1776</ead:todate>
     </ead:daterange>
     </ead:unitdatestructured>
 
@@ -61,9 +53,9 @@ Příklad - rok 1958 (datováno konkrétním rokem), zděděno z vyšší úrovn
 .. code-block:: xml
 
     <ead:unitdatestructured>
-    <ead:daterange altrender="Y" altrender="inherited">
-       <ead:fromdate standarddate="1958-01-01T00:00:00">1958</ead:fromdate>
-       <ead:todate standarddate="1958-12-31T23:59:59">1958</ead:todate>
+    <ead:daterange altrender="inherited">
+       <ead:fromdate altrender="Y" standarddate="1958-01-01T00:00:00">1958</ead:fromdate>
+       <ead:todate altrender="Y" standarddate="1958-12-31T23:59:59">1958</ead:todate>
     </ead:daterange>
     </ead:unitdatestructured>
 
@@ -84,13 +76,13 @@ jsou tyto zabaleny v elementu: :ead-el:`dateset`.
 
     <ead:unitdatestructured>
     <ead:dateset>
-      <ead:daterange altrender="D">
-        <ead:fromdate standarddate="2001-10-01T00:00:00">1. října 2001</ead:fromdate>
-        <ead:todate standarddate="2001-10-01T23:59:59">1. října 2001</ead:todate>
+      <ead:daterange>
+        <ead:fromdate altrender="D" standarddate="2001-10-01T00:00:00">1. října 2001</ead:fromdate>
+        <ead:todate altrender="D" standarddate="2001-10-01T23:59:59">1. října 2001</ead:todate>
       </ead:daterange>
-      <ead:daterange altrender="D" localtype="CONTENT">
-        <ead:fromdate standarddate="1980-12-31T00:00:00">31. prosince 1980</ead:fromdate>
-        <ead:todate standarddate="1980-12-31T23:59:59">31. prosince 1980</ead:todate>
+      <ead:daterange localtype="CONTENT">
+        <ead:fromdate altrender="D" standarddate="1980-12-31T00:00:00">31. prosince 1980</ead:fromdate>
+        <ead:todate altrender="D" standarddate="1980-12-31T23:59:59">31. prosince 1980</ead:todate>
       </ead:daterange>
     </ead:dateset>
     </ead:unitdatestructured>
