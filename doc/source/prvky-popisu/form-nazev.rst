@@ -44,7 +44,7 @@ viz: :ref:`ead_ap_relation_other`.
         <ead:relationentry>Bílá nemoc (Karel Čapek : divadelní hra)</ead:relationentry>
         <ead:descriptivenote>
           <ead:p>
-            <ead:ref target="ap157" />
+            <ead:ptr target="ap157" />
           </ead:p>
         </ead:descriptivenote>
       </ead:relation>

@@ -109,7 +109,7 @@ Preferované označení odkazované entity je vždy zaznamenáno v elementu
         <ead:relationentry>Babička s dětmi (Otto Gutfreund : Ratibořice, Česká Skalice, Náchod, Česko : sousoší)</ead:relationentry>
         <ead:descriptivenote>
           <ead:p>
-            <ead:ref target="ap157" />
+            <ead:ptr target="ap157" />
           </ead:p>
         </ead:descriptivenote>
       </ead:relation>
