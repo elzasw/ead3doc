@@ -17,12 +17,24 @@ Element :ead-el:`source`
 povinně obsahuje atribut ``id="...."`` umožňující
 jeho odkazování v rámci XML dokumentu.
 
+CAM umožňuje předávání archivních entit v XML dle schématu verze 1 a verze 2.
+Archivní entity předávané dle aktuálního profilu EAD musí být uloženy 
+ve schématu verze 2, viz https://stands.nacr.cz/cam/current/api/v2/schema.html.
 
-Identifikátor entity
-========================
+
+Identifikátor entity (schéma verze 1)
+========================================
 
 Primárním identifikátorem entity je její UUID uložené v elementu ``<cam:ent>`` v atributu ``euid="..."``.
 Identifikátor uložený v atributu ``eid="..."`` je určen pro vnitřní užití exportujícího systému a neplní 
+funkci párovacího znaku.
+
+
+Identifikátor entity (schéma verze 2)
+========================================
+
+Primárním identifikátorem entity je její UUID uložené v elementu ``<cam:entity>`` v atributu ``entityUuid="..."``.
+Identifikátor uložený v atributu ``entityId="..."`` je určen pro vnitřní užití exportujícího systému a neplní 
 funkci párovacího znaku.
 
 

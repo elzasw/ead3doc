@@ -140,14 +140,14 @@ Listopad 2023
  * Upřesnění :ref:`charakteristiky jednotky popisu <ead_jp_char>` o povinné uvádění druhu a počtu archiválií
  * Upřesnění užití :ref:`ead_item_types_technika`, přidání barevnosti
  * Úprava odkazů na elementy EAD dle aktuální podoby standardu
- * nová verze profilu s označením ``CZ_EAD3_PROFILE_20250301``, :ref:`ead_control_localcontrol_ead3ver`
+
 
 Březen 2026
 ---------------
  
- * přidání podpory pro digitální archiválie, jejich identifikaci, zavedení inherentního a kontextuálního archivního popisu
  * přidána role zpracovatel, :ref:`ead_ap_relation_roles`
  * přidání zápisu pro barevnost, :ref:`ead_item_types_technika_structured`
+ * ukládání archivních entit CAMu ve schématu verze 2, viz :ref:`ead_ap_cam`
  * formát datace se zapisuje na úrovni elementů ``fromdate`` a ``todate``, :ref:`ead_item_types_unitdatestructured`
  * upřesnění prvku :ref:`ead_control_maintenancehistory` - povinnost uvedení časové zóny
  * oprava uvádění dědičnosti u datace, :ref:`ead_item_types_unitdatestructured`
