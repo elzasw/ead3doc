@@ -140,11 +140,11 @@ Listopad 2023
  * Upřesnění :ref:`charakteristiky jednotky popisu <ead_jp_char>` o povinné uvádění druhu a počtu archiválií
  * Upřesnění užití :ref:`ead_item_types_technika`, přidání barevnosti
  * Úprava odkazů na elementy EAD dle aktuální podoby standardu
- * nová verze profilu s označením ``CZ_EAD3_PROFILE_20250301``, :ref:`ead_control_localcontrol_ead3ver`,
+ * nová verze profilu s označením ``CZ_EAD3_PROFILE_20250301``, :ref:`ead_control_localcontrol_ead3ver`
 
 Březen 2026
 ---------------
-
+ 
  * Přidání podpory pro digitální archiválie, jejich identifikaci, zavedení inherentního a kontextuálního archivího popisu
  * Přidána role zpracovatel, :ref:`ead_ap_relation_roles`
  * Přidání zápisu pro barevnost, :ref:`ead_item_types_technika_structured`
@@ -153,3 +153,4 @@ Březen 2026
  * Přesun informací o zápisu rozsahu zpřístupněných archiválií z kapitoly :ref:`ead_item_types_rozsah` do kapitoly :ref:`ead_faintro_rozsah_arch`
  * Drobnější upřesnění textu a příkladů
  * Opravy překlepů a tvarosloví
+ * nová verze profilu s označením ``CZ_EAD3_PROFILE_20260501``, :ref:`ead_control_localcontrol_ead3ver`
