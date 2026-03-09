@@ -20,7 +20,7 @@ pomůcky z evidence Národního archivního dědictví) nebo je vysloveně uvede
 že se na popis ucelené části popisu archivního souboru, která není archivní pomůckou, 
 nevztahuje.
 
-Podobně pro případy, kdy je ukládána archivní pomůcka vytvořená 
+Podobně se postupujepro případy, kdy je ukládána archivní pomůcka vytvořená 
 podle Základních pravidel z roku 1958 (např. část :ref:`ead_control_localcontrol`).
 
 

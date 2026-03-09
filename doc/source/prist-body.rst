@@ -5,8 +5,8 @@ Přístupové body
 ============================================
 
 Přístupové body umožňují odkazovat 
-na entity související s archivním popisem. Přístupovým
-bodem jsou původci archiválií, archivní entity 
+na entity související s archivním popisem. Přístupovými
+body jsou původci archiválií, archivní entity 
 odkazované z jednotek popisu.
 
 Přístupové body a původci se popisují pomocí elementů:

@@ -118,7 +118,7 @@ Listopad 2023
    :ref:`ead_item_types_rozmery_structured_weight` a :ref:`ead_item_types_rozmery_structured_quantity`,
    hodnoty pro délku trvání záznamu jsou nově popsány strukturovanou formou dle doporučení EAD:
    :ref:`ead_item_types_rozsah_duration`.
- * nová verze profilu s označením ``CZ_EAD3_PROFILE_20240301``, :ref:`ead_control_localcontrol_ead3ver`,
+ * nová verze profilu s označením ``CZ_EAD3_PROFILE_20240301``, :ref:`ead_control_localcontrol_ead3ver`
 
 
 Únor 2025

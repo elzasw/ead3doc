@@ -6,7 +6,7 @@ Datace vzniku jednotky popisu
 
 Další popis viz:
 
- - ZP 4.2.5 Datace vzniku jednotky popisu - strojově čitelný
+ - ZP 4.2.5 Datace vzniku jednotky popisu
  - ISAD(G) 3.1.3 Datace
 
 
@@ -95,7 +95,7 @@ jsou tyto zabaleny v elementu: :ead-el:`dateset`.
 Textový způsob zápisu datace
 ==============================
 
-Další popis viz: ZP 4.2.5 Datace vzniku jednotky popisu - strojově čitelný
+Další popis viz: ZP 4.2.5 Datace vzniku jednotky popisu
 
 Textový způsob zápisu datace se použije v případě, kdy u starší 
 pomůcky není k dispozici odpovídající strojová podoba, 

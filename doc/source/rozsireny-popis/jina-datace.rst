@@ -24,8 +24,8 @@ Příklad:
 
     <ead:unitdatestructured>
       <ead:daterange localtype="CONTENT">
-        <ead:fromdate altrender="Y" standarddate="1980-12-31T00:00:00">31. prosince 1980</ead:fromdate>
-        <ead:todate altrender="Y" standarddate="1980-12-31T23:59:59">31. prosince 1980</ead:todate>
+        <ead:fromdate altrender="D" standarddate="1980-12-31T00:00:00">31. prosince 1980</ead:fromdate>
+        <ead:todate altrender="D" standarddate="1980-12-31T23:59:59">31. prosince 1980</ead:todate>
       </ead:daterange>
     </ead:unitdatestructured>
 
