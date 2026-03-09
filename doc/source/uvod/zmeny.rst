@@ -148,6 +148,7 @@ Březen 2026
  * Přidání podpory pro digitální archiválie, jejich identifikaci, zavedení inherentního a kontextuálního archivího popisu
  * Přidána role zpracovatel, :ref:`ead_ap_relation_roles`
  * Přidání zápisu pro barevnost, :ref:`ead_item_types_technika_structured`
+ * Upřesnění prvku :ref:`ead_control_maintenancehistory` - povinnost uvedení časové zóny
  * Přesun informací o zápisu rozsahu zpřístupněných archiválií z kapitoly :ref:`ead_item_types_rozsah` do kapitoly :ref:`ead_faintro_rozsah_arch`
  * Drobnější upřesnění textu a příkladů
  * Opravy překlepů a tvarosloví

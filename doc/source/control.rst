@@ -236,7 +236,7 @@ Povinná část je určena pro zaznamenání informací o historii instance
 dat. Povinně se uvádí elementy:
 
  * :ead-el:`eventtype` s hodnotou atributu value: ``created``
- * :ead-el:`eventdatetime` s časem vytvoření
+ * :ead-el:`eventdatetime` s časem vytvoření včetně časové zóny
  * :ead-el:`agenttype` s hodnotou atributu value: ``machine``
  * :ead-el:`agent` obsahuje jméno zdrojového systému a jeho verzi
 
