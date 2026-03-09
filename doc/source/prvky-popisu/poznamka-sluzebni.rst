@@ -17,7 +17,7 @@ povinně se uvádí atribut ``audience="internal"``, viz :ref:`ead_jp_omezeni_pr
 Příklad
 ===========
 
-Uvedení veřejné poznámky
+Uvedení služební poznámky:
 
 
 .. code-block:: xml

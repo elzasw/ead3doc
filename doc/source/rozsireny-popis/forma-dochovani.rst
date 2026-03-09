@@ -50,6 +50,6 @@ neboť uvedená informace je zachycena existencí :ref:`ukládací jednotky <ead
                            coverage="whole">
      <ead:quantity>1</ead:quantity>
      <ead:unittype>item</ead:unittype>
-     <ead:physfacet localType="EXTRA_PART">ANALOG</ead:physfacet>
+     <ead:physfacet localtype="EXTRA_PART">ANALOG</ead:physfacet>
    </ead:physdescstructured>
 

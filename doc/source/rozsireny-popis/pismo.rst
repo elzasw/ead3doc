@@ -22,5 +22,5 @@ Prvek popisu `Jazyk, písmo` se rozepisuje do dvou elementů:
                            coverage="whole">
      <ead:quantity>1</ead:quantity>
      <ead:unittype>item</ead:unittype>
-     <ead:physfacet localType="WRITTING">těsnopis</ead:physfacet>
+     <ead:physfacet localtype="WRITTING">těsnopis</ead:physfacet>
    </ead:physdescstructured>
