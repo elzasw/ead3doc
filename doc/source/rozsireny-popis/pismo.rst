@@ -1,11 +1,11 @@
-.. _ead_item_types_writting:
+.. _ead_item_types_writing:
 
 ===================================================
 Písmo
 ===================================================
 
 Písmo se uvádí v elementu :ead-el:`physfacet`
-s uvedením hodnoty ``localtype="WRITTING"``. 
+s uvedením hodnoty ``localtype="WRITING"``. 
 Element je součástí :ref:`charakteristiky jednotky popisu <ead_jp_char>`. 
 Hodnota se uvádí v kontextu souvisejících hodnot. Jedná se o textovou hodnotu. 
 
@@ -22,5 +22,5 @@ Prvek popisu `Jazyk, písmo` se rozepisuje do dvou elementů:
                            coverage="whole">
      <ead:quantity>1</ead:quantity>
      <ead:unittype>item</ead:unittype>
-     <ead:physfacet localtype="WRITTING">těsnopis</ead:physfacet>
+     <ead:physfacet localtype="WRITING">těsnopis</ead:physfacet>
    </ead:physdescstructured>

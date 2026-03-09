@@ -23,7 +23,7 @@ Obě podoby není možné použít současně.
                            coverage="whole">
      <ead:quantity>1</ead:quantity>
      <ead:unittype>item</ead:unittype>
-     <ead:physfacet localType="TECHNIQUE">strojopis</ead:physfacet>
+     <ead:physfacet localtype="TECHNIQUE">strojopis</ead:physfacet>
    </ead:physdescstructured>
 
 
@@ -65,10 +65,10 @@ Strukturovaná forma se zapisuje pomocí samostatných elementů
                            coverage="whole">
      <ead:quantity>1</ead:quantity>
      <ead:unittype>item</ead:unittype>
-     <ead:physfacet localType="TECHNIQUE_DETAIL">rukopis</ead:physfacet>
-     <ead:physfacet localType="MEDIUM_ADJUSTMENT">opatřeno paspartou</ead:physfacet>
-     <ead:physfacet localType="MEDIUM">papír</ead:physfacet>
-     <ead:physfacet localType="MATERIAL">inkoust</ead:physfacet>
-     <ead:physfacet localType="COLOR">modrý</ead:physfacet>
+     <ead:physfacet localtype="TECHNIQUE_DETAIL">rukopis</ead:physfacet>
+     <ead:physfacet localtype="MEDIUM_ADJUSTMENT">opatřeno paspartou</ead:physfacet>
+     <ead:physfacet localtype="MEDIUM">papír</ead:physfacet>
+     <ead:physfacet localtype="MATERIAL">inkoust</ead:physfacet>
+     <ead:physfacet localtype="COLOR">modrý</ead:physfacet>
    </ead:physdescstructured>
 

@@ -23,7 +23,7 @@ Leden 2022
  * přepracování elementů :ref:`ead_control_recordid` a :ref:`ead_control_otherrecordid`
  * doplnění popisu :ref:`ead_archdesc_hierarchy` a změna uložení složky jako typ ``file``
  * nová podkapitola: :ref:`ead_archdesc_fonds`
- * druh pomůcky: :ref:`ead_control_filedesc`
+ * druh pomůcky: :ref:`ead_control_localcontrol`
  * přidání informace o zdrojovém systému: :ref:`ead_control_maintenancehistory`
 
 Březen 2022
@@ -100,7 +100,7 @@ Duben 2023
  * upřesnění uvádění pečujícího archivu a jeho názvu: :ref:`ead_control_maintenanceagency`
  * přidání prvku popisu: :ref:`ead_faintro_rozsah_arch` a upřesnění :ref:`ead_item_types_rozsah`
  * přidání prvku popisu: :ref:`ead_faintro_pocet_jp`
- * přidání prvku popisu: :ref:`ead_item_types_writting`
+ * přidání prvku popisu: :ref:`ead_item_types_writing`
  * přidání části: :ref:`ead_control_localcontrol_ead3ver`
  * přidání části: :ref:`ead_item_types_langs_majority`
  * přidání části: :ref:`ead_item_types_inheritance`
@@ -150,6 +150,7 @@ Březen 2026
  * Přidání zápisu pro barevnost, :ref:`ead_item_types_technika_structured`
  * Upřesnění prvku :ref:`ead_control_maintenancehistory` - povinnost uvedení časové zóny
  * Oprava uvádění dědičnosti u datace, :ref:`ead_item_types_unitdatestructured`
+ * Oprava zápisu písma: :ref:`ead_item_types_writing`, hodnota ``localtype="WRITING"`` (dříve ``localtype="WRITTING"``)
  * Přesun informací o zápisu rozsahu zpřístupněných archiválií z kapitoly :ref:`ead_item_types_rozsah` do kapitoly :ref:`ead_faintro_rozsah_arch`
  * Drobnější upřesnění textu a příkladů
  * Opravy překlepů a tvarosloví

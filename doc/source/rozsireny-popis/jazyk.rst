@@ -15,7 +15,7 @@ Další popis viz: ZP 5.2.10 Jazyk, písmo
 
 Prvek popisu `Jazyk, písmo` se rozepisuje do dvou elementů:
  * Jazyk se uvádí v tomto elementu
- * Písmo v elementu :ref:`ead_item_types_writting`
+ * Písmo v elementu :ref:`ead_item_types_writing`
 
 Na úrovni každého jednotlivého uvedeného jazyka je možné uvést, zda se jedná o zděděnou 
 nebo přímo nastavenou hodnotu, pomocí atributu ``altrender="inherited"`` na úrovni elementu

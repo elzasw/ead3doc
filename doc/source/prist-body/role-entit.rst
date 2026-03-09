@@ -213,10 +213,10 @@ Definice rolí
      - :ref:`ead_item_types_aut_dilo`
    * - vydavatel
      - ``PUBLISHER_OWNER``
-     - 5.3.1, 5.19.1, 5.21.1, 5.22.1 - listiny (před i po roce 1850), cenné papíry, faleristické předměty, numizmatické předměty
+     - 5.3.1, 5.18.1, 5.21.1, 5.22.1 - listiny (před i po roce 1850), cenné papíry, faleristické předměty, numizmatické předměty
    * - vydavatel/nakladatel
      - ``PUBLISHER``
-     - 5.6.1, 5.9.1, 5.11.2, 5.16.1, 5.17.1, 5.18.1 - hudebniny, mapy (mapová díla, atlasy), grafické listy, pohlednice, plakáty, štočky
+     - 5.6.1, 5.9.1, 5.11.2, 5.16.1, 5.17.1, 5.19.1 - hudebniny, mapy (mapová díla, atlasy), grafické listy, pohlednice, plakáty, štočky
    * - pečetitel
      - ``SEALER``
      - 5.3.1 - listiny (před i po roce 1850)
@@ -237,7 +237,7 @@ Definice rolí
      - 5.3.1 - listiny (před i po roce 1850)
    * - držitel cenného papíru
      - ``HOLDER_SECURITY``
-     - 5.19.1 - cenné papíry
+     - 5.18.1 - cenné papíry
    * - odesílatel
      - ``SENDER``
      - 5.12.1, 5.16.1 - fotografické archiválie, pohlednice
@@ -318,7 +318,7 @@ Definice rolí
      - 5.12.1, 5.13.2, 5.9.1, 5.14.2, 5.15.1 - fotografické archiválie, kinematografické filmy, mapy (mapová díla, atlasy), zvukové archiválie, tisky
    * - tiskárna/tiskař
      - ``PRINTER``
-     - 5.6.1, 5.9.1, 5.11.2, 5.15.1, 5.16.1, 5.17.1, 5.19.1 - hudebniny, mapy (mapová díla, atlasy), grafické listy, tisky, pohlednice, plakáty, cenné papíry
+     - 5.6.1, 5.9.1, 5.11.2, 5.15.1, 5.16.1, 5.17.1, 5.18.1 - hudebniny, mapy (mapová díla, atlasy), grafické listy, tisky, pohlednice, plakáty, cenné papíry
    * - výrobce
      - ``MANUFACTURER``
      - 5.4.1, 5.7.6, 5.10.1, 5.21.1, 5.22.1 - úřední knihy (registraturní pomůcky, kartotéky), typáře (otisky, kopie otisků), technické výkresy, faleristické předměty, numizmatické předměty
@@ -330,16 +330,16 @@ Definice rolí
      - 5.21.1, 5.22.1 - faleristické předměty, numizmatické předměty
    * - místo vydání
      - ``LOCATION_PUBLISHING``
-     - 5.3.1, 5.7.6, 5.15.1, 5.17.1, 5.16.1, 5.19.1 - listiny (před i po roce 1850), typáře (otisky, kopie otisků), tisky, plakáty, pohlednice, cenné papíry
+     - 5.3.1, 5.7.6, 5.15.1, 5.17.1, 5.16.1, 5.18.1 - listiny (před i po roce 1850), typáře (otisky, kopie otisků), tisky, plakáty, pohlednice, cenné papíry
    * - místo výroby jednotky popisu
      - ``PLACE_MANUFACTURE``
      - 5.13.2, 5.14.2, 5.21.1, 5.22.1 - kinematografické filmy, zvukové archiválie, faleristické předměty, numizmatické předměty
    * - místo vzniku jednotky popisu
      - ``PLACE_ORIGIN``
-     - 5.3.1, 5.4.1, 5.5.1, 5.6.1, 5.7.6, 5.9.1, 5.10.1, 5.11.2, 5.12.1, 5.18.1 - listiny (před i po roce 1850), úřední knihy (registraturní pomůcky, kartotéky), rukopisy, hudebniny, typáře (otisky, kopie otisků), mapy (mapová díla, atlasy), technické výkresy, grafické listy, fotografické archiválie, štočky
+     - 5.3.1, 5.4.1, 5.5.1, 5.6.1, 5.7.6, 5.9.1, 5.10.1, 5.11.2, 5.12.1, 5.19.1 - listiny (před i po roce 1850), úřední knihy (registraturní pomůcky, kartotéky), rukopisy, hudebniny, typáře (otisky, kopie otisků), mapy (mapová díla, atlasy), technické výkresy, grafické listy, fotografické archiválie, štočky
    * - místo vzniku předlohy popisované kopie
      - ``PLACE_COPY_CREATION``
-     - 5.3.1, 5.4.1, 5.5.1, 5.6.1, 5.7.6, 5.9.1, 5.10.1, 5.11.2, 5.15.1, 5.16.1, 5.17.1, 5.18.1, 5.19.1, 5.21.1, 5.22.1 - listiny (před i po roce 1850), úřední knihy (registraturní pomůcky, kartotéky), rukopisy, hudebniny, typáře (otisky, kopie otisků), mapy (mapová díla, atlasy), technické výkresy, grafické listy, tisky, pohlednice, plakáty, štočky, cenné papíry, faleristické předměty, numizmatické předměty
+     - 5.3.1, 5.4.1, 5.5.1, 5.6.1, 5.7.6, 5.9.1, 5.10.1, 5.11.2, 5.15.1, 5.16.1, 5.17.1, 5.18.1, 5.19.1, 5.21.1, 5.22.1 - listiny (před i po roce 1850), úřední knihy (registraturní pomůcky, kartotéky), rukopisy, hudebniny, typáře (otisky, kopie otisků), mapy (mapová díla, atlasy), technické výkresy, grafické listy, tisky, pohlednice, plakáty, cenné papíry, štočky, faleristické předměty, numizmatické předměty
    * - typové označení a název výrobku a typové stavby
      - ``TYPE``
      - 5.10.1 - technické výkresy

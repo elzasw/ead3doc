@@ -10,8 +10,7 @@ Další popis viz:
  - ISAD(G) 3.1.5
 
 Způsob a forma dochování se uvádí v elementu 
-:ead-el:`physdesc`. 
-Fyzický stav se zapisuje jako prostý text.
+:ead-el:`physdesc`. Zapisuje se jako prostý text.
 
 
 .. code-block:: xml
@@ -38,7 +37,7 @@ Obsahem elementu je typ části a může nabývat hodnot:
  - ``DIGITAL`` - pro digitální části
 
 
-V rámci jiných formách popisu (archivní pomůcka, kontextuální archivní popis) se prvek neuplatní,
+V rámci jiných forem popisu (archivní pomůcka, kontextuální archivní popis) se prvek neuplatní,
 neboť uvedená informace je zachycena existencí :ref:`ukládací jednotky <ead_item_types_container>`,
 či odkazem na :ref:`digitální objekt <ead_dao>`.
 

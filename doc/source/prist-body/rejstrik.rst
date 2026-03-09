@@ -37,7 +37,7 @@ s povinně uvedeným typem pomocí atributu `localtype <https://www.loc.gov/ead/
 
 Jednotlivé záznamy v rejstříku se ukládají pomocí 
 elementu :ead-el:`indexentry`
-s uvedením atributu `id <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
+s uvedením atributu :ead-attr:`id`
 pro odkazování uvnitř XML dokumentu. Rejstříkový záznam je 
 takto odkazován z prvků popisu.
 

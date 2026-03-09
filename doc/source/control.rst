@@ -192,7 +192,7 @@ Příklad - jméno, číslo a druh archivní pomůcky:
       <ead:term identifier="CZ_ZP2013">základní pravidla od roku 2013</ead:term>
     </ead:localcontrol>
     <ead:localcontrol localtype="CZ_FINDING_AID_EAD_PROFILE">
-      <ead:term identifier="CZ_EAD3_PROFILE_20230601">profil platný od června 2023</ead:term>
+      <ead:term identifier="CZ_EAD3_PROFILE_20260501">profil platný od května 2026</ead:term>
     </ead:localcontrol>
     ...
   </ead:control>
