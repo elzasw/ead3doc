@@ -38,6 +38,10 @@ Obsahem elementu je typ části a může nabývat hodnot:
  - ``DIGITAL`` - pro digitální části
 
 
+V rámci jiných formách popisu (archivní pomůcka, kontextuální archivní popis) se prvek neuplatní,
+neboť uvedená informace je zachycena existencí :ref:`ukládací jednotky <ead_item_types_container>`,
+či odkazem na :ref:`digitální objekt <ead_dao>`.
+
 
 .. code-block:: xml
    :caption: Příklad digitální archiválie s fyzickou částí
