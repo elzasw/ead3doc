@@ -42,7 +42,7 @@ Formát datace může být zadán:
 
 
 Uplatnění :ref:`dědičnosti <ead_item_types_inheritance>` je zaznamenáno pomocí 
-atributu `altrender="inherited"` na úrovni elementu :ead-el:`unitdatestructured`.
+atributu `altrender="inherited"` na úrovni elementu :ead-el:`daterange`.
 
 
 .. code-block:: xml
@@ -60,8 +60,8 @@ Příklad - rok 1958 (datováno konkrétním rokem), zděděno z vyšší úrovn
 
 .. code-block:: xml
 
-    <ead:unitdatestructured altrender="inherited">
-    <ead:daterange altrender="Y">
+    <ead:unitdatestructured>
+    <ead:daterange altrender="Y" altrender="inherited">
        <ead:fromdate standarddate="1958-01-01T00:00:00">1958</ead:fromdate>
        <ead:todate standarddate="1958-12-31T23:59:59">1958</ead:todate>
     </ead:daterange>
