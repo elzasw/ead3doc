@@ -31,11 +31,11 @@ Schvalovatel archivní pomůcky
 -------------------------------
 
 Schvalovatel je uložen v samostatném bloku ``<ead:p>``
-a vnořeném elementu `<ead:name localtype="FINDING_AID_APPROVED_BY">`.
+a vnořeném elementu ``<ead:name localtype="FINDING_AID_APPROVED_BY">``.
 Atribut ``localtype="FINDING_AID_APPROVED_BY"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
 
-Elementy ead:p, ead:name a ead:part nejsou opakovatelné.
+Elementy ``<ead:p>``, ``<ead:name>`` a ``<ead:part>`` nejsou opakovatelné.
 
 .. code-block:: xml
 
@@ -117,7 +117,8 @@ a vnořeném elementu `<ead:name localtype="FINDING_AID_EDITOR">`.
 Atribut ``localtype="FINDING_AID_EDITOR"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
 
-Povinné pro archivní pomůcku. Element ``<ead:name>`` není opakovatelný.
+Povinné pro archivní pomůcku. Element ``<ead:name>`` není opakovatelný,
+ani vnořený element ``<ead:part>``.
 
 .. code-block:: xml
 
@@ -228,7 +229,7 @@ Rozsah zpřístupněných archiválií
 Rozsah slouží k zachycení rozsahu archiválií v běžných metrech a bytech.
 
 Celkový rozsah se uvádí pouze na kořeni archivního popisu pro zápis množství 
-archiválií popsaných archivních pomůckou.
+archiválií popsaných archivní pomůckou.
 
 Popisuje se pomocí elementu :ead-el:`physdescstructured` s hodnotou atributů:
 

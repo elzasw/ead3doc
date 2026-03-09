@@ -14,8 +14,8 @@ který se používá v mezinárodním archivním prostředí.
 
 Pro zjednodušení se dále v textu obvykle mluví o uložení archivní pomůcky, 
 protože jde o primární použití tohoto standardu. Pokud se povinnost uložit 
-některý element nebo jeho obsah vztahuje opravdu jen na archivní pomůcku, 
-je to obvykle zřejmé ze souvislostí (např. povinnost uložit číslo archivní 
+některý element nebo jeho obsah vztahuje jen na archivní pomůcku, je to 
+obvykle zřejmé ze souvislostí (např. povinnost uložit číslo archivní 
 pomůcky z evidence Národního archivního dědictví) nebo je vysloveně uvedeno, 
 že se na popis ucelené části popisu archivního souboru, která není archivní pomůckou, 
 nevztahuje.

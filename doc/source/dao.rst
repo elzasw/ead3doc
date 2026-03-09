@@ -101,7 +101,7 @@ formátových migrací apod.
 Více digitálních objektů u jedné jednotky popisu
 ===================================================
 
-Pokud je k digitálnímu objektu připojeno více samostatných
+Pokud je k jednotce popisu připojeno více samostatných
 digitalizátů, tyto se uvedou jako samostatné elementy typu 
 :ead-el:`dao`.
 

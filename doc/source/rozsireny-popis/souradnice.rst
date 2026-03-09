@@ -9,7 +9,8 @@ Další popis viz: ZP 5.2.6 Souřadnice
 Souřadnice se uvádí pomocí elementu :ead-el:`relation`
 s atributy ``relationtype = "otherrelationtype"`` a ``otherrelationtype="COORDINATES"``.
 
-Níže jsou uvedeny podřízené elementy:
+Vlastní souřadnice se zapisují do právě jednoho podřízeného elementu :ead-el:`geogname`.
+Pod ním se uvedou elementy:
 
  - :ead-el:`part` s hodnotou :token:`5.2.6 Souřadnice`
  - :ead-el:`geographiccoordinates`
