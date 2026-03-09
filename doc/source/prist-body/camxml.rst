@@ -61,67 +61,72 @@ podoby volitelné.
 .. code-block:: xml
    :caption: Příklad exportu entity včetně identifikátoru CAM
 
-   <cam:ent eid="90273" ens="ERS_APPROVED" ent="ARTWORK_ARTWORK" euid="a1ae089d-581b-48b4-97e7-5debb2c42794">
-     <cam:revi>
-       <cam:rid>fd742012-83db-4b60-afef-670ba9406352</cam:rid>
-       <cam:usr>system</cam:usr>
-       <cam:modt>2022-07-17T06:46:33.461473</cam:modt>
-     </cam:revi>
-     <cam:prts>
-       <cam:p pid="8e6b73ce-dfca-47a1-86a9-0e1ac6e239d9" t="PT_NAME">
-         <cam:itms>
-           <cam:si t="NM_MAIN" uuid="22bfc088-33df-4d3f-8d92-79b17acfd720">Ohnivé léto</cam:si>
-           <cam:si t="NM_SUP_GEN" uuid="939c6753-12c9-4fc3-9390-d2e03cd956dd">film</cam:si>
-           <cam:si t="NM_SUP_CHRO" uuid="36498a91-8993-422a-b7e0-881ae0437e64">1939</cam:si>
-           <cam:si t="NM_AUTH" uuid="5bcd6a75-e01d-4feb-bcbe-5f002a22ad4b">František Čáp a Václav Krška</cam:si>
-           <cam:ei s="LNG_cze" t="NM_LANG" uuid="bad32995-9927-433c-8c69-744078aeb79e"/>
-         </cam:itms>
-         <cam:eits>
-           <cam:si t="DISPLAY_NAME">Ohnivé léto (František Čáp a Václav Krška : film : 1939)</cam:si>
-         </cam:eits>
-       </cam:p>
-       <cam:p pid="3c7b8571-157e-40f3-a6ec-947889df6db9" t="PT_BODY">
-         <cam:itms>
-           <cam:si t="BRIEF_DESC" uuid="0121a0e0-264b-4dd2-b549-ae319ca85501">celovečerní film</cam:si>
-         </cam:itms>
-         <cam:eits>
-           <cam:si t="DISPLAY_NAME">celovečerní film</cam:si>
-         </cam:eits>
-       </cam:p>
-       <cam:p pid="6629b495-6e1e-4fed-969a-7d2b3e7979fd" t="PT_CRE">
-         <cam:itms>
-           <cam:ei s="CRC_RISE" t="CRE_CLASS" uuid="f8cdfb30-4122-460b-ae4e-7ecd4f1d1614"/>
-           <cam:di f="1939-01-01T00:00:00" fe="false" fmt="Y" t="CRE_DATE" to="1939-12-31T23:59:59" toe="false" uuid="9cd9012f-41d6-4697-af3c-8307422617b9"/>
-         </cam:itms>
-         <cam:eits>
-           <cam:si t="DISPLAY_NAME">vznik, 1939 (autor/tvůrce: Krška, Václav (1900-1969), autor/tvůrce: Čáp, František (1913-1972))</cam:si>
-         </cam:eits>
-       </cam:p>
-       <cam:p pid="d2989cd6-d914-4f22-804c-7f5728e1c1a4" t="PT_NAME">
-         <cam:itms>
-           <cam:si t="NM_MAIN" uuid="100e9f74-723d-449d-ac2e-72d57b3e0508">Fiery Summer</cam:si>
-           <cam:ei s="LNG_eng" t="NM_LANG" uuid="88c229e8-4a08-423d-ab28-ee773179b762"/>
-         </cam:itms>
-         <cam:eits>
-           <cam:si t="DISPLAY_NAME">Fiery Summer</cam:si>
-         </cam:eits>
-       </cam:p>
-       <cam:p pid="849d3585-281b-4278-9bf8-62ef318a8e6a" t="PT_NAME">
-         <cam:itms>
-           <cam:si t="NM_MAIN" uuid="d59f3a3e-aafd-46b7-a8ac-201ad628aff4">Lodernder Sommer</cam:si>
-           <cam:ei s="LNG_ger" t="NM_LANG" uuid="33095e32-1589-474d-9c53-e795873e3bc9"/>
-         </cam:itms>
-         <cam:eits>
-           <cam:si t="DISPLAY_NAME">Lodernder Sommer</cam:si>
-         </cam:eits>
-       </cam:p>
-       <cam:p pid="73d6caae-bc1f-40a8-9195-d2fc1044f99f" t="PT_IDENT">
-         <cam:itms>
-           <cam:ei s="CAM_REAL_ID" t="IDN_TYPE" uuid="49880ce8-bc76-42cd-9239-6e8c69ea3217"/>
-           <cam:si t="IDN_VALUE" uuid="de710610-209a-47de-b07b-425489d0d0ff">83404</cam:si>
-         </cam:itms>
-       </cam:p>
-     </cam:prts>
-   </cam:ent>
-  
+    <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <entity entityId="83404" entityType="ARTWORK_ARTWORK" entityUuid="a1ae089d-581b-48b4-97e7-5debb2c42794" state="ERS_APPROVED" xmlns="http://cam.tacr.cz/2025">
+        <revision>
+            <rev>2f1c11bb-8747-4127-b719-f666630caf09</rev>
+            <metadataRev>2f1c11bb-8747-4127-b719-f666630caf09</metadataRev>
+            <prevRev>7a59abad-e99a-4b87-80c4-3b8ca4dfa04e</prevRev>
+            <user>
+                <id>NA: Kunt Miroslav</id>
+                <uuid>fdcbcc2c-e0db-4302-b224-50eab11351da</uuid>
+                <name>NA: Kunt Miroslav</name>
+            </user>
+            <createdAt>2024-10-11T10:56:35.959372</createdAt>
+        </revision>
+        <parts>
+            <part partUuid="a8a0fdbc-7d86-428d-a40e-c7bab5f34e57" type="PT_BODY">
+                <items>
+                    <string type="BRIEF_DESC" uuid="810ba6ec-e8c2-4bf5-8628-2253f6480415">celovečerní film</string>
+                </items>
+            </part>
+            <part partUuid="f3e82038-0da2-4ee3-8c1e-fcc79ed66c5d" type="PT_CRE">
+                <items>
+                    <enum spec="CRC_RISE" type="CRE_CLASS" uuid="dfa1e5f7-24f2-4721-8abf-88bf74360a05"/>
+                    <unitDate type="CRE_DATE" uuid="db34af99-f97f-4c0a-8357-44f378535253" format="Y" from="1939-01-01T00:00:00 " fromEstimate="false" to="1939-12-31T23:59:59 " toEstimate="false"/>
+                </items>
+            </part>
+            <part partUuid="9e1375dc-48e6-4032-b2a4-de11f5bf13b7" type="PT_NAME">
+                <items>
+                    <string type="NM_MAIN" uuid="2d3fc128-81b5-41e4-863c-5687c9a4118f">Ohnivé léto</string>
+                    <string type="NM_SUP_GEN" uuid="2dd2f66f-ace8-4e92-80a8-583eb75555f7">film</string>
+                    <enum spec="LNG_cze" type="NM_LANG" uuid="6e7a05a0-b3d0-4126-81ac-cdf3517fccd5"/>
+                    <string type="NM_SUP_CHRO" uuid="4b9d1a7b-e1af-4ac9-90eb-798afb0734bf">1939-</string>
+                </items>
+            </part>
+            <part partUuid="6cc4b71d-8c87-4e5c-bae2-fdcbea44ebd2" type="PT_NAME">
+                <items>
+                    <string type="NM_MAIN" uuid="31b69fdf-3967-4338-9d37-005a9f73afd3">Fiery Summer</string>
+                    <enum spec="LNG_eng" type="NM_LANG" uuid="d2aae660-1b4c-4e9a-95ff-b854b06715a6"/>
+                </items>
+            </part>
+            <part partUuid="7aca042c-2282-450f-8ca4-518a1a41f307" type="PT_NAME">
+                <items>
+                    <string type="NM_MAIN" uuid="4e0483ec-c883-45fa-a3c0-68190b979169">Lodernder Sommer</string>
+                    <enum spec="LNG_ger" type="NM_LANG" uuid="beaeff9b-6f15-414d-9747-b9d85a2f0ff3"/>
+                </items>
+            </part>
+            <part partUuid="4f4f7b28-65b4-4c6a-9a1d-ca07bf085a9a" type="PT_REL">
+                <items>
+                    <entityRef spec="RT_THEME" type="REL_ENTITY" uuid="4f2cdf2b-eaa2-402e-bd63-b2c06fbd333a">
+                        <entityRef entityId="46480" entityUuid="5bce9af4-e5c6-47ae-9cb7-efea72058ab3"/>
+                    </entityRef>
+                </items>
+            </part>
+            <part parent="f3e82038-0da2-4ee3-8c1e-fcc79ed66c5d" partUuid="59beb87d-6c15-4722-b133-531bf5cb3dd9" type="PT_REL">
+                <items>
+                    <entityRef spec="RT_AUTHOR" type="REL_ENTITY" uuid="b4f3e762-539d-4585-b40d-963bdfb9adce">
+                        <entityRef entityId="83403" entityUuid="9136df8d-76fd-4ebc-b63e-e49c57a6f547"/>
+                    </entityRef>
+                </items>
+            </part>
+            <part parent="f3e82038-0da2-4ee3-8c1e-fcc79ed66c5d" partUuid="33750396-ee1f-487c-8ba0-f65c7207eb94" type="PT_REL">
+                <items>
+                    <entityRef spec="RT_AUTHOR" type="REL_ENTITY" uuid="6f4322e5-fa0f-44f3-a9cb-efc58d949744">
+                        <entityRef entityId="83402" entityUuid="bd3699c0-d077-4300-979b-5b9c1d078e00"/>
+                    </entityRef>
+                </items>
+            </part>
+        </parts>
+    </entity>
 
