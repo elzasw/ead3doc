@@ -113,7 +113,7 @@ Archivní pomůcku sestavil
 ---------------------------
 
 Kdo archivní pomůcku sestavil, je uložen v samostatném bloku ``<ead:p>``
-a vnořeném elementu `<ead:name localtype="FINDING_AID_EDITOR">`.
+a vnořeném elementu ``<ead:name localtype="FINDING_AID_EDITOR">``.
 Atribut ``localtype="FINDING_AID_EDITOR"`` se uvádí povinně a slouží 
 pro odlišení od dalších hodnot.
 
@@ -277,5 +277,5 @@ Počet jednotek popisu
 =========================
 
 Počet jednotek popisu, které lze na základě archivní pomůcky zpřístupnit,
-se uvádí pomocí prvku popisu :ref:`ead_item_types_rozsah`.
+se uvádí pomocí prvku popisu :ref:`ead_item_types_rozmery_structured_quantity`.
 Prvek je uveden v kořenové jednotce popisu.

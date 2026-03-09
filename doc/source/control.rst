@@ -192,7 +192,7 @@ Příklad - jméno, číslo a druh archivní pomůcky:
       <ead:term identifier="CZ_ZP2013">základní pravidla od roku 2013</ead:term>
     </ead:localcontrol>
     <ead:localcontrol localtype="CZ_FINDING_AID_EAD_PROFILE">
-      <ead:term identifier="CZ_EAD3_PROFILE_20230601">profil platný od června 2023</ead:term>
+      <ead:term identifier="CZ_EAD3_PROFILE_20260501">profil platný od května 2026</ead:term>
     </ead:localcontrol>
     ...
   </ead:control>
@@ -205,7 +205,7 @@ Verze profilu EAD
 =============================
 
 Export do formátu EAD musí odpovídat konkrétní revizi těchto pravidel.
-Uplatněná revize se zapisuje pomocí  elementu :ead-el:`localcontrol`
+Uplatněná revize se zapisuje pomocí elementu :ead-el:`localcontrol`
 s uvedením atributu :token:`localtype="CZ_FINDING_AID_EAD_PROFILE"`.
 Každý export dle tohoto profilu musí mít uvedenu verzi profilu.
 
@@ -216,7 +216,7 @@ verzi profilu.
 Tabulka povolených hodnot pro verzi profilu
 
 ============================================ ==============
-Pravidla                                     Atribut :token:`identifier`
+Verze profilu EAD                            Atribut :token:`identifier`
 ============================================ ==============
 profil platný od června 2023 do února 2024   ``CZ_EAD3_PROFILE_20230601``
 profil platný od března 2024 do února 2025   ``CZ_EAD3_PROFILE_20240301``

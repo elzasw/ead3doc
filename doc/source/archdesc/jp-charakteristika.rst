@@ -5,7 +5,7 @@ Charakteristika jednotky popisu
 ============================================
 
 Charakteristikou jednotky popisu rozumíme uvedení vzájemně propojených 
-významných prvků popisu a v rámci elementu 
+významných prvků popisu uložených v rámci elementu 
 :ead-el:`physdescstructured` s hodnotou atributů:
 
  - ``physdescstructuredtype="materialtype"``

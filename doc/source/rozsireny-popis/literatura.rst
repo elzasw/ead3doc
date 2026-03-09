@@ -21,6 +21,6 @@ s vnořeným jedním elementem :ead-el:`p`.
   :caption: Příklad uvedení literatury
 
   <ead:bibliography>
-    <ead:p>Bellegarde, Dantes. Dessalines a parle. Port-au-Prince, 1948.Chap. IV: pp. 47-54.</ead:p>
+    <ead:p>Bellegarde, Dantes. Dessalines a parle. Port-au-Prince, 1948. Chap. IV: pp. 47-54.</ead:p>
   </ead:bibliography>
 

@@ -32,9 +32,10 @@ Související vlastní JP
 
 Pokud má souvislost charakter odkazu na jinou jednotku popisu, která je 
 také součástí daného EAD souboru, tak se odkaz na ni zapisuje vložením 
-elementů :xml:`<archref>` a podřízeného elementu :xml:`<ref>`. 
+elementů :ead-el:`archref` a podřízeného elementu :ead-el:`ref` 
+do elementu :ead-el:`relatedmaterial`. 
 Do atributu ``target`` se zapíše identifikátor odkazované úrovně.
-Identifikátor odkazované JP musí mít charakter :ref:`ead_jp_ident_uuid`.
+Identifikátor odkazované JP musí mít podobu definovanou v části :ref:`ead_jp_ident_uuid`.
 Pojmenování odkazované JP se uvede formou prostého textu 
 uvnitř elementu :xml:`<ref>`.
 
@@ -43,7 +44,9 @@ uvnitř elementu :xml:`<ref>`.
   :caption: Příklad odkazu na související JP
 
   <ead:relatedmaterial>
-    <ead:ref target="uuid-ac73f202-a2a0-4309-9ce7-6c1e426be654">
-       Související spis Sig. 15-23/958
-    </ead:ref>
+    <ead:archref>
+      <ead:ref target="uuid-ac73f202-a2a0-4309-9ce7-6c1e426be654">
+         Související spis Sig. 15-23/958
+      </ead:ref>
+    </ead:archref>
   </ead:relatedmaterial>

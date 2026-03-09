@@ -9,7 +9,7 @@ Listopad 2021
  * rozdělení prvků popisu do samostatných podkapitol
  * přidání přehledové tabulky :ref:`ead_item_types_overview`
  * upřesnění způsobu identifikace jednotky popisu, definice podoby URI
- * upřesnění významu :ref:`ead_control_recordid` a `control/filedesc`
+ * upřesnění významu :ref:`ead_control_recordid` a elementu ``<control/filedesc>``
  * nový popis pro :ref:`ead_ap_relation`
  * přidání seznamu změn
 
@@ -23,7 +23,7 @@ Leden 2022
  * přepracování elementů :ref:`ead_control_recordid` a :ref:`ead_control_otherrecordid`
  * doplnění popisu :ref:`ead_archdesc_hierarchy` a změna uložení složky jako typ ``file``
  * nová podkapitola: :ref:`ead_archdesc_fonds`
- * druh pomůcky: :ref:`ead_control_filedesc`
+ * druh pomůcky: :ref:`ead_control_localcontrol`
  * přidání informace o zdrojovém systému: :ref:`ead_control_maintenancehistory`
 
 Březen 2022
@@ -100,7 +100,7 @@ Duben 2023
  * upřesnění uvádění pečujícího archivu a jeho názvu: :ref:`ead_control_maintenanceagency`
  * přidání prvku popisu: :ref:`ead_faintro_rozsah_arch` a upřesnění :ref:`ead_item_types_rozsah`
  * přidání prvku popisu: :ref:`ead_faintro_pocet_jp`
- * přidání prvku popisu: :ref:`ead_item_types_writting`
+ * přidání prvku popisu: :ref:`ead_item_types_writing`
  * přidání části: :ref:`ead_control_localcontrol_ead3ver`
  * přidání části: :ref:`ead_item_types_langs_majority`
  * přidání části: :ref:`ead_item_types_inheritance`
@@ -145,12 +145,14 @@ Listopad 2023
 Březen 2026
 ---------------
  
- * Přidání podpory pro digitální archiválie, jejich identifikaci, zavedení inherentního a kontextuálního archivního popisu
- * Přidána role zpracovatel, :ref:`ead_ap_relation_roles`
- * Přidání zápisu pro barevnost, :ref:`ead_item_types_technika_structured`
- * Upřesnění prvku :ref:`ead_control_maintenancehistory` - povinnost uvedení časové zóny
- * Oprava uvádění dědičnosti u datace, :ref:`ead_item_types_unitdatestructured`
- * Přesun informací o zápisu rozsahu zpřístupněných archiválií z kapitoly :ref:`ead_item_types_rozsah` do kapitoly :ref:`ead_faintro_rozsah_arch`
- * Drobnější upřesnění textu a příkladů
- * Opravy překlepů a tvarosloví
+ * přidání podpory pro digitální archiválie, jejich identifikaci, zavedení inherentního a kontextuálního archivního popisu
+ * přidána role zpracovatel, :ref:`ead_ap_relation_roles`
+ * přidání zápisu pro barevnost, :ref:`ead_item_types_technika_structured`
+ * formát datace se zapisuje na úrovni elementů ``fromdate`` a ``todate``, :ref:`ead_item_types_unitdatestructured`
+ * upřesnění prvku :ref:`ead_control_maintenancehistory` - povinnost uvedení časové zóny
+ * oprava uvádění dědičnosti u datace, :ref:`ead_item_types_unitdatestructured`
+ * oprava zápisu písma: :ref:`ead_item_types_writing`, hodnota ``localtype="WRITING"`` (dříve ``localtype="WRITTING"``)
+ * přesun informací o zápisu rozsahu zpřístupněných archiválií z kapitoly :ref:`ead_item_types_rozsah` do kapitoly :ref:`ead_faintro_rozsah_arch`
+ * drobnější upřesnění textu a příkladů
+ * opravy překlepů a tvarosloví
  * nová verze profilu s označením ``CZ_EAD3_PROFILE_20260501``, :ref:`ead_control_localcontrol_ead3ver`

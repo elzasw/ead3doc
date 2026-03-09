@@ -17,7 +17,7 @@ Bezvýznamový prvek popisu umožňuje splnění schématu EAD přidáním speci
 ve formě prvku :ref:`ead_item_types_jinaozn`. Prvek je tvořen elementem ``unitid`` 
 obsahující identifikátor samotné jednotky popisu.
 Povinně se uvedou atributy ``localtype="ID"`` a ``label="identifikátor jednotky popisu"``. 
-Jako hodnota se uvede se :ref:`identifikace jednotky popisu <ead_jp_ident>` shodná 
+Jako hodnota se uvede :ref:`identifikace jednotky popisu <ead_jp_ident>` shodná 
 s obsahem atributu ``id`` na celé jednotce popisu.
 
 Příklad:

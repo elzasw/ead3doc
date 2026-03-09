@@ -37,7 +37,7 @@ s povinně uvedeným typem pomocí atributu `localtype <https://www.loc.gov/ead/
 
 Jednotlivé záznamy v rejstříku se ukládají pomocí 
 elementu :ead-el:`indexentry`
-s uvedením atributu `id <https://www.loc.gov/ead/EAD3taglib/#attr-localtype>`_
+s uvedením atributu :ead-attr:`id`
 pro odkazování uvnitř XML dokumentu. Rejstříkový záznam je 
 takto odkazován z prvků popisu.
 
@@ -90,7 +90,7 @@ entity v rámci daného archivu. Hodnota identifikátoru se uvede uvnitř elemen
 Odkaz do CAM
 ==============
 
-Pokud je entita vedena v některé široce sdílené databázi(CAM apod.)
+Pokud je entita vedena v některé široce sdílené databázi (CAM apod.)
 uvádí se tento odkaz v elementu :ead-el:`ref`.
 s uvedením ``linkrole="CAM"``. Jako hodnota elementu se uvede 
 identifikátor entity v CAMu.
