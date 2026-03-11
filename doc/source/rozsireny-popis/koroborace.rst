@@ -20,7 +20,7 @@ Příklad
    <ead:physdescstructured physdescstructuredtype="materialtype" 
                            coverage="whole">
      <ead:quantity>1</ead:quantity>
-     <ead:unittype>lio</ead:unittype>
+     <ead:unittype>otd</ead:unittype>
      <ead:physfacet localtype="CORROBORATIO">Tomu na svědomí pečeť naší královsku kázali sme přivěsiti k tomuto listu.</ead:physfacet>
    </ead:physdescstructured>
 
