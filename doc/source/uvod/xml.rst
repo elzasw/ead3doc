@@ -23,7 +23,7 @@ schémata jsou pevně určené prefixy pro jednotlivé elementy.
 Schéma   Prefix    URI
 ======== ========= ============
 EAD      ``ead``   ``http://ead3.archivists.org/schema/``
-CAM      ``cam``   ``http://cam.tacr.cz/2019``
+CAM      ``cam``   verze 1: ``http://cam.tacr.cz/2019``, verze 2: ``http://cam.tacr.cz/2025``
 ======== ========= ============
 
 **Příklad podoby XML:**
