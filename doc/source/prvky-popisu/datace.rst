@@ -16,7 +16,7 @@ Datace vzniku jednotky popisu se zapisuje pomocí elementu
 Datace se zapisuje vždy jako interval pomocí dílčích elementů
 :ead-el:`fromdate` a :ead-el:`todate`.
 V atributu :ead-attr:`standarddate`
-se uvede strojově zpracovatelná podoba datace.
+se uvede strojově zpracovatelná podoba datace (dle ISO 8601 a jedná se o tzv. astronomickou dataci).
 Pokud se jedná o odhad, jsou hodnoty v atributech 
 :ead-attr:`notbefore`, resp. :ead-attr:`notafter`
 a atribut :ead-attr:`standarddate` se nepoužije. Uvnitř 
