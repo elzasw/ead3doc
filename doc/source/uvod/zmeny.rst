@@ -148,9 +148,10 @@ Březen 2026
  * přidána role zpracovatel, :ref:`ead_ap_relation_roles`
  * přidání zápisu pro barevnost, :ref:`ead_item_types_technika_structured`
  * ukládání archivních entit CAMu ve schématu verze 2, viz :ref:`ead_ap_cam`
- * formát datace se zapisuje na úrovni elementů ``fromdate`` a ``todate``, :ref:`ead_item_types_unitdatestructured`
- * upřesnění prvku :ref:`ead_control_maintenancehistory` - povinnost uvedení časové zóny
  * oprava uvádění dědičnosti u datace, :ref:`ead_item_types_unitdatestructured`
+ * úprava způsobu zápisu více datací, :ref:`ead_item_types_unitdatestructured_multi`
+ * úprava způsobu zápisu odkazů na digitální objekty, :ref:`ead_dao`
+ * upřesnění prvku :ref:`ead_control_maintenancehistory` - povinnost uvedení časové zóny
  * oprava zápisu písma: :ref:`ead_item_types_writing`, hodnota ``localtype="WRITING"`` (dříve ``localtype="WRITTING"``)
  * přesun informací o zápisu rozsahu zpřístupněných archiválií z kapitoly :ref:`ead_item_types_rozsah` do kapitoly :ref:`ead_faintro_rozsah_arch`
  * drobnější upřesnění textu a příkladů
