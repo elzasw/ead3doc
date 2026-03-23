@@ -10,13 +10,14 @@ Další popis viz:
  - ISAD(G) 3.1.3 Datace
 
 
-Datace vzniku jednotky popisu se zapisuje pomocí elementu 
-:ead-el:`unitdatestructured`, resp. vnořeného elementu: :ead-el:`daterange`.
+Datace vzniku jednotky popisu se zapisuje pomocí elementu :ead-el:`unitdatestructured`,
+resp. vnořeného elementu :ead-el:`daterange`.
 
 Datace se zapisuje vždy jako interval pomocí dílčích elementů
 :ead-el:`fromdate` a :ead-el:`todate`.
 V atributu `standarddate <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-standarddate>`_
-se uvede strojově zpracovatelná podoba datace (dle ISO 8601 a jedná se o tzv. astronomickou dataci).
+se uvede strojově zpracovatelná podoba datace (dle ISO 8601, tzv. astronomická datace, 
+tj. rok 0 odpovídá roku 1 př. n. l.).
 Pokud se jedná o odhad, jsou hodnoty v atributech 
 `notbefore <https://loc.gov/ead/EAD3taglib/EAD3-TL-eng.html#attr-notbefore>`_,
 resp. 
@@ -42,7 +43,7 @@ Formát datace může být zadán:
 
 
 Uplatnění :ref:`dědičnosti <ead_item_types_inheritance>` je zaznamenáno pomocí 
-atributu `altrender="inherited"` na úrovni elementu :ead-el:`daterange`.
+atributu `altrender="inherited"` na úrovni elementu :ead-el:`unitdatestructured`.
 
 
 .. code-block:: xml
@@ -60,8 +61,8 @@ Příklad - rok 1958 (datováno konkrétním rokem), zděděno z vyšší úrovn
 
 .. code-block:: xml
 
-    <ead:unitdatestructured>
-    <ead:daterange altrender="Y" altrender="inherited">
+    <ead:unitdatestructured altrender="inherited">
+    <ead:daterange altrender="Y">
        <ead:fromdate standarddate="1958-01-01T00:00:00">1958</ead:fromdate>
        <ead:todate standarddate="1958-12-31T23:59:59">1958</ead:todate>
     </ead:daterange>
@@ -74,25 +75,25 @@ Uvádění více datací
 =====================
 
 Jednotka popisu může být datována svým vznikem, ale také 
-pomocí jiných datací viz: :ref:`ead_item_types_jinadatace`.
+pomocí jiných datací viz :ref:`ead_item_types_jinadatace`.
 Pokud je na jedné úrovni uvedeno více druhů datací (časových intervalů),
-jsou tyto zabaleny v elementu: :ead-el:`dateset`.
+jsou tyto uvedeny v samostatných elementech: :ead-el:`unitdatestructured`.
 
 
 .. code-block:: xml
   :caption: Příklad - vznik mapy 2001 s datací obsahu k 31.12.1980
 
     <ead:unitdatestructured>
-    <ead:dateset>
       <ead:daterange altrender="D">
         <ead:fromdate standarddate="2001-10-01T00:00:00">1. října 2001</ead:fromdate>
         <ead:todate standarddate="2001-10-01T23:59:59">1. října 2001</ead:todate>
       </ead:daterange>
+    </ead:unitdatestructured>
+    <ead:unitdatestructured>
       <ead:daterange altrender="D" localtype="CONTENT">
         <ead:fromdate standarddate="1980-12-31T00:00:00">31. prosince 1980</ead:fromdate>
         <ead:todate standarddate="1980-12-31T23:59:59">31. prosince 1980</ead:todate>
       </ead:daterange>
-    </ead:dateset>
     </ead:unitdatestructured>
 
 
