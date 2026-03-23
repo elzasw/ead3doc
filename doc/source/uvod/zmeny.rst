@@ -153,6 +153,7 @@ Březen 2026
  * úprava způsobu zápisu odkazů na digitální objekty, :ref:`ead_dao`
  * upřesnění prvku :ref:`ead_control_maintenancehistory` - povinnost uvedení časové zóny
  * oprava zápisu písma: :ref:`ead_item_types_writing`, hodnota ``localtype="WRITING"`` (dříve ``localtype="WRITTING"``)
+ * upřesnění způsobu popisu pomůcek vztahujících se k části archivního souboru, :ref:`ead_otherfindaid`
  * přesun informací o zápisu rozsahu zpřístupněných archiválií z kapitoly :ref:`ead_item_types_rozsah` do kapitoly :ref:`ead_faintro_rozsah_arch`
  * drobnější upřesnění textu a příkladů
  * opravy překlepů a tvarosloví
