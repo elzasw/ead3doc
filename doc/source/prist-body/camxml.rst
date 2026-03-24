@@ -58,6 +58,8 @@ metodicky odpovídající podobě entity v systému CAM.
 Výjimkou je část s uložením hodnot identifikátorů, kde je uvádění čitelné 
 podoby volitelné.
 
+.. _ead_ap_cam_priklad:
+
 
 .. code-block:: xml
    :caption: Příklad exportu entity včetně identifikátoru CAM

@@ -13,7 +13,7 @@ Uvnitř elementu je povinně vloženým elementem
 :ead-el:`ref` 
 s odkazem na strukturovaný popis původce v elementu 
 :ead-el:`source`
-dle definice: :ref:`ead_ap_eac_cpf`. Uvnitř elementu je uveden název původce v textové podobě.
+dle definice: :ref:`ead_ap_cam`. Uvnitř elementu je uveden název původce v textové podobě.
 
 
 =====================  ==============
@@ -33,7 +33,7 @@ atributu `altrender="inherited"` na úrovni elementu :ead-el:`origination`.
 Příklad
 ===========
 
-Odkaz na původce :ref:`Neruda, Jan (1834-1891) <ead_ap_eac_cpf_priklad>` 
+Odkaz na původce :ref:`Neruda, Jan (1834-1891) <ead_ap_cam_priklad>`
 s ID uvnitř XML ``ap154``:
 
 .. code-block:: xml

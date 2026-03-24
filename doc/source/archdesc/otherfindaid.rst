@@ -4,6 +4,10 @@
 Pomůcky k části archivního souboru
 ----------------------------------------
 
+.. tags::
+   pomucka
+
+
 Archivní pomůcka může popisovat celý archivní soubor nebo
 jen jeho část. Pokud je popisována jen část archivního souboru 
 (jeho vybrané části), tak na nadřazených úrovních se musí 
