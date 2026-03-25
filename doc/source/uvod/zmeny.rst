@@ -151,11 +151,11 @@ Březen 2026
  * oprava uvádění dědičnosti u datace, :ref:`ead_item_types_unitdatestructured`
  * úprava způsobu zápisu více datací, :ref:`ead_item_types_unitdatestructured_multi`
  * úprava způsobu zápisu odkazů na digitální objekty, :ref:`ead_dao`
- * úprava zápisu bm v úvodu pomůcky (desetinná místa), :ref:`ead_item_types_rozsah_bm`
  * upřesnění prvku :ref:`ead_control_maintenancehistory` - povinnost uvedení časové zóny
  * oprava zápisu písma: :ref:`ead_item_types_writing`, hodnota ``localtype="WRITING"`` (dříve ``localtype="WRITTING"``)
  * upřesnění způsobu popisu pomůcek vztahujících se k části archivního souboru, :ref:`ead_otherfindaid`
  * přesun informací o zápisu rozsahu zpřístupněných archiválií z kapitoly :ref:`ead_item_types_rozsah` do kapitoly :ref:`ead_faintro_rozsah_arch`
+ * úprava zápisu bm v úvodu pomůcky (desetinná místa), :ref:`ead_faintro_rozsah_arch`
  * drobnější upřesnění textu a příkladů
  * opravy překlepů a tvarosloví
  * nová verze profilu s označením ``CZ_EAD3_PROFILE_20260501``, :ref:`ead_control_localcontrol_ead3ver`
